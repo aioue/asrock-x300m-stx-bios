@@ -1,0 +1,489 @@
+                                UEFI Protocol Detected
+--------------------------------------------------------------------------------
+
+
+                                String Packages
+--------------------------------------------------------------------------------
+Offset:		Language:
+--------------------------------------------------------------------------------
+0x4D34		en-US (0x0)
+
+
+                                   Form Sets
+--------------------------------------------------------------------------------
+Offset:		Title:
+--------------------------------------------------------------------------------
+0x8174		AMD PBS (0x2 from string package 0x0)
+
+
+                         Internal Forms Representation
+--------------------------------------------------------------------------------
+Offset:		Instruction:
+--------------------------------------------------------------------------------
+0x8178 Form Set: AMD PBS {0E A7 59 B9 63 B8 C6 0E 33 40 99 C1 8F D8 9F 04 02 22 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E}
+0x819F 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 01 00}
+0x81B4 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 00 00}
+0x81C9 	Default Store: en-US 0x0 {5C 06 00 00 00 00}
+0x81CF 	Default Store: en-US 0x1 {5C 06 00 00 01 00}
+0x81D5 	Var Store: 0x1[128] (AMD_PBS_SETUP) {24 24 46 D7 39 A3 78 F6 B3 49 9F C7 54 CE 0F 9D F2 26 01 00 80 00 41 4D 44 5F 50 42 53 5F 53 45 54 55 50 00}
+0x81F9 	Form: AMD PBS Option, Form ID: 0xB {01 86 0B 00 04 00}
+0x81FF 		Ref: AMD Firmware Version, Variable: 0xFFFF {0F 0F 6B 00 6C 00 01 00 00 00 FF FF 00 0C 00}
+0x820E 		Suppress If: {0A 82}
+0x8210 			64 Bit Unsigned Int: 0x1 {45 0A 01 00 00 00 00 00 00 00}
+0x821A 			Setting: CPU Revision, Variable: 0x0 {05 91 35 00 36 00 02 00 01 00 00 00 10 10 00 04 00}
+0x822B 				Option: 0, Value: 0x0 {09 07 37 00 00 00 00}
+0x8232 				Option: 1, Value: 0x1 {09 07 38 00 00 00 01}
+0x8239 				Option: 2, Value: 0x2 {09 07 39 00 00 00 02}
+0x8240 				Option: 3, Value: 0x3 {09 07 3A 00 00 00 03}
+0x8247 				Option: 1, Value: 0x4 (default) {09 07 38 00 10 00 04}
+0x824E 			End of Options {29 02}
+0x8250 		End If {29 02}
+0x8252 		Ref: Graphics Features, Variable: 0xFFFF {0F 0F A6 00 A7 00 03 00 00 00 FF FF 00 0D 00}
+0x8261 		Setting: MITT/WITT Selection, Variable: 0x6 {05 91 25 00 25 00 04 00 01 00 06 00 10 10 00 02 00}
+0x8272 			Option: MITT Only, Value: 0x0 {09 07 26 00 00 00 00}
+0x8279 			Option: WITT Only, Value: 0x1 {09 07 27 00 00 00 01}
+0x8280 			Option: Both disable, Value: 0x2 (default) {09 07 24 00 10 00 02}
+0x8287 		End of Options {29 02}
+0x8289 		Setting: LAN Power Enable, Variable: 0x13 {05 91 8F 00 90 00 05 00 01 00 13 00 10 10 00 01 00}
+0x829A 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x82A1 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x82A8 		End of Options {29 02}
+0x82AA 		Setting: WLAN Enable, Variable: 0x14 {05 91 91 00 92 00 06 00 01 00 14 00 10 10 00 01 00}
+0x82BB 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x82C2 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x82C9 		End of Options {29 02}
+0x82CB 		Setting: Blue Tooth Enable, Variable: 0x15 {05 91 93 00 94 00 07 00 01 00 15 00 10 10 00 01 00}
+0x82DC 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x82E3 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x82EA 		End of Options {29 02}
+0x82EC 		Setting: Wireless LAN Recovery, Variable: 0x47 {05 91 95 00 96 00 08 00 01 00 47 00 14 10 00 02 00}
+0x82FD 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8304 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x830B 			Option: Dummy Reset, Value: 0x2 {09 07 97 00 00 00 02}
+0x8312 		End of Options {29 02}
+0x8314 		Setting: Bluetooth PLDR support, Variable: 0x48 {05 91 98 00 99 00 09 00 01 00 48 00 14 10 00 02 00}
+0x8325 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x832C 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8333 			Option: Dummy Reset, Value: 0x2 {09 07 9A 00 00 00 02}
+0x833A 		End of Options {29 02}
+0x833C 		Suppress If: {0A 82}
+0x833E 			Variable 0x2 equals value in list (0x1, 0x3, 0x4, 0x6) {14 8E 02 00 04 00 01 00 03 00 04 00 06 00}
+0x834C 				Not {17 02}
+0x834E 			End {29 02}
+0x8350 			Setting: PCIe/GFX Lanes Configuration, Variable: 0x11 {05 91 09 00 0A 00 0A 00 01 00 11 00 10 10 00 03 00}
+0x8361 				Option: x16, Value: 0x0 (default) {09 07 0B 00 10 00 00}
+0x8368 				Option: x8x8, Value: 0x1 {09 07 0C 00 00 00 01}
+0x836F 				Option: x8x4x4, Value: 0x2 {09 07 0D 00 00 00 02}
+0x8376 				Option: x4x4x4x4, Value: 0x3 {09 07 0E 00 00 00 03}
+0x837D 			End of Options {29 02}
+0x837F 		End If {29 02}
+0x8381 		Suppress If: {0A 82}
+0x8383 			Variable 0x2 equals value in list (0x5) {14 88 02 00 01 00 05 00}
+0x838B 				Not {17 02}
+0x838D 			End {29 02}
+0x838F 			Setting: PCIe/GFX Lanes Configuration, Variable: 0x11 {05 91 09 00 0A 00 0B 00 01 00 11 00 10 10 00 02 00}
+0x83A0 				Option: x16, Value: 0x0 (default) {09 07 0B 00 10 00 00}
+0x83A7 				Option: x8x8, Value: 0x1 {09 07 0C 00 00 00 01}
+0x83AE 				Option: x8x4x4, Value: 0x2 {09 07 0D 00 00 00 02}
+0x83B5 			End of Options {29 02}
+0x83B7 		End If {29 02}
+0x83B9 		Suppress If: {0A 82}
+0x83BB 			Variable 0x2 equals 0x2 {12 86 02 00 02 00}
+0x83C1 				Not {17 02}
+0x83C3 			End {29 02}
+0x83C5 			Setting: PCIe/GFX lanes Configuration, Variable: 0x12 {05 91 0F 00 10 00 0C 00 01 00 12 00 10 10 00 01 00}
+0x83D6 				Option: x8, Value: 0x0 (default) {09 07 11 00 10 00 00}
+0x83DD 				Option: x4x4, Value: 0x1 {09 07 12 00 00 00 01}
+0x83E4 			End of Options {29 02}
+0x83E6 		End If {29 02}
+0x83E8 		Suppress If: {0A 82}
+0x83EA 			Variable 0x2 equals value in list (0x4, 0x6, 0x5) {14 8C 02 00 03 00 04 00 06 00 05 00}
+0x83F6 				Not {17 02}
+0x83F8 			End {29 02}
+0x83FA 			Setting: PM L1 SS, Variable: 0x25 {05 91 9F 00 A0 00 0D 00 01 00 25 00 14 10 00 03 00}
+0x840B 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8412 				Option: L1.1, Value: 0x1 {09 07 A1 00 00 00 01}
+0x8419 				Option: L1.2, Value: 0x2 {09 07 A2 00 00 00 02}
+0x8420 				Option: L1.1_L1.2, Value: 0x3 {09 07 A3 00 00 00 03}
+0x8427 			End of Options {29 02}
+0x8429 		End If {29 02}
+0x842B 		Suppress If: {0A 82}
+0x842D 			Variable 0x2 equals value in list (0x4, 0x6) {14 8A 02 00 02 00 04 00 06 00}
+0x8437 				Not {17 02}
+0x8439 			End {29 02}
+0x843B 			Setting: Data Link Feature Exchange, Variable: 0x3E {05 91 A4 00 A5 00 0E 00 01 00 3E 00 14 10 00 01 00}
+0x844C 				Option: Disabled, Value: 0x1 {09 07 07 00 00 00 01}
+0x8453 				Option: Enabled , Value: 0x0 (default) {09 07 06 00 10 00 00}
+0x845A 			End of Options {29 02}
+0x845C 		End If {29 02}
+0x845E 		Setting: Unused GPP Clocks Off, Variable: 0x3 {05 91 13 00 14 00 0F 00 01 00 03 00 10 10 00 01 00}
+0x846F 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8476 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x847D 		End of Options {29 02}
+0x847F 		Suppress If: {0A 82}
+0x8481 			Variable 0xF equals 0x0 {12 06 0F 00 00 00}
+0x8487 			Setting: Clock Power Management(CLKREQ#), Variable: 0x4 {05 91 15 00 16 00 10 00 01 00 04 00 10 10 00 01 00}
+0x8498 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x849F 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x84A6 			End of Options {29 02}
+0x84A8 		End If {29 02}
+0x84AA 		Setting: Adjust APU VDDP, Variable: 0x7 {05 91 28 00 2B 00 D6 07 01 00 07 00 14 10 00 02 00}
+0x84BB 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x84C2 			Option: Increase APU VDDP, Value: 0x1 {09 07 29 00 00 00 01}
+0x84C9 			Option: Decrease APU VDDP, Value: 0x2 {09 07 2A 00 00 00 02}
+0x84D0 		End of Options {29 02}
+0x84D2 		Suppress If: {0A 82}
+0x84D4 			Variable 0x7D6 equals 0x0 {12 06 D6 07 00 00}
+0x84DA 			Numeric: Adjust APU VDDP Value (187650936845108-187650936845108) , Variable: 0x8 {07 91 2C 00 2B 00 11 00 01 00 08 00 00 10 00 7F 00}
+0x84EB 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x84F1 			End {29 02}
+0x84F3 		End If {29 02}
+0x84F5 		Setting: Adjust V1.8, Variable: 0x9 {05 91 2D 00 30 00 D7 07 01 00 09 00 14 10 00 02 00}
+0x8506 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x850D 			Option: Increase V1.8, Value: 0x1 {09 07 2E 00 00 00 01}
+0x8514 			Option: Decrease V1.8, Value: 0x2 {09 07 2F 00 00 00 02}
+0x851B 		End of Options {29 02}
+0x851D 		Suppress If: {0A 82}
+0x851F 			Variable 0x7D7 equals 0x0 {12 06 D7 07 00 00}
+0x8525 			Numeric: Adjust V1.8 Value (187650936845108-187650936845108) , Variable: 0xA {07 91 31 00 30 00 12 00 01 00 0A 00 00 10 00 7F 00}
+0x8536 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x853C 			End {29 02}
+0x853E 		End If {29 02}
+0x8540 		Setting: AddCmd MemVref Adjust, Variable: 0xB {05 91 32 00 33 00 D9 07 01 00 0B 00 14 10 00 01 00}
+0x8551 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8558 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x855F 		End of Options {29 02}
+0x8561 		Suppress If: {0A 82}
+0x8563 			Variable 0x7D9 equals 0x0 {12 06 D9 07 00 00}
+0x8569 			Numeric: AddCmd MemVref Adjust Value (187650936845108-187650936845108) , Variable: 0xC {07 91 34 00 33 00 13 00 01 00 0C 00 00 10 01 FF 00}
+0x857A 				Default: 8 Bit, Value: 0x80 {5B 06 00 00 00 80}
+0x8580 			End {29 02}
+0x8582 		End If {29 02}
+0x8584 		Suppress If: {0A 82}
+0x8586 			Variable 0x2 equals value in list (0x3, 0x4, 0x6) {14 8C 02 00 03 00 03 00 04 00 06 00}
+0x8592 				Not {17 02}
+0x8594 			End {29 02}
+0x8596 			Setting: AMD Fan Policy, Variable: 0xE {05 91 89 00 8A 00 14 00 01 00 0E 00 10 10 00 01 00}
+0x85A7 				Option: Air Cooling, Value: 0x0 (default) {09 07 8B 00 10 00 00}
+0x85AE 				Option: Water Cooling, Value: 0x1 {09 07 8C 00 00 00 01}
+0x85B5 			End of Options {29 02}
+0x85B7 		End If {29 02}
+0x85B9 		Suppress If: {0A 82}
+0x85BB 			Variable 0x2 equals value in list (0x2, 0x4, 0x6, 0x5) {14 8E 02 00 04 00 02 00 04 00 06 00 05 00}
+0x85C9 				Not {17 02}
+0x85CB 			End {29 02}
+0x85CD 			Setting: AMD KVM Mouse Protocol, Variable: 0xD {05 91 3B 00 3C 00 15 00 01 00 0D 00 14 10 00 03 00}
+0x85DE 				Option: Absolute, Value: 0x0 {09 07 3D 00 00 00 00}
+0x85E5 				Option: Simple, Value: 0x1 {09 07 3E 00 00 00 01}
+0x85EC 				Option: Auto, Value: 0x3 (default) {09 07 08 00 10 00 03}
+0x85F3 			End of Options {29 02}
+0x85F5 		End If {29 02}
+0x85F7 		Setting: NVMe RAID mode, Variable: 0x10 {05 91 8D 00 8E 00 16 00 01 00 10 00 10 10 00 01 00}
+0x8608 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x860F 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8616 		End of Options {29 02}
+0x8618 		Suppress If: {0A 82}
+0x861A 			Variable 0x2 equals value in list (0x5, 0x6) {14 8A 02 00 02 00 05 00 06 00}
+0x8624 				Not {17 02}
+0x8626 			End {29 02}
+0x8628 			Setting: S3/Modern Standby Support, Variable: 0x16 {05 91 17 00 18 00 DB 07 01 00 16 00 14 10 00 03 00}
+0x8639 				Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8640 				Option: Modern Standby Enable, Value: 0x1 (default) {09 07 1A 00 10 00 01}
+0x8647 				Option: S3 Enable, Value: 0x3 {09 07 19 00 00 00 03}
+0x864E 			End of Options {29 02}
+0x8650 		End If {29 02}
+0x8652 		Suppress If: {0A 82}
+0x8654 			Variable 0x7DB equals 0x1 {12 86 DB 07 01 00}
+0x865A 				Not {17 02}
+0x865C 				Variable 0x2 equals value in list (0x5, 0x6) {14 0A 02 00 02 00 05 00 06 00}
+0x8666 				Not {17 02}
+0x8668 				Or {16 02}
+0x866A 			End {29 02}
+0x866C 			Setting: Modern Standby Type, Variable: 0x18 {05 91 1B 00 1C 00 17 00 01 00 18 00 14 10 00 02 00}
+0x867D 				Option: Modern Standby + S0i2, Value: 0x0 {09 07 1D 00 00 00 00}
+0x8684 				Option: Modern Standby + S0i3, Value: 0x1 (default) {09 07 1E 00 10 00 01}
+0x868B 				Option: Modern Standby + S0i2 + S0i3, Value: 0x2 {09 07 1F 00 00 00 02}
+0x8692 			End of Options {29 02}
+0x8694 		End If {29 02}
+0x8696 		Suppress If: {0A 82}
+0x8698 			Variable 0x2 equals value in list (0x5, 0x6) {14 8A 02 00 02 00 05 00 06 00}
+0x86A2 				Not {17 02}
+0x86A4 			End {29 02}
+0x86A6 			Setting: Reduce Hardware Support, Variable: 0x17 {05 91 20 00 21 00 DA 07 01 00 17 00 14 10 00 01 00}
+0x86B7 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x86BE 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x86C5 			End of Options {29 02}
+0x86C7 		End If {29 02}
+0x86C9 		Setting: Wake on PME, Variable: 0x19 {05 91 22 00 23 00 18 00 01 00 19 00 04 10 00 01 00}
+0x86DA 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x86E1 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x86E8 		End of Options {29 02}
+0x86EA 		Suppress If: {0A 82}
+0x86EC 			Variable 0x2 equals value in list (0x5) {14 88 02 00 01 00 05 00}
+0x86F4 				Not {17 02}
+0x86F6 			End {29 02}
+0x86F8 			Setting: ACP Power Gating, Variable: 0x26 {05 91 9B 00 9C 00 19 00 01 00 26 00 10 10 00 01 00}
+0x8709 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8710 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8717 			End of Options {29 02}
+0x8719 		End If {29 02}
+0x871B 		Suppress If: {0A 82}
+0x871D 			Variable 0x2 equals value in list (0x5) {14 88 02 00 01 00 05 00}
+0x8725 				Not {17 02}
+0x8727 			End {29 02}
+0x8729 			Setting: ACP CLock Gating, Variable: 0x27 {05 91 9D 00 9E 00 1A 00 01 00 27 00 14 10 00 01 00}
+0x873A 				Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8741 				Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x8748 			End of Options {29 02}
+0x874A 		End If {29 02}
+0x874C 		Setting: Thunderbolt Support, Variable: 0x1A {05 91 3F 00 40 00 E0 07 01 00 1A 00 14 10 00 01 00}
+0x875D 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8764 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x876B 		End of Options {29 02}
+0x876D 		Suppress If: {0A 82}
+0x876F 			Variable 0x7E0 equals 0x0 {12 06 E0 07 00 00}
+0x8775 			Setting: Thunderbolt Host Chipset, Variable: 0x28 {05 91 41 00 42 00 E1 07 01 00 28 00 14 10 00 01 00}
+0x8786 				Option: Alpine Ridge, Value: 0x0 {09 07 43 00 00 00 00}
+0x878D 				Option: Titan Ridge, Value: 0x1 (default) {09 07 44 00 10 00 01}
+0x8794 			End of Options {29 02}
+0x8796 			Suppress If: {0A 82}
+0x8798 				Variable 0x7E1 equals 0x0 {12 06 E1 07 00 00}
+0x879E 				Setting: TR HR FPB Capability, Variable: 0x3C {05 91 45 00 46 00 1B 00 01 00 3C 00 14 10 00 01 00}
+0x87AF 					Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x87B6 					Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x87BD 				End of Options {29 02}
+0x87BF 			End If {29 02}
+0x87C1 			Setting: Thunderbolt Security Level, Variable: 0x1B {05 91 47 00 48 00 1C 00 01 00 1B 00 14 10 00 04 00}
+0x87D2 				Option: No Security, Value: 0x0 {09 07 49 00 00 00 00}
+0x87D9 				Option: User Authorization, Value: 0x1 (default) {09 07 4A 00 10 00 01}
+0x87E0 				Option: Secure Connect, Value: 0x2 {09 07 4B 00 00 00 02}
+0x87E7 				Option: Display Port and USB, Value: 0x3 {09 07 4C 00 00 00 03}
+0x87EE 				Suppress If: {0A 82}
+0x87F0 					Variable 0x7E1 equals 0x0 {12 06 E1 07 00 00}
+0x87F6 					Option: USB Docking Only, Value: 0x4 {09 07 4D 00 00 00 04}
+0x87FD 				End If {29 02}
+0x87FF 			End of Options {29 02}
+0x8801 			Setting: Thunderbolt Force PWR, Variable: 0x1C {05 91 4E 00 4F 00 1D 00 01 00 1C 00 14 10 00 01 00}
+0x8812 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8819 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8820 			End of Options {29 02}
+0x8822 			Setting: Thunderbolt Boot From TB, Variable: 0x1D {05 91 50 00 51 00 1E 00 01 00 1D 00 14 10 00 01 00}
+0x8833 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x883A 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8841 			End of Options {29 02}
+0x8843 			Setting: Thunderbolt Boot From USB, Variable: 0x1E {05 91 52 00 53 00 1F 00 01 00 1E 00 14 10 00 01 00}
+0x8854 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x885B 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8862 			End of Options {29 02}
+0x8864 			Setting: Thunderbolt Assign Resource, Variable: 0x1F {05 91 54 00 55 00 20 00 01 00 1F 00 14 10 00 01 00}
+0x8875 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x887C 				Option: After PCI Enumeration, Value: 0x1 {09 07 56 00 00 00 01}
+0x8883 			End of Options {29 02}
+0x8885 			Setting: Thunderbolt MMIO Resource, Variable: 0x20 {05 91 57 00 58 00 21 00 01 00 20 00 14 10 00 02 00}
+0x8896 				Option: Full Size, Value: 0x0 (default) {09 07 59 00 10 00 00}
+0x889D 				Option: Half Size, Value: 0x1 {09 07 5A 00 00 00 01}
+0x88A4 				Option: Three Quarters, Value: 0x2 {09 07 5B 00 00 00 02}
+0x88AB 			End of Options {29 02}
+0x88AD 			Setting: Thunderbolt in SLOT, Variable: 0x21 {05 91 5C 00 5D 00 22 00 01 00 21 00 14 10 00 00 00}
+0x88BE 				Option: PCIE J10 SLOT, Value: 0x0 (default) {09 07 5E 00 10 00 00}
+0x88C5 			End of Options {29 02}
+0x88C7 			Setting: Legacy/Native/RTD3, Variable: 0x22 {05 91 5F 00 60 00 23 00 01 00 22 00 14 10 00 03 00}
+0x88D8 				Option: Legacy Mode, Value: 0x0 {09 07 61 00 00 00 00}
+0x88DF 				Option: Native Mode, Value: 0x1 (default) {09 07 62 00 10 00 01}
+0x88E6 				Option: Native + RTD3Hot, Value: 0x2 {09 07 63 00 00 00 02}
+0x88ED 				Option: Native + RTD3Cold, Value: 0x3 {09 07 64 00 00 00 03}
+0x88F4 			End of Options {29 02}
+0x88F6 			Setting: Thunderbolt L1SS Support, Variable: 0x23 {05 91 65 00 66 00 24 00 01 00 23 00 14 10 00 01 00}
+0x8907 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x890E 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8915 			End of Options {29 02}
+0x8917 			Setting: Thunderbolt Wake Up Command, Variable: 0x29 {05 91 67 00 68 00 25 00 01 00 29 00 14 10 00 03 00}
+0x8928 				Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x892F 				Option: GO2SX Command, Value: 0x2 (default) {09 07 69 00 10 00 02}
+0x8936 				Option: GO2SX_NO_WAKE Command, Value: 0x3 {09 07 6A 00 00 00 03}
+0x893D 			End of Options {29 02}
+0x893F 		End If {29 02}
+0x8941 		Suppress If: {0A 82}
+0x8943 			Variable 0x2 equals value in list (0x5) {14 88 02 00 01 00 05 00}
+0x894B 				Not {17 02}
+0x894D 			End {29 02}
+0x894F 			Setting: WOV card D503 options, Variable: 0x38 {05 91 DF 00 E0 00 26 00 01 00 38 00 10 10 00 02 00}
+0x8960 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8967 				Option: SPDIF work + DMIC 12, Value: 0x1 {09 07 E1 00 00 00 01}
+0x896E 				Option: No SPDIF work + DMIC12/34, Value: 0x2 {09 07 E2 00 00 00 02}
+0x8975 			End of Options {29 02}
+0x8977 		End If {29 02}
+0x8979 		Setting: Zero-Power ODD, Variable: 0x3B {05 91 E3 00 E4 00 27 00 01 00 3B 00 14 10 00 01 00}
+0x898A 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8991 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8998 		End of Options {29 02}
+0x899A 	End Form {29 02}
+0x899C 	Form: AMD Firmware Version, Form ID: 0xC {01 86 0C 00 6B 00}
+0x89A2 		Subtitle: AMD Firmware Version {02 87 6B 00 00 00 00}
+0x89A9 		End {29 02}
+0x89AB 		Subtitle:   {02 87 05 00 00 00 00}
+0x89B2 		End {29 02}
+0x89B4 		Text: AGESA Version {03 08 6D 00 05 00 6E 00}
+0x89BC 		Text: PSP BootLoader Version {03 08 6F 00 05 00 70 00}
+0x89C4 		Text: PSP SecureOS Version {03 08 71 00 05 00 72 00}
+0x89CC 		Subtitle:   {02 87 05 00 00 00 00}
+0x89D3 		End {29 02}
+0x89D5 		Suppress If: {0A 82}
+0x89D7 			Variable 0x2 equals 0x0 {12 06 02 00 00 00}
+0x89DD 			Text: ABL Version {03 08 73 00 05 00 74 00}
+0x89E5 		End If {29 02}
+0x89E7 		Suppress If: {0A 82}
+0x89E9 			Variable 0x2 equals 0x0 {12 06 02 00 00 00}
+0x89EF 			Text: APCB Version {03 08 75 00 05 00 76 00}
+0x89F7 		End If {29 02}
+0x89F9 		Suppress If: {0A 82}
+0x89FB 			Variable 0x2 equals 0x0 {12 06 02 00 00 00}
+0x8A01 			Text: APOB Version {03 08 77 00 05 00 78 00}
+0x8A09 		End If {29 02}
+0x8A0B 		Subtitle:   {02 87 05 00 00 00 00}
+0x8A12 		End {29 02}
+0x8A14 		Text: Ucode Patch Version {03 08 79 00 05 00 7A 00}
+0x8A1C 		Subtitle:   {02 87 05 00 00 00 00}
+0x8A23 		End {29 02}
+0x8A25 		Text: SMU FW Version {03 08 7B 00 05 00 7C 00}
+0x8A2D 		Suppress If: {0A 82}
+0x8A2F 			Variable 0x2 equals 0x0 {12 06 02 00 00 00}
+0x8A35 			Text: DXIO FW Version {03 08 7D 00 05 00 7E 00}
+0x8A3D 		End If {29 02}
+0x8A3F 		Subtitle:   {02 87 05 00 00 00 00}
+0x8A46 		End {29 02}
+0x8A48 		Suppress If: {0A 82}
+0x8A4A 			Variable 0x2 equals value in list (0x4, 0x6, 0x5) {14 8C 02 00 03 00 04 00 06 00 05 00}
+0x8A56 				Not {17 02}
+0x8A58 			End {29 02}
+0x8A5A 			Text: XHCI FW Version {03 08 7F 00 05 00 80 00}
+0x8A62 		End If {29 02}
+0x8A64 		Subtitle:   {02 87 05 00 00 00 00}
+0x8A6B 		End {29 02}
+0x8A6D 		Suppress If: {0A 82}
+0x8A6F 			Variable 0x2 equals value in list (0x2, 0x3, 0x4, 0x6, 0x5) {14 90 02 00 05 00 02 00 03 00 04 00 06 00 05 00}
+0x8A7F 				Not {17 02}
+0x8A81 			End {29 02}
+0x8A83 			Text: KVM Version {03 08 85 00 05 00 86 00}
+0x8A8B 		End If {29 02}
+0x8A8D 		Subtitle:   {02 87 05 00 00 00 00}
+0x8A94 		End {29 02}
+0x8A96 		Suppress If: {0A 82}
+0x8A98 			Variable 0x2 equals value in list (0x0, 0x2, 0x5) {14 8C 02 00 03 00 00 00 02 00 05 00}
+0x8AA4 				Not {17 02}
+0x8AA6 			End {29 02}
+0x8AA8 			Text: VBIOS FW Version {03 08 81 00 05 00 82 00}
+0x8AB0 			Text: GOP Driver Version {03 08 83 00 05 00 84 00}
+0x8AB8 		End If {29 02}
+0x8ABA 		Subtitle:   {02 87 05 00 00 00 00}
+0x8AC1 		End {29 02}
+0x8AC3 	End Form {29 02}
+0x8AC5 	Form: Graphics Features, Form ID: 0xD {01 86 0D 00 A6 00}
+0x8ACB 		Subtitle: Graphics Features {02 87 A6 00 00 00 00}
+0x8AD2 		End {29 02}
+0x8AD4 		Subtitle:   {02 87 05 00 00 00 00}
+0x8ADB 		End {29 02}
+0x8ADD 		Grayout If: {19 82}
+0x8ADF 			Variable 0x2 equals value in list (0x0, 0x2, 0x5) {14 8C 02 00 03 00 00 00 02 00 05 00}
+0x8AEB 				Not {17 02}
+0x8AED 			End {29 02}
+0x8AEF 			Setting: Primary Video Adaptor, Variable: 0x2 {05 91 AB 00 AC 00 28 00 01 00 02 00 10 10 01 02 00}
+0x8B00 				Option: Int Graphics (IGD), Value: 0x1 (default) {09 07 AD 00 10 00 01}
+0x8B07 				Option: Ext Graphics (PEG), Value: 0x2 {09 07 AE 00 00 00 02}
+0x8B0E 			End of Options {29 02}
+0x8B10 		End If {29 02}
+0x8B12 		Suppress If: {0A 82}
+0x8B14 			Variable 0x2 equals value in list (0x0, 0x2, 0x5) {14 8C 02 00 03 00 00 00 02 00 05 00}
+0x8B20 				Not {17 02}
+0x8B22 			End {29 02}
+0x8B24 			Setting: Special Display Features, Variable: 0x1 {05 91 A8 00 A9 00 D1 07 01 00 01 00 14 10 00 04 00}
+0x8B35 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8B3C 				Option: HybridGraphics, Value: 0x4 {09 07 AA 00 00 00 04}
+0x8B43 			End of Options {29 02}
+0x8B45 		End If {29 02}
+0x8B47 		Setting: D3Cold Support, Variable: 0x32 {05 91 AF 00 B0 00 29 00 01 00 32 00 14 10 00 02 00}
+0x8B58 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8B5F 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8B66 			Option: Dummy D3Cold, Value: 0x2 {09 07 B1 00 00 00 02}
+0x8B6D 		End of Options {29 02}
+0x8B6F 		Suppress If: {0A 82}
+0x8B71 			Variable 0x29 equals 0x0 {12 06 29 00 00 00}
+0x8B77 			Setting: Discrete GPU Hotplug Mode, Variable: 0x2B {05 91 B2 00 B3 00 2A 00 01 00 2B 00 14 10 00 01 00}
+0x8B88 				Option: Basic Mode, Value: 0x0 {09 07 B4 00 00 00 00}
+0x8B8F 				Option: Enhanced Mode, Value: 0x1 (default) {09 07 B5 00 10 00 01}
+0x8B96 			End of Options {29 02}
+0x8B98 			Setting: Discrete GPU D3Cold HPD Support, Variable: 0x34 {05 91 B6 00 B7 00 2B 00 01 00 34 00 14 10 00 01 00}
+0x8BA9 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8BB0 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8BB7 			End of Options {29 02}
+0x8BB9 			Setting: PME Turn Off Support, Variable: 0x35 {05 91 B8 00 B9 00 2C 00 01 00 35 00 14 10 00 01 00}
+0x8BCA 				Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8BD1 				Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x8BD8 			End of Options {29 02}
+0x8BDA 			Setting: D3Cold Force Gen1, Variable: 0x37 {05 91 BA 00 BB 00 2D 00 01 00 37 00 14 10 00 01 00}
+0x8BEB 				Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8BF2 				Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8BF9 			End of Options {29 02}
+0x8BFB 		End If {29 02}
+0x8BFD 		Setting: Discrete GPU _DSM Function A, Variable: 0x39 {05 91 BC 00 BD 00 2E 00 01 00 39 00 14 10 00 01 00}
+0x8C0E 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8C15 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8C1C 		End of Options {29 02}
+0x8C1E 		Setting: Discrete GPU _DSM Function B, Variable: 0x3A {05 91 BE 00 BF 00 2F 00 01 00 3A 00 14 10 00 01 00}
+0x8C2F 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8C36 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8C3D 		End of Options {29 02}
+0x8C3F 		Setting: NVIDIA DGPU Power Enable, Variable: 0x36 {05 91 C0 00 C1 00 30 00 01 00 36 00 14 10 00 01 00}
+0x8C50 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8C57 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8C5E 		End of Options {29 02}
+0x8C60 		Setting: Non-Eval Discrete GPU Support, Variable: 0x33 {05 91 C2 00 C3 00 31 00 01 00 33 00 14 10 00 01 00}
+0x8C71 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8C78 			Option: Enabled , Value: 0x1 (default) {09 07 06 00 10 00 01}
+0x8C7F 		End of Options {29 02}
+0x8C81 		Setting: Discrete GPU HPD Circuitry, Variable: 0x2C {05 91 C4 00 C5 00 32 00 01 00 2C 00 14 10 00 01 00}
+0x8C92 			Option: OR Circuitry, Value: 0x0 (default) {09 07 C6 00 10 00 00}
+0x8C99 			Option: Pulse Circuitry, Value: 0x1 {09 07 C7 00 00 00 01}
+0x8CA0 		End of Options {29 02}
+0x8CA2 		Setting: Discrete GPU's Audio, Variable: 0x2A {05 91 C8 00 C9 00 33 00 01 00 2A 00 14 10 00 01 00}
+0x8CB3 			Option: Disabled, Value: 0x0 {09 07 07 00 00 00 00}
+0x8CBA 			Option: Keep ROM Strap Setting, Value: 0x1 (default) {09 07 CA 00 10 00 01}
+0x8CC1 		End of Options {29 02}
+0x8CC3 		Setting: Discrete GPU's USB Port, Variable: 0x24 {05 91 CB 00 CC 00 34 00 01 00 24 00 14 10 00 01 00}
+0x8CD4 			Option: Keep Default Setting, Value: 0x0 (default) {09 07 CD 00 10 00 00}
+0x8CDB 			Option: Disabled, Value: 0x1 {09 07 07 00 00 00 01}
+0x8CE2 		End of Options {29 02}
+0x8CE4 		Setting: Discrete GPU's SSID/SVID, Variable: 0x3D {05 91 CE 00 CF 00 02 08 01 00 3D 00 14 10 00 01 00}
+0x8CF5 			Option: Keep Default Setting, Value: 0x0 (default) {09 07 CD 00 10 00 00}
+0x8CFC 			Option: Program by Vendor, Value: 0x1 {09 07 D0 00 00 00 01}
+0x8D03 		End of Options {29 02}
+0x8D05 		Suppress If: {0A 82}
+0x8D07 			Variable 0x802 equals 0x0 {12 06 02 08 00 00}
+0x8D0D 			Numeric: Discrete GPU's VGA SSID/SVID (187650936845110-187650936845110) , Variable: 0x3F {07 9A D1 00 D2 00 35 00 01 00 3F 00 10 22 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x8D27 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x8D30 			End {29 02}
+0x8D32 			Numeric: Discrete GPU's AUDIO SSID/SVID (187650936845110-187650936845110) , Variable: 0x43 {07 9A D3 00 D4 00 36 00 01 00 43 00 10 22 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x8D4C 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x8D55 			End {29 02}
+0x8D57 		End If {29 02}
+0x8D59 		Setting: Discrete GPU BOMACO Support, Variable: 0x2D {05 91 D5 00 D6 00 E4 07 01 00 2D 00 14 10 00 01 00}
+0x8D6A 			Option: Disabled, Value: 0x0 (default) {09 07 07 00 10 00 00}
+0x8D71 			Option: Enabled , Value: 0x1 {09 07 06 00 00 00 01}
+0x8D78 		End of Options {29 02}
+0x8D7A 		Suppress If: {0A 82}
+0x8D7C 			Variable 0x7E4 equals 0x0 {12 06 E4 07 00 00}
+0x8D82 			Numeric: MACO-PWR Timing  (us) (187650936845110-187650936845110) , Variable: 0x2E {07 91 D7 00 D8 00 37 00 01 00 2E 00 00 10 0A FF 00}
+0x8D93 				Default: 8 Bit, Value: 0xA {5B 06 00 00 00 0A}
+0x8D99 			End {29 02}
+0x8D9B 			Numeric: PWROFF-RST Timing (ms) (187650936845110-187650936845110) , Variable: 0x2F {07 91 D9 00 DA 00 38 00 01 00 2F 00 00 10 01 FF 00}
+0x8DAC 				Default: 8 Bit, Value: 0x14 {5B 06 00 00 00 14}
+0x8DB2 			End {29 02}
+0x8DB4 			Numeric: PWRON-RST Timing (ms) (187650936845110-187650936845110) , Variable: 0x30 {07 91 DB 00 DC 00 39 00 01 00 30 00 00 10 01 FF 00}
+0x8DC5 				Default: 8 Bit, Value: 0x14 {5B 06 00 00 00 14}
+0x8DCB 			End {29 02}
+0x8DCD 			Numeric: RST-MACO Timing  (ms) (187650936845110-187650936845110) , Variable: 0x31 {07 91 DD 00 DE 00 3A 00 01 00 31 00 00 10 01 FF 00}
+0x8DDE 				Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0x8DE4 			End {29 02}
+0x8DE6 		End If {29 02}
+0x8DE8 	End Form {29 02}
+0x8DEA End Form Set {29 02}

@@ -1,0 +1,129 @@
+================================================================
+POWER-RELATED BIOS SETTINGS
+Generated: 2026-02-26T03:32:47+00:00
+Search pattern: power|idle|sleep|suspend|c-state|cstate|c state|cppc|pstate|p-state|p state|aspm|erp|s3|s4|s5|wake|standby|hibernate|thermal|fan|cool|boost|turbo|frequency|voltage|tdp|ppt|tdc|edc|smu|dpm|efficiency|eco|energy|low.power|package|deep|aggressive|alpm|selective|cc6|pc6|cpb|df.c|amd.cbs|amd.pbs|supply.idle|soft.off|soft off|acpi|alib|bapm|stapm|prochot|cldo|nbi|nbio|xgbe|xhci|sata|ahci|spread.spectrum|clock.spread
+================================================================
+
+--- ROM Strings (filtered) ---
+607:!~JKLFs4
+759:"lES3x
+1093:$]S4@y
+1126:$s5(t6
+1302:%s: Loading BIXBY SMU FW FAIL 
+1617:'`S4ge
+1708:(B6jUNS4
+2110:*S5l|Pg
+2426:,S3Och
+2558:-MPUbS5
+2675:.8S4f+
+2677:.9>ls5\
+2777:.s5=_]\
+2869:/EqS5?}]
+2961:/~s5cJBZ
+3454:2fg`ws5
+3640:3qS5rg
+3970:6(EdC?-*P
+4080:6s4j6k
+5367:>hdFs4
+5611:@D8s5H
+5825:ASF remote power down detected, setting PSP boot mode to S5 cold
+5858:AcpiPm1CntBlkX00: 0x%x
+5860:AddRecord
+5987:BAqS42K
+6100:BnUnsignedCmp
+6102:BootLoader_IdleLoop::Enter
+6117:Bs3%x%lW|
+6278:Checking if need to decompress...
+6290:ComputeContextProtectionKey
+6378:D5pS55(d
+6402:DCN2_0_InitDPPhy( )
+6421:DCN2_1_program_pll_for_fw_calibration( )
+6427:DF CS IPID:%llx
+6488:Decompressing verified image...
+6489:DeepReadNvRecord
+6688:Entering RECOVERY Mode
+6698:Error: RsmuTimeoutEnable->NULL pointer with Idx=%d
+6699:Error: RsmuTimeoutEnable->UmMapSmu failed with Idx=%d
+6708:Eus3Qy
+6712:ExecuteCommand
+6877:FbOSS3
+7001:GFX_POWER UP SUCCESSFULLY
+7054:GarbageCollect
+7075:Gjo$s5R:
+7606:JrTDCI(7q
+7609:Jsmue9
+7827:L8S50i
+7920:LoadSMUFWToDram
+7923:Loading SMU FW to SRAM Start...
+8100:MsMU+l
+8177:NBIF25_NBif_Init( )
+8178:NBi9Drf
+8210:NVRecord_Validate
+8213:NVStorage_UpdateRecord
+8287:NvPowerOn
+8422:OaepDecode
+8489:P&Hs3H
+8595:PSPSMU msg failed: Id = %08X, Ret=%08X
+8596:PSPSMU msg sent: Id = %08X, Arg = %08X, SmuOut=%08X
+8640:PersistentDeleteRecordCmd
+8642:PersistentWriteRecordCmd
+8687:PssDecode
+8929:RECOVERY MODE: Notify BIOS of recovery
+8930:RECOVERY MODE: Releasing cores BootLoader_IdleLoop
+8931:RECOVERY MODE: clear the recovery flag
+8999:ReadNvRecordMustSucceed
+9001:Received SmuCmd: 0x%X and completed with Status: 0x%X
+9078:S3B217M
+9079:S3kCij;PQ
+9080:S4X.1	
+9081:S4[|OR
+9082:S4~c:^
+9083:S5_SECURE_STAT(0xFED803C0) = 0x%X
+9118:SMU Power up GFX
+9119:SMU Send message failed: 0x%x
+9164:SendPspSmuMessage() Start...MsgID=%d
+9755:VnSmu&I
+9881:WaitSMUReady() Start...
+9911:WriteNvRecord
+10279:ZFJs3;4I
+10523:[q>KNs5
+10580:\8s5Yw
+10901:^@s5S'
+10995:^xSbXS3
+11085:_AS5}h
+11494:amd.fw.DpmLevelLow
+11897:d@S5VD
+12215:f9?s39'
+12715:i>%IS5[
+13313:ls5	0@
+13330:l~kS4n
+13463:mmSMUIO_GFX_MISC_CNTL
+13474:msmu5q'Yk=
+13481:mx0ES5
+13617:nbi;Su9
+14231:rX0s4*}\
+14280:rl@BFS3
+14343:s3,zq]y*
+14344:s3^wv#&
+14345:s3_turn_on_eDP
+14346:s3mSRW
+14347:s3wu5!,
+14348:s4!}..
+14349:s4pQ[z
+14350:s5|gK,
+14474:system cannot recover from this point, brick it
+14558:tJvs4Btkr
+14585:t_S4u&
+14620:tpS34G6
+14632:tvz'lS4
+14660:u,5KS5Y~
+15189:xLkiS5i
+15297:y-S3KVFd
+15340:yE}M2S4GPb
+15396:yfs54|N
+15652:{A`s3;Q'
+15926:|pL^HS4
+15932:|s5&TbW
+16030:}HUas5 <
+16058:}S5[QY
+

@@ -1,0 +1,6 @@
+# Generated firmware analysis text preserves extractor/string output verbatim.
+analysis/**/*.txt -whitespace
+
+# Firmware images and saved BIOS profiles are binary evidence.
+bios-files/firmware/** binary
+bios-files/settings/**/*.BIN binary

@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated analysis outputs are large and regenerable.
+# Keep source firmware images and saved BIOS setting profiles trackable in this
+# standalone repo, but do not accidentally add new extraction output unless it
+# has been reviewed.
+*.dump/
+bios-analysis-*/
+*.guids.csv
+*.report.txt

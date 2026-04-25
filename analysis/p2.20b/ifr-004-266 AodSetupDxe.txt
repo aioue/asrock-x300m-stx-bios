@@ -1,0 +1,2555 @@
+                                UEFI Protocol Detected
+--------------------------------------------------------------------------------
+
+
+                                String Packages
+--------------------------------------------------------------------------------
+Offset:		Language:
+--------------------------------------------------------------------------------
+0x5CC4		en-US (0x0)
+
+
+                                   Form Sets
+--------------------------------------------------------------------------------
+Offset:		Title:
+--------------------------------------------------------------------------------
+0x10854		AMD Overclocking (0x2 from string package 0x0)
+
+
+                         Internal Forms Representation
+--------------------------------------------------------------------------------
+Offset:		Instruction:
+--------------------------------------------------------------------------------
+0x10858 Form Set: AMD Overclocking {0E A7 31 C6 9A E3 ED 48 5E 44 90 42 55 B3 4F 40 58 43 02 00 03 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E}
+0x1087F 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 01 00}
+0x10894 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 00 00}
+0x108A9 	Default Store: en-US 0x0 {5C 06 00 00 00 00}
+0x108AF 	Default Store: en-US 0x1 {5C 06 00 00 01 00}
+0x108B5 	Var Store: 0xF000[1020] (AOD_SETUP) {24 20 C0 5D D1 5E EF ED 61 41 91 51 60 14 C4 CC 63 0C 00 F0 FC 03 41 4F 44 5F 53 45 54 55 50 00}
+0x108D5 	Form: AMD Overclocking Option, Form ID: 0xB {01 86 0B 00 04 00}
+0x108DB 		Subtitle: WARNING - DAMAGE CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF SPECIFICATION OR IN EXCESS OF FACTORY SETTINGS ARE NOT COVERED UNDER YOUR AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR SYSTEM MANUFACTURER'S WARRANTY. 
+Operating your AMD processor outside of specification or in excess of factory settings, including but not limited to overclocking, and undervolting, may damage or shorten the life of your processor or other system components, create system instabilities (e.g., data loss and corrupted images) and in extreme cases may result in total system failure. AMD does not provide support or service for issues or damages related to use of an AMD processor outside of processor specifications or in excess of factory settings. 
+ {02 87 0C 00 00 00 00}
+0x108E2 		End {29 02}
+0x108E4 		Ref: Accept, Variable: 0xFFFF {0F 0F 0E 00 05 00 01 00 00 00 FF FF 00 0C 00}
+0x108F3 		Ref: Decline, Variable: 0xFFFF {0F 0F 0D 00 05 00 02 00 00 00 FF FF 00 0D 00}
+0x10902 	End Form {29 02}
+0x10904 	Form: Decline, Form ID: 0xD {01 86 0D 00 0D 00}
+0x1090A 		Subtitle: Decline {02 87 0D 00 00 00 00}
+0x10911 		End {29 02}
+0x10913 		Subtitle:   {02 87 05 00 00 00 00}
+0x1091A 		End {29 02}
+0x1091C 	End Form {29 02}
+0x1091E 	Form: AMD Overclocking, Form ID: 0xC {01 86 0C 00 02 00}
+0x10924 		Subtitle: AMD Overclocking {02 87 02 00 00 00 00}
+0x1092B 		End {29 02}
+0x1092D 		Subtitle:   {02 87 05 00 00 00 00}
+0x10934 		End {29 02}
+0x10936 		Suppress If: {0A 82}
+0x10938 			Variable 0x101 equals 0x1 {12 86 01 01 01 00}
+0x1093E 				Not {17 02}
+0x10940 			End {29 02}
+0x10942 			Ref: Manual CPU Overclocking, Variable: 0xFFFF {0F 0F 0F 00 10 00 03 00 00 00 FF FF 00 0E 00}
+0x10951 		End If {29 02}
+0x10953 		Suppress If: {0A 82}
+0x10955 			Variable 0x100 equals 0x1 {12 86 00 01 01 00}
+0x1095B 				Not {17 02}
+0x1095D 			End {29 02}
+0x1095F 			Ref: Manual iGPU Overclocking, Variable: 0xFFFF {0F 0F 2F 00 30 00 04 00 00 00 FF FF 00 22 00}
+0x1096E 		End If {29 02}
+0x10970 		Suppress If: {0A 82}
+0x10972 			Variable 0xFF equals 0x1 {12 86 FF 00 01 00}
+0x10978 				Not {17 02}
+0x1097A 			End {29 02}
+0x1097C 			Ref: DDR and Infinity Fabric Frequency/Timings, Variable: 0xFFFF {0F 0F 35 00 36 00 05 00 00 00 FF FF 00 0F 00}
+0x1098B 		End If {29 02}
+0x1098D 		Suppress If: {0A 82}
+0x1098F 			Variable 0xAA equals 0x1 {12 86 AA 00 01 00}
+0x10995 				Not {17 02}
+0x10997 			End {29 02}
+0x10999 			Ref: ECO Mode, Variable: 0xFFFF {0F 0F 88 01 89 01 06 00 00 00 FF FF 00 23 00}
+0x109A8 		End If {29 02}
+0x109AA 		Suppress If: {0A 82}
+0x109AC 			Variable 0xFE equals 0x1 {12 86 FE 00 01 00}
+0x109B2 				Not {17 02}
+0x109B4 			End {29 02}
+0x109B6 			Ref: Precision Boost Overdrive, Variable: 0xFFFF {0F 0F 5D 01 5E 01 07 00 00 00 FF FF 00 10 00}
+0x109C5 		End If {29 02}
+0x109C7 		Suppress If: {0A 82}
+0x109C9 			Variable 0xFD equals 0x1 {12 86 FD 00 01 00}
+0x109CF 				Not {17 02}
+0x109D1 			End {29 02}
+0x109D3 			Ref: LN2 Mode, Variable: 0xFFFF {0F 0F AD 01 AE 01 08 00 00 00 FF FF 00 24 00}
+0x109E2 		End If {29 02}
+0x109E4 		Suppress If: {0A 82}
+0x109E6 			Variable 0xFC equals 0x1 {12 86 FC 00 01 00}
+0x109EC 				Not {17 02}
+0x109EE 			End {29 02}
+0x109F0 			Ref: SoC Voltage, Variable: 0xFFFF {0F 0F AF 01 B0 01 09 00 00 00 FF FF 00 12 00}
+0x109FF 		End If {29 02}
+0x10A01 		Suppress If: {0A 82}
+0x10A03 			Variable 0xFB equals 0x1 {12 86 FB 00 01 00}
+0x10A09 				Not {17 02}
+0x10A0B 			End {29 02}
+0x10A0D 			Ref: SoC/Uncore OC Mode, Variable: 0xFFFF {0F 0F B1 01 B2 01 0A 00 00 00 FF FF 00 13 00}
+0x10A1C 		End If {29 02}
+0x10A1E 		Suppress If: {0A 82}
+0x10A20 			Variable 0xFA equals 0x1 {12 86 FA 00 01 00}
+0x10A26 				Not {17 02}
+0x10A28 			End {29 02}
+0x10A2A 			Ref: VDDP Voltage Control, Variable: 0xFFFF {0F 0F B3 01 B4 01 0B 00 00 00 FF FF 00 14 00}
+0x10A39 		End If {29 02}
+0x10A3B 		Suppress If: {0A 82}
+0x10A3D 			Variable 0xF9 equals 0x1 {12 86 F9 00 01 00}
+0x10A43 				Not {17 02}
+0x10A45 			End {29 02}
+0x10A47 			Ref: VDDG Voltage Control, Variable: 0xFFFF {0F 0F B5 01 B6 01 0C 00 00 00 FF FF 00 15 00}
+0x10A56 		End If {29 02}
+0x10A58 		Suppress If: {0A 82}
+0x10A5A 			Variable 0xF8 equals 0x1 {12 86 F8 00 01 00}
+0x10A60 				Not {17 02}
+0x10A62 			End {29 02}
+0x10A64 			Ref: Onboard Voltage Controls, Variable: 0xFFFF {0F 0F BF 01 C0 01 0D 00 00 00 FF FF 00 21 00}
+0x10A73 		End If {29 02}
+0x10A75 		Numeric: {a1#CPU Voltage (281473917202480-281473917202480) , Variable: 0x280 {07 9A E3 01 E4 01 0E 00 00 F0 80 02 10 12 00 00 00 00 0E 06 00 00 00 00 00 00}
+0x10A8F 			Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10A98 		End {29 02}
+0x10A9A 		Subtitle: CCD0 {02 87 DD 01 00 00 00}
+0x10AA1 		End {29 02}
+0x10AA3 		Numeric: {a1#CCX0 Frequency (281473917202480-281473917202480) , Variable: 0x270 {07 9A DF 01 E0 01 0F 00 00 F0 70 02 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10ABD 			Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10AC6 		End {29 02}
+0x10AC8 		Numeric: {a1#CCX1 Frequency (281473917202480-281473917202480) , Variable: 0x274 {07 9A E1 01 E2 01 10 00 00 F0 74 02 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10AE2 			Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10AEB 		End {29 02}
+0x10AED 		Subtitle: CCD1 {02 87 DE 01 00 00 00}
+0x10AF4 		End {29 02}
+0x10AF6 		Numeric: {a1#CCX0 Frequency (281473917202480-281473917202480) , Variable: 0x278 {07 9A DF 01 E0 01 11 00 00 F0 78 02 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10B10 			Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10B19 		End {29 02}
+0x10B1B 		Numeric: {a1#CCX1 Frequency (281473917202480-281473917202480) , Variable: 0x27C {07 9A E1 01 E2 01 12 00 00 F0 7C 02 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10B35 			Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10B3E 		End {29 02}
+0x10B40 		Suppress If: {0A 82}
+0x10B42 			Variable 0x92 equals 0x1 {12 86 92 00 01 00}
+0x10B48 				Not {17 02}
+0x10B4A 			End {29 02}
+0x10B4C 			Ref: Gaming Mode, Variable: 0xFFFF {0F 0F C1 01 C2 01 13 00 00 00 FF FF 00 25 00}
+0x10B5B 		End If {29 02}
+0x10B5D 		Suppress If: {0A 82}
+0x10B5F 			Variable 0x91 equals 0x1 {12 86 91 00 01 00}
+0x10B65 				Not {17 02}
+0x10B67 			End {29 02}
+0x10B69 			Ref: NUMA nodes per socket, Variable: 0xFFFF {0F 0F C3 01 C4 01 14 00 00 00 FF FF 00 26 00}
+0x10B78 		End If {29 02}
+0x10B7A 		Suppress If: {0A 82}
+0x10B7C 			Variable 0xF7 equals 0x1 {12 86 F7 00 01 00}
+0x10B82 				Not {17 02}
+0x10B84 			End {29 02}
+0x10B86 			Ref: LCLK Frequency Control, Variable: 0xFFFF {0F 0F CB 01 CC 01 15 00 00 00 FF FF 00 28 00}
+0x10B95 		End If {29 02}
+0x10B97 	End Form {29 02}
+0x10B99 	Form: Onboard Voltage Controls, Form ID: 0x21 {01 86 21 00 BF 01}
+0x10B9F 		Subtitle: Onboard Voltage Controls {02 87 BF 01 00 00 00}
+0x10BA6 		End {29 02}
+0x10BA8 		Subtitle:   {02 87 05 00 00 00 00}
+0x10BAF 		End {29 02}
+0x10BB1 		Grayout If: {19 82}
+0x10BB3 			Variable 0x7D1 equals 0xF {12 86 D1 07 0F 00}
+0x10BB9 				Not {17 02}
+0x10BBB 			End {29 02}
+0x10BBD 			Numeric: Current VDDIO Value (mV) (281473917202480-281473917202480) , Variable: 0xC7 {07 9A EA 01 EB 01 16 00 00 F0 C7 00 00 12 00 00 00 00 D0 07 00 00 00 00 00 00}
+0x10BD7 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10BE0 			End {29 02}
+0x10BE2 		End If {29 02}
+0x10BE4 		Setting: VDDIO Voltage Control, Variable: 0xC2 {05 91 E5 01 E8 01 D1 07 00 F0 C2 00 14 10 00 02 00}
+0x10BF5 			Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x10BFC 			Option: Increase VDDIO, Value: 0x1 {09 07 E6 01 00 00 01}
+0x10C03 			Option: Decrease VDDIO, Value: 0x2 {09 07 E7 01 00 00 02}
+0x10C0A 		End of Options {29 02}
+0x10C0C 		Suppress If: {0A 82}
+0x10C0E 			Variable 0x7D1 equals 0x0 {12 06 D1 07 00 00}
+0x10C14 			Numeric: Adjust MEM VDDIO Value (281473917202480-281473917202480) , Variable: 0xC3 {07 9A E9 01 E8 01 D2 07 00 F0 C3 00 14 12 00 00 00 00 7F 00 00 00 00 00 00 00}
+0x10C2E 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10C37 			End {29 02}
+0x10C39 		End If {29 02}
+0x10C3B 		Grayout If: {19 82}
+0x10C3D 			Variable 0x18 equals 0xF {12 86 18 00 0F 00}
+0x10C43 				Not {17 02}
+0x10C45 			End {29 02}
+0x10C47 			Numeric: Current VTT Value (mV) (281473917202480-281473917202480) , Variable: 0xD9 {07 9A EF 01 F0 01 17 00 00 F0 D9 00 00 12 00 00 00 00 D0 07 00 00 00 00 00 00}
+0x10C61 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10C6A 			End {29 02}
+0x10C6C 		End If {29 02}
+0x10C6E 		Setting: VTT Voltage Control, Variable: 0xD4 {05 91 EC 01 ED 01 18 00 00 F0 D4 00 14 10 00 01 00}
+0x10C7F 			Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x10C86 			Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x10C8D 		End of Options {29 02}
+0x10C8F 		Suppress If: {0A 82}
+0x10C91 			Variable 0x18 equals 0x0 {12 06 18 00 00 00}
+0x10C97 			Numeric: Adjust VTT MEM Value (281473917202480-281473917202480) , Variable: 0xD5 {07 9A EE 01 ED 01 19 00 00 F0 D5 00 10 12 01 00 00 00 FF 00 00 00 00 00 00 00}
+0x10CB1 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 80 00 00 00}
+0x10CBA 			End {29 02}
+0x10CBC 		End If {29 02}
+0x10CBE 	End Form {29 02}
+0x10CC0 	Form: Manual CPU Overclocking, Form ID: 0xE {01 86 0E 00 0F 00}
+0x10CC6 		Subtitle: Manual CPU Overclocking {02 87 0F 00 00 00 00}
+0x10CCD 		End {29 02}
+0x10CCF 		Subtitle:   {02 87 05 00 00 00 00}
+0x10CD6 		End {29 02}
+0x10CD8 		Suppress If: {0A 82}
+0x10CDA 			Variable 0xF6 equals 0x1 {12 86 F6 00 01 00}
+0x10CE0 				Not {17 02}
+0x10CE2 			End {29 02}
+0x10CE4 			Numeric: CPU Frequency (281473917202480-281473917202480) , Variable: 0x26 {07 9A 11 00 12 00 1A 00 00 F0 26 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10CFE 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10D07 			End {29 02}
+0x10D09 		End If {29 02}
+0x10D0B 		Suppress If: {0A 82}
+0x10D0D 			Variable 0xF5 equals 0x1 {12 86 F5 00 01 00}
+0x10D13 				Not {17 02}
+0x10D15 			End {29 02}
+0x10D17 			Numeric: CPU Voltage (281473917202480-281473917202480) , Variable: 0x2A {07 9A 13 00 14 00 1B 00 00 F0 2A 00 10 12 00 00 00 00 0E 06 00 00 00 00 00 00}
+0x10D31 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10D3A 			End {29 02}
+0x10D3C 		End If {29 02}
+0x10D3E 		Suppress If: {0A 82}
+0x10D40 			Variable 0xF4 equals 0x1 {12 86 F4 00 01 00}
+0x10D46 				Not {17 02}
+0x10D48 			End {29 02}
+0x10D4A 			Ref: CPU Core Count Control, Variable: 0xFFFF {0F 0F 15 00 16 00 1C 00 00 00 FF FF 00 19 00}
+0x10D59 		End If {29 02}
+0x10D5B 	End Form {29 02}
+0x10D5D 	Form: Manual iGPU Overclocking, Form ID: 0x22 {01 86 22 00 2F 00}
+0x10D63 		Subtitle: Manual iGPU Overclocking {02 87 2F 00 00 00 00}
+0x10D6A 		End {29 02}
+0x10D6C 		Subtitle:   {02 87 05 00 00 00 00}
+0x10D73 		End {29 02}
+0x10D75 		Suppress If: {0A 82}
+0x10D77 			Variable 0xF3 equals 0x1 {12 86 F3 00 01 00}
+0x10D7D 				Not {17 02}
+0x10D7F 			End {29 02}
+0x10D81 			Numeric: GFX Clock Frequency (281473917202480-281473917202480) , Variable: 0x147 {07 9A 31 00 32 00 1D 00 00 F0 47 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x10D9B 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10DA4 			End {29 02}
+0x10DA6 		End If {29 02}
+0x10DA8 		Suppress If: {0A 82}
+0x10DAA 			Variable 0xF2 equals 0x1 {12 86 F2 00 01 00}
+0x10DB0 				Not {17 02}
+0x10DB2 			End {29 02}
+0x10DB4 			Numeric: GFX Voltage (281473917202480-281473917202480) , Variable: 0x14B {07 9A 33 00 34 00 1E 00 00 F0 4B 01 10 12 00 00 00 00 0E 06 00 00 00 00 00 00}
+0x10DCE 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x10DD7 			End {29 02}
+0x10DD9 		End If {29 02}
+0x10DDB 	End Form {29 02}
+0x10DDD 	Form: DDR and Infinity Fabric Frequency/Timings, Form ID: 0xF {01 86 0F 00 35 00}
+0x10DE3 		Subtitle: DDR and Infinity Fabric Frequency/Timings {02 87 35 00 00 00 00}
+0x10DEA 		End {29 02}
+0x10DEC 		Subtitle:   {02 87 05 00 00 00 00}
+0x10DF3 		End {29 02}
+0x10DF5 		Suppress If: {0A 82}
+0x10DF7 			Variable 0xF1 equals 0x1 {12 86 F1 00 01 00}
+0x10DFD 				Not {17 02}
+0x10DFF 			End {29 02}
+0x10E01 			Ref: DDR Frequency and Timings, Variable: 0xFFFF {0F 0F 37 00 38 00 1F 00 00 00 FF FF 00 1A 00}
+0x10E10 		End If {29 02}
+0x10E12 		Suppress If: {0A 82}
+0x10E14 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x10E1A 				Not {17 02}
+0x10E1C 			End {29 02}
+0x10E1E 			Ref: Infinity Fabric Frequency and Dividers, Variable: 0xFFFF {0F 0F 5A 01 5B 01 20 00 00 00 FF FF 00 1B 00}
+0x10E2D 		End If {29 02}
+0x10E2F 	End Form {29 02}
+0x10E31 	Form: Accept, Form ID: 0x19 {01 86 19 00 17 00}
+0x10E37 		Subtitle: Accept {02 87 17 00 00 00 00}
+0x10E3E 		End {29 02}
+0x10E40 		Subtitle:   {02 87 05 00 00 00 00}
+0x10E47 		End {29 02}
+0x10E49 		Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 09 20}
+0x10E5E 		Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0A 20}
+0x10E73 		Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 07 20}
+0x10E88 		Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 08 20}
+0x10E9D 		Suppress If: {0A 82}
+0x10E9F 			Variable 0xEF equals 0x1 {12 86 EF 00 01 00}
+0x10EA5 				Not {17 02}
+0x10EA7 			End {29 02}
+0x10EA9 			Setting: SMT Control, Variable: 0x30 {05 91 2B 00 2C 00 21 00 00 F0 30 00 10 10 00 01 00}
+0x10EBA 				Option: Disable, Value: 0x0 {09 07 2D 00 00 00 00}
+0x10EC1 				Option: Auto, Value: 0x1 (default) {09 07 09 00 10 00 01}
+0x10EC8 			End of Options {29 02}
+0x10ECA 		End If {29 02}
+0x10ECC 	End Form {29 02}
+0x10ECE 	Form: DDR Frequency and Timings, Form ID: 0x1A {01 86 1A 00 37 00}
+0x10ED4 		Subtitle:   {02 87 05 00 00 00 00}
+0x10EDB 		End {29 02}
+0x10EDD 		Subtitle:   {02 87 05 00 00 00 00}
+0x10EE4 		End {29 02}
+0x10EE6 		Suppress If: {0A 82}
+0x10EE8 			Variable 0xEE equals 0x1 {12 86 EE 00 01 00}
+0x10EEE 				Not {17 02}
+0x10EF0 			End {29 02}
+0x10EF2 			Ref: DRAM Timing Configuration, Variable: 0xFFFF {0F 0F 39 00 39 00 22 00 00 00 FF FF 00 1C 00}
+0x10F01 		End If {29 02}
+0x10F03 		Suppress If: {0A 82}
+0x10F05 			Variable 0xED equals 0x1 {12 86 ED 00 01 00}
+0x10F0B 				Not {17 02}
+0x10F0D 			End {29 02}
+0x10F0F 			Ref: DRAM Controller Configuration, Variable: 0xFFFF {0F 0F 3A 00 3A 00 23 00 00 00 FF FF 00 1D 00}
+0x10F1E 		End If {29 02}
+0x10F20 		Suppress If: {0A 82}
+0x10F22 			Variable 0xEC equals 0x1 {12 86 EC 00 01 00}
+0x10F28 				Not {17 02}
+0x10F2A 			End {29 02}
+0x10F2C 			Ref: CAD Bus Configuration, Variable: 0xFFFF {0F 0F 3B 00 3B 00 24 00 00 00 FF FF 00 1E 00}
+0x10F3B 		End If {29 02}
+0x10F3D 		Suppress If: {0A 82}
+0x10F3F 			Variable 0xEB equals 0x1 {12 86 EB 00 01 00}
+0x10F45 				Not {17 02}
+0x10F47 			End {29 02}
+0x10F49 			Ref: Data Bus Configuration, Variable: 0xFFFF {0F 0F 3C 00 3C 00 25 00 00 00 FF FF 00 1F 00}
+0x10F58 		End If {29 02}
+0x10F5A 	End Form {29 02}
+0x10F5C 	Form: Curve Optimizer, Form ID: 0x27 {01 86 27 00 71 01}
+0x10F62 		Subtitle:   {02 87 05 00 00 00 00}
+0x10F69 		End {29 02}
+0x10F6B 		Subtitle:   {02 87 05 00 00 00 00}
+0x10F72 		End {29 02}
+0x10F74 		Suppress If: {0A 82}
+0x10F76 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x10F7C 				Not {17 02}
+0x10F7E 				Variable 0x9F equals 0x1 {12 06 9F 00 01 00}
+0x10F84 				Not {17 02}
+0x10F86 				Or {16 02}
+0x10F88 			End {29 02}
+0x10F8A 			Setting: Curve Optimizer, Variable: 0x170 {05 91 72 01 73 01 26 00 00 F0 70 01 10 10 00 02 00}
+0x10F9B 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x10FA2 				Option: All Cores, Value: 0x1 {09 07 74 01 00 00 01}
+0x10FA9 				Option: Per Core, Value: 0x2 {09 07 75 01 00 00 02}
+0x10FB0 			End of Options {29 02}
+0x10FB2 		End If {29 02}
+0x10FB4 		Suppress If: {0A 82}
+0x10FB6 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x10FBC 				Not {17 02}
+0x10FBE 				Variable 0x26 equals 0x1 {12 06 26 00 01 00}
+0x10FC4 				Not {17 02}
+0x10FC6 				Or {16 02}
+0x10FC8 				Variable 0xEA equals 0x1 {12 06 EA 00 01 00}
+0x10FCE 				Not {17 02}
+0x10FD0 				Or {16 02}
+0x10FD2 			End {29 02}
+0x10FD4 			Setting: All Core Curve Optimizer Sign, Variable: 0x171 {05 91 76 01 77 01 27 00 00 F0 71 01 10 10 00 01 00}
+0x10FE5 				Option: Positive, Value: 0x0 (default) {09 07 82 01 10 00 00}
+0x10FEC 				Option: Negative, Value: 0x1 {09 07 83 01 00 00 01}
+0x10FF3 			End of Options {29 02}
+0x10FF5 			Numeric: All Core Curve Optimizer Magnitude (281473917202480-281473917202480) , Variable: 0x172 {07 94 78 01 79 01 28 00 00 F0 72 01 10 11 00 00 1E 00 01 00}
+0x11009 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x11010 			End {29 02}
+0x11012 		End If {29 02}
+0x11014 		Suppress If: {0A 82}
+0x11016 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1101C 				Not {17 02}
+0x1101E 				Variable 0x26 equals 0x2 {12 06 26 00 02 00}
+0x11024 				Not {17 02}
+0x11026 				Or {16 02}
+0x11028 				Variable 0xE9 equals 0x1 {12 06 E9 00 01 00}
+0x1102E 				Not {17 02}
+0x11030 				Or {16 02}
+0x11032 			End {29 02}
+0x11034 			Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 05 20}
+0x11049 			Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 06 20}
+0x1105E 		End If {29 02}
+0x11060 	End Form {29 02}
+0x11062 	Form: GFX Curve Optimizer, Form ID: 0x29 {01 86 29 00 7D 01}
+0x11068 		Subtitle:   {02 87 05 00 00 00 00}
+0x1106F 		End {29 02}
+0x11071 		Subtitle:   {02 87 05 00 00 00 00}
+0x11078 		End {29 02}
+0x1107A 		Suppress If: {0A 82}
+0x1107C 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x11082 				Not {17 02}
+0x11084 			End {29 02}
+0x11086 			Setting: GFX Curve Optimizer, Variable: 0x23C {05 91 7A 01 7B 01 29 00 00 F0 3C 02 10 10 00 01 00}
+0x11097 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x1109E 				Option: GFX Curve Optimizer, Value: 0x1 {09 07 7C 01 00 00 01}
+0x110A5 			End of Options {29 02}
+0x110A7 		End If {29 02}
+0x110A9 		Suppress If: {0A 82}
+0x110AB 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x110B1 				Not {17 02}
+0x110B3 				Variable 0x29 equals 0x1 {12 06 29 00 01 00}
+0x110B9 				Not {17 02}
+0x110BB 				Or {16 02}
+0x110BD 			End {29 02}
+0x110BF 			Setting: GFX Curve Optimizer Sign, Variable: 0x23D {05 91 7E 01 7F 01 2A 00 00 F0 3D 02 10 10 00 01 00}
+0x110D0 				Option: Positive, Value: 0x0 (default) {09 07 82 01 10 00 00}
+0x110D7 				Option: Negative, Value: 0x1 {09 07 83 01 00 00 01}
+0x110DE 			End of Options {29 02}
+0x110E0 			Numeric: GFX Curve Optimizer Magnitude (281473917202480-281473917202480) , Variable: 0x23E {07 94 80 01 81 01 2B 00 00 F0 3E 02 10 11 00 00 1E 00 01 00}
+0x110F4 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x110FB 			End {29 02}
+0x110FD 		End If {29 02}
+0x110FF 	End Form {29 02}
+0x11101 	Form: Infinity Fabric Frequency and Dividers, Form ID: 0x1B {01 86 1B 00 5A 01}
+0x11107 		Subtitle:   {02 87 05 00 00 00 00}
+0x1110E 		End {29 02}
+0x11110 		Subtitle:   {02 87 05 00 00 00 00}
+0x11117 		End {29 02}
+0x11119 		Suppress If: {0A 82}
+0x1111B 			Variable 0xE8 equals 0x1 {12 86 E8 00 01 00}
+0x11121 				Not {17 02}
+0x11123 			End {29 02}
+0x11125 			Setting: Infinity Fabric Frequency and Dividers, Variable: 0x87 {05 91 5A 01 5B 01 2C 00 00 F0 87 00 10 10 FF FF 00}
+0x11136 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x1113D 			End of Options {29 02}
+0x1113F 		End If {29 02}
+0x11141 		Suppress If: {0A 82}
+0x11143 			Variable 0xE7 equals 0x1 {12 86 E7 00 01 00}
+0x11149 				Not {17 02}
+0x1114B 			End {29 02}
+0x1114D 			Setting: Infinity Fabric Frequency and Dividers, Variable: 0x87 {05 91 5A 01 5C 01 2D 00 00 F0 87 00 10 10 01 FF 00}
+0x1115E 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11165 				Option: 800MHz, Value: 0x1 {09 07 41 00 00 00 01}
+0x1116C 				Option: 933MHz, Value: 0x2 {09 07 42 00 00 00 02}
+0x11173 				Option: 1067MHz, Value: 0x3 {09 07 43 00 00 00 03}
+0x1117A 				Option: 1200MHz, Value: 0x4 {09 07 44 00 00 00 04}
+0x11181 				Option: 1333MHz, Value: 0x5 {09 07 45 00 00 00 05}
+0x11188 				Option: 1367MHz, Value: 0x6 {09 07 46 00 00 00 06}
+0x1118F 				Option: 1400MHz, Value: 0x7 {09 07 47 00 00 00 07}
+0x11196 				Option: 1433MHz, Value: 0x8 {09 07 48 00 00 00 08}
+0x1119D 				Option: 1467MHz, Value: 0x9 {09 07 49 00 00 00 09}
+0x111A4 				Option: 1500MHz, Value: 0xA {09 07 4A 00 00 00 0A}
+0x111AB 				Option: 1533MHz, Value: 0xB {09 07 4B 00 00 00 0B}
+0x111B2 				Option: 1567MHz, Value: 0xC {09 07 4C 00 00 00 0C}
+0x111B9 				Option: 1600MHz, Value: 0xD {09 07 4D 00 00 00 0D}
+0x111C0 				Option: 1633MHz, Value: 0xE {09 07 4E 00 00 00 0E}
+0x111C7 				Option: 1667MHz, Value: 0xF {09 07 4F 00 00 00 0F}
+0x111CE 				Option: 1700MHz, Value: 0x10 {09 07 50 00 00 00 10}
+0x111D5 				Option: 1733MHz, Value: 0x11 {09 07 51 00 00 00 11}
+0x111DC 				Option: 1767MHz, Value: 0x12 {09 07 52 00 00 00 12}
+0x111E3 				Option: 1800MHz, Value: 0x13 {09 07 53 00 00 00 13}
+0x111EA 				Option: 1833MHz, Value: 0x14 {09 07 54 00 00 00 14}
+0x111F1 				Option: 1867MHz, Value: 0x15 {09 07 55 00 00 00 15}
+0x111F8 				Option: 1900MHz, Value: 0x16 {09 07 56 00 00 00 16}
+0x111FF 				Option: 1933MHz, Value: 0x17 {09 07 57 00 00 00 17}
+0x11206 				Option: 1967MHz, Value: 0x18 {09 07 58 00 00 00 18}
+0x1120D 				Option: 2000MHz, Value: 0x19 {09 07 59 00 00 00 19}
+0x11214 				Option: 2033MHz, Value: 0x1A {09 07 5A 00 00 00 1A}
+0x1121B 				Option: 2067MHz, Value: 0x1B {09 07 5B 00 00 00 1B}
+0x11222 				Option: 2100MHz, Value: 0x1C {09 07 5C 00 00 00 1C}
+0x11229 				Option: 2133MHZ, Value: 0x1D {09 07 5D 00 00 00 1D}
+0x11230 				Option: 2167MHZ, Value: 0x1E {09 07 5E 00 00 00 1E}
+0x11237 				Option: 2200MHZ, Value: 0x1F {09 07 5F 00 00 00 1F}
+0x1123E 				Option: 2233MHZ, Value: 0x20 {09 07 60 00 00 00 20}
+0x11245 				Option: 2267MHZ, Value: 0x21 {09 07 61 00 00 00 21}
+0x1124C 				Option: 2300MHZ, Value: 0x22 {09 07 62 00 00 00 22}
+0x11253 				Option: 2333MHZ, Value: 0x23 {09 07 63 00 00 00 23}
+0x1125A 				Option: 2367MHZ, Value: 0x24 {09 07 64 00 00 00 24}
+0x11261 				Option: 2400MHZ, Value: 0x25 {09 07 65 00 00 00 25}
+0x11268 				Option: 2433MHZ, Value: 0x26 {09 07 66 00 00 00 26}
+0x1126F 				Option: 2467MHZ, Value: 0x27 {09 07 67 00 00 00 27}
+0x11276 				Option: 2500MHZ, Value: 0x28 {09 07 68 00 00 00 28}
+0x1127D 				Option: 2550MHZ, Value: 0x29 {09 07 69 00 00 00 29}
+0x11284 				Option: 2600MHZ, Value: 0x2A {09 07 6A 00 00 00 2A}
+0x1128B 				Option: 2650MHZ, Value: 0x2B {09 07 6B 00 00 00 2B}
+0x11292 				Option: 2700MHZ, Value: 0x2C {09 07 6C 00 00 00 2C}
+0x11299 				Option: 2750MHZ, Value: 0x2D {09 07 6D 00 00 00 2D}
+0x112A0 				Option: 2800MHZ, Value: 0x2E {09 07 6E 00 00 00 2E}
+0x112A7 				Option: 2850MHZ, Value: 0x2F {09 07 6F 00 00 00 2F}
+0x112AE 				Option: 2900MHZ, Value: 0x30 {09 07 70 00 00 00 30}
+0x112B5 				Option: 2950MHZ, Value: 0x31 {09 07 71 00 00 00 31}
+0x112BC 				Option: 3000MHZ, Value: 0x32 {09 07 72 00 00 00 32}
+0x112C3 				Option: 3050MHZ, Value: 0x33 {09 07 73 00 00 00 33}
+0x112CA 				Option: 3100MHZ, Value: 0x34 {09 07 74 00 00 00 34}
+0x112D1 				Option: 3150MHZ, Value: 0x35 {09 07 75 00 00 00 35}
+0x112D8 				Option: 3200MHZ, Value: 0x36 {09 07 76 00 00 00 36}
+0x112DF 				Option: 3250MHZ, Value: 0x37 {09 07 77 00 00 00 37}
+0x112E6 				Option: 3300MHZ, Value: 0x38 {09 07 78 00 00 00 38}
+0x112ED 				Option: 3350MHZ, Value: 0x39 {09 07 79 00 00 00 39}
+0x112F4 				Option: 3400MHZ, Value: 0x3A {09 07 7A 00 00 00 3A}
+0x112FB 				Option: 3450MHZ, Value: 0x3B {09 07 7B 00 00 00 3B}
+0x11302 				Option: 3500MHZ, Value: 0x3C {09 07 7C 00 00 00 3C}
+0x11309 				Option: 3550MHZ, Value: 0x3D {09 07 7D 00 00 00 3D}
+0x11310 				Option: 3600MHZ, Value: 0x3E {09 07 7E 00 00 00 3E}
+0x11317 				Option: 3650MHZ, Value: 0x3F {09 07 7F 00 00 00 3F}
+0x1131E 				Option: 3700MHZ, Value: 0x40 {09 07 80 00 00 00 40}
+0x11325 				Option: 3750MHZ, Value: 0x41 {09 07 81 00 00 00 41}
+0x1132C 				Option: 3800MHZ, Value: 0x42 {09 07 82 00 00 00 42}
+0x11333 				Option: 3850MHZ, Value: 0x43 {09 07 83 00 00 00 43}
+0x1133A 				Option: 3900MHZ, Value: 0x44 {09 07 84 00 00 00 44}
+0x11341 				Option: 3950MHZ, Value: 0x45 {09 07 85 00 00 00 45}
+0x11348 				Option: 4000MHZ, Value: 0x46 {09 07 86 00 00 00 46}
+0x1134F 			End of Options {29 02}
+0x11351 		End If {29 02}
+0x11353 	End Form {29 02}
+0x11355 	Form: DRAM Timing Configuration, Form ID: 0x1C {01 86 1C 00 39 00}
+0x1135B 		Subtitle: DRAM Timing Configuration {02 87 39 00 00 00 00}
+0x11362 		End {29 02}
+0x11364 		Subtitle:   {02 87 05 00 00 00 00}
+0x1136B 		End {29 02}
+0x1136D 		Suppress If: {0A 82}
+0x1136F 			Variable 0xE6 equals 0x1 {12 86 E6 00 01 00}
+0x11375 				Not {17 02}
+0x11377 			End {29 02}
+0x11379 			Setting: Overclock, Variable: 0x48 {05 91 3D 00 3E 00 2E 00 00 F0 48 00 10 10 01 FF 00}
+0x1138A 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11391 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x11398 			End of Options {29 02}
+0x1139A 		End If {29 02}
+0x1139C 		Suppress If: {0A 82}
+0x1139E 			Variable 0xE5 equals 0x1 {12 86 E5 00 01 00}
+0x113A4 				Not {17 02}
+0x113A6 			End {29 02}
+0x113A8 			Setting: DRAM Latency Enhance, Variable: 0x234 {05 91 C9 01 CA 01 2F 00 00 F0 34 02 10 10 00 01 00}
+0x113B9 				Option: Disable, Value: 0x0 (default) {09 07 2D 00 10 00 00}
+0x113C0 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x113C7 			End of Options {29 02}
+0x113C9 		End If {29 02}
+0x113CB 		Suppress If: {0A 82}
+0x113CD 			Variable 0xE4 equals 0x1 {12 86 E4 00 01 00}
+0x113D3 				Not {17 02}
+0x113D5 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x113DB 				Not {17 02}
+0x113DD 				Or {16 02}
+0x113DF 			End {29 02}
+0x113E1 			Setting: Memory Clock Speed, Variable: 0x49 {05 91 3F 00 40 00 30 00 00 F0 49 00 10 10 18 FF 00}
+0x113F2 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x113F9 				Option: 800MHz, Value: 0x18 {09 07 41 00 00 00 18}
+0x11400 				Option: 933MHz, Value: 0x1C {09 07 42 00 00 00 1C}
+0x11407 				Option: 1067MHz, Value: 0x20 {09 07 43 00 00 00 20}
+0x1140E 				Option: 1200MHz, Value: 0x24 {09 07 44 00 00 00 24}
+0x11415 				Option: 1333MHz, Value: 0x28 {09 07 45 00 00 00 28}
+0x1141C 				Option: 1367MHz, Value: 0x29 {09 07 46 00 00 00 29}
+0x11423 				Option: 1400MHz, Value: 0x2A {09 07 47 00 00 00 2A}
+0x1142A 				Option: 1433MHz, Value: 0x2B {09 07 48 00 00 00 2B}
+0x11431 				Option: 1467MHz, Value: 0x2C {09 07 49 00 00 00 2C}
+0x11438 				Option: 1500MHz, Value: 0x2D {09 07 4A 00 00 00 2D}
+0x1143F 				Option: 1533MHz, Value: 0x2E {09 07 4B 00 00 00 2E}
+0x11446 				Option: 1567MHz, Value: 0x2F {09 07 4C 00 00 00 2F}
+0x1144D 				Option: 1600MHz, Value: 0x30 {09 07 4D 00 00 00 30}
+0x11454 				Option: 1633MHz, Value: 0x31 {09 07 4E 00 00 00 31}
+0x1145B 				Option: 1667MHz, Value: 0x32 {09 07 4F 00 00 00 32}
+0x11462 				Option: 1700MHz, Value: 0x33 {09 07 50 00 00 00 33}
+0x11469 				Option: 1733MHz, Value: 0x34 {09 07 51 00 00 00 34}
+0x11470 				Option: 1767MHz, Value: 0x35 {09 07 52 00 00 00 35}
+0x11477 				Option: 1800MHz, Value: 0x36 {09 07 53 00 00 00 36}
+0x1147E 				Option: 1833MHz, Value: 0x37 {09 07 54 00 00 00 37}
+0x11485 				Option: 1867MHz, Value: 0x38 {09 07 55 00 00 00 38}
+0x1148C 				Option: 1900MHz, Value: 0x39 {09 07 56 00 00 00 39}
+0x11493 				Option: 1933MHz, Value: 0x3A {09 07 57 00 00 00 3A}
+0x1149A 				Option: 1967MHz, Value: 0x3B {09 07 58 00 00 00 3B}
+0x114A1 				Option: 2000MHz, Value: 0x3C {09 07 59 00 00 00 3C}
+0x114A8 				Option: 2033MHz, Value: 0x3D {09 07 5A 00 00 00 3D}
+0x114AF 				Option: 2067MHz, Value: 0x3E {09 07 5B 00 00 00 3E}
+0x114B6 				Option: 2100MHz, Value: 0x3F {09 07 5C 00 00 00 3F}
+0x114BD 				Option: 2133MHZ, Value: 0x40 {09 07 5D 00 00 00 40}
+0x114C4 				Option: 2167MHZ, Value: 0x41 {09 07 5E 00 00 00 41}
+0x114CB 				Option: 2200MHZ, Value: 0x42 {09 07 5F 00 00 00 42}
+0x114D2 				Option: 2233MHZ, Value: 0x43 {09 07 60 00 00 00 43}
+0x114D9 				Option: 2267MHZ, Value: 0x44 {09 07 61 00 00 00 44}
+0x114E0 				Option: 2300MHZ, Value: 0x45 {09 07 62 00 00 00 45}
+0x114E7 				Option: 2333MHZ, Value: 0x46 {09 07 63 00 00 00 46}
+0x114EE 				Option: 2367MHZ, Value: 0x47 {09 07 64 00 00 00 47}
+0x114F5 				Option: 2400MHZ, Value: 0x48 {09 07 65 00 00 00 48}
+0x114FC 				Option: 2433MHZ, Value: 0x49 {09 07 66 00 00 00 49}
+0x11503 				Option: 2467MHZ, Value: 0x4A {09 07 67 00 00 00 4A}
+0x1150A 				Option: 2500MHZ, Value: 0x4B {09 07 68 00 00 00 4B}
+0x11511 				Option: 2550MHZ, Value: 0x4C {09 07 69 00 00 00 4C}
+0x11518 				Option: 2600MHZ, Value: 0x4D {09 07 6A 00 00 00 4D}
+0x1151F 				Option: 2650MHZ, Value: 0x4E {09 07 6B 00 00 00 4E}
+0x11526 				Option: 2700MHZ, Value: 0x4F {09 07 6C 00 00 00 4F}
+0x1152D 				Option: 2750MHZ, Value: 0x50 {09 07 6D 00 00 00 50}
+0x11534 				Option: 2800MHZ, Value: 0x51 {09 07 6E 00 00 00 51}
+0x1153B 				Option: 2850MHZ, Value: 0x52 {09 07 6F 00 00 00 52}
+0x11542 				Option: 2900MHZ, Value: 0x53 {09 07 70 00 00 00 53}
+0x11549 				Option: 2950MHZ, Value: 0x54 {09 07 71 00 00 00 54}
+0x11550 				Option: 3000MHZ, Value: 0x55 {09 07 72 00 00 00 55}
+0x11557 				Option: 3050MHZ, Value: 0x56 {09 07 73 00 00 00 56}
+0x1155E 				Option: 3100MHZ, Value: 0x57 {09 07 74 00 00 00 57}
+0x11565 				Option: 3150MHZ, Value: 0x58 {09 07 75 00 00 00 58}
+0x1156C 				Option: 3200MHZ, Value: 0x59 {09 07 76 00 00 00 59}
+0x11573 				Option: 3250MHZ, Value: 0x5A {09 07 77 00 00 00 5A}
+0x1157A 				Option: 3300MHZ, Value: 0x5B {09 07 78 00 00 00 5B}
+0x11581 				Option: 3350MHZ, Value: 0x5C {09 07 79 00 00 00 5C}
+0x11588 				Option: 3400MHZ, Value: 0x5D {09 07 7A 00 00 00 5D}
+0x1158F 				Option: 3450MHZ, Value: 0x5E {09 07 7B 00 00 00 5E}
+0x11596 				Option: 3500MHZ, Value: 0x5F {09 07 7C 00 00 00 5F}
+0x1159D 				Option: 3550MHZ, Value: 0x60 {09 07 7D 00 00 00 60}
+0x115A4 				Option: 3600MHZ, Value: 0x61 {09 07 7E 00 00 00 61}
+0x115AB 				Option: 3650MHZ, Value: 0x62 {09 07 7F 00 00 00 62}
+0x115B2 				Option: 3700MHZ, Value: 0x63 {09 07 80 00 00 00 63}
+0x115B9 				Option: 3750MHZ, Value: 0x64 {09 07 81 00 00 00 64}
+0x115C0 				Option: 3800MHZ, Value: 0x65 {09 07 82 00 00 00 65}
+0x115C7 				Option: 3850MHZ, Value: 0x66 {09 07 83 00 00 00 66}
+0x115CE 				Option: 3900MHZ, Value: 0x67 {09 07 84 00 00 00 67}
+0x115D5 				Option: 3950MHZ, Value: 0x68 {09 07 85 00 00 00 68}
+0x115DC 				Option: 4000MHZ, Value: 0x69 {09 07 86 00 00 00 69}
+0x115E3 			End of Options {29 02}
+0x115E5 		End If {29 02}
+0x115E7 		Suppress If: {0A 82}
+0x115E9 			Variable 0xE3 equals 0x1 {12 86 E3 00 01 00}
+0x115EF 				Not {17 02}
+0x115F1 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x115F7 				Not {17 02}
+0x115F9 				Or {16 02}
+0x115FB 			End {29 02}
+0x115FD 			Setting: Tcl, Variable: 0x4A {05 91 87 00 88 00 31 00 00 F0 4A 00 10 10 08 FF 00}
+0x1160E 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11615 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x1161C 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11623 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x1162A 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11631 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11638 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x1163F 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x11646 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x1164D 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x11654 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x1165B 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x11662 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x11669 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x11670 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x11677 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x1167E 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x11685 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x1168C 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x11693 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x1169A 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x116A1 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x116A8 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x116AF 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x116B6 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x116BD 				Option: 20h Clk, Value: 0x20 {09 07 A1 00 00 00 20}
+0x116C4 				Option: 21h Clk, Value: 0x21 {09 07 A2 00 00 00 21}
+0x116CB 			End of Options {29 02}
+0x116CD 		End If {29 02}
+0x116CF 		Suppress If: {0A 82}
+0x116D1 			Variable 0xE2 equals 0x1 {12 86 E2 00 01 00}
+0x116D7 				Not {17 02}
+0x116D9 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x116DF 				Not {17 02}
+0x116E1 				Or {16 02}
+0x116E3 			End {29 02}
+0x116E5 			Setting: Trcdrd, Variable: 0x4B {05 91 C1 00 C2 00 32 00 00 F0 4B 00 10 10 08 FF 00}
+0x116F6 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x116FD 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11704 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x1170B 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11712 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11719 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11720 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x11727 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x1172E 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x11735 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x1173C 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x11743 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x1174A 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x11751 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x11758 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x1175F 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x11766 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x1176D 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x11774 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x1177B 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x11782 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x11789 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x11790 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x11797 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x1179E 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x117A5 				Option: 20h Clk, Value: 0x20 {09 07 A1 00 00 00 20}
+0x117AC 				Option: 21h Clk, Value: 0x21 {09 07 A2 00 00 00 21}
+0x117B3 				Option: 22h Clk, Value: 0x22 {09 07 A3 00 00 00 22}
+0x117BA 				Option: 23h Clk, Value: 0x23 {09 07 A4 00 00 00 23}
+0x117C1 				Option: 24h Clk, Value: 0x24 {09 07 A5 00 00 00 24}
+0x117C8 				Option: 25h Clk, Value: 0x25 {09 07 A6 00 00 00 25}
+0x117CF 				Option: 26h Clk, Value: 0x26 {09 07 A7 00 00 00 26}
+0x117D6 				Option: 27h Clk, Value: 0x27 {09 07 A8 00 00 00 27}
+0x117DD 				Option: 28h Clk, Value: 0x28 {09 07 A9 00 00 00 28}
+0x117E4 				Option: 29h Clk, Value: 0x29 {09 07 AA 00 00 00 29}
+0x117EB 				Option: 2Ah Clk, Value: 0x2A {09 07 AB 00 00 00 2A}
+0x117F2 				Option: 2Bh Clk, Value: 0x2B {09 07 AC 00 00 00 2B}
+0x117F9 				Option: 2Ch Clk, Value: 0x2C {09 07 AD 00 00 00 2C}
+0x11800 				Option: 2Dh Clk, Value: 0x2D {09 07 AE 00 00 00 2D}
+0x11807 				Option: 2Eh Clk, Value: 0x2E {09 07 AF 00 00 00 2E}
+0x1180E 				Option: 2Fh Clk, Value: 0x2F {09 07 B0 00 00 00 2F}
+0x11815 				Option: 30h Clk, Value: 0x30 {09 07 B1 00 00 00 30}
+0x1181C 				Option: 31h Clk, Value: 0x31 {09 07 B2 00 00 00 31}
+0x11823 				Option: 32h Clk, Value: 0x32 {09 07 B3 00 00 00 32}
+0x1182A 				Option: 33h Clk, Value: 0x33 {09 07 B4 00 00 00 33}
+0x11831 				Option: 34h Clk, Value: 0x34 {09 07 B5 00 00 00 34}
+0x11838 				Option: 35h Clk, Value: 0x35 {09 07 B6 00 00 00 35}
+0x1183F 				Option: 36h Clk, Value: 0x36 {09 07 B7 00 00 00 36}
+0x11846 				Option: 37h Clk, Value: 0x37 {09 07 B8 00 00 00 37}
+0x1184D 				Option: 38h Clk, Value: 0x38 {09 07 B9 00 00 00 38}
+0x11854 				Option: 39h Clk, Value: 0x39 {09 07 BA 00 00 00 39}
+0x1185B 				Option: 3Ah Clk, Value: 0x3A {09 07 BB 00 00 00 3A}
+0x11862 				Option: 3Bh Clk, Value: 0x3B {09 07 BC 00 00 00 3B}
+0x11869 				Option: 3Ch Clk, Value: 0x3C {09 07 BD 00 00 00 3C}
+0x11870 				Option: 3Dh Clk, Value: 0x3D {09 07 BE 00 00 00 3D}
+0x11877 				Option: 3Eh Clk, Value: 0x3E {09 07 BF 00 00 00 3E}
+0x1187E 				Option: 3Fh Clk, Value: 0x3F {09 07 C0 00 00 00 3F}
+0x11885 			End of Options {29 02}
+0x11887 		End If {29 02}
+0x11889 		Suppress If: {0A 82}
+0x1188B 			Variable 0xE1 equals 0x1 {12 86 E1 00 01 00}
+0x11891 				Not {17 02}
+0x11893 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11899 				Not {17 02}
+0x1189B 				Or {16 02}
+0x1189D 			End {29 02}
+0x1189F 			Setting: Trcdwr, Variable: 0x4C {05 91 C3 00 C4 00 33 00 00 F0 4C 00 10 10 08 FF 00}
+0x118B0 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x118B7 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x118BE 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x118C5 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x118CC 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x118D3 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x118DA 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x118E1 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x118E8 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x118EF 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x118F6 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x118FD 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x11904 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x1190B 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x11912 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x11919 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x11920 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x11927 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x1192E 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x11935 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x1193C 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x11943 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x1194A 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x11951 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x11958 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x1195F 				Option: 20h Clk, Value: 0x20 {09 07 A1 00 00 00 20}
+0x11966 				Option: 21h Clk, Value: 0x21 {09 07 A2 00 00 00 21}
+0x1196D 				Option: 22h Clk, Value: 0x22 {09 07 A3 00 00 00 22}
+0x11974 				Option: 23h Clk, Value: 0x23 {09 07 A4 00 00 00 23}
+0x1197B 				Option: 24h Clk, Value: 0x24 {09 07 A5 00 00 00 24}
+0x11982 				Option: 25h Clk, Value: 0x25 {09 07 A6 00 00 00 25}
+0x11989 				Option: 26h Clk, Value: 0x26 {09 07 A7 00 00 00 26}
+0x11990 				Option: 27h Clk, Value: 0x27 {09 07 A8 00 00 00 27}
+0x11997 				Option: 28h Clk, Value: 0x28 {09 07 A9 00 00 00 28}
+0x1199E 				Option: 29h Clk, Value: 0x29 {09 07 AA 00 00 00 29}
+0x119A5 				Option: 2Ah Clk, Value: 0x2A {09 07 AB 00 00 00 2A}
+0x119AC 				Option: 2Bh Clk, Value: 0x2B {09 07 AC 00 00 00 2B}
+0x119B3 				Option: 2Ch Clk, Value: 0x2C {09 07 AD 00 00 00 2C}
+0x119BA 				Option: 2Dh Clk, Value: 0x2D {09 07 AE 00 00 00 2D}
+0x119C1 				Option: 2Eh Clk, Value: 0x2E {09 07 AF 00 00 00 2E}
+0x119C8 				Option: 2Fh Clk, Value: 0x2F {09 07 B0 00 00 00 2F}
+0x119CF 				Option: 30h Clk, Value: 0x30 {09 07 B1 00 00 00 30}
+0x119D6 				Option: 31h Clk, Value: 0x31 {09 07 B2 00 00 00 31}
+0x119DD 				Option: 32h Clk, Value: 0x32 {09 07 B3 00 00 00 32}
+0x119E4 				Option: 33h Clk, Value: 0x33 {09 07 B4 00 00 00 33}
+0x119EB 				Option: 34h Clk, Value: 0x34 {09 07 B5 00 00 00 34}
+0x119F2 				Option: 35h Clk, Value: 0x35 {09 07 B6 00 00 00 35}
+0x119F9 				Option: 36h Clk, Value: 0x36 {09 07 B7 00 00 00 36}
+0x11A00 				Option: 37h Clk, Value: 0x37 {09 07 B8 00 00 00 37}
+0x11A07 				Option: 38h Clk, Value: 0x38 {09 07 B9 00 00 00 38}
+0x11A0E 				Option: 39h Clk, Value: 0x39 {09 07 BA 00 00 00 39}
+0x11A15 				Option: 3Ah Clk, Value: 0x3A {09 07 BB 00 00 00 3A}
+0x11A1C 				Option: 3Bh Clk, Value: 0x3B {09 07 BC 00 00 00 3B}
+0x11A23 				Option: 3Ch Clk, Value: 0x3C {09 07 BD 00 00 00 3C}
+0x11A2A 				Option: 3Dh Clk, Value: 0x3D {09 07 BE 00 00 00 3D}
+0x11A31 				Option: 3Eh Clk, Value: 0x3E {09 07 BF 00 00 00 3E}
+0x11A38 				Option: 3Fh Clk, Value: 0x3F {09 07 C0 00 00 00 3F}
+0x11A3F 			End of Options {29 02}
+0x11A41 		End If {29 02}
+0x11A43 		Suppress If: {0A 82}
+0x11A45 			Variable 0xE0 equals 0x1 {12 86 E0 00 01 00}
+0x11A4B 				Not {17 02}
+0x11A4D 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11A53 				Not {17 02}
+0x11A55 				Or {16 02}
+0x11A57 			End {29 02}
+0x11A59 			Setting: Trp, Variable: 0x4D {05 91 C5 00 C6 00 34 00 00 F0 4D 00 10 10 08 FF 00}
+0x11A6A 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11A71 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11A78 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11A7F 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11A86 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11A8D 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11A94 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x11A9B 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x11AA2 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x11AA9 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x11AB0 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x11AB7 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x11ABE 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x11AC5 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x11ACC 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x11AD3 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x11ADA 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x11AE1 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x11AE8 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x11AEF 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x11AF6 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x11AFD 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x11B04 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x11B0B 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x11B12 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x11B19 				Option: 20h Clk, Value: 0x20 {09 07 A1 00 00 00 20}
+0x11B20 				Option: 21h Clk, Value: 0x21 {09 07 A2 00 00 00 21}
+0x11B27 				Option: 22h Clk, Value: 0x22 {09 07 A3 00 00 00 22}
+0x11B2E 				Option: 23h Clk, Value: 0x23 {09 07 A4 00 00 00 23}
+0x11B35 				Option: 24h Clk, Value: 0x24 {09 07 A5 00 00 00 24}
+0x11B3C 				Option: 25h Clk, Value: 0x25 {09 07 A6 00 00 00 25}
+0x11B43 				Option: 26h Clk, Value: 0x26 {09 07 A7 00 00 00 26}
+0x11B4A 				Option: 27h Clk, Value: 0x27 {09 07 A8 00 00 00 27}
+0x11B51 				Option: 28h Clk, Value: 0x28 {09 07 A9 00 00 00 28}
+0x11B58 				Option: 29h Clk, Value: 0x29 {09 07 AA 00 00 00 29}
+0x11B5F 				Option: 2Ah Clk, Value: 0x2A {09 07 AB 00 00 00 2A}
+0x11B66 				Option: 2Bh Clk, Value: 0x2B {09 07 AC 00 00 00 2B}
+0x11B6D 				Option: 2Ch Clk, Value: 0x2C {09 07 AD 00 00 00 2C}
+0x11B74 				Option: 2Dh Clk, Value: 0x2D {09 07 AE 00 00 00 2D}
+0x11B7B 				Option: 2Eh Clk, Value: 0x2E {09 07 AF 00 00 00 2E}
+0x11B82 				Option: 2Fh Clk, Value: 0x2F {09 07 B0 00 00 00 2F}
+0x11B89 				Option: 30h Clk, Value: 0x30 {09 07 B1 00 00 00 30}
+0x11B90 				Option: 31h Clk, Value: 0x31 {09 07 B2 00 00 00 31}
+0x11B97 				Option: 32h Clk, Value: 0x32 {09 07 B3 00 00 00 32}
+0x11B9E 				Option: 33h Clk, Value: 0x33 {09 07 B4 00 00 00 33}
+0x11BA5 				Option: 34h Clk, Value: 0x34 {09 07 B5 00 00 00 34}
+0x11BAC 				Option: 35h Clk, Value: 0x35 {09 07 B6 00 00 00 35}
+0x11BB3 				Option: 36h Clk, Value: 0x36 {09 07 B7 00 00 00 36}
+0x11BBA 				Option: 37h Clk, Value: 0x37 {09 07 B8 00 00 00 37}
+0x11BC1 				Option: 38h Clk, Value: 0x38 {09 07 B9 00 00 00 38}
+0x11BC8 				Option: 39h Clk, Value: 0x39 {09 07 BA 00 00 00 39}
+0x11BCF 				Option: 3Ah Clk, Value: 0x3A {09 07 BB 00 00 00 3A}
+0x11BD6 				Option: 3Bh Clk, Value: 0x3B {09 07 BC 00 00 00 3B}
+0x11BDD 				Option: 3Ch Clk, Value: 0x3C {09 07 BD 00 00 00 3C}
+0x11BE4 				Option: 3Dh Clk, Value: 0x3D {09 07 BE 00 00 00 3D}
+0x11BEB 				Option: 3Eh Clk, Value: 0x3E {09 07 BF 00 00 00 3E}
+0x11BF2 				Option: 3Fh Clk, Value: 0x3F {09 07 C0 00 00 00 3F}
+0x11BF9 			End of Options {29 02}
+0x11BFB 		End If {29 02}
+0x11BFD 		Suppress If: {0A 82}
+0x11BFF 			Variable 0xDF equals 0x1 {12 86 DF 00 01 00}
+0x11C05 				Not {17 02}
+0x11C07 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11C0D 				Not {17 02}
+0x11C0F 				Or {16 02}
+0x11C11 			End {29 02}
+0x11C13 			Setting: Tras, Variable: 0x4E {05 91 C7 00 C8 00 35 00 00 F0 4E 00 10 10 15 FF 00}
+0x11C24 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11C2B 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x11C32 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x11C39 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x11C40 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x11C47 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x11C4E 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x11C55 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x11C5C 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x11C63 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x11C6A 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x11C71 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x11C78 				Option: 20h Clk, Value: 0x20 {09 07 A1 00 00 00 20}
+0x11C7F 				Option: 21h Clk, Value: 0x21 {09 07 A2 00 00 00 21}
+0x11C86 				Option: 22h Clk, Value: 0x22 {09 07 A3 00 00 00 22}
+0x11C8D 				Option: 23h Clk, Value: 0x23 {09 07 A4 00 00 00 23}
+0x11C94 				Option: 24h Clk, Value: 0x24 {09 07 A5 00 00 00 24}
+0x11C9B 				Option: 25h Clk, Value: 0x25 {09 07 A6 00 00 00 25}
+0x11CA2 				Option: 26h Clk, Value: 0x26 {09 07 A7 00 00 00 26}
+0x11CA9 				Option: 27h Clk, Value: 0x27 {09 07 A8 00 00 00 27}
+0x11CB0 				Option: 28h Clk, Value: 0x28 {09 07 A9 00 00 00 28}
+0x11CB7 				Option: 29h Clk, Value: 0x29 {09 07 AA 00 00 00 29}
+0x11CBE 				Option: 2Ah Clk, Value: 0x2A {09 07 AB 00 00 00 2A}
+0x11CC5 				Option: 2Bh Clk, Value: 0x2B {09 07 AC 00 00 00 2B}
+0x11CCC 				Option: 2Ch Clk, Value: 0x2C {09 07 AD 00 00 00 2C}
+0x11CD3 				Option: 2Dh Clk, Value: 0x2D {09 07 AE 00 00 00 2D}
+0x11CDA 				Option: 2Eh Clk, Value: 0x2E {09 07 AF 00 00 00 2E}
+0x11CE1 				Option: 2Fh Clk, Value: 0x2F {09 07 B0 00 00 00 2F}
+0x11CE8 				Option: 30h Clk, Value: 0x30 {09 07 B1 00 00 00 30}
+0x11CEF 				Option: 31h Clk, Value: 0x31 {09 07 B2 00 00 00 31}
+0x11CF6 				Option: 32h Clk, Value: 0x32 {09 07 B3 00 00 00 32}
+0x11CFD 				Option: 33h Clk, Value: 0x33 {09 07 B4 00 00 00 33}
+0x11D04 				Option: 34h Clk, Value: 0x34 {09 07 B5 00 00 00 34}
+0x11D0B 				Option: 35h Clk, Value: 0x35 {09 07 B6 00 00 00 35}
+0x11D12 				Option: 36h Clk, Value: 0x36 {09 07 B7 00 00 00 36}
+0x11D19 				Option: 37h Clk, Value: 0x37 {09 07 B8 00 00 00 37}
+0x11D20 				Option: 38h Clk, Value: 0x38 {09 07 B9 00 00 00 38}
+0x11D27 				Option: 39h Clk, Value: 0x39 {09 07 BA 00 00 00 39}
+0x11D2E 				Option: 3Ah Clk, Value: 0x3A {09 07 BB 00 00 00 3A}
+0x11D35 			End of Options {29 02}
+0x11D37 		End If {29 02}
+0x11D39 		Suppress If: {0A 82}
+0x11D3B 			Variable 0xDE equals 0x1 {12 86 DE 00 01 00}
+0x11D41 				Not {17 02}
+0x11D43 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11D49 				Not {17 02}
+0x11D4B 				Or {16 02}
+0x11D4D 			End {29 02}
+0x11D4F 			Setting: Trc Ctrl, Variable: 0x4F {05 91 C9 00 CA 00 36 00 00 F0 4F 00 10 10 00 01 00}
+0x11D60 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x11D67 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x11D6E 			End of Options {29 02}
+0x11D70 		End If {29 02}
+0x11D72 		Suppress If: {0A 82}
+0x11D74 			Variable 0xDD equals 0x1 {12 86 DD 00 01 00}
+0x11D7A 				Not {17 02}
+0x11D7C 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11D82 				Not {17 02}
+0x11D84 				Or {16 02}
+0x11D86 				Variable 0x36 equals 0x1 {12 06 36 00 01 00}
+0x11D8C 				Not {17 02}
+0x11D8E 				Or {16 02}
+0x11D90 			End {29 02}
+0x11D92 			Numeric: Trc (281473917202480-281473917202480) , Variable: 0x50 {07 91 CB 00 CC 00 37 00 00 F0 50 00 10 20 1D 87 00}
+0x11DA3 				Default: 8 Bit, Value: 0x39 {5B 06 00 00 00 39}
+0x11DA9 			End {29 02}
+0x11DAB 		End If {29 02}
+0x11DAD 		Suppress If: {0A 82}
+0x11DAF 			Variable 0xDC equals 0x1 {12 86 DC 00 01 00}
+0x11DB5 				Not {17 02}
+0x11DB7 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11DBD 				Not {17 02}
+0x11DBF 				Or {16 02}
+0x11DC1 			End {29 02}
+0x11DC3 			Setting: TrrdS, Variable: 0x51 {05 91 CD 00 CE 00 38 00 00 F0 51 00 10 10 04 FF 00}
+0x11DD4 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11DDB 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x11DE2 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x11DE9 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x11DF0 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x11DF7 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11DFE 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11E05 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11E0C 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11E13 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11E1A 			End of Options {29 02}
+0x11E1C 		End If {29 02}
+0x11E1E 		Suppress If: {0A 82}
+0x11E20 			Variable 0xDB equals 0x1 {12 86 DB 00 01 00}
+0x11E26 				Not {17 02}
+0x11E28 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11E2E 				Not {17 02}
+0x11E30 				Or {16 02}
+0x11E32 			End {29 02}
+0x11E34 			Setting: TrrdL, Variable: 0x52 {05 91 D3 00 D4 00 39 00 00 F0 52 00 10 10 04 FF 00}
+0x11E45 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11E4C 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x11E53 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x11E5A 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x11E61 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x11E68 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11E6F 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11E76 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11E7D 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11E84 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11E8B 			End of Options {29 02}
+0x11E8D 		End If {29 02}
+0x11E8F 		Suppress If: {0A 82}
+0x11E91 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x11E97 				Not {17 02}
+0x11E99 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11E9F 				Not {17 02}
+0x11EA1 				Or {16 02}
+0x11EA3 			End {29 02}
+0x11EA5 			Setting: Tfaw Ctrl, Variable: 0x53 {05 91 D5 00 D6 00 3A 00 00 F0 53 00 10 10 00 01 00}
+0x11EB6 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x11EBD 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x11EC4 			End of Options {29 02}
+0x11EC6 		End If {29 02}
+0x11EC8 		Suppress If: {0A 82}
+0x11ECA 			Variable 0xD9 equals 0x1 {12 86 D9 00 01 00}
+0x11ED0 				Not {17 02}
+0x11ED2 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11ED8 				Not {17 02}
+0x11EDA 				Or {16 02}
+0x11EDC 				Variable 0x3A equals 0x1 {12 06 3A 00 01 00}
+0x11EE2 				Not {17 02}
+0x11EE4 				Or {16 02}
+0x11EE6 			End {29 02}
+0x11EE8 			Numeric: Tfaw (281473917202480-281473917202480) , Variable: 0x54 {07 91 D7 00 D8 00 3B 00 00 F0 54 00 10 20 06 36 00}
+0x11EF9 				Default: 8 Bit, Value: 0x1A {5B 06 00 00 00 1A}
+0x11EFF 			End {29 02}
+0x11F01 		End If {29 02}
+0x11F03 		Suppress If: {0A 82}
+0x11F05 			Variable 0xD8 equals 0x1 {12 86 D8 00 01 00}
+0x11F0B 				Not {17 02}
+0x11F0D 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11F13 				Not {17 02}
+0x11F15 				Or {16 02}
+0x11F17 			End {29 02}
+0x11F19 			Setting: TwtrS, Variable: 0x55 {05 91 D9 00 DA 00 3C 00 00 F0 55 00 10 10 02 FF 00}
+0x11F2A 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11F31 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x11F38 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x11F3F 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x11F46 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x11F4D 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x11F54 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x11F5B 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11F62 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11F69 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11F70 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x11F77 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x11F7E 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x11F85 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x11F8C 			End of Options {29 02}
+0x11F8E 		End If {29 02}
+0x11F90 		Suppress If: {0A 82}
+0x11F92 			Variable 0xD7 equals 0x1 {12 86 D7 00 01 00}
+0x11F98 				Not {17 02}
+0x11F9A 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x11FA0 				Not {17 02}
+0x11FA2 				Or {16 02}
+0x11FA4 			End {29 02}
+0x11FA6 			Setting: TwtrL, Variable: 0x56 {05 91 DD 00 DE 00 3D 00 00 F0 56 00 10 10 02 FF 00}
+0x11FB7 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x11FBE 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x11FC5 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x11FCC 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x11FD3 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x11FDA 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x11FE1 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x11FE8 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x11FEF 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x11FF6 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x11FFD 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12004 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x1200B 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12012 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x12019 			End of Options {29 02}
+0x1201B 		End If {29 02}
+0x1201D 		Suppress If: {0A 82}
+0x1201F 			Variable 0xD6 equals 0x1 {12 86 D6 00 01 00}
+0x12025 				Not {17 02}
+0x12027 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x1202D 				Not {17 02}
+0x1202F 				Or {16 02}
+0x12031 			End {29 02}
+0x12033 			Setting: Twr Ctrl, Variable: 0x57 {05 91 DF 00 E0 00 3E 00 00 F0 57 00 10 10 00 01 00}
+0x12044 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x1204B 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12052 			End of Options {29 02}
+0x12054 		End If {29 02}
+0x12056 		Suppress If: {0A 82}
+0x12058 			Variable 0xD5 equals 0x1 {12 86 D5 00 01 00}
+0x1205E 				Not {17 02}
+0x12060 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12066 				Not {17 02}
+0x12068 				Or {16 02}
+0x1206A 				Variable 0x3E equals 0x1 {12 06 3E 00 01 00}
+0x12070 				Not {17 02}
+0x12072 				Or {16 02}
+0x12074 			End {29 02}
+0x12076 			Numeric: Twr (281473917202480-281473917202480) , Variable: 0x58 {07 91 E1 00 E2 00 3F 00 00 F0 58 00 10 20 0A 51 00}
+0x12087 				Default: 8 Bit, Value: 0x12 {5B 06 00 00 00 12}
+0x1208D 			End {29 02}
+0x1208F 		End If {29 02}
+0x12091 		Suppress If: {0A 82}
+0x12093 			Variable 0xD4 equals 0x1 {12 86 D4 00 01 00}
+0x12099 				Not {17 02}
+0x1209B 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x120A1 				Not {17 02}
+0x120A3 				Or {16 02}
+0x120A5 			End {29 02}
+0x120A7 			Setting: Trcpage Ctrl, Variable: 0x59 {05 91 E3 00 E4 00 40 00 00 F0 59 00 10 10 00 01 00}
+0x120B8 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x120BF 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x120C6 			End of Options {29 02}
+0x120C8 		End If {29 02}
+0x120CA 		Suppress If: {0A 82}
+0x120CC 			Variable 0xD3 equals 0x1 {12 86 D3 00 01 00}
+0x120D2 				Not {17 02}
+0x120D4 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x120DA 				Not {17 02}
+0x120DC 				Or {16 02}
+0x120DE 				Variable 0x40 equals 0x1 {12 06 40 00 01 00}
+0x120E4 				Not {17 02}
+0x120E6 				Or {16 02}
+0x120E8 			End {29 02}
+0x120EA 			Numeric: Trcpage (281473917202480-281473917202480) , Variable: 0x5A {07 94 E5 00 E6 00 41 00 00 F0 5A 00 10 21 00 00 FF 03 00 00}
+0x120FE 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x12105 			End {29 02}
+0x12107 		End If {29 02}
+0x12109 		Suppress If: {0A 82}
+0x1210B 			Variable 0xD2 equals 0x1 {12 86 D2 00 01 00}
+0x12111 				Not {17 02}
+0x12113 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12119 				Not {17 02}
+0x1211B 				Or {16 02}
+0x1211D 			End {29 02}
+0x1211F 			Setting: TrdrdScL Ctrl, Variable: 0x5C {05 91 E7 00 E8 00 42 00 00 F0 5C 00 10 10 00 01 00}
+0x12130 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x12137 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x1213E 			End of Options {29 02}
+0x12140 		End If {29 02}
+0x12142 		Suppress If: {0A 82}
+0x12144 			Variable 0xD1 equals 0x1 {12 86 D1 00 01 00}
+0x1214A 				Not {17 02}
+0x1214C 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12152 				Not {17 02}
+0x12154 				Or {16 02}
+0x12156 				Variable 0x42 equals 0x1 {12 06 42 00 01 00}
+0x1215C 				Not {17 02}
+0x1215E 				Or {16 02}
+0x12160 			End {29 02}
+0x12162 			Numeric: TrdrdScL (281473917202480-281473917202480) , Variable: 0x5D {07 91 E9 00 EA 00 43 00 00 F0 5D 00 10 20 01 0F 00}
+0x12173 				Default: 8 Bit, Value: 0x3 {5B 06 00 00 00 03}
+0x12179 			End {29 02}
+0x1217B 		End If {29 02}
+0x1217D 		Suppress If: {0A 82}
+0x1217F 			Variable 0xD0 equals 0x1 {12 86 D0 00 01 00}
+0x12185 				Not {17 02}
+0x12187 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x1218D 				Not {17 02}
+0x1218F 				Or {16 02}
+0x12191 			End {29 02}
+0x12193 			Setting: TwrwrScL Ctrl, Variable: 0x5E {05 91 EB 00 EC 00 44 00 00 F0 5E 00 10 10 00 01 00}
+0x121A4 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x121AB 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x121B2 			End of Options {29 02}
+0x121B4 		End If {29 02}
+0x121B6 		Suppress If: {0A 82}
+0x121B8 			Variable 0xCF equals 0x1 {12 86 CF 00 01 00}
+0x121BE 				Not {17 02}
+0x121C0 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x121C6 				Not {17 02}
+0x121C8 				Or {16 02}
+0x121CA 				Variable 0x44 equals 0x1 {12 06 44 00 01 00}
+0x121D0 				Not {17 02}
+0x121D2 				Or {16 02}
+0x121D4 			End {29 02}
+0x121D6 			Numeric: TwrwrScL (281473917202480-281473917202480) , Variable: 0x5F {07 91 ED 00 EE 00 45 00 00 F0 5F 00 10 20 01 3F 00}
+0x121E7 				Default: 8 Bit, Value: 0x3 {5B 06 00 00 00 03}
+0x121ED 			End {29 02}
+0x121EF 		End If {29 02}
+0x121F1 		Suppress If: {0A 82}
+0x121F3 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x121F9 				Not {17 02}
+0x121FB 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12201 				Not {17 02}
+0x12203 				Or {16 02}
+0x12205 			End {29 02}
+0x12207 			Setting: Trfc Ctrl, Variable: 0x60 {05 91 EF 00 F0 00 46 00 00 F0 60 00 10 10 00 01 00}
+0x12218 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x1221F 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12226 			End of Options {29 02}
+0x12228 		End If {29 02}
+0x1222A 		Suppress If: {0A 82}
+0x1222C 			Variable 0xCD equals 0x1 {12 86 CD 00 01 00}
+0x12232 				Not {17 02}
+0x12234 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x1223A 				Not {17 02}
+0x1223C 				Or {16 02}
+0x1223E 				Variable 0x46 equals 0x1 {12 06 46 00 01 00}
+0x12244 				Not {17 02}
+0x12246 				Or {16 02}
+0x12248 			End {29 02}
+0x1224A 			Numeric: Trfc (281473917202480-281473917202480) , Variable: 0x61 {07 94 F1 00 F2 00 47 00 00 F0 61 00 10 21 3C 00 DE 03 00 00}
+0x1225E 				Default: 16 Bit, Value: 0x138 {5B 07 00 00 01 38 01}
+0x12265 			End {29 02}
+0x12267 		End If {29 02}
+0x12269 		Suppress If: {0A 82}
+0x1226B 			Variable 0xCC equals 0x1 {12 86 CC 00 01 00}
+0x12271 				Not {17 02}
+0x12273 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12279 				Not {17 02}
+0x1227B 				Or {16 02}
+0x1227D 			End {29 02}
+0x1227F 			Setting: Trfc2 Ctrl, Variable: 0x63 {05 91 F3 00 F4 00 48 00 00 F0 63 00 10 10 00 01 00}
+0x12290 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x12297 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x1229E 			End of Options {29 02}
+0x122A0 		End If {29 02}
+0x122A2 		Suppress If: {0A 82}
+0x122A4 			Variable 0xCB equals 0x1 {12 86 CB 00 01 00}
+0x122AA 				Not {17 02}
+0x122AC 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x122B2 				Not {17 02}
+0x122B4 				Or {16 02}
+0x122B6 				Variable 0x48 equals 0x1 {12 06 48 00 01 00}
+0x122BC 				Not {17 02}
+0x122BE 				Or {16 02}
+0x122C0 			End {29 02}
+0x122C2 			Numeric: Trfc2 (281473917202480-281473917202480) , Variable: 0x64 {07 94 F5 00 F6 00 49 00 00 F0 64 00 10 21 3C 00 DE 03 00 00}
+0x122D6 				Default: 16 Bit, Value: 0xC0 {5B 07 00 00 01 C0 00}
+0x122DD 			End {29 02}
+0x122DF 		End If {29 02}
+0x122E1 		Suppress If: {0A 82}
+0x122E3 			Variable 0xCA equals 0x1 {12 86 CA 00 01 00}
+0x122E9 				Not {17 02}
+0x122EB 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x122F1 				Not {17 02}
+0x122F3 				Or {16 02}
+0x122F5 			End {29 02}
+0x122F7 			Setting: Trfc4 Ctrl, Variable: 0x66 {05 91 F7 00 F8 00 4A 00 00 F0 66 00 10 10 00 01 00}
+0x12308 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x1230F 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12316 			End of Options {29 02}
+0x12318 		End If {29 02}
+0x1231A 		Suppress If: {0A 82}
+0x1231C 			Variable 0xC9 equals 0x1 {12 86 C9 00 01 00}
+0x12322 				Not {17 02}
+0x12324 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x1232A 				Not {17 02}
+0x1232C 				Or {16 02}
+0x1232E 				Variable 0x4A equals 0x1 {12 06 4A 00 01 00}
+0x12334 				Not {17 02}
+0x12336 				Or {16 02}
+0x12338 			End {29 02}
+0x1233A 			Numeric: Trfc4 (281473917202480-281473917202480) , Variable: 0x67 {07 94 F9 00 FA 00 4B 00 00 F0 67 00 10 21 3C 00 DE 03 00 00}
+0x1234E 				Default: 16 Bit, Value: 0x84 {5B 07 00 00 01 84 00}
+0x12355 			End {29 02}
+0x12357 		End If {29 02}
+0x12359 		Suppress If: {0A 82}
+0x1235B 			Variable 0xC8 equals 0x1 {12 86 C8 00 01 00}
+0x12361 				Not {17 02}
+0x12363 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12369 				Not {17 02}
+0x1236B 				Or {16 02}
+0x1236D 			End {29 02}
+0x1236F 			Setting: Tcwl, Variable: 0x6B {05 91 FB 00 FC 00 4C 00 00 F0 6B 00 10 10 09 FF 00}
+0x12380 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12387 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x1238E 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x12395 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x1239C 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x123A3 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x123AA 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x123B1 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x123B8 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x123BF 			End of Options {29 02}
+0x123C1 		End If {29 02}
+0x123C3 		Suppress If: {0A 82}
+0x123C5 			Variable 0xC7 equals 0x1 {12 86 C7 00 01 00}
+0x123CB 				Not {17 02}
+0x123CD 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x123D3 				Not {17 02}
+0x123D5 				Or {16 02}
+0x123D7 			End {29 02}
+0x123D9 			Setting: Trtp, Variable: 0x6C {05 91 FD 00 FE 00 4D 00 00 F0 6C 00 10 10 05 FF 00}
+0x123EA 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x123F1 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x123F8 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x123FF 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x12406 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x1240D 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x12414 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x1241B 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12422 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x12429 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12430 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x12437 			End of Options {29 02}
+0x12439 		End If {29 02}
+0x1243B 		Suppress If: {0A 82}
+0x1243D 			Variable 0xC6 equals 0x1 {12 86 C6 00 01 00}
+0x12443 				Not {17 02}
+0x12445 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x1244B 				Not {17 02}
+0x1244D 				Or {16 02}
+0x1244F 			End {29 02}
+0x12451 			Setting: Tcke, Variable: 0x6D {05 91 FF 00 00 01 4E 00 00 F0 6D 00 10 10 01 FF 00}
+0x12462 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12469 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x12470 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x12477 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x1247E 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x12485 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x1248C 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x12493 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x1249A 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x124A1 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x124A8 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x124AF 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x124B6 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x124BD 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x124C4 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x124CB 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x124D2 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x124D9 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x124E0 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x124E7 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x124EE 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x124F5 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x124FC 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x12503 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x1250A 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x12511 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x12518 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x1251F 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x12526 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x1252D 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x12534 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x1253B 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x12542 			End of Options {29 02}
+0x12544 		End If {29 02}
+0x12546 		Suppress If: {0A 82}
+0x12548 			Variable 0xC5 equals 0x1 {12 86 C5 00 01 00}
+0x1254E 				Not {17 02}
+0x12550 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12556 				Not {17 02}
+0x12558 				Or {16 02}
+0x1255A 			End {29 02}
+0x1255C 			Setting: Trdwr, Variable: 0x74 {05 91 02 01 03 01 4F 00 00 F0 74 00 10 10 01 FF 00}
+0x1256D 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12574 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x1257B 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x12582 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x12589 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x12590 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x12597 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x1259E 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x125A5 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x125AC 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x125B3 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x125BA 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x125C1 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x125C8 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x125CF 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x125D6 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x125DD 				Option: 10h Clk, Value: 0x10 {09 07 91 00 00 00 10}
+0x125E4 				Option: 11h Clk, Value: 0x11 {09 07 92 00 00 00 11}
+0x125EB 				Option: 12h Clk, Value: 0x12 {09 07 93 00 00 00 12}
+0x125F2 				Option: 13h Clk, Value: 0x13 {09 07 94 00 00 00 13}
+0x125F9 				Option: 14h Clk, Value: 0x14 {09 07 95 00 00 00 14}
+0x12600 				Option: 15h Clk, Value: 0x15 {09 07 96 00 00 00 15}
+0x12607 				Option: 16h Clk, Value: 0x16 {09 07 97 00 00 00 16}
+0x1260E 				Option: 17h Clk, Value: 0x17 {09 07 98 00 00 00 17}
+0x12615 				Option: 18h Clk, Value: 0x18 {09 07 99 00 00 00 18}
+0x1261C 				Option: 19h Clk, Value: 0x19 {09 07 9A 00 00 00 19}
+0x12623 				Option: 1Ah Clk, Value: 0x1A {09 07 9B 00 00 00 1A}
+0x1262A 				Option: 1Bh Clk, Value: 0x1B {09 07 9C 00 00 00 1B}
+0x12631 				Option: 1Ch Clk, Value: 0x1C {09 07 9D 00 00 00 1C}
+0x12638 				Option: 1Dh Clk, Value: 0x1D {09 07 9E 00 00 00 1D}
+0x1263F 				Option: 1Eh Clk, Value: 0x1E {09 07 9F 00 00 00 1E}
+0x12646 				Option: 1Fh Clk, Value: 0x1F {09 07 A0 00 00 00 1F}
+0x1264D 			End of Options {29 02}
+0x1264F 		End If {29 02}
+0x12651 		Suppress If: {0A 82}
+0x12653 			Variable 0xC4 equals 0x1 {12 86 C4 00 01 00}
+0x12659 				Not {17 02}
+0x1265B 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12661 				Not {17 02}
+0x12663 				Or {16 02}
+0x12665 			End {29 02}
+0x12667 			Setting: Twrrd, Variable: 0x75 {05 91 04 01 05 01 50 00 00 F0 75 00 10 10 01 FF 00}
+0x12678 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x1267F 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x12686 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x1268D 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x12694 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x1269B 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x126A2 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x126A9 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x126B0 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x126B7 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x126BE 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x126C5 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x126CC 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x126D3 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x126DA 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x126E1 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x126E8 			End of Options {29 02}
+0x126EA 		End If {29 02}
+0x126EC 		Suppress If: {0A 82}
+0x126EE 			Variable 0xC3 equals 0x1 {12 86 C3 00 01 00}
+0x126F4 				Not {17 02}
+0x126F6 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x126FC 				Not {17 02}
+0x126FE 				Or {16 02}
+0x12700 			End {29 02}
+0x12702 			Setting: TwrwrSc, Variable: 0x71 {05 91 06 01 07 01 51 00 00 F0 71 00 10 10 01 FF 00}
+0x12713 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x1271A 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x12721 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x12728 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x1272F 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x12736 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x1273D 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x12744 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x1274B 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x12752 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x12759 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x12760 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12767 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x1276E 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12775 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x1277C 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x12783 			End of Options {29 02}
+0x12785 		End If {29 02}
+0x12787 		Suppress If: {0A 82}
+0x12789 			Variable 0xC2 equals 0x1 {12 86 C2 00 01 00}
+0x1278F 				Not {17 02}
+0x12791 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12797 				Not {17 02}
+0x12799 				Or {16 02}
+0x1279B 			End {29 02}
+0x1279D 			Setting: TwrwrSd, Variable: 0x72 {05 91 08 01 09 01 52 00 00 F0 72 00 10 10 01 FF 00}
+0x127AE 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x127B5 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x127BC 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x127C3 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x127CA 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x127D1 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x127D8 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x127DF 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x127E6 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x127ED 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x127F4 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x127FB 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12802 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x12809 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12810 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x12817 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x1281E 			End of Options {29 02}
+0x12820 		End If {29 02}
+0x12822 		Suppress If: {0A 82}
+0x12824 			Variable 0xC1 equals 0x1 {12 86 C1 00 01 00}
+0x1282A 				Not {17 02}
+0x1282C 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12832 				Not {17 02}
+0x12834 				Or {16 02}
+0x12836 			End {29 02}
+0x12838 			Setting: TwrwrDd, Variable: 0x73 {05 91 0A 01 0B 01 53 00 00 F0 73 00 10 10 01 FF 00}
+0x12849 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12850 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x12857 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x1285E 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x12865 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x1286C 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x12873 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x1287A 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x12881 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x12888 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x1288F 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x12896 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x1289D 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x128A4 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x128AB 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x128B2 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x128B9 			End of Options {29 02}
+0x128BB 		End If {29 02}
+0x128BD 		Suppress If: {0A 82}
+0x128BF 			Variable 0xC0 equals 0x1 {12 86 C0 00 01 00}
+0x128C5 				Not {17 02}
+0x128C7 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x128CD 				Not {17 02}
+0x128CF 				Or {16 02}
+0x128D1 			End {29 02}
+0x128D3 			Setting: TrdrdSc, Variable: 0x6E {05 91 0C 01 0D 01 54 00 00 F0 6E 00 10 10 01 FF 00}
+0x128E4 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x128EB 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x128F2 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x128F9 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x12900 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x12907 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x1290E 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x12915 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x1291C 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x12923 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x1292A 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x12931 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12938 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x1293F 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12946 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x1294D 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x12954 			End of Options {29 02}
+0x12956 		End If {29 02}
+0x12958 		Suppress If: {0A 82}
+0x1295A 			Variable 0xBF equals 0x1 {12 86 BF 00 01 00}
+0x12960 				Not {17 02}
+0x12962 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12968 				Not {17 02}
+0x1296A 				Or {16 02}
+0x1296C 			End {29 02}
+0x1296E 			Setting: TrdrdSd, Variable: 0x6F {05 91 0E 01 0F 01 55 00 00 F0 6F 00 10 10 01 FF 00}
+0x1297F 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12986 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x1298D 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x12994 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x1299B 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x129A2 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x129A9 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x129B0 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x129B7 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x129BE 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x129C5 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x129CC 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x129D3 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x129DA 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x129E1 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x129E8 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x129EF 			End of Options {29 02}
+0x129F1 		End If {29 02}
+0x129F3 		Suppress If: {0A 82}
+0x129F5 			Variable 0xBE equals 0x1 {12 86 BE 00 01 00}
+0x129FB 				Not {17 02}
+0x129FD 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12A03 				Not {17 02}
+0x12A05 				Or {16 02}
+0x12A07 			End {29 02}
+0x12A09 			Setting: TrdrdDd, Variable: 0x70 {05 91 10 01 11 01 56 00 00 F0 70 00 10 10 01 FF 00}
+0x12A1A 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12A21 				Option: 1 Clk, Value: 0x1 {09 07 01 01 00 00 01}
+0x12A28 				Option: 2 Clk, Value: 0x2 {09 07 DB 00 00 00 02}
+0x12A2F 				Option: 3 Clk, Value: 0x3 {09 07 DC 00 00 00 03}
+0x12A36 				Option: 4 Clk, Value: 0x4 {09 07 CF 00 00 00 04}
+0x12A3D 				Option: 5 Clk, Value: 0x5 {09 07 D0 00 00 00 05}
+0x12A44 				Option: 6 Clk, Value: 0x6 {09 07 D1 00 00 00 06}
+0x12A4B 				Option: 7 Clk, Value: 0x7 {09 07 D2 00 00 00 07}
+0x12A52 				Option: 8 Clk, Value: 0x8 {09 07 89 00 00 00 08}
+0x12A59 				Option: 9 Clk, Value: 0x9 {09 07 8A 00 00 00 09}
+0x12A60 				Option: 0Ah Clk, Value: 0xA {09 07 8B 00 00 00 0A}
+0x12A67 				Option: 0Bh Clk, Value: 0xB {09 07 8C 00 00 00 0B}
+0x12A6E 				Option: 0Ch Clk, Value: 0xC {09 07 8D 00 00 00 0C}
+0x12A75 				Option: 0Dh Clk, Value: 0xD {09 07 8E 00 00 00 0D}
+0x12A7C 				Option: 0Eh Clk, Value: 0xE {09 07 8F 00 00 00 0E}
+0x12A83 				Option: 0Fh Clk, Value: 0xF {09 07 90 00 00 00 0F}
+0x12A8A 			End of Options {29 02}
+0x12A8C 		End If {29 02}
+0x12A8E 		Suppress If: {0A 82}
+0x12A90 			Variable 0xBD equals 0x1 {12 86 BD 00 01 00}
+0x12A96 				Not {17 02}
+0x12A98 				Variable 0x2E equals 0x1 {12 06 2E 00 01 00}
+0x12A9E 				Not {17 02}
+0x12AA0 				Or {16 02}
+0x12AA2 			End {29 02}
+0x12AA4 			Setting: ProcODT, Variable: 0x6A {05 91 12 01 13 01 57 00 00 F0 6A 00 10 10 00 FF 00}
+0x12AB5 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12ABC 				Option: High Impedance, Value: 0x0 {09 07 14 01 00 00 00}
+0x12AC3 				Option: 480 ohm, Value: 0x1 {09 07 15 01 00 00 01}
+0x12ACA 				Option: 240 ohm, Value: 0x2 {09 07 16 01 00 00 02}
+0x12AD1 				Option: 160 ohm, Value: 0x3 {09 07 17 01 00 00 03}
+0x12AD8 				Option: 120 ohm, Value: 0x8 {09 07 18 01 00 00 08}
+0x12ADF 				Option: 96 ohm, Value: 0x9 {09 07 19 01 00 00 09}
+0x12AE6 				Option: 80 ohm, Value: 0xA {09 07 1A 01 00 00 0A}
+0x12AED 				Option: 68.6 ohm, Value: 0xB {09 07 1B 01 00 00 0B}
+0x12AF4 				Option: 60 ohm, Value: 0x18 {09 07 1C 01 00 00 18}
+0x12AFB 				Option: 53.3 ohm, Value: 0x19 {09 07 1D 01 00 00 19}
+0x12B02 				Option: 48 ohm, Value: 0x1A {09 07 1E 01 00 00 1A}
+0x12B09 				Option: 43.6 ohm, Value: 0x1B {09 07 1F 01 00 00 1B}
+0x12B10 				Option: 40 ohm, Value: 0x38 {09 07 20 01 00 00 38}
+0x12B17 				Option: 36.9 ohm, Value: 0x39 {09 07 21 01 00 00 39}
+0x12B1E 				Option: 34.3 ohm, Value: 0x3A {09 07 22 01 00 00 3A}
+0x12B25 				Option: 32 ohm, Value: 0x3B {09 07 23 01 00 00 3B}
+0x12B2C 				Option: 30 ohm, Value: 0x3E {09 07 24 01 00 00 3E}
+0x12B33 				Option: 28.2 ohm, Value: 0x3F {09 07 25 01 00 00 3F}
+0x12B3A 			End of Options {29 02}
+0x12B3C 		End If {29 02}
+0x12B3E 	End Form {29 02}
+0x12B40 	Form: DRAM Controller Configuration, Form ID: 0x1D {01 86 1D 00 3A 00}
+0x12B46 		Subtitle: DRAM Controller Configuration {02 87 3A 00 00 00 00}
+0x12B4D 		End {29 02}
+0x12B4F 		Subtitle:   {02 87 05 00 00 00 00}
+0x12B56 		End {29 02}
+0x12B58 		Suppress If: {0A 82}
+0x12B5A 			Variable 0xBC equals 0x1 {12 86 BC 00 01 00}
+0x12B60 				Not {17 02}
+0x12B62 			End {29 02}
+0x12B64 			Ref: DRAM Power Options, Variable: 0xFFFF {0F 0F 26 01 26 01 58 00 00 00 FF FF 00 20 00}
+0x12B73 		End If {29 02}
+0x12B75 		Text:   {03 08 05 00 05 00 00 00}
+0x12B7D 		Suppress If: {0A 82}
+0x12B7F 			Variable 0xBB equals 0x1 {12 86 BB 00 01 00}
+0x12B85 				Not {17 02}
+0x12B87 			End {29 02}
+0x12B89 			Setting: Cmd2T, Variable: 0x76 {05 91 27 01 28 01 59 00 00 F0 76 00 10 10 00 FF 00}
+0x12B9A 				Option: 1T, Value: 0x0 {09 07 29 01 00 00 00}
+0x12BA1 				Option: 2T, Value: 0x1 {09 07 2A 01 00 00 01}
+0x12BA8 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12BAF 			End of Options {29 02}
+0x12BB1 		End If {29 02}
+0x12BB3 		Suppress If: {0A 82}
+0x12BB5 			Variable 0xBA equals 0x1 {12 86 BA 00 01 00}
+0x12BBB 				Not {17 02}
+0x12BBD 			End {29 02}
+0x12BBF 			Setting: Gear Down Mode, Variable: 0x77 {05 91 2B 01 2C 01 5A 00 00 F0 77 00 10 10 00 FF 00}
+0x12BD0 				Option: Disabled, Value: 0x0 {09 07 08 00 00 00 00}
+0x12BD7 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x12BDE 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12BE5 			End of Options {29 02}
+0x12BE7 		End If {29 02}
+0x12BE9 	End Form {29 02}
+0x12BEB 	Form: DRAM Power Options, Form ID: 0x20 {01 86 20 00 26 01}
+0x12BF1 		Subtitle: DRAM Power Options {02 87 26 01 00 00 00}
+0x12BF8 		End {29 02}
+0x12BFA 		Subtitle:   {02 87 05 00 00 00 00}
+0x12C01 		End {29 02}
+0x12C03 		Suppress If: {0A 82}
+0x12C05 			Variable 0xB9 equals 0x1 {12 86 B9 00 01 00}
+0x12C0B 				Not {17 02}
+0x12C0D 			End {29 02}
+0x12C0F 			Setting: Power Down Enable, Variable: 0x79 {05 91 2D 01 2E 01 5B 00 00 F0 79 00 10 10 00 FF 00}
+0x12C20 				Option: Disabled, Value: 0x0 {09 07 08 00 00 00 00}
+0x12C27 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x12C2E 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12C35 			End of Options {29 02}
+0x12C37 		End If {29 02}
+0x12C39 	End Form {29 02}
+0x12C3B 	Form: CAD Bus Configuration, Form ID: 0x1E {01 86 1E 00 3B 00}
+0x12C41 		Subtitle: CAD Bus Configuration {02 87 3B 00 00 00 00}
+0x12C48 		End {29 02}
+0x12C4A 		Subtitle:   {02 87 05 00 00 00 00}
+0x12C51 		End {29 02}
+0x12C53 		Suppress If: {0A 82}
+0x12C55 			Variable 0xB8 equals 0x1 {12 86 B8 00 01 00}
+0x12C5B 				Not {17 02}
+0x12C5D 			End {29 02}
+0x12C5F 			Setting: CAD Bus Timing User Controls, Variable: 0x7A {05 91 2F 01 30 01 5C 00 00 F0 7A 00 10 10 01 FF 00}
+0x12C70 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12C77 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12C7E 			End of Options {29 02}
+0x12C80 		End If {29 02}
+0x12C82 		Suppress If: {0A 82}
+0x12C84 			Variable 0xB7 equals 0x1 {12 86 B7 00 01 00}
+0x12C8A 				Not {17 02}
+0x12C8C 				Variable 0x5C equals 0x1 {12 06 5C 00 01 00}
+0x12C92 				Not {17 02}
+0x12C94 				Or {16 02}
+0x12C96 			End {29 02}
+0x12C98 			Numeric: AddrCmdSetup (281473917202480-281473917202480) , Variable: 0x7B {07 91 31 01 32 01 5D 00 00 F0 7B 00 10 20 00 3F 00}
+0x12CA9 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x12CAF 			End {29 02}
+0x12CB1 		End If {29 02}
+0x12CB3 		Suppress If: {0A 82}
+0x12CB5 			Variable 0xB6 equals 0x1 {12 86 B6 00 01 00}
+0x12CBB 				Not {17 02}
+0x12CBD 				Variable 0x5C equals 0x1 {12 06 5C 00 01 00}
+0x12CC3 				Not {17 02}
+0x12CC5 				Or {16 02}
+0x12CC7 			End {29 02}
+0x12CC9 			Numeric: CsOdtSetup (281473917202480-281473917202480) , Variable: 0x7C {07 91 33 01 34 01 5E 00 00 F0 7C 00 10 20 00 3F 00}
+0x12CDA 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x12CE0 			End {29 02}
+0x12CE2 		End If {29 02}
+0x12CE4 		Suppress If: {0A 82}
+0x12CE6 			Variable 0xB5 equals 0x1 {12 86 B5 00 01 00}
+0x12CEC 				Not {17 02}
+0x12CEE 				Variable 0x5C equals 0x1 {12 06 5C 00 01 00}
+0x12CF4 				Not {17 02}
+0x12CF6 				Or {16 02}
+0x12CF8 			End {29 02}
+0x12CFA 			Numeric: CkeSetup (281473917202480-281473917202480) , Variable: 0x7D {07 91 35 01 36 01 5F 00 00 F0 7D 00 10 20 00 3F 00}
+0x12D0B 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x12D11 			End {29 02}
+0x12D13 		End If {29 02}
+0x12D15 		Suppress If: {0A 82}
+0x12D17 			Variable 0xB4 equals 0x1 {12 86 B4 00 01 00}
+0x12D1D 				Not {17 02}
+0x12D1F 			End {29 02}
+0x12D21 			Setting: CAD Bus Drive Strength User Controls, Variable: 0x7E {05 91 37 01 38 01 60 00 00 F0 7E 00 10 10 01 FF 00}
+0x12D32 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12D39 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12D40 			End of Options {29 02}
+0x12D42 		End If {29 02}
+0x12D44 		Suppress If: {0A 82}
+0x12D46 			Variable 0xB3 equals 0x1 {12 86 B3 00 01 00}
+0x12D4C 				Not {17 02}
+0x12D4E 				Variable 0x60 equals 0x1 {12 06 60 00 01 00}
+0x12D54 				Not {17 02}
+0x12D56 				Or {16 02}
+0x12D58 			End {29 02}
+0x12D5A 			Setting: ClkDrvStren, Variable: 0x7F {05 91 39 01 3A 01 61 00 00 F0 7F 00 10 10 00 FF 00}
+0x12D6B 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12D72 				Option: 120.0 Ohm, Value: 0x0 {09 07 3B 01 00 00 00}
+0x12D79 				Option: 60.0 Ohm, Value: 0x1 {09 07 3C 01 00 00 01}
+0x12D80 				Option: 40.0 Ohm, Value: 0x3 {09 07 3D 01 00 00 03}
+0x12D87 				Option: 30.0 Ohm, Value: 0x7 {09 07 3E 01 00 00 07}
+0x12D8E 				Option: 24.0 Ohm, Value: 0xF {09 07 3F 01 00 00 0F}
+0x12D95 				Option: 20.0 Ohm, Value: 0x1F {09 07 40 01 00 00 1F}
+0x12D9C 			End of Options {29 02}
+0x12D9E 		End If {29 02}
+0x12DA0 		Suppress If: {0A 82}
+0x12DA2 			Variable 0xB2 equals 0x1 {12 86 B2 00 01 00}
+0x12DA8 				Not {17 02}
+0x12DAA 				Variable 0x60 equals 0x1 {12 06 60 00 01 00}
+0x12DB0 				Not {17 02}
+0x12DB2 				Or {16 02}
+0x12DB4 			End {29 02}
+0x12DB6 			Setting: AddrCmdDrvStren, Variable: 0x80 {05 91 41 01 42 01 62 00 00 F0 80 00 10 10 00 FF 00}
+0x12DC7 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12DCE 				Option: 120.0 Ohm, Value: 0x0 {09 07 3B 01 00 00 00}
+0x12DD5 				Option: 60.0 Ohm, Value: 0x1 {09 07 3C 01 00 00 01}
+0x12DDC 				Option: 40.0 Ohm, Value: 0x3 {09 07 3D 01 00 00 03}
+0x12DE3 				Option: 30.0 Ohm, Value: 0x7 {09 07 3E 01 00 00 07}
+0x12DEA 				Option: 24.0 Ohm, Value: 0xF {09 07 3F 01 00 00 0F}
+0x12DF1 				Option: 20.0 Ohm, Value: 0x1F {09 07 40 01 00 00 1F}
+0x12DF8 			End of Options {29 02}
+0x12DFA 		End If {29 02}
+0x12DFC 		Suppress If: {0A 82}
+0x12DFE 			Variable 0xB1 equals 0x1 {12 86 B1 00 01 00}
+0x12E04 				Not {17 02}
+0x12E06 				Variable 0x60 equals 0x1 {12 06 60 00 01 00}
+0x12E0C 				Not {17 02}
+0x12E0E 				Or {16 02}
+0x12E10 			End {29 02}
+0x12E12 			Setting: CsOdtDrvStren, Variable: 0x81 {05 91 43 01 44 01 63 00 00 F0 81 00 10 10 00 FF 00}
+0x12E23 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12E2A 				Option: 120.0 Ohm, Value: 0x0 {09 07 3B 01 00 00 00}
+0x12E31 				Option: 60.0 Ohm, Value: 0x1 {09 07 3C 01 00 00 01}
+0x12E38 				Option: 40.0 Ohm, Value: 0x3 {09 07 3D 01 00 00 03}
+0x12E3F 				Option: 30.0 Ohm, Value: 0x7 {09 07 3E 01 00 00 07}
+0x12E46 				Option: 24.0 Ohm, Value: 0xF {09 07 3F 01 00 00 0F}
+0x12E4D 				Option: 20.0 Ohm, Value: 0x1F {09 07 40 01 00 00 1F}
+0x12E54 			End of Options {29 02}
+0x12E56 		End If {29 02}
+0x12E58 		Suppress If: {0A 82}
+0x12E5A 			Variable 0xB0 equals 0x1 {12 86 B0 00 01 00}
+0x12E60 				Not {17 02}
+0x12E62 				Variable 0x60 equals 0x1 {12 06 60 00 01 00}
+0x12E68 				Not {17 02}
+0x12E6A 				Or {16 02}
+0x12E6C 			End {29 02}
+0x12E6E 			Setting: CkeDrvStren, Variable: 0x82 {05 91 45 01 46 01 64 00 00 F0 82 00 10 10 00 FF 00}
+0x12E7F 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12E86 				Option: 120.0 Ohm, Value: 0x0 {09 07 3B 01 00 00 00}
+0x12E8D 				Option: 60.0 Ohm, Value: 0x1 {09 07 3C 01 00 00 01}
+0x12E94 				Option: 40.0 Ohm, Value: 0x3 {09 07 3D 01 00 00 03}
+0x12E9B 				Option: 30.0 Ohm, Value: 0x7 {09 07 3E 01 00 00 07}
+0x12EA2 				Option: 24.0 Ohm, Value: 0xF {09 07 3F 01 00 00 0F}
+0x12EA9 				Option: 20.0 Ohm, Value: 0x1F {09 07 40 01 00 00 1F}
+0x12EB0 			End of Options {29 02}
+0x12EB2 		End If {29 02}
+0x12EB4 	End Form {29 02}
+0x12EB6 	Form: Data Bus Configuration, Form ID: 0x1F {01 86 1F 00 3C 00}
+0x12EBC 		Subtitle: Data Bus Configuration {02 87 3C 00 00 00 00}
+0x12EC3 		End {29 02}
+0x12EC5 		Subtitle:   {02 87 05 00 00 00 00}
+0x12ECC 		End {29 02}
+0x12ECE 		Suppress If: {0A 82}
+0x12ED0 			Variable 0xAF equals 0x1 {12 86 AF 00 01 00}
+0x12ED6 				Not {17 02}
+0x12ED8 			End {29 02}
+0x12EDA 			Setting: Data Bus Configuration User Controls, Variable: 0x83 {05 91 47 01 48 01 65 00 00 F0 83 00 10 10 01 FF 00}
+0x12EEB 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12EF2 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x12EF9 			End of Options {29 02}
+0x12EFB 		End If {29 02}
+0x12EFD 		Suppress If: {0A 82}
+0x12EFF 			Variable 0xAE equals 0x1 {12 86 AE 00 01 00}
+0x12F05 				Not {17 02}
+0x12F07 				Variable 0x65 equals 0x1 {12 06 65 00 01 00}
+0x12F0D 				Not {17 02}
+0x12F0F 				Or {16 02}
+0x12F11 			End {29 02}
+0x12F13 			Setting: RttNom, Variable: 0x84 {05 91 49 01 4A 01 66 00 00 F0 84 00 10 10 00 FF 00}
+0x12F24 				Option: Rtt_Nom Disable, Value: 0x0 {09 07 4B 01 00 00 00}
+0x12F2B 				Option: RZQ/4, Value: 0x1 {09 07 4C 01 00 00 01}
+0x12F32 				Option: RZQ/2, Value: 0x2 {09 07 4D 01 00 00 02}
+0x12F39 				Option: RZQ/6, Value: 0x3 {09 07 4E 01 00 00 03}
+0x12F40 				Option: RZQ/1, Value: 0x4 {09 07 4F 01 00 00 04}
+0x12F47 				Option: RZQ/5, Value: 0x5 {09 07 50 01 00 00 05}
+0x12F4E 				Option: RZQ/3, Value: 0x6 {09 07 51 01 00 00 06}
+0x12F55 				Option: RZQ/7, Value: 0x7 {09 07 52 01 00 00 07}
+0x12F5C 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12F63 			End of Options {29 02}
+0x12F65 		End If {29 02}
+0x12F67 		Suppress If: {0A 82}
+0x12F69 			Variable 0xAD equals 0x1 {12 86 AD 00 01 00}
+0x12F6F 				Not {17 02}
+0x12F71 				Variable 0x65 equals 0x1 {12 06 65 00 01 00}
+0x12F77 				Not {17 02}
+0x12F79 				Or {16 02}
+0x12F7B 			End {29 02}
+0x12F7D 			Setting: RttWr, Variable: 0x85 {05 91 53 01 54 01 67 00 00 F0 85 00 10 10 00 FF 00}
+0x12F8E 				Option: Dynamic ODT Off, Value: 0x0 {09 07 55 01 00 00 00}
+0x12F95 				Option: RZQ/2, Value: 0x1 {09 07 4D 01 00 00 01}
+0x12F9C 				Option: RZQ/1, Value: 0x2 {09 07 4F 01 00 00 02}
+0x12FA3 				Option: Hi-Z, Value: 0x3 {09 07 56 01 00 00 03}
+0x12FAA 				Option: RZQ/3, Value: 0x4 {09 07 51 01 00 00 04}
+0x12FB1 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x12FB8 			End of Options {29 02}
+0x12FBA 		End If {29 02}
+0x12FBC 		Suppress If: {0A 82}
+0x12FBE 			Variable 0xAC equals 0x1 {12 86 AC 00 01 00}
+0x12FC4 				Not {17 02}
+0x12FC6 				Variable 0x65 equals 0x1 {12 06 65 00 01 00}
+0x12FCC 				Not {17 02}
+0x12FCE 				Or {16 02}
+0x12FD0 			End {29 02}
+0x12FD2 			Setting: RttPark, Variable: 0x86 {05 91 57 01 58 01 68 00 00 F0 86 00 10 10 00 FF 00}
+0x12FE3 				Option: Rtt_PARK Disable, Value: 0x0 {09 07 59 01 00 00 00}
+0x12FEA 				Option: RZQ/4, Value: 0x1 {09 07 4C 01 00 00 01}
+0x12FF1 				Option: RZQ/2, Value: 0x2 {09 07 4D 01 00 00 02}
+0x12FF8 				Option: RZQ/6, Value: 0x3 {09 07 4E 01 00 00 03}
+0x12FFF 				Option: RZQ/1, Value: 0x4 {09 07 4F 01 00 00 04}
+0x13006 				Option: RZQ/5, Value: 0x5 {09 07 50 01 00 00 05}
+0x1300D 				Option: RZQ/3, Value: 0x6 {09 07 51 01 00 00 06}
+0x13014 				Option: RZQ/7, Value: 0x7 {09 07 52 01 00 00 07}
+0x1301B 				Option: Auto, Value: 0xFF (default) {09 07 09 00 10 00 FF}
+0x13022 			End of Options {29 02}
+0x13024 		End If {29 02}
+0x13026 	End Form {29 02}
+0x13028 	Form: ECO Mode, Form ID: 0x23 {01 86 23 00 88 01}
+0x1302E 		Subtitle: ECO Mode {02 87 88 01 00 00 00}
+0x13035 		End {29 02}
+0x13037 		Subtitle:   {02 87 05 00 00 00 00}
+0x1303E 		End {29 02}
+0x13040 		Suppress If: {0A 82}
+0x13042 			Variable 0xAA equals 0x1 {12 86 AA 00 01 00}
+0x13048 				Not {17 02}
+0x1304A 				Variable 0xAB equals 0x1 {12 06 AB 00 01 00}
+0x13050 				Not {17 02}
+0x13052 				Or {16 02}
+0x13054 			End {29 02}
+0x13056 			Setting: ECO Mode, Variable: 0x153 {05 91 8A 01 8B 01 D3 07 00 F0 53 01 14 10 00 02 00}
+0x13067 				Option: Disable, Value: 0x0 (default) {09 07 2D 00 10 00 00}
+0x1306E 				Option: Eco-Mode (65W), Value: 0x2 {09 07 8C 01 00 00 02}
+0x13075 			End of Options {29 02}
+0x13077 		End If {29 02}
+0x13079 		Suppress If: {0A 82}
+0x1307B 			Variable 0xAA equals 0x1 {12 86 AA 00 01 00}
+0x13081 				Not {17 02}
+0x13083 				Variable 0xA9 equals 0x1 {12 06 A9 00 01 00}
+0x13089 				Not {17 02}
+0x1308B 				Or {16 02}
+0x1308D 			End {29 02}
+0x1308F 			Setting: ECO Mode, Variable: 0x153 {05 91 8A 01 8B 01 D4 07 00 F0 53 01 14 10 00 01 00}
+0x130A0 				Option: Disable, Value: 0x0 (default) {09 07 2D 00 10 00 00}
+0x130A7 				Option: Eco-Mode (45W), Value: 0x1 {09 07 8D 01 00 00 01}
+0x130AE 			End of Options {29 02}
+0x130B0 		End If {29 02}
+0x130B2 	End Form {29 02}
+0x130B4 	Form: LN2 Mode, Form ID: 0x24 {01 86 24 00 AD 01}
+0x130BA 		Subtitle: LN2 Mode {02 87 AD 01 00 00 00}
+0x130C1 		End {29 02}
+0x130C3 		Subtitle:   {02 87 05 00 00 00 00}
+0x130CA 		End {29 02}
+0x130CC 		Setting: LN2 Mode, Variable: 0x15B {05 91 AD 01 AE 01 69 00 00 F0 5B 01 10 10 00 0F 00}
+0x130DD 			Option: Auto, Value: 0xF (default) {09 07 09 00 10 00 0F}
+0x130E4 			Option: Disable, Value: 0x0 {09 07 2D 00 00 00 00}
+0x130EB 			Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x130F2 		End of Options {29 02}
+0x130F4 	End Form {29 02}
+0x130F6 	Form: Precision Boost Overdrive, Form ID: 0x10 {01 86 10 00 5D 01}
+0x130FC 		Subtitle: Precision Boost Overdrive {02 87 5D 01 00 00 00}
+0x13103 		End {29 02}
+0x13105 		Subtitle:   {02 87 05 00 00 00 00}
+0x1310C 		End {29 02}
+0x1310E 		Suppress If: {0A 82}
+0x13110 			Variable 0xA8 equals 0x1 {12 86 A8 00 01 00}
+0x13116 				Not {17 02}
+0x13118 			End {29 02}
+0x1311A 			Setting: Precision Boost Overdrive, Variable: 0x8E {05 91 5F 01 60 01 6A 00 00 F0 8E 00 10 10 00 0F 00}
+0x1312B 				Option: Auto, Value: 0xF (default) {09 07 09 00 10 00 0F}
+0x13132 				Option: Disable, Value: 0x0 {09 07 2D 00 00 00 00}
+0x13139 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x13140 				Option: Advanced, Value: 0x2 {09 07 0A 00 00 00 02}
+0x13147 			End of Options {29 02}
+0x13149 		End If {29 02}
+0x1314B 		Suppress If: {0A 82}
+0x1314D 			Variable 0xA7 equals 0x1 {12 86 A7 00 01 00}
+0x13153 				Not {17 02}
+0x13155 				Variable 0x6A equals 0x2 {12 06 6A 00 02 00}
+0x1315B 				Not {17 02}
+0x1315D 				Or {16 02}
+0x1315F 			End {29 02}
+0x13161 			Setting: PBO Limits, Variable: 0x8F {05 91 61 01 62 01 6B 00 00 F0 8F 00 10 10 00 0F 00}
+0x13172 				Option: Auto, Value: 0xF (default) {09 07 09 00 10 00 0F}
+0x13179 				Option: Disable, Value: 0x0 {09 07 2D 00 00 00 00}
+0x13180 				Option: Motherboard, Value: 0x1 {09 07 0B 00 00 00 01}
+0x13187 				Option: Manual, Value: 0x2 {09 07 06 00 00 00 02}
+0x1318E 			End of Options {29 02}
+0x13190 		End If {29 02}
+0x13192 		Suppress If: {0A 82}
+0x13194 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1319A 				Not {17 02}
+0x1319C 				Variable 0x6B equals 0x2 {12 06 6B 00 02 00}
+0x131A2 				Not {17 02}
+0x131A4 				Or {16 02}
+0x131A6 				Variable 0xA6 equals 0x1 {12 06 A6 00 01 00}
+0x131AC 				Not {17 02}
+0x131AE 				Or {16 02}
+0x131B0 			End {29 02}
+0x131B2 			Numeric: PPT Limit [W] (281473917202480-281473917202480) , Variable: 0x90 {07 9A 63 01 64 01 6C 00 00 F0 90 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x131CC 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x131D5 			End {29 02}
+0x131D7 		End If {29 02}
+0x131D9 		Suppress If: {0A 82}
+0x131DB 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x131E1 				Not {17 02}
+0x131E3 				Variable 0x6B equals 0x2 {12 06 6B 00 02 00}
+0x131E9 				Not {17 02}
+0x131EB 				Or {16 02}
+0x131ED 				Variable 0xA5 equals 0x1 {12 06 A5 00 01 00}
+0x131F3 				Not {17 02}
+0x131F5 				Or {16 02}
+0x131F7 			End {29 02}
+0x131F9 			Numeric: TDC Limit [A] (281473917202480-281473917202480) , Variable: 0x94 {07 9A 65 01 66 01 6D 00 00 F0 94 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x13213 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x1321C 			End {29 02}
+0x1321E 		End If {29 02}
+0x13220 		Suppress If: {0A 82}
+0x13222 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x13228 				Not {17 02}
+0x1322A 				Variable 0x6B equals 0x2 {12 06 6B 00 02 00}
+0x13230 				Not {17 02}
+0x13232 				Or {16 02}
+0x13234 				Variable 0xA4 equals 0x1 {12 06 A4 00 01 00}
+0x1323A 				Not {17 02}
+0x1323C 				Or {16 02}
+0x1323E 			End {29 02}
+0x13240 			Numeric: EDC Limit [A] (281473917202480-281473917202480) , Variable: 0x9C {07 9A 67 01 68 01 6E 00 00 F0 9C 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x1325A 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x13263 			End {29 02}
+0x13265 		End If {29 02}
+0x13267 		Suppress If: {0A 82}
+0x13269 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1326F 				Not {17 02}
+0x13271 				Variable 0x6B equals 0x2 {12 06 6B 00 02 00}
+0x13277 				Not {17 02}
+0x13279 				Or {16 02}
+0x1327B 				Variable 0xA3 equals 0x1 {12 06 A3 00 01 00}
+0x13281 				Not {17 02}
+0x13283 				Or {16 02}
+0x13285 			End {29 02}
+0x13287 			Numeric: SOC TDC Limit [A] (281473917202480-281473917202480) , Variable: 0x98 {07 9A 69 01 6A 01 6F 00 00 F0 98 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x132A1 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x132AA 			End {29 02}
+0x132AC 		End If {29 02}
+0x132AE 		Suppress If: {0A 82}
+0x132B0 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x132B6 				Not {17 02}
+0x132B8 				Variable 0x6B equals 0x2 {12 06 6B 00 02 00}
+0x132BE 				Not {17 02}
+0x132C0 				Or {16 02}
+0x132C2 				Variable 0xA2 equals 0x1 {12 06 A2 00 01 00}
+0x132C8 				Not {17 02}
+0x132CA 				Or {16 02}
+0x132CC 			End {29 02}
+0x132CE 			Numeric: SOC EDC Limit [A] (281473917202480-281473917202480) , Variable: 0xA0 {07 9A 6B 01 6C 01 70 00 00 F0 A0 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x132E8 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x132F1 			End {29 02}
+0x132F3 		End If {29 02}
+0x132F5 		Suppress If: {0A 82}
+0x132F7 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x132FD 				Not {17 02}
+0x132FF 				Variable 0xA1 equals 0x1 {12 06 A1 00 01 00}
+0x13305 				Not {17 02}
+0x13307 				Or {16 02}
+0x13309 			End {29 02}
+0x1330B 			Setting: Precision Boost Overdrive Scalar, Variable: 0xA4 {05 91 6D 01 6E 01 71 00 00 F0 A4 00 10 10 01 0F 00}
+0x1331C 				Option: Auto, Value: 0xF (default) {09 07 09 00 10 00 0F}
+0x13323 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x1332A 			End of Options {29 02}
+0x1332C 		End If {29 02}
+0x1332E 		Suppress If: {0A 82}
+0x13330 			Variable 0x71 equals 0x1 {12 86 71 00 01 00}
+0x13336 				Not {17 02}
+0x13338 				Variable 0x6A equals 0x2 {12 06 6A 00 02 00}
+0x1333E 				Not {17 02}
+0x13340 				Or {16 02}
+0x13342 				Variable 0xA0 equals 0x1 {12 06 A0 00 01 00}
+0x13348 				Not {17 02}
+0x1334A 				Or {16 02}
+0x1334C 			End {29 02}
+0x1334E 			Setting: Precision Boost Overdrive Scalar, Variable: 0xA5 {05 9A 6F 01 70 01 72 00 00 F0 A5 00 10 12 64 00 00 00 E8 03 00 00 00 00 00 00}
+0x13368 				Option: 1X, Value: 0x0 {09 0A 8E 01 12 02 64 00 00 00}
+0x13372 				Option: 2X, Value: 0x0 {09 0A 8F 01 02 02 C8 00 00 00}
+0x1337C 				Option: 3X, Value: 0x0 {09 0A 90 01 02 02 2C 01 00 00}
+0x13386 				Option: 4X, Value: 0x0 {09 0A 91 01 02 02 90 01 00 00}
+0x13390 				Option: 5X, Value: 0x0 {09 0A 92 01 02 02 F4 01 00 00}
+0x1339A 				Option: 6X, Value: 0x0 {09 0A 93 01 02 02 58 02 00 00}
+0x133A4 				Option: 7X, Value: 0x0 {09 0A 94 01 02 02 BC 02 00 00}
+0x133AE 				Option: 8X, Value: 0x0 {09 0A 95 01 02 02 20 03 00 00}
+0x133B8 				Option: 9X, Value: 0x0 {09 0A 96 01 02 02 84 03 00 00}
+0x133C2 				Option: 10X, Value: 0x0 {09 0A 97 01 02 02 E8 03 00 00}
+0x133CC 			End of Options {29 02}
+0x133CE 		End If {29 02}
+0x133D0 		Suppress If: {0A 82}
+0x133D2 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x133D8 				Not {17 02}
+0x133DA 				Variable 0x9F equals 0x1 {12 06 9F 00 01 00}
+0x133E0 				Not {17 02}
+0x133E2 				Or {16 02}
+0x133E4 			End {29 02}
+0x133E6 			Ref: Curve Optimizer, Variable: 0xFFFF {0F 0F 72 01 73 01 73 00 00 00 FF FF 00 27 00}
+0x133F5 		End If {29 02}
+0x133F7 		Suppress If: {0A 82}
+0x133F9 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x133FF 				Not {17 02}
+0x13401 				Variable 0x9E equals 0x1 {12 06 9E 00 01 00}
+0x13407 				Not {17 02}
+0x13409 				Or {16 02}
+0x1340B 			End {29 02}
+0x1340D 			Ref: GFX Curve Optimizer, Variable: 0xFFFF {0F 0F 7A 01 7B 01 74 00 00 00 FF FF 00 29 00}
+0x1341C 		End If {29 02}
+0x1341E 		Suppress If: {0A 82}
+0x13420 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x13426 				Not {17 02}
+0x13428 				Variable 0x9D equals 0x1 {12 06 9D 00 01 00}
+0x1342E 				Not {17 02}
+0x13430 				Or {16 02}
+0x13432 			End {29 02}
+0x13434 			Setting: CPU Boost Clock Override, Variable: 0xB6 {05 91 A9 01 AA 01 75 00 00 F0 B6 00 10 10 00 01 00}
+0x13445 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x1344C 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x13453 			End of Options {29 02}
+0x13455 		End If {29 02}
+0x13457 		Suppress If: {0A 82}
+0x13459 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1345F 				Not {17 02}
+0x13461 				Variable 0x9B equals 0x1 {12 06 9B 00 01 00}
+0x13467 				Not {17 02}
+0x13469 				Or {16 02}
+0x1346B 			End {29 02}
+0x1346D 			Setting: CPU Boost Clock Override, Variable: 0xB6 {05 91 A9 01 AA 01 76 00 00 F0 B6 00 14 10 00 02 00}
+0x1347E 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x13485 				Option: Enabled (Positive), Value: 0x1 {09 07 D1 01 00 00 01}
+0x1348C 				Option: Enabled (Negative), Value: 0x2 {09 07 D2 01 00 00 02}
+0x13493 			End of Options {29 02}
+0x13495 		End If {29 02}
+0x13497 		Suppress If: {0A 82}
+0x13499 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1349F 				Not {17 02}
+0x134A1 				Variable 0x9C equals 0x1 {12 06 9C 00 01 00}
+0x134A7 				Not {17 02}
+0x134A9 				Or {16 02}
+0x134AB 			End {29 02}
+0x134AD 			Setting: Max CPU Boost Clock Override, Variable: 0xA9 {05 9A 98 01 99 01 77 00 00 F0 A9 00 10 12 00 00 00 00 C8 00 00 00 00 00 00 00}
+0x134C7 				Option: 0MHz, Value: 0x0 {09 0A 9C 01 12 02 00 00 00 00}
+0x134D1 				Option: 25MHz, Value: 0x0 {09 0A 9D 01 02 02 19 00 00 00}
+0x134DB 				Option: 50MHz, Value: 0x0 {09 0A 9E 01 02 02 32 00 00 00}
+0x134E5 				Option: 75MHz, Value: 0x0 {09 0A 9F 01 02 02 4B 00 00 00}
+0x134EF 				Option: 100MHz, Value: 0x0 {09 0A A0 01 02 02 64 00 00 00}
+0x134F9 				Option: 125MHz, Value: 0x0 {09 0A A1 01 02 02 7D 00 00 00}
+0x13503 				Option: 150MHz, Value: 0x0 {09 0A A2 01 02 02 96 00 00 00}
+0x1350D 				Option: 175MHz, Value: 0x0 {09 0A A3 01 02 02 AF 00 00 00}
+0x13517 				Option: 200MHz, Value: 0x0 {09 0A A4 01 02 02 C8 00 00 00}
+0x13521 			End of Options {29 02}
+0x13523 		End If {29 02}
+0x13525 		Suppress If: {0A 82}
+0x13527 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1352D 				Not {17 02}
+0x1352F 				Variable 0x76 equals 0x1 {12 06 76 00 01 00}
+0x13535 				Not {17 02}
+0x13537 				Or {16 02}
+0x13539 				Variable 0x9B equals 0x1 {12 06 9B 00 01 00}
+0x1353F 				Not {17 02}
+0x13541 				Or {16 02}
+0x13543 			End {29 02}
+0x13545 			Numeric: Max CPU Boost Clock Override (+) (281473917202480-281473917202480) , Variable: 0x266 {07 94 D3 01 D5 01 78 00 00 F0 66 02 10 11 19 00 C8 00 19 00}
+0x13559 				Default: 16 Bit, Value: 0x19 {5B 07 00 00 01 19 00}
+0x13560 			End {29 02}
+0x13562 		End If {29 02}
+0x13564 		Suppress If: {0A 82}
+0x13566 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x1356C 				Not {17 02}
+0x1356E 				Variable 0x76 equals 0x2 {12 06 76 00 02 00}
+0x13574 				Not {17 02}
+0x13576 				Or {16 02}
+0x13578 				Variable 0x9B equals 0x1 {12 06 9B 00 01 00}
+0x1357E 				Not {17 02}
+0x13580 				Or {16 02}
+0x13582 			End {29 02}
+0x13584 			Numeric: Max CPU Boost Clock Override (-) (281473917202480-281473917202480) , Variable: 0x268 {07 94 D4 01 D6 01 79 00 00 F0 68 02 10 11 19 00 E8 03 19 00}
+0x13598 				Default: 16 Bit, Value: 0x19 {5B 07 00 00 01 19 00}
+0x1359F 			End {29 02}
+0x135A1 		End If {29 02}
+0x135A3 		Suppress If: {0A 82}
+0x135A5 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x135AB 				Not {17 02}
+0x135AD 				Variable 0x9A equals 0x1 {12 06 9A 00 01 00}
+0x135B3 				Not {17 02}
+0x135B5 				Or {16 02}
+0x135B7 			End {29 02}
+0x135B9 			Setting: Max GPU Boost Clock Override, Variable: 0xAD {05 9A 9A 01 9B 01 7A 00 00 F0 AD 00 10 12 00 00 00 00 C8 00 00 00 00 00 00 00}
+0x135D3 				Option: 0MHz, Value: 0x0 {09 0A 9C 01 12 02 00 00 00 00}
+0x135DD 				Option: 25MHz, Value: 0x0 {09 0A 9D 01 02 02 19 00 00 00}
+0x135E7 				Option: 50MHz, Value: 0x0 {09 0A 9E 01 02 02 32 00 00 00}
+0x135F1 				Option: 75MHz, Value: 0x0 {09 0A 9F 01 02 02 4B 00 00 00}
+0x135FB 				Option: 100MHz, Value: 0x0 {09 0A A0 01 02 02 64 00 00 00}
+0x13605 				Option: 125MHz, Value: 0x0 {09 0A A1 01 02 02 7D 00 00 00}
+0x1360F 				Option: 150MHz, Value: 0x0 {09 0A A2 01 02 02 96 00 00 00}
+0x13619 				Option: 175MHz, Value: 0x0 {09 0A A3 01 02 02 AF 00 00 00}
+0x13623 				Option: 200MHz, Value: 0x0 {09 0A A4 01 02 02 C8 00 00 00}
+0x1362D 			End of Options {29 02}
+0x1362F 		End If {29 02}
+0x13631 		Suppress If: {0A 82}
+0x13633 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x13639 				Not {17 02}
+0x1363B 				Variable 0x99 equals 0x1 {12 06 99 00 01 00}
+0x13641 				Not {17 02}
+0x13643 				Or {16 02}
+0x13645 			End {29 02}
+0x13647 			Setting: Platform Thermal Throttle Limit, Variable: 0xB5 {05 91 A5 01 A6 01 7B 00 00 F0 B5 00 10 10 00 01 00}
+0x13658 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x1365F 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x13666 			End of Options {29 02}
+0x13668 		End If {29 02}
+0x1366A 		Suppress If: {0A 82}
+0x1366C 			Variable 0x7B equals 0x1 {12 86 7B 00 01 00}
+0x13672 				Not {17 02}
+0x13674 				Variable 0x6A equals 0x2 {12 06 6A 00 02 00}
+0x1367A 				Not {17 02}
+0x1367C 				Or {16 02}
+0x1367E 				Variable 0x98 equals 0x1 {12 06 98 00 01 00}
+0x13684 				Not {17 02}
+0x13686 				Or {16 02}
+0x13688 			End {29 02}
+0x1368A 			Numeric: Platform Thermal Throttle Limit (281473917202480-281473917202480) , Variable: 0xB1 {07 9A A7 01 A8 01 7C 00 00 F0 B1 00 10 12 00 00 00 00 FF 00 00 00 00 00 00 00}
+0x136A4 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x136AD 			End {29 02}
+0x136AF 		End If {29 02}
+0x136B1 		Suppress If: {0A 82}
+0x136B3 			Variable 0x6A equals 0x2 {12 86 6A 00 02 00}
+0x136B9 				Not {17 02}
+0x136BB 				Variable 0x97 equals 0x1 {12 06 97 00 01 00}
+0x136C1 				Not {17 02}
+0x136C3 				Or {16 02}
+0x136C5 			End {29 02}
+0x136C7 			Setting: GPU Boost Clock Override, Variable: 0xB7 {05 91 AB 01 AC 01 7D 00 00 F0 B7 00 10 10 00 01 00}
+0x136D8 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x136DF 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x136E6 			End of Options {29 02}
+0x136E8 		End If {29 02}
+0x136EA 	End Form {29 02}
+0x136EC 	Form: SoC Voltage, Form ID: 0x12 {01 86 12 00 AF 01}
+0x136F2 		Subtitle: Forces CPU SoC/uncore components (e.g. Infinity Fabric, memory, and integrated graphics) to run at their maximum specified frequency at all times. May improve performance at the expense of idle power savings.  {02 87 B2 01 00 00 00}
+0x136F9 		End {29 02}
+0x136FB 		Subtitle:   {02 87 05 00 00 00 00}
+0x13702 		End {29 02}
+0x13704 		Suppress If: {0A 82}
+0x13706 			Variable 0x96 equals 0x1 {12 86 96 00 01 00}
+0x1370C 				Not {17 02}
+0x1370E 			End {29 02}
+0x13710 			Grayout If: {19 82}
+0x13712 				Variable 0x7F equals 0x1 {12 86 7F 00 01 00}
+0x13718 					Not {17 02}
+0x1371A 				End {29 02}
+0x1371C 				Numeric: SoC Voltage (281473917202480-281473917202480) , Variable: 0x14F {07 9A AF 01 B0 01 7E 00 00 F0 4F 01 10 12 00 00 00 00 0E 06 00 00 00 00 00 00}
+0x13736 					Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x1373F 				End {29 02}
+0x13741 			End If {29 02}
+0x13743 		End If {29 02}
+0x13745 	End Form {29 02}
+0x13747 	Form: SoC/Uncore OC Mode, Form ID: 0x13 {01 86 13 00 B1 01}
+0x1374D 		Subtitle: Forces CPU SoC/uncore components (e.g. Infinity Fabric, memory, and integrated graphics) to run at their maximum specified frequency at all times. May improve performance at the expense of idle power savings.  {02 87 B2 01 00 00 00}
+0x13754 		End {29 02}
+0x13756 		Subtitle:   {02 87 05 00 00 00 00}
+0x1375D 		End {29 02}
+0x1375F 		Suppress If: {0A 82}
+0x13761 			Variable 0x95 equals 0x1 {12 86 95 00 01 00}
+0x13767 				Not {17 02}
+0x13769 			End {29 02}
+0x1376B 			Setting: SoC/Uncore OC Mode, Variable: 0x8A {05 91 B1 01 B2 01 7F 00 00 F0 8A 00 10 10 00 01 00}
+0x1377C 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x13783 				Option: Disabled, Value: 0x0 (default) {09 07 08 00 10 00 00}
+0x1378A 			End of Options {29 02}
+0x1378C 		End If {29 02}
+0x1378E 	End Form {29 02}
+0x13790 	Form: VDDP Voltage Control, Form ID: 0x14 {01 86 14 00 B3 01}
+0x13796 		Subtitle: VDDP is a voltage for the DDR4 bus signaling (PHY), and it is derived from your DRAM Voltage (VDDIO_Mem). As a result, VDDP voltage in mV can approach but not exceed your DRAM Voltage {02 87 B4 01 00 00 00}
+0x1379D 		End {29 02}
+0x1379F 		Subtitle:   {02 87 05 00 00 00 00}
+0x137A6 		End {29 02}
+0x137A8 		Setting: VDDP Voltage Control, Variable: 0xB8 {05 91 B3 01 B4 01 80 00 00 F0 B8 00 10 10 00 01 00}
+0x137B9 			Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x137C0 			Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x137C7 		End of Options {29 02}
+0x137C9 		Suppress If: {0A 82}
+0x137CB 			Variable 0x80 equals 0x1 {12 86 80 00 01 00}
+0x137D1 				Not {17 02}
+0x137D3 			End {29 02}
+0x137D5 			Numeric: VDDP Voltage Control (281473917202480-281473917202480) , Variable: 0xB9 {07 9A B3 01 B4 01 81 00 00 F0 B9 00 10 12 BC 02 00 00 FF FF 00 00 00 00 00 00}
+0x137EF 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 BC 02 00 00}
+0x137F8 			End {29 02}
+0x137FA 		End If {29 02}
+0x137FC 	End Form {29 02}
+0x137FE 	Form: VDDG Voltage Control, Form ID: 0x15 {01 86 15 00 B5 01}
+0x13804 		Subtitle: VDDG represents voltage for the data portion of the Infinity Fabric. It is derived from the CPU SoC/Uncore Voltage (VDD_SOC). VDDG can approach but not exceed VDD_SOC. {02 87 B6 01 00 00 00}
+0x1380B 		End {29 02}
+0x1380D 		Subtitle:   {02 87 05 00 00 00 00}
+0x13814 		End {29 02}
+0x13816 		Suppress If: {0A 82}
+0x13818 			Variable 0x93 equals 0x0 {12 86 93 00 00 00}
+0x1381E 				Not {17 02}
+0x13820 			End {29 02}
+0x13822 			Setting: VDDG Voltage Control, Variable: 0xBD {05 91 B5 01 B6 01 82 00 00 F0 BD 00 10 10 00 01 00}
+0x13833 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x1383A 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x13841 			End of Options {29 02}
+0x13843 		End If {29 02}
+0x13845 		Suppress If: {0A 82}
+0x13847 			Variable 0x93 equals 0x1 {12 86 93 00 01 00}
+0x1384D 				Not {17 02}
+0x1384F 			End {29 02}
+0x13851 			Setting: VDDG Voltage Control, Variable: 0xBD {05 91 B5 01 B6 01 83 00 00 F0 BD 00 10 10 00 02 00}
+0x13862 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x13869 				Option: Global VDDG Voltage Control, Value: 0x1 {09 07 BD 01 00 00 01}
+0x13870 				Option: Per-CCD VDDG Voltage Control, Value: 0x2 {09 07 BE 01 00 00 02}
+0x13877 			End of Options {29 02}
+0x13879 		End If {29 02}
+0x1387B 		Suppress If: {0A 82}
+0x1387D 			Variable 0x83 equals 0x1 {12 86 83 00 01 00}
+0x13883 				Not {17 02}
+0x13885 				Variable 0x93 equals 0x0 {12 06 93 00 00 00}
+0x1388B 				Not {17 02}
+0x1388D 				Or {16 02}
+0x1388F 			End {29 02}
+0x13891 			Numeric: VDDG CCD Voltage Control (281473917202480-281473917202480) , Variable: 0xBE {07 9A B7 01 B6 01 84 00 00 F0 BE 00 10 12 BC 02 00 00 FF FF 00 00 00 00 00 00}
+0x138AB 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 BC 02 00 00}
+0x138B4 			End {29 02}
+0x138B6 		End If {29 02}
+0x138B8 		Suppress If: {0A 82}
+0x138BA 			Variable 0x83 equals 0x1 {12 86 83 00 01 00}
+0x138C0 				Not {17 02}
+0x138C2 				Variable 0x93 equals 0x0 {12 06 93 00 00 00}
+0x138C8 				Not {17 02}
+0x138CA 				Or {16 02}
+0x138CC 				Variable 0x94 equals 0x1 {12 06 94 00 01 00}
+0x138D2 				Not {17 02}
+0x138D4 				Or {16 02}
+0x138D6 			End {29 02}
+0x138D8 			Numeric: VDDG IOD Voltage Control (281473917202480-281473917202480) , Variable: 0x160 {07 9A B9 01 BA 01 85 00 00 F0 60 01 10 12 BC 02 00 00 FF FF 00 00 00 00 00 00}
+0x138F2 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 BC 02 00 00}
+0x138FB 			End {29 02}
+0x138FD 		End If {29 02}
+0x138FF 		Suppress If: {0A 82}
+0x13901 			Variable 0x83 equals 0x1 {12 86 83 00 01 00}
+0x13907 				Not {17 02}
+0x13909 				Variable 0x93 equals 0x1 {12 06 93 00 01 00}
+0x1390F 				Not {17 02}
+0x13911 				Or {16 02}
+0x13913 			End {29 02}
+0x13915 			Numeric: Global VDDG CCD Voltage Control (281473917202480-281473917202480) , Variable: 0x243 {07 94 BB 01 B6 01 86 00 00 F0 43 02 10 11 00 00 FF 07 00 00}
+0x13929 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x13930 			End {29 02}
+0x13932 		End If {29 02}
+0x13934 		Suppress If: {0A 82}
+0x13936 			Variable 0x83 equals 0x1 {12 86 83 00 01 00}
+0x1393C 				Not {17 02}
+0x1393E 				Variable 0x93 equals 0x1 {12 06 93 00 01 00}
+0x13944 				Not {17 02}
+0x13946 				Or {16 02}
+0x13948 				Variable 0x94 equals 0x1 {12 06 94 00 01 00}
+0x1394E 				Not {17 02}
+0x13950 				Or {16 02}
+0x13952 			End {29 02}
+0x13954 			Numeric: Global VDDG IOD Voltage Control (281473917202480-281473917202480) , Variable: 0x241 {07 94 BC 01 BA 01 87 00 00 F0 41 02 10 11 00 00 FF 07 00 00}
+0x13968 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x1396F 			End {29 02}
+0x13971 		End If {29 02}
+0x13973 		Suppress If: {0A 82}
+0x13975 			Variable 0x83 equals 0x2 {12 86 83 00 02 00}
+0x1397B 				Not {17 02}
+0x1397D 				Variable 0x93 equals 0x1 {12 06 93 00 01 00}
+0x13983 				Not {17 02}
+0x13985 				Or {16 02}
+0x13987 			End {29 02}
+0x13989 			Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0B 20}
+0x1399E 			Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0C 20}
+0x139B3 		End If {29 02}
+0x139B5 	End Form {29 02}
+0x139B7 	Form: Gaming Mode, Form ID: 0x25 {01 86 25 00 C1 01}
+0x139BD 		Subtitle: Gaming Mode {02 87 C1 01 00 00 00}
+0x139C4 		End {29 02}
+0x139C6 		Subtitle:   {02 87 05 00 00 00 00}
+0x139CD 		End {29 02}
+0x139CF 		Suppress If: {0A 82}
+0x139D1 			Variable 0x92 equals 0x1 {12 86 92 00 01 00}
+0x139D7 				Not {17 02}
+0x139D9 			End {29 02}
+0x139DB 			Setting: Gaming Mode, Variable: 0x166 {05 91 C1 01 C2 01 88 00 00 F0 66 01 10 10 00 01 00}
+0x139EC 				Option: Disable, Value: 0x0 (default) {09 07 2D 00 10 00 00}
+0x139F3 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x139FA 			End of Options {29 02}
+0x139FC 		End If {29 02}
+0x139FE 	End Form {29 02}
+0x13A00 	Form: NUMA nodes per socket, Form ID: 0x26 {01 86 26 00 C3 01}
+0x13A06 		Subtitle: NUMA nodes per socket {02 87 C3 01 00 00 00}
+0x13A0D 		End {29 02}
+0x13A0F 		Subtitle:   {02 87 05 00 00 00 00}
+0x13A16 		End {29 02}
+0x13A18 		Suppress If: {0A 82}
+0x13A1A 			Variable 0x91 equals 0x1 {12 86 91 00 01 00}
+0x13A20 				Not {17 02}
+0x13A22 			End {29 02}
+0x13A24 			Grayout If: {19 82}
+0x13A26 				Variable 0x88 equals 0x1 {12 06 88 00 01 00}
+0x13A2C 				Setting: NUMA nodes per socket, Variable: 0x168 {05 91 C3 01 C4 01 89 00 00 F0 68 01 10 10 00 07 00}
+0x13A3D 					Option: Auto, Value: 0x7 (default) {09 07 09 00 10 00 07}
+0x13A44 					Option: NPS0, Value: 0x0 {09 07 C5 01 00 00 00}
+0x13A4B 					Option: NPS1, Value: 0x1 {09 07 C6 01 00 00 01}
+0x13A52 					Option: NPS2, Value: 0x2 {09 07 C7 01 00 00 02}
+0x13A59 					Option: NPS4, Value: 0x3 {09 07 C8 01 00 00 03}
+0x13A60 				End of Options {29 02}
+0x13A62 			End If {29 02}
+0x13A64 		End If {29 02}
+0x13A66 	End Form {29 02}
+0x13A68 	Form: LCLK Frequency Control, Form ID: 0x28 {01 86 28 00 CB 01}
+0x13A6E 		Subtitle: LCLK Frequency Control {02 87 CB 01 00 00 00}
+0x13A75 		End {29 02}
+0x13A77 		Subtitle:   {02 87 05 00 00 00 00}
+0x13A7E 		End {29 02}
+0x13A80 		Suppress If: {0A 82}
+0x13A82 			Variable 0x90 equals 0x1 {12 86 90 00 01 00}
+0x13A88 				Not {17 02}
+0x13A8A 			End {29 02}
+0x13A8C 			Setting: LCLK Frequency Control, Variable: 0x26B {05 91 D7 01 D8 01 8A 00 00 F0 6B 02 10 10 00 01 00}
+0x13A9D 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x13AA4 				Option: Manual, Value: 0x1 {09 07 06 00 00 00 01}
+0x13AAB 			End of Options {29 02}
+0x13AAD 			Suppress If: {0A 82}
+0x13AAF 				Variable 0x8A equals 0x1 {12 86 8A 00 01 00}
+0x13AB5 					Not {17 02}
+0x13AB7 				End {29 02}
+0x13AB9 				Numeric: Minimun Frequency (281473917202480-281473917202480) , Variable: 0x26C {07 94 D9 01 DA 01 8B 00 00 F0 6C 02 10 11 96 00 C4 09 00 00}
+0x13ACD 					Default: 16 Bit, Value: 0x96 {5B 07 00 00 01 96 00}
+0x13AD4 				End {29 02}
+0x13AD6 			End If {29 02}
+0x13AD8 			Suppress If: {0A 82}
+0x13ADA 				Variable 0x8A equals 0x1 {12 86 8A 00 01 00}
+0x13AE0 					Not {17 02}
+0x13AE2 				End {29 02}
+0x13AE4 				Numeric: Maximum Frequency (281473917202480-281473917202480) , Variable: 0x26E {07 94 DB 01 DC 01 8C 00 00 F0 6E 02 10 11 96 00 C4 09 00 00}
+0x13AF8 					Default: 16 Bit, Value: 0x9C4 {5B 07 00 00 01 C4 09}
+0x13AFF 				End {29 02}
+0x13B01 			End If {29 02}
+0x13B03 		End If {29 02}
+0x13B05 		Suppress If: {0A 82}
+0x13B07 			Variable 0x8F equals 0x1 {12 86 8F 00 01 00}
+0x13B0D 				Not {17 02}
+0x13B0F 			End {29 02}
+0x13B11 			Setting: LCLK DPM, Variable: 0x239 {05 91 CD 01 CE 01 8D 00 00 F0 39 02 10 10 00 02 00}
+0x13B22 				Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x13B29 				Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x13B30 				Option: Disabled, Value: 0x2 {09 07 08 00 00 00 02}
+0x13B37 			End of Options {29 02}
+0x13B39 			Suppress If: {0A 82}
+0x13B3B 				Variable 0x8D equals 0x2 {12 06 8D 00 02 00}
+0x13B41 				Setting: LCLK DPM Enhanced PCIe Detection, Variable: 0x23A {05 91 CF 01 D0 01 8E 00 00 F0 3A 02 10 10 00 02 00}
+0x13B52 					Option: Auto, Value: 0x0 (default) {09 07 09 00 10 00 00}
+0x13B59 					Option: Enabled , Value: 0x1 {09 07 07 00 00 00 01}
+0x13B60 					Option: Disabled, Value: 0x2 {09 07 08 00 00 00 02}
+0x13B67 				End of Options {29 02}
+0x13B69 			End If {29 02}
+0x13B6B 		End If {29 02}
+0x13B6D 		Disable If: {1E 82}
+0x13B6F 			True {46 02}
+0x13B71 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x237 {07 91 00 00 00 00 8F 00 00 F0 37 02 00 10 00 FF 00}
+0x13B82 			End {29 02}
+0x13B84 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x26A {07 91 00 00 00 00 90 00 00 F0 6A 02 00 10 00 FF 00}
+0x13B95 			End {29 02}
+0x13B97 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x169 {07 91 00 00 00 00 91 00 00 F0 69 01 00 10 00 FF 00}
+0x13BA8 			End {29 02}
+0x13BAA 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x165 {07 91 00 00 00 00 92 00 00 F0 65 01 00 10 00 FF 00}
+0x13BBB 			End {29 02}
+0x13BBD 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x240 {07 91 00 00 00 00 93 00 00 F0 40 02 00 10 00 FF 00}
+0x13BCE 			End {29 02}
+0x13BD0 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x164 {07 91 00 00 00 00 94 00 00 F0 64 01 00 10 00 FF 00}
+0x13BE1 			End {29 02}
+0x13BE3 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x124 {07 91 00 00 00 00 95 00 00 F0 24 01 00 10 00 FF 00}
+0x13BF4 			End {29 02}
+0x13BF6 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x143 {07 91 00 00 00 00 96 00 00 F0 43 01 00 10 00 FF 00}
+0x13C07 			End {29 02}
+0x13C09 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x13F {07 91 00 00 00 00 97 00 00 F0 3F 01 00 10 00 FF 00}
+0x13C1A 			End {29 02}
+0x13C1C 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x13A {07 91 00 00 00 00 98 00 00 F0 3A 01 00 10 00 FF 00}
+0x13C2D 			End {29 02}
+0x13C2F 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x123 {07 91 00 00 00 00 99 00 00 F0 23 01 00 10 00 FF 00}
+0x13C40 			End {29 02}
+0x13C42 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x139 {07 91 00 00 00 00 9A 00 00 F0 39 01 00 10 00 FF 00}
+0x13C53 			End {29 02}
+0x13C55 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x265 {07 91 00 00 00 00 9B 00 00 F0 65 02 00 10 00 FF 00}
+0x13C66 			End {29 02}
+0x13C68 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x138 {07 91 00 00 00 00 9C 00 00 F0 38 01 00 10 00 FF 00}
+0x13C79 			End {29 02}
+0x13C7B 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x13E {07 91 00 00 00 00 9D 00 00 F0 3E 01 00 10 00 FF 00}
+0x13C8C 			End {29 02}
+0x13C8E 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x23B {07 91 00 00 00 00 9E 00 00 F0 3B 02 00 10 00 FF 00}
+0x13C9F 			End {29 02}
+0x13CA1 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x16D {07 91 00 00 00 00 9F 00 00 F0 6D 01 00 10 00 FF 00}
+0x13CB2 			End {29 02}
+0x13CB4 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x122 {07 91 00 00 00 00 A0 00 00 F0 22 01 00 10 00 FF 00}
+0x13CC5 			End {29 02}
+0x13CC7 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x121 {07 91 00 00 00 00 A1 00 00 F0 21 01 00 10 00 FF 00}
+0x13CD8 			End {29 02}
+0x13CDA 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x137 {07 91 00 00 00 00 A2 00 00 F0 37 01 00 10 00 FF 00}
+0x13CEB 			End {29 02}
+0x13CED 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x136 {07 91 00 00 00 00 A3 00 00 F0 36 01 00 10 00 FF 00}
+0x13CFE 			End {29 02}
+0x13D00 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x135 {07 91 00 00 00 00 A4 00 00 F0 35 01 00 10 00 FF 00}
+0x13D11 			End {29 02}
+0x13D13 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x134 {07 91 00 00 00 00 A5 00 00 F0 34 01 00 10 00 FF 00}
+0x13D24 			End {29 02}
+0x13D26 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x133 {07 91 00 00 00 00 A6 00 00 F0 33 01 00 10 00 FF 00}
+0x13D37 			End {29 02}
+0x13D39 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x120 {07 91 00 00 00 00 A7 00 00 F0 20 01 00 10 00 FF 00}
+0x13D4A 			End {29 02}
+0x13D4C 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11F {07 91 00 00 00 00 A8 00 00 F0 1F 01 00 10 00 FF 00}
+0x13D5D 			End {29 02}
+0x13D5F 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x145 {07 91 00 00 00 00 A9 00 00 F0 45 01 00 10 00 FF 00}
+0x13D70 			End {29 02}
+0x13D72 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x144 {07 91 00 00 00 00 AA 00 00 F0 44 01 00 10 00 FF 00}
+0x13D83 			End {29 02}
+0x13D85 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x146 {07 91 00 00 00 00 AB 00 00 F0 46 01 00 10 00 FF 00}
+0x13D96 			End {29 02}
+0x13D98 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11E {07 91 00 00 00 00 AC 00 00 F0 1E 01 00 10 00 FF 00}
+0x13DA9 			End {29 02}
+0x13DAB 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11D {07 91 00 00 00 00 AD 00 00 F0 1D 01 00 10 00 FF 00}
+0x13DBC 			End {29 02}
+0x13DBE 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11C {07 91 00 00 00 00 AE 00 00 F0 1C 01 00 10 00 FF 00}
+0x13DCF 			End {29 02}
+0x13DD1 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11B {07 91 00 00 00 00 AF 00 00 F0 1B 01 00 10 00 FF 00}
+0x13DE2 			End {29 02}
+0x13DE4 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x11A {07 91 00 00 00 00 B0 00 00 F0 1A 01 00 10 00 FF 00}
+0x13DF5 			End {29 02}
+0x13DF7 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x119 {07 91 00 00 00 00 B1 00 00 F0 19 01 00 10 00 FF 00}
+0x13E08 			End {29 02}
+0x13E0A 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x118 {07 91 00 00 00 00 B2 00 00 F0 18 01 00 10 00 FF 00}
+0x13E1B 			End {29 02}
+0x13E1D 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x117 {07 91 00 00 00 00 B3 00 00 F0 17 01 00 10 00 FF 00}
+0x13E2E 			End {29 02}
+0x13E30 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x116 {07 91 00 00 00 00 B4 00 00 F0 16 01 00 10 00 FF 00}
+0x13E41 			End {29 02}
+0x13E43 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x132 {07 91 00 00 00 00 B5 00 00 F0 32 01 00 10 00 FF 00}
+0x13E54 			End {29 02}
+0x13E56 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x131 {07 91 00 00 00 00 B6 00 00 F0 31 01 00 10 00 FF 00}
+0x13E67 			End {29 02}
+0x13E69 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x130 {07 91 00 00 00 00 B7 00 00 F0 30 01 00 10 00 FF 00}
+0x13E7A 			End {29 02}
+0x13E7C 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x115 {07 91 00 00 00 00 B8 00 00 F0 15 01 00 10 00 FF 00}
+0x13E8D 			End {29 02}
+0x13E8F 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x114 {07 91 00 00 00 00 B9 00 00 F0 14 01 00 10 00 FF 00}
+0x13EA0 			End {29 02}
+0x13EA2 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x113 {07 91 00 00 00 00 BA 00 00 F0 13 01 00 10 00 FF 00}
+0x13EB3 			End {29 02}
+0x13EB5 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x112 {07 91 00 00 00 00 BB 00 00 F0 12 01 00 10 00 FF 00}
+0x13EC6 			End {29 02}
+0x13EC8 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xEE {07 91 00 00 00 00 BC 00 00 F0 EE 00 00 10 00 FF 00}
+0x13ED9 			End {29 02}
+0x13EDB 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x111 {07 91 00 00 00 00 BD 00 00 F0 11 01 00 10 00 FF 00}
+0x13EEC 			End {29 02}
+0x13EEE 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x110 {07 91 00 00 00 00 BE 00 00 F0 10 01 00 10 00 FF 00}
+0x13EFF 			End {29 02}
+0x13F01 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10F {07 91 00 00 00 00 BF 00 00 F0 0F 01 00 10 00 FF 00}
+0x13F12 			End {29 02}
+0x13F14 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10E {07 91 00 00 00 00 C0 00 00 F0 0E 01 00 10 00 FF 00}
+0x13F25 			End {29 02}
+0x13F27 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10D {07 91 00 00 00 00 C1 00 00 F0 0D 01 00 10 00 FF 00}
+0x13F38 			End {29 02}
+0x13F3A 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10C {07 91 00 00 00 00 C2 00 00 F0 0C 01 00 10 00 FF 00}
+0x13F4B 			End {29 02}
+0x13F4D 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10B {07 91 00 00 00 00 C3 00 00 F0 0B 01 00 10 00 FF 00}
+0x13F5E 			End {29 02}
+0x13F60 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x10A {07 91 00 00 00 00 C4 00 00 F0 0A 01 00 10 00 FF 00}
+0x13F71 			End {29 02}
+0x13F73 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x109 {07 91 00 00 00 00 C5 00 00 F0 09 01 00 10 00 FF 00}
+0x13F84 			End {29 02}
+0x13F86 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x108 {07 91 00 00 00 00 C6 00 00 F0 08 01 00 10 00 FF 00}
+0x13F97 			End {29 02}
+0x13F99 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x107 {07 91 00 00 00 00 C7 00 00 F0 07 01 00 10 00 FF 00}
+0x13FAA 			End {29 02}
+0x13FAC 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x106 {07 91 00 00 00 00 C8 00 00 F0 06 01 00 10 00 FF 00}
+0x13FBD 			End {29 02}
+0x13FBF 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12F {07 91 00 00 00 00 C9 00 00 F0 2F 01 00 10 00 FF 00}
+0x13FD0 			End {29 02}
+0x13FD2 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x105 {07 91 00 00 00 00 CA 00 00 F0 05 01 00 10 00 FF 00}
+0x13FE3 			End {29 02}
+0x13FE5 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12E {07 91 00 00 00 00 CB 00 00 F0 2E 01 00 10 00 FF 00}
+0x13FF6 			End {29 02}
+0x13FF8 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x104 {07 91 00 00 00 00 CC 00 00 F0 04 01 00 10 00 FF 00}
+0x14009 			End {29 02}
+0x1400B 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12D {07 91 00 00 00 00 CD 00 00 F0 2D 01 00 10 00 FF 00}
+0x1401C 			End {29 02}
+0x1401E 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x103 {07 91 00 00 00 00 CE 00 00 F0 03 01 00 10 00 FF 00}
+0x1402F 			End {29 02}
+0x14031 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12C {07 91 00 00 00 00 CF 00 00 F0 2C 01 00 10 00 FF 00}
+0x14042 			End {29 02}
+0x14044 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x102 {07 91 00 00 00 00 D0 00 00 F0 02 01 00 10 00 FF 00}
+0x14055 			End {29 02}
+0x14057 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12B {07 91 00 00 00 00 D1 00 00 F0 2B 01 00 10 00 FF 00}
+0x14068 			End {29 02}
+0x1406A 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x101 {07 91 00 00 00 00 D2 00 00 F0 01 01 00 10 00 FF 00}
+0x1407B 			End {29 02}
+0x1407D 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x12A {07 91 00 00 00 00 D3 00 00 F0 2A 01 00 10 00 FF 00}
+0x1408E 			End {29 02}
+0x14090 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x100 {07 91 00 00 00 00 D4 00 00 F0 00 01 00 10 00 FF 00}
+0x140A1 			End {29 02}
+0x140A3 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x129 {07 91 00 00 00 00 D5 00 00 F0 29 01 00 10 00 FF 00}
+0x140B4 			End {29 02}
+0x140B6 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFF {07 91 00 00 00 00 D6 00 00 F0 FF 00 00 10 00 FF 00}
+0x140C7 			End {29 02}
+0x140C9 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFE {07 91 00 00 00 00 D7 00 00 F0 FE 00 00 10 00 FF 00}
+0x140DA 			End {29 02}
+0x140DC 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFD {07 91 00 00 00 00 D8 00 00 F0 FD 00 00 10 00 FF 00}
+0x140ED 			End {29 02}
+0x140EF 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x128 {07 91 00 00 00 00 D9 00 00 F0 28 01 00 10 00 FF 00}
+0x14100 			End {29 02}
+0x14102 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFC {07 91 00 00 00 00 DA 00 00 F0 FC 00 00 10 00 FF 00}
+0x14113 			End {29 02}
+0x14115 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFB {07 91 00 00 00 00 DB 00 00 F0 FB 00 00 10 00 FF 00}
+0x14126 			End {29 02}
+0x14128 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xFA {07 91 00 00 00 00 DC 00 00 F0 FA 00 00 10 00 FF 00}
+0x14139 			End {29 02}
+0x1413B 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x127 {07 91 00 00 00 00 DD 00 00 F0 27 01 00 10 00 FF 00}
+0x1414C 			End {29 02}
+0x1414E 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF9 {07 91 00 00 00 00 DE 00 00 F0 F9 00 00 10 00 FF 00}
+0x1415F 			End {29 02}
+0x14161 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF8 {07 91 00 00 00 00 DF 00 00 F0 F8 00 00 10 00 FF 00}
+0x14172 			End {29 02}
+0x14174 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF7 {07 91 00 00 00 00 E0 00 00 F0 F7 00 00 10 00 FF 00}
+0x14185 			End {29 02}
+0x14187 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF6 {07 91 00 00 00 00 E1 00 00 F0 F6 00 00 10 00 FF 00}
+0x14198 			End {29 02}
+0x1419A 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF5 {07 91 00 00 00 00 E2 00 00 F0 F5 00 00 10 00 FF 00}
+0x141AB 			End {29 02}
+0x141AD 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF4 {07 91 00 00 00 00 E3 00 00 F0 F4 00 00 10 00 FF 00}
+0x141BE 			End {29 02}
+0x141C0 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF3 {07 91 00 00 00 00 E4 00 00 F0 F3 00 00 10 00 FF 00}
+0x141D1 			End {29 02}
+0x141D3 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x236 {07 91 00 00 00 00 E5 00 00 F0 36 02 00 10 00 FF 00}
+0x141E4 			End {29 02}
+0x141E6 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF2 {07 91 00 00 00 00 E6 00 00 F0 F2 00 00 10 00 FF 00}
+0x141F7 			End {29 02}
+0x141F9 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF1 {07 91 00 00 00 00 E7 00 00 F0 F1 00 00 10 00 FF 00}
+0x1420A 			End {29 02}
+0x1420C 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x13C {07 91 00 00 00 00 E8 00 00 F0 3C 01 00 10 00 FF 00}
+0x1421D 			End {29 02}
+0x1421F 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x16F {07 91 00 00 00 00 E9 00 00 F0 6F 01 00 10 00 FF 00}
+0x14230 			End {29 02}
+0x14232 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x16E {07 91 00 00 00 00 EA 00 00 F0 6E 01 00 10 00 FF 00}
+0x14243 			End {29 02}
+0x14245 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xED {07 91 00 00 00 00 EB 00 00 F0 ED 00 00 10 00 FF 00}
+0x14256 			End {29 02}
+0x14258 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xEC {07 91 00 00 00 00 EC 00 00 F0 EC 00 00 10 00 FF 00}
+0x14269 			End {29 02}
+0x1426B 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xEB {07 91 00 00 00 00 ED 00 00 F0 EB 00 00 10 00 FF 00}
+0x1427C 			End {29 02}
+0x1427E 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xEA {07 91 00 00 00 00 EE 00 00 F0 EA 00 00 10 00 FF 00}
+0x1428F 			End {29 02}
+0x14291 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xF0 {07 91 00 00 00 00 EF 00 00 F0 F0 00 00 10 00 FF 00}
+0x142A2 			End {29 02}
+0x142A4 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE9 {07 91 00 00 00 00 F0 00 00 F0 E9 00 00 10 00 FF 00}
+0x142B5 			End {29 02}
+0x142B7 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE8 {07 91 00 00 00 00 F1 00 00 F0 E8 00 00 10 00 FF 00}
+0x142C8 			End {29 02}
+0x142CA 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x142 {07 91 00 00 00 00 F2 00 00 F0 42 01 00 10 00 FF 00}
+0x142DB 			End {29 02}
+0x142DD 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x141 {07 91 00 00 00 00 F3 00 00 F0 41 01 00 10 00 FF 00}
+0x142EE 			End {29 02}
+0x142F0 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE7 {07 91 00 00 00 00 F4 00 00 F0 E7 00 00 10 00 FF 00}
+0x14301 			End {29 02}
+0x14303 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x126 {07 91 00 00 00 00 F5 00 00 F0 26 01 00 10 00 FF 00}
+0x14314 			End {29 02}
+0x14316 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x125 {07 91 00 00 00 00 F6 00 00 F0 25 01 00 10 00 FF 00}
+0x14327 			End {29 02}
+0x14329 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x238 {07 91 00 00 00 00 F7 00 00 F0 38 02 00 10 00 FF 00}
+0x1433A 			End {29 02}
+0x1433C 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x13D {07 91 00 00 00 00 F8 00 00 F0 3D 01 00 10 00 FF 00}
+0x1434D 			End {29 02}
+0x1434F 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE3 {07 91 00 00 00 00 F9 00 00 F0 E3 00 00 10 00 FF 00}
+0x14360 			End {29 02}
+0x14362 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE2 {07 91 00 00 00 00 FA 00 00 F0 E2 00 00 10 00 FF 00}
+0x14373 			End {29 02}
+0x14375 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE1 {07 91 00 00 00 00 FB 00 00 F0 E1 00 00 10 00 FF 00}
+0x14386 			End {29 02}
+0x14388 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xE0 {07 91 00 00 00 00 FC 00 00 F0 E0 00 00 10 00 FF 00}
+0x14399 			End {29 02}
+0x1439B 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x15A {07 91 00 00 00 00 FD 00 00 F0 5A 01 00 10 00 FF 00}
+0x143AC 			End {29 02}
+0x143AE 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xDF {07 91 00 00 00 00 FE 00 00 F0 DF 00 00 10 00 FF 00}
+0x143BF 			End {29 02}
+0x143C1 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xDE {07 91 00 00 00 00 FF 00 00 F0 DE 00 00 10 00 FF 00}
+0x143D2 			End {29 02}
+0x143D4 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0x140 {07 91 00 00 00 00 00 01 00 F0 40 01 00 10 00 FF 00}
+0x143E5 			End {29 02}
+0x143E7 			Numeric: en-US (281473917202480-281473917202480) , Variable: 0xDD {07 91 00 00 00 00 01 01 00 F0 DD 00 00 10 00 FF 00}
+0x143F8 			End {29 02}
+0x143FA 		End If {29 02}
+0x143FC 	End Form {29 02}
+0x143FE End Form Set {29 02}

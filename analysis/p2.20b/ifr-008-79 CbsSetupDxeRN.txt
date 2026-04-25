@@ -1,0 +1,3186 @@
+                                UEFI Protocol Detected
+--------------------------------------------------------------------------------
+
+
+                                String Packages
+--------------------------------------------------------------------------------
+Offset:		Language:
+--------------------------------------------------------------------------------
+0x6204		en-US (0x0)
+
+
+                                   Form Sets
+--------------------------------------------------------------------------------
+Offset:		Title:
+--------------------------------------------------------------------------------
+0x137E4		AMD CBS (0x3 from string package 0x0)
+
+
+                         Internal Forms Representation
+--------------------------------------------------------------------------------
+Offset:		Instruction:
+--------------------------------------------------------------------------------
+0x137E8 Form Set: AMD CBS {0E A7 E3 35 45 B0 04 30 46 49 9E B7 14 94 28 98 30 53 03 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E}
+0x1380F 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 03 55 00}
+0x13824 	Guid: 0F0B1735-87A0-4193-B266-538C38AF48CE {5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 04 00 00}
+0x13839 	Default Store: en-US 0x0 {5C 06 00 00 00 00}
+0x1383F 	Default Store: en-US 0x1 {5C 06 00 00 01 00}
+0x13845 	Var Store: 0x5000[1448] (AmdSetup) {24 1F 02 75 99 3A 7A 64 82 4C 99 8E 52 EF 94 86 A2 47 00 50 A8 05 41 6D 64 53 65 74 75 70 00}
+0x13864 	Form: AMD CBS, Form ID: 0x7000 {01 86 00 70 03 00}
+0x1386A 		Subtitle: AMD CBS {02 87 03 00 00 00 00}
+0x13871 		End {29 02}
+0x13873 		Subtitle:  {02 87 02 00 00 00 00}
+0x1387A 		End {29 02}
+0x1387C 		Ref: CPU Common Options, Variable: 0xFFFF {0F 0F 05 00 05 00 01 00 00 00 FF FF 00 01 70}
+0x1388B 		Ref: DF Common Options, Variable: 0xFFFF {0F 0F 06 00 06 00 02 00 00 00 FF FF 00 02 70}
+0x1389A 		Ref: UMC Common Options, Variable: 0xFFFF {0F 0F 07 00 07 00 03 00 00 00 FF FF 00 03 70}
+0x138A9 		Ref: NBIO Common Options, Variable: 0xFFFF {0F 0F 08 00 08 00 04 00 00 00 FF FF 00 04 70}
+0x138B8 		Ref: FCH Common Options, Variable: 0xFFFF {0F 0F 09 00 09 00 05 00 00 00 FF FF 00 05 70}
+0x138C7 		Ref: Soc Miscellaneous Control, Variable: 0xFFFF {0F 0F 0A 00 0A 00 06 00 00 00 FF FF 00 06 70}
+0x138D6 		Suppress If: {0A 82}
+0x138D8 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x138DE 				Not {17 02}
+0x138E0 			End {29 02}
+0x138E2 			Numeric: Combo CBS (281474080956272-281474080956272) , Variable: 0x20 {07 91 0B 00 0C 00 07 00 00 50 20 00 10 20 00 FF 00}
+0x138F3 				Default: 8 Bit, Value: 0xFE {5B 06 00 00 00 FE}
+0x138F9 			End {29 02}
+0x138FB 		End If {29 02}
+0x138FD 	End Form {29 02}
+0x138FF 	Form: CPU Common Options, Form ID: 0x7001 {01 86 01 70 05 00}
+0x13905 		Subtitle: CPU Common Options {02 87 05 00 00 00 00}
+0x1390C 		End {29 02}
+0x1390E 		Subtitle:  {02 87 02 00 00 00 00}
+0x13915 		End {29 02}
+0x13917 		Ref: Performance, Variable: 0xFFFF {0F 0F 0D 00 0D 00 08 00 00 00 FF FF 00 07 70}
+0x13926 		Ref: Prefetcher settings, Variable: 0xFFFF {0F 0F 0E 00 0E 00 09 00 00 00 FF FF 00 08 70}
+0x13935 		Ref: Core Watchdog, Variable: 0xFFFF {0F 0F 0F 00 0F 00 0A 00 00 00 FF FF 00 09 70}
+0x13944 		Text:  {03 08 02 00 02 00 00 00}
+0x1394C 		Setting: RedirectForReturnDis, Variable: 0x21 {05 91 10 00 11 00 0B 00 00 50 21 00 10 10 00 FF 00}
+0x1395D 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13964 			Option: 1, Value: 0x1 {09 07 13 00 00 00 01}
+0x1396B 			Option: 0, Value: 0x0 {09 07 14 00 00 00 00}
+0x13972 		End of Options {29 02}
+0x13974 		Setting: Platform First Error Handling, Variable: 0x22 {05 91 15 00 16 00 0C 00 00 50 22 00 10 10 00 03 00}
+0x13985 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1398C 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13993 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x1399A 		End of Options {29 02}
+0x1399C 		Setting: Core Performance Boost, Variable: 0x23 {05 91 19 00 1A 00 0D 00 00 50 23 00 10 10 00 01 00}
+0x139AD 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x139B4 			Option: Auto, Value: 0x1 (default) {09 07 12 00 10 00 01}
+0x139BB 		End of Options {29 02}
+0x139BD 		Setting: Global C-state Control, Variable: 0x24 {05 91 1B 00 1C 00 0E 00 00 50 24 00 10 10 00 03 00}
+0x139CE 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x139D5 			Option: Enabled, Value: 0x1 (default) {09 07 17 00 10 00 01}
+0x139DC 			Option: Auto, Value: 0x3 {09 07 12 00 00 00 03}
+0x139E3 		End of Options {29 02}
+0x139E5 		Suppress If: {0A 82}
+0x139E7 			Variable 0x700A equals 0x2 {12 86 0A 70 02 00}
+0x139ED 				Not {17 02}
+0x139EF 			End {29 02}
+0x139F1 			Setting: Opcache grayout flag, Variable: 0x25 {05 91 1D 00 1E 00 0A 70 00 50 25 00 14 10 00 02 00}
+0x13A02 				Option: 0, Value: 0x0 (default) {09 07 14 00 10 00 00}
+0x13A09 				Option: 1, Value: 0x1 {09 07 13 00 00 00 01}
+0x13A10 				Option: Display, Value: 0x2 {09 07 1F 00 00 00 02}
+0x13A17 			End of Options {29 02}
+0x13A19 		End If {29 02}
+0x13A1B 		Grayout If: {19 82}
+0x13A1D 			Variable 0x700A equals 0x0 {12 86 0A 70 00 00}
+0x13A23 				Not {17 02}
+0x13A25 			End {29 02}
+0x13A27 			Setting: Opcache Control, Variable: 0x26 {05 91 20 00 21 00 0B 70 00 50 26 00 14 10 00 FF 00}
+0x13A38 				Option: Disabled, Value: 0x1 {09 07 18 00 00 00 01}
+0x13A3F 				Option: Enabled, Value: 0x0 {09 07 17 00 00 00 00}
+0x13A46 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13A4D 			End of Options {29 02}
+0x13A4F 		End If {29 02}
+0x13A51 		Setting: SEV ASID Count, Variable: 0x27 {05 91 22 00 23 00 0F 00 00 50 27 00 10 10 00 03 00}
+0x13A62 			Option: 253 ASIDs, Value: 0x0 {09 07 24 00 00 00 00}
+0x13A69 			Option: 509 ASIDs, Value: 0x1 {09 07 25 00 00 00 01}
+0x13A70 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13A77 		End of Options {29 02}
+0x13A79 		Setting: SEV-ES ASID Space Limit Control, Variable: 0x28 {05 91 26 00 27 00 10 00 00 50 28 00 10 10 00 01 00}
+0x13A8A 			Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x13A91 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x13A98 		End of Options {29 02}
+0x13A9A 		Suppress If: {0A 82}
+0x13A9C 			Variable 0x10 equals 0x1 {12 86 10 00 01 00}
+0x13AA2 				Not {17 02}
+0x13AA4 			End {29 02}
+0x13AA6 			Numeric: SEV-ES ASID Space Limit (281474080956272-281474080956272) , Variable: 0x29 {07 9A 29 00 2A 00 11 00 00 50 29 00 10 12 01 00 00 00 FE 01 00 00 00 00 00 00}
+0x13AC0 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 01 00 00 00}
+0x13AC9 			End {29 02}
+0x13ACB 		End If {29 02}
+0x13ACD 		Setting: Streaming Stores Control, Variable: 0x2D {05 91 2B 00 2C 00 12 00 00 50 2D 00 10 10 00 FF 00}
+0x13ADE 			Option: Disabled, Value: 0x1 {09 07 18 00 00 00 01}
+0x13AE5 			Option: Enabled, Value: 0x0 {09 07 17 00 00 00 00}
+0x13AEC 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13AF3 		End of Options {29 02}
+0x13AF5 		Setting: Local APIC Mode, Variable: 0x1A9 {05 91 2D 00 2E 00 13 00 00 50 A9 01 10 10 00 FF 00}
+0x13B06 			Option: Compatibility, Value: 0x0 {09 07 2F 00 00 00 00}
+0x13B0D 			Option: xAPIC, Value: 0x1 {09 07 30 00 00 00 01}
+0x13B14 			Option: x2APIC, Value: 0x2 {09 07 31 00 00 00 02}
+0x13B1B 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13B22 		End of Options {29 02}
+0x13B24 		Setting: ACPI _CST C1 Declaration, Variable: 0x2F {05 91 32 00 33 00 14 00 00 50 2F 00 10 10 00 03 00}
+0x13B35 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13B3C 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x13B43 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13B4A 		End of Options {29 02}
+0x13B4C 		Setting: MCA error thresh enable, Variable: 0x30 {05 91 34 00 35 00 15 00 00 50 30 00 10 10 00 01 00}
+0x13B5D 			Option: False, Value: 0x0 {09 07 36 00 00 00 00}
+0x13B64 			Option: True, Value: 0x1 (default) {09 07 37 00 10 00 01}
+0x13B6B 		End of Options {29 02}
+0x13B6D 		Suppress If: {0A 82}
+0x13B6F 			Variable 0x15 equals 0x1 {12 86 15 00 01 00}
+0x13B75 				Not {17 02}
+0x13B77 			End {29 02}
+0x13B79 			Numeric: MCA error thresh count (281474080956272-281474080956272) , Variable: 0x31 {07 94 38 00 39 00 16 00 00 50 31 00 10 21 01 00 FF 0F 00 00}
+0x13B8D 				Default: 16 Bit, Value: 0xFF5 {5B 07 00 00 01 F5 0F}
+0x13B94 			End {29 02}
+0x13B96 		End If {29 02}
+0x13B98 		Setting: SMU and PSP Debug Mode, Variable: 0x33 {05 91 3A 00 3B 00 17 00 00 50 33 00 10 10 00 03 00}
+0x13BA9 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13BB0 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x13BB7 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13BBE 		End of Options {29 02}
+0x13BC0 		Setting: PPIN Opt-in, Variable: 0x34 {05 91 3C 00 3D 00 18 00 00 50 34 00 10 10 00 FF 00}
+0x13BD1 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13BD8 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x13BDF 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13BE6 		End of Options {29 02}
+0x13BE8 		Suppress If: {0A 82}
+0x13BEA 			Variable 0x7 equals 0x11 {12 86 07 00 11 00}
+0x13BF0 				Not {17 02}
+0x13BF2 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x13BF8 				Not {17 02}
+0x13BFA 				And {15 02}
+0x13BFC 			End {29 02}
+0x13BFE 			Setting: Fast Short REP MOVSB, Variable: 0x1C2 {05 91 3E 00 3F 00 19 00 00 50 C2 01 10 10 00 01 00}
+0x13C0F 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13C16 				Option: Enabled, Value: 0x1 (default) {09 07 17 00 10 00 01}
+0x13C1D 			End of Options {29 02}
+0x13C1F 		End If {29 02}
+0x13C21 		Suppress If: {0A 82}
+0x13C23 			Variable 0x7 equals 0x11 {12 86 07 00 11 00}
+0x13C29 				Not {17 02}
+0x13C2B 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x13C31 				Not {17 02}
+0x13C33 				And {15 02}
+0x13C35 			End {29 02}
+0x13C37 			Setting: Enhanced REP MOVSB/STOSB, Variable: 0x1C3 {05 91 40 00 41 00 1A 00 00 50 C3 01 10 10 00 01 00}
+0x13C48 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13C4F 				Option: Enabled, Value: 0x1 (default) {09 07 17 00 10 00 01}
+0x13C56 			End of Options {29 02}
+0x13C58 		End If {29 02}
+0x13C5A 		Suppress If: {0A 82}
+0x13C5C 			Variable 0x7 equals 0x11 {12 86 07 00 11 00}
+0x13C62 				Not {17 02}
+0x13C64 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x13C6A 				Not {17 02}
+0x13C6C 				And {15 02}
+0x13C6E 			End {29 02}
+0x13C70 			Setting: IBS hardware workaround, Variable: 0x1C9 {05 91 42 00 43 00 1B 00 00 50 C9 01 10 10 00 01 00}
+0x13C81 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x13C88 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x13C8F 			End of Options {29 02}
+0x13C91 		End If {29 02}
+0x13C93 	End Form {29 02}
+0x13C95 	Form: Performance, Form ID: 0x7007 {01 86 07 70 0D 00}
+0x13C9B 		Subtitle: Performance {02 87 0D 00 00 00 00}
+0x13CA2 		End {29 02}
+0x13CA4 		Subtitle:  {02 87 02 00 00 00 00}
+0x13CAB 		End {29 02}
+0x13CAD 		Suppress If: {0A 82}
+0x13CAF 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x13CB5 				Not {17 02}
+0x13CB7 			End {29 02}
+0x13CB9 			Setting: OC Mode, Variable: 0x35 {05 91 44 00 45 00 0C 70 00 50 35 00 14 10 00 05 00}
+0x13CCA 				Option: Normal Operation, Value: 0x0 {09 07 46 00 00 00 00}
+0x13CD1 				Option: OC1, Value: 0x1 {09 07 47 00 00 00 01}
+0x13CD8 				Option: OC2, Value: 0x2 {09 07 48 00 00 00 02}
+0x13CDF 				Option: OC3, Value: 0x3 {09 07 49 00 00 00 03}
+0x13CE6 				Option: Customized, Value: 0x5 (default) {09 07 4A 00 10 00 05}
+0x13CED 			End of Options {29 02}
+0x13CEF 		End If {29 02}
+0x13CF1 		Grayout If: {19 82}
+0x13CF3 			Variable 0x700C equals 0x5 {12 86 0C 70 05 00}
+0x13CF9 				Not {17 02}
+0x13CFB 			End {29 02}
+0x13CFD 			Ref: Custom Core Pstates, Variable: 0xFFFF {0F 0F 4B 00 4B 00 1C 00 00 00 FF FF 00 0D 70}
+0x13D0C 		End If {29 02}
+0x13D0E 	End Form {29 02}
+0x13D10 	Form: Custom Core Pstates, Form ID: 0x700D {01 86 0D 70 4B 00}
+0x13D16 		Subtitle: Custom Core Pstates {02 87 4B 00 00 00 00}
+0x13D1D 		End {29 02}
+0x13D1F 		Subtitle:  {02 87 02 00 00 00 00}
+0x13D26 		End {29 02}
+0x13D28 		Text: WARNING - DAMAGE CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF SPECIFICATION OR IN EXCESS OF FACTORY SETTINGS ARE NOT COVERED UNDER YOUR AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR SYSTEM MANUFACTURER'S WARRANTY. {03 08 4C 00 4D 00 00 00}
+0x13D30 		Text: Operating your AMD processor outside of specification or in excess of factory settings, including but not limited to overclocking, may damage or shorten the life of your processor or other system components, create system instabilities (e.g., data loss and corrupted images) and in extreme cases may result in total system failure. AMD does not provide support or service for issues or damages related to use of an AMD processor outside of processor specifications or in excess of factory settings. {03 08 4E 00 4F 00 00 00}
+0x13D38 		Ref: Decline, Variable: 0xFFFF {0F 0F 50 00 50 00 1D 00 00 00 FF FF 00 07 70}
+0x13D47 		Ref: Accept, Variable: 0xFFFF {0F 0F 51 00 51 00 1E 00 00 00 FF FF 00 0F 70}
+0x13D56 	End Form {29 02}
+0x13D58 	Form: Decline, Form ID: 0x700E {01 86 0E 70 50 00}
+0x13D5E 		Subtitle: Decline {02 87 50 00 00 00 00}
+0x13D65 		End {29 02}
+0x13D67 		Subtitle:  {02 87 02 00 00 00 00}
+0x13D6E 		End {29 02}
+0x13D70 	End Form {29 02}
+0x13D72 	Form: Accept, Form ID: 0x700F {01 86 0F 70 51 00}
+0x13D78 		Subtitle: Accept {02 87 51 00 00 00 00}
+0x13D7F 		End {29 02}
+0x13D81 		Subtitle:  {02 87 02 00 00 00 00}
+0x13D88 		End {29 02}
+0x13D8A 		Grayout If: {19 82}
+0x13D8C 			Variable 0x700C equals 0x5 {12 86 0C 70 05 00}
+0x13D92 				Not {17 02}
+0x13D94 			End {29 02}
+0x13D96 			Setting: Custom Pstate0, Variable: 0x38 {05 91 52 00 53 00 10 70 00 50 38 00 14 10 01 02 00}
+0x13DA7 				Option: Custom, Value: 0x1 {09 07 54 00 00 00 01}
+0x13DAE 				Option: Auto, Value: 0x2 (default) {09 07 12 00 10 00 02}
+0x13DB5 			End of Options {29 02}
+0x13DB7 		End If {29 02}
+0x13DB9 		Suppress If: {0A 82}
+0x13DBB 			Variable 0x7010 equals 0x1 {12 86 10 70 01 00}
+0x13DC1 				Not {17 02}
+0x13DC3 			End {29 02}
+0x13DC5 			Grayout If: {19 82}
+0x13DC7 				Variable 0x700C equals 0x5 {12 86 0C 70 05 00}
+0x13DCD 					Not {17 02}
+0x13DCF 				End {29 02}
+0x13DD1 				Numeric: Pstate0 Freq (MHz) (281474080956272-281474080956272) , Variable: 0x115 {07 9A 55 00 56 00 1F 00 00 50 15 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x13DEB 					Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x13DF4 				End {29 02}
+0x13DF6 			End If {29 02}
+0x13DF8 		End If {29 02}
+0x13DFA 		Suppress If: {0A 82}
+0x13DFC 			Variable 0x7010 equals 0x1 {12 86 10 70 01 00}
+0x13E02 				Not {17 02}
+0x13E04 			End {29 02}
+0x13E06 			Grayout If: {19 82}
+0x13E08 				Variable 0x700C equals 0x5 {12 86 0C 70 05 00}
+0x13E0E 					Not {17 02}
+0x13E10 				End {29 02}
+0x13E12 				Numeric: Pstate0 VID (281474080956272-281474080956272) , Variable: 0x39 {07 91 57 00 58 00 11 70 00 50 39 00 14 20 00 FF 00}
+0x13E23 					Default: 8 Bit, Value: 0xFF {5B 06 00 00 00 FF}
+0x13E29 				End {29 02}
+0x13E2B 			End If {29 02}
+0x13E2D 		End If {29 02}
+0x13E2F 	End Form {29 02}
+0x13E31 	Form: Prefetcher settings, Form ID: 0x7008 {01 86 08 70 0E 00}
+0x13E37 		Subtitle: Prefetcher settings {02 87 0E 00 00 00 00}
+0x13E3E 		End {29 02}
+0x13E40 		Subtitle:  {02 87 02 00 00 00 00}
+0x13E47 		End {29 02}
+0x13E49 		Setting: L1 Stream HW Prefetcher, Variable: 0x3A {05 91 59 00 5A 00 20 00 00 50 3A 00 10 10 00 03 00}
+0x13E5A 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x13E61 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x13E68 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13E6F 		End of Options {29 02}
+0x13E71 		Setting: L2 Stream HW Prefetcher, Variable: 0x3B {05 91 5D 00 5E 00 21 00 00 50 3B 00 10 10 00 03 00}
+0x13E82 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x13E89 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x13E90 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13E97 		End of Options {29 02}
+0x13E99 	End Form {29 02}
+0x13E9B 	Form: Core Watchdog, Form ID: 0x7009 {01 86 09 70 0F 00}
+0x13EA1 		Subtitle: Core Watchdog {02 87 0F 00 00 00 00}
+0x13EA8 		End {29 02}
+0x13EAA 		Subtitle:  {02 87 02 00 00 00 00}
+0x13EB1 		End {29 02}
+0x13EB3 		Setting: Core Watchdog Timer Enable, Variable: 0x3C {05 91 5F 00 60 00 12 70 00 50 3C 00 14 10 00 03 00}
+0x13EC4 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x13ECB 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x13ED2 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x13ED9 		End of Options {29 02}
+0x13EDB 		Suppress If: {0A 82}
+0x13EDD 			Variable 0x7012 equals 0x1 {12 86 12 70 01 00}
+0x13EE3 				Not {17 02}
+0x13EE5 			End {29 02}
+0x13EE7 			Setting: Core Watchdog Timer Interval, Variable: 0x3D {05 94 61 00 62 00 22 00 00 50 3D 00 10 11 00 00 FF FF 00 00}
+0x13EFB 				Option: 21.461s, Value: 0x900 {09 08 63 00 01 01 00 09}
+0x13F03 				Option: 10.730s, Value: 0x800 {09 08 64 00 01 01 00 08}
+0x13F0B 				Option: 5.364s, Value: 0x0 {09 08 65 00 01 01 00 00}
+0x13F13 				Option: 2.681s, Value: 0x100 {09 08 66 00 01 01 00 01}
+0x13F1B 				Option: 1.340s, Value: 0x200 {09 08 67 00 01 01 00 02}
+0x13F23 				Option: 669.41ms, Value: 0x300 {09 08 68 00 01 01 00 03}
+0x13F2B 				Option: 334.05ms, Value: 0x400 {09 08 69 00 01 01 00 04}
+0x13F33 				Option: 166.37ms, Value: 0x500 {09 08 6A 00 01 01 00 05}
+0x13F3B 				Option: 82.53ms, Value: 0x600 {09 08 6B 00 01 01 00 06}
+0x13F43 				Option: 40.61ms, Value: 0x700 {09 08 6C 00 01 01 00 07}
+0x13F4B 				Option: 20.970ms, Value: 0x901 {09 08 6D 00 01 01 01 09}
+0x13F53 				Option: 10.484ms, Value: 0x801 {09 08 6E 00 01 01 01 08}
+0x13F5B 				Option: 5.241ms, Value: 0x1 {09 08 6F 00 01 01 01 00}
+0x13F63 				Option: 2.620ms, Value: 0x101 {09 08 70 00 01 01 01 01}
+0x13F6B 				Option: 1.309ms, Value: 0x201 {09 08 71 00 01 01 01 02}
+0x13F73 				Option: 654.08us, Value: 0x301 {09 08 72 00 01 01 01 03}
+0x13F7B 				Option: 326.4us, Value: 0x401 {09 08 73 00 01 01 01 04}
+0x13F83 				Option: 162.56us, Value: 0x501 {09 08 74 00 01 01 01 05}
+0x13F8B 				Option: 80.64us, Value: 0x601 {09 08 75 00 01 01 01 06}
+0x13F93 				Option: 39.68us, Value: 0x701 {09 08 76 00 01 01 01 07}
+0x13F9B 				Option: Auto, Value: 0xFFFF {09 08 12 00 11 01 FF FF}
+0x13FA3 			End of Options {29 02}
+0x13FA5 		End If {29 02}
+0x13FA7 		Suppress If: {0A 82}
+0x13FA9 			Variable 0x7012 equals 0x1 {12 86 12 70 01 00}
+0x13FAF 				Not {17 02}
+0x13FB1 			End {29 02}
+0x13FB3 			Setting: Core Watchdog Timer Severity, Variable: 0x3F {05 91 77 00 78 00 23 00 00 50 3F 00 10 10 00 FF 00}
+0x13FC4 				Option: No Error, Value: 0x0 {09 07 79 00 00 00 00}
+0x13FCB 				Option: Transparent, Value: 0x1 {09 07 7A 00 00 00 01}
+0x13FD2 				Option: Corrected, Value: 0x2 {09 07 7B 00 00 00 02}
+0x13FD9 				Option: Deferred, Value: 0x3 {09 07 7C 00 00 00 03}
+0x13FE0 				Option: Uncorrected, Value: 0x4 {09 07 7D 00 00 00 04}
+0x13FE7 				Option: Fatal, Value: 0x5 {09 07 7E 00 00 00 05}
+0x13FEE 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x13FF5 			End of Options {29 02}
+0x13FF7 		End If {29 02}
+0x13FF9 	End Form {29 02}
+0x13FFB 	Form: DF Common Options, Form ID: 0x7002 {01 86 02 70 06 00}
+0x14001 		Subtitle: DF Common Options {02 87 06 00 00 00 00}
+0x14008 		End {29 02}
+0x1400A 		Subtitle:  {02 87 02 00 00 00 00}
+0x14011 		End {29 02}
+0x14013 		Ref: Scrubber, Variable: 0xFFFF {0F 0F 7F 00 7F 00 24 00 00 00 FF FF 00 13 70}
+0x14022 		Ref: Memory Addressing, Variable: 0xFFFF {0F 0F 80 00 80 00 25 00 00 00 FF FF 00 14 70}
+0x14031 		Text:  {03 08 02 00 02 00 00 00}
+0x14039 		Setting: CC6 memory region encryption, Variable: 0x43 {05 91 81 00 82 00 26 00 00 50 43 00 10 10 00 03 00}
+0x1404A 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x14051 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x14058 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x1405F 		End of Options {29 02}
+0x14061 		Setting: Memory Clear, Variable: 0xFD {05 91 83 00 84 00 27 00 00 50 FD 00 10 10 00 03 00}
+0x14072 			Option: Enabled, Value: 0x0 {09 07 17 00 00 00 00}
+0x14079 			Option: Disabled, Value: 0x1 {09 07 18 00 00 00 01}
+0x14080 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x14087 		End of Options {29 02}
+0x14089 		Setting: Disable DF to external downstream IP SyncFloodPropagation, Variable: 0xFC {05 91 85 00 86 00 28 00 00 50 FC 00 10 10 00 FF 00}
+0x1409A 			Option: Sync flood disabled, Value: 0x1 {09 07 87 00 00 00 01}
+0x140A1 			Option: Sync flood enabled, Value: 0x0 {09 07 88 00 00 00 00}
+0x140A8 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x140AF 		End of Options {29 02}
+0x140B1 		Setting: Disable DF sync flood propagation, Variable: 0x42 {05 91 89 00 8A 00 29 00 00 50 42 00 10 10 00 03 00}
+0x140C2 			Option: Sync flood disabled, Value: 0x1 {09 07 87 00 00 00 01}
+0x140C9 			Option: Sync flood enabled, Value: 0x0 {09 07 88 00 00 00 00}
+0x140D0 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x140D7 		End of Options {29 02}
+0x140D9 		Setting: Freeze DF module queues on error, Variable: 0x46 {05 91 8B 00 8C 00 2A 00 00 50 46 00 10 10 00 03 00}
+0x140EA 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x140F1 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x140F8 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x140FF 		End of Options {29 02}
+0x14101 		Setting: DF Cstates, Variable: 0x13E {05 91 8D 00 8E 00 2B 00 00 50 3E 01 10 10 00 FF 00}
+0x14112 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x14119 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x14120 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14127 		End of Options {29 02}
+0x14129 	End Form {29 02}
+0x1412B 	Form: Scrubber, Form ID: 0x7013 {01 86 13 70 7F 00}
+0x14131 		Subtitle: Scrubber {02 87 7F 00 00 00 00}
+0x14138 		End {29 02}
+0x1413A 		Subtitle:  {02 87 02 00 00 00 00}
+0x14141 		End {29 02}
+0x14143 		Setting: DRAM scrub time, Variable: 0x40 {05 91 8F 00 90 00 2C 00 00 50 40 00 10 10 00 FF 00}
+0x14154 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1415B 			Option: 1 hour, Value: 0x1 {09 07 91 00 00 00 01}
+0x14162 			Option: 4 hours, Value: 0x4 {09 07 92 00 00 00 04}
+0x14169 			Option: 8 hours, Value: 0x8 {09 07 93 00 00 00 08}
+0x14170 			Option: 16 hours, Value: 0x10 {09 07 94 00 00 00 10}
+0x14177 			Option: 24 hours, Value: 0x18 {09 07 95 00 00 00 18}
+0x1417E 			Option: 48 hours, Value: 0x30 {09 07 96 00 00 00 30}
+0x14185 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1418C 		End of Options {29 02}
+0x1418E 		Setting: Poison scrubber control, Variable: 0xFB {05 91 97 00 98 00 2D 00 00 50 FB 00 10 10 00 03 00}
+0x1419F 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x141A6 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x141AD 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x141B4 		End of Options {29 02}
+0x141B6 		Setting: Redirect scrubber control, Variable: 0x41 {05 91 99 00 9A 00 2E 00 00 50 41 00 10 10 00 03 00}
+0x141C7 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x141CE 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x141D5 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x141DC 		End of Options {29 02}
+0x141DE 		Setting: Redirect scrubber limit, Variable: 0x47 {05 91 9B 00 9C 00 2F 00 00 50 47 00 10 10 00 FF 00}
+0x141EF 			Option: 2, Value: 0x1 {09 07 9D 00 00 00 01}
+0x141F6 			Option: 4, Value: 0x2 {09 07 9E 00 00 00 02}
+0x141FD 			Option: 8, Value: 0x3 {09 07 9F 00 00 00 03}
+0x14204 			Option: Infinite, Value: 0x0 {09 07 A0 00 00 00 00}
+0x1420B 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14212 		End of Options {29 02}
+0x14214 	End Form {29 02}
+0x14216 	Form: Memory Addressing, Form ID: 0x7014 {01 86 14 70 80 00}
+0x1421C 		Subtitle: Memory Addressing {02 87 80 00 00 00 00}
+0x14223 		End {29 02}
+0x14225 		Subtitle:  {02 87 02 00 00 00 00}
+0x1422C 		End {29 02}
+0x1422E 		Setting: Memory interleaving, Variable: 0x44 {05 91 A1 00 A2 00 30 00 00 50 44 00 10 10 00 07 00}
+0x1423F 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x14246 			Option: Auto, Value: 0x7 (default) {09 07 12 00 10 00 07}
+0x1424D 		End of Options {29 02}
+0x1424F 		Setting: Memory interleaving size, Variable: 0x45 {05 91 A3 00 A4 00 31 00 00 50 45 00 10 10 00 07 00}
+0x14260 			Option: 256 Bytes, Value: 0x0 {09 07 A5 00 00 00 00}
+0x14267 			Option: 512 Bytes, Value: 0x1 {09 07 A6 00 00 00 01}
+0x1426E 			Option: 1 KB, Value: 0x2 {09 07 A7 00 00 00 02}
+0x14275 			Option: 2 KB, Value: 0x3 {09 07 A8 00 00 00 03}
+0x1427C 			Option: Auto, Value: 0x7 (default) {09 07 12 00 10 00 07}
+0x14283 		End of Options {29 02}
+0x14285 		Setting: DRAM map inversion, Variable: 0xFA {05 91 A9 00 AA 00 32 00 00 50 FA 00 10 10 00 03 00}
+0x14296 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1429D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x142A4 			Option: Auto, Value: 0x3 (default) {09 07 12 00 10 00 03}
+0x142AB 		End of Options {29 02}
+0x142AD 	End Form {29 02}
+0x142AF 	Form: UMC Common Options, Form ID: 0x7003 {01 86 03 70 07 00}
+0x142B5 		Subtitle: UMC Common Options {02 87 07 00 00 00 00}
+0x142BC 		End {29 02}
+0x142BE 		Subtitle:  {02 87 02 00 00 00 00}
+0x142C5 		End {29 02}
+0x142C7 		Ref: DDR4 Common Options, Variable: 0xFFFF {0F 0F AB 00 AB 00 33 00 00 00 FF FF 00 15 70}
+0x142D6 		Ref: DRAM Memory Mapping, Variable: 0xFFFF {0F 0F AC 00 AC 00 34 00 00 00 FF FF 00 16 70}
+0x142E5 		Ref: Phy Configuration, Variable: 0xFFFF {0F 0F AD 00 AD 00 35 00 00 00 FF FF 00 17 70}
+0x142F4 		Ref: NVDIMM, Variable: 0xFFFF {0F 0F AE 00 AE 00 36 00 00 00 FF FF 00 18 70}
+0x14303 		Ref: Memory MBIST, Variable: 0xFFFF {0F 0F AF 00 AF 00 37 00 00 00 FF FF 00 19 70}
+0x14312 	End Form {29 02}
+0x14314 	Form: DDR4 Common Options, Form ID: 0x7015 {01 86 15 70 AB 00}
+0x1431A 		Subtitle: DDR4 Common Options {02 87 AB 00 00 00 00}
+0x14321 		End {29 02}
+0x14323 		Subtitle:  {02 87 02 00 00 00 00}
+0x1432A 		End {29 02}
+0x1432C 		Ref: DRAM Timing Configuration, Variable: 0xFFFF {0F 0F B0 00 B0 00 38 00 00 00 FF FF 00 1A 70}
+0x1433B 		Ref: DRAM Controller Configuration, Variable: 0xFFFF {0F 0F B1 00 B1 00 39 00 00 00 FF FF 00 1B 70}
+0x1434A 		Ref: CAD Bus Configuration, Variable: 0xFFFF {0F 0F B2 00 B2 00 3A 00 00 00 FF FF 00 1C 70}
+0x14359 		Ref: Data Bus Configuration, Variable: 0xFFFF {0F 0F B3 00 B3 00 3B 00 00 00 FF FF 00 1D 70}
+0x14368 		Ref: Common RAS, Variable: 0xFFFF {0F 0F B4 00 B4 00 3C 00 00 00 FF FF 00 1E 70}
+0x14377 		Ref: Security, Variable: 0xFFFF {0F 0F B5 00 B5 00 3D 00 00 00 FF FF 00 1F 70}
+0x14386 	End Form {29 02}
+0x14388 	Form: DRAM Timing Configuration, Form ID: 0x701A {01 86 1A 70 B0 00}
+0x1438E 		Subtitle: DRAM Timing Configuration {02 87 B0 00 00 00 00}
+0x14395 		End {29 02}
+0x14397 		Subtitle:  {02 87 02 00 00 00 00}
+0x1439E 		End {29 02}
+0x143A0 		Text: WARNING - DAMAGE CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF SPECIFICATION OR IN EXCESS OF FACTORY SETTINGS ARE NOT COVERED UNDER YOUR AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR SYSTEM MANUFACTURER'S WARRANTY. {03 08 B6 00 B7 00 00 00}
+0x143A8 		Text: Operating your AMD processor outside of specification or in excess of factory settings, including but not limited to overclocking, may damage or shorten the life of your processor or other system components, create system instabilities (e.g., data loss and corrupted images) and in extreme cases may result in total system failure. AMD does not provide support or service for issues or damages related to use of an AMD processor outside of processor specifications or in excess of factory settings. {03 08 B8 00 B9 00 00 00}
+0x143B0 		Ref: Decline, Variable: 0xFFFF {0F 0F BA 00 BA 00 3E 00 00 00 FF FF 00 15 70}
+0x143BF 		Ref: Accept, Variable: 0xFFFF {0F 0F BB 00 BB 00 3F 00 00 00 FF FF 00 21 70}
+0x143CE 	End Form {29 02}
+0x143D0 	Form: Decline, Form ID: 0x7020 {01 86 20 70 BA 00}
+0x143D6 		Subtitle: Decline {02 87 BA 00 00 00 00}
+0x143DD 		End {29 02}
+0x143DF 		Subtitle:  {02 87 02 00 00 00 00}
+0x143E6 		End {29 02}
+0x143E8 	End Form {29 02}
+0x143EA 	Form: Accept, Form ID: 0x7021 {01 86 21 70 BB 00}
+0x143F0 		Subtitle: Accept {02 87 BB 00 00 00 00}
+0x143F7 		End {29 02}
+0x143F9 		Subtitle:  {02 87 02 00 00 00 00}
+0x14400 		End {29 02}
+0x14402 		Setting: Overclock, Variable: 0x4A {05 91 BC 00 BD 00 40 00 00 50 4A 00 10 10 01 FF 00}
+0x14413 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1441A 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x14421 		End of Options {29 02}
+0x14423 		Suppress If: {0A 82}
+0x14425 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1442B 				Not {17 02}
+0x1442D 			End {29 02}
+0x1442F 			Setting: Memory Clock Speed, Variable: 0x4B {05 91 BE 00 BF 00 41 00 00 50 4B 00 10 10 18 FF 00}
+0x14440 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14447 				Option: 800MHz, Value: 0x18 {09 07 C0 00 00 00 18}
+0x1444E 				Option: 933MHz, Value: 0x1C {09 07 C1 00 00 00 1C}
+0x14455 				Option: 1067MHz, Value: 0x20 {09 07 C2 00 00 00 20}
+0x1445C 				Option: 1200MHz, Value: 0x24 {09 07 C3 00 00 00 24}
+0x14463 				Option: 1333MHz, Value: 0x28 {09 07 C4 00 00 00 28}
+0x1446A 				Option: 1367MHz, Value: 0x29 {09 07 C5 00 00 00 29}
+0x14471 				Option: 1400MHz, Value: 0x2A {09 07 C6 00 00 00 2A}
+0x14478 				Option: 1433MHz, Value: 0x2B {09 07 C7 00 00 00 2B}
+0x1447F 				Option: 1467MHz, Value: 0x2C {09 07 C8 00 00 00 2C}
+0x14486 				Option: 1500MHz, Value: 0x2D {09 07 C9 00 00 00 2D}
+0x1448D 				Option: 1533MHz, Value: 0x2E {09 07 CA 00 00 00 2E}
+0x14494 				Option: 1567MHz, Value: 0x2F {09 07 CB 00 00 00 2F}
+0x1449B 				Option: 1600MHz, Value: 0x30 {09 07 CC 00 00 00 30}
+0x144A2 				Option: 1633MHz, Value: 0x31 {09 07 CD 00 00 00 31}
+0x144A9 				Option: 1667MHz, Value: 0x32 {09 07 CE 00 00 00 32}
+0x144B0 				Option: 1700MHz, Value: 0x33 {09 07 CF 00 00 00 33}
+0x144B7 				Option: 1733MHz, Value: 0x34 {09 07 D0 00 00 00 34}
+0x144BE 				Option: 1767MHz, Value: 0x35 {09 07 D1 00 00 00 35}
+0x144C5 				Option: 1800MHz, Value: 0x36 {09 07 D2 00 00 00 36}
+0x144CC 				Option: 1833MHz, Value: 0x37 {09 07 D3 00 00 00 37}
+0x144D3 				Option: 1867MHz, Value: 0x38 {09 07 D4 00 00 00 38}
+0x144DA 				Option: 1900MHz, Value: 0x39 {09 07 D5 00 00 00 39}
+0x144E1 				Option: 1933MHz, Value: 0x3A {09 07 D6 00 00 00 3A}
+0x144E8 				Option: 1967MHz, Value: 0x3B {09 07 D7 00 00 00 3B}
+0x144EF 				Option: 2000MHz, Value: 0x3C {09 07 D8 00 00 00 3C}
+0x144F6 				Option: 2033MHz, Value: 0x3D {09 07 D9 00 00 00 3D}
+0x144FD 				Option: 2067MHz, Value: 0x3E {09 07 DA 00 00 00 3E}
+0x14504 				Option: 2100MHz, Value: 0x3F {09 07 DB 00 00 00 3F}
+0x1450B 				Option: 2133MHZ, Value: 0x40 {09 07 DC 00 00 00 40}
+0x14512 				Option: 2167MHZ, Value: 0x41 {09 07 DD 00 00 00 41}
+0x14519 				Option: 2200MHZ, Value: 0x42 {09 07 DE 00 00 00 42}
+0x14520 				Option: 2233MHZ, Value: 0x43 {09 07 DF 00 00 00 43}
+0x14527 				Option: 2267MHZ, Value: 0x44 {09 07 E0 00 00 00 44}
+0x1452E 				Option: 2300MHZ, Value: 0x45 {09 07 E1 00 00 00 45}
+0x14535 				Option: 2333MHZ, Value: 0x46 {09 07 E2 00 00 00 46}
+0x1453C 				Option: 2367MHZ, Value: 0x47 {09 07 E3 00 00 00 47}
+0x14543 				Option: 2400MHZ, Value: 0x48 {09 07 E4 00 00 00 48}
+0x1454A 				Option: 2433MHZ, Value: 0x49 {09 07 E5 00 00 00 49}
+0x14551 				Option: 2467MHZ, Value: 0x4A {09 07 E6 00 00 00 4A}
+0x14558 				Option: 2500MHZ, Value: 0x4B {09 07 E7 00 00 00 4B}
+0x1455F 				Option: 2550MHZ, Value: 0x4C {09 07 E8 00 00 00 4C}
+0x14566 				Option: 2600MHZ, Value: 0x4D {09 07 E9 00 00 00 4D}
+0x1456D 				Option: 2650MHZ, Value: 0x4E {09 07 EA 00 00 00 4E}
+0x14574 				Option: 2700MHZ, Value: 0x4F {09 07 EB 00 00 00 4F}
+0x1457B 				Option: 2750MHZ, Value: 0x50 {09 07 EC 00 00 00 50}
+0x14582 				Option: 2800MHZ, Value: 0x51 {09 07 ED 00 00 00 51}
+0x14589 				Option: 2850MHZ, Value: 0x52 {09 07 EE 00 00 00 52}
+0x14590 				Option: 2900MHZ, Value: 0x53 {09 07 EF 00 00 00 53}
+0x14597 				Option: 2950MHZ, Value: 0x54 {09 07 F0 00 00 00 54}
+0x1459E 				Option: 3000MHZ, Value: 0x55 {09 07 F1 00 00 00 55}
+0x145A5 				Option: 3050MHZ, Value: 0x56 {09 07 F2 00 00 00 56}
+0x145AC 				Option: 3100MHZ, Value: 0x57 {09 07 F3 00 00 00 57}
+0x145B3 				Option: 3150MHZ, Value: 0x58 {09 07 F4 00 00 00 58}
+0x145BA 				Option: 3200MHZ, Value: 0x59 {09 07 F5 00 00 00 59}
+0x145C1 				Option: 3250MHZ, Value: 0x5A {09 07 F6 00 00 00 5A}
+0x145C8 				Option: 3300MHZ, Value: 0x5B {09 07 F7 00 00 00 5B}
+0x145CF 				Option: 3350MHZ, Value: 0x5C {09 07 F8 00 00 00 5C}
+0x145D6 				Option: 3400MHZ, Value: 0x5D {09 07 F9 00 00 00 5D}
+0x145DD 				Option: 3450MHZ, Value: 0x5E {09 07 FA 00 00 00 5E}
+0x145E4 				Option: 3500MHZ, Value: 0x5F {09 07 FB 00 00 00 5F}
+0x145EB 				Option: 3550MHZ, Value: 0x60 {09 07 FC 00 00 00 60}
+0x145F2 				Option: 3600MHZ, Value: 0x61 {09 07 FD 00 00 00 61}
+0x145F9 				Option: 3650MHZ, Value: 0x62 {09 07 FE 00 00 00 62}
+0x14600 				Option: 3700MHZ, Value: 0x63 {09 07 FF 00 00 00 63}
+0x14607 				Option: 3750MHZ, Value: 0x64 {09 07 00 01 00 00 64}
+0x1460E 				Option: 3800MHZ, Value: 0x65 {09 07 01 01 00 00 65}
+0x14615 				Option: 3850MHZ, Value: 0x66 {09 07 02 01 00 00 66}
+0x1461C 				Option: 3900MHZ, Value: 0x67 {09 07 03 01 00 00 67}
+0x14623 				Option: 3950MHZ, Value: 0x68 {09 07 04 01 00 00 68}
+0x1462A 				Option: 4000MHZ, Value: 0x69 {09 07 05 01 00 00 69}
+0x14631 			End of Options {29 02}
+0x14633 		End If {29 02}
+0x14635 		Suppress If: {0A 82}
+0x14637 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1463D 				Not {17 02}
+0x1463F 			End {29 02}
+0x14641 			Setting: Tcl, Variable: 0x4C {05 91 06 01 07 01 42 00 00 50 4C 00 10 10 08 FF 00}
+0x14652 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14659 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14660 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14667 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x1466E 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14675 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x1467C 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x14683 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x1468A 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x14691 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x14698 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x1469F 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x146A6 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x146AD 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x146B4 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x146BB 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x146C2 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x146C9 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x146D0 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x146D7 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x146DE 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x146E5 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x146EC 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x146F3 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x146FA 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x14701 				Option: 20h Clk, Value: 0x20 {09 07 20 01 00 00 20}
+0x14708 				Option: 21h Clk, Value: 0x21 {09 07 21 01 00 00 21}
+0x1470F 			End of Options {29 02}
+0x14711 		End If {29 02}
+0x14713 		Suppress If: {0A 82}
+0x14715 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1471B 				Not {17 02}
+0x1471D 			End {29 02}
+0x1471F 			Setting: Trcdrd, Variable: 0x4D {05 91 22 01 23 01 43 00 00 50 4D 00 10 10 08 FF 00}
+0x14730 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14737 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x1473E 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14745 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x1474C 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14753 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x1475A 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x14761 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x14768 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x1476F 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x14776 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x1477D 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x14784 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x1478B 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x14792 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x14799 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x147A0 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x147A7 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x147AE 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x147B5 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x147BC 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x147C3 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x147CA 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x147D1 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x147D8 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x147DF 				Option: 20h Clk, Value: 0x20 {09 07 20 01 00 00 20}
+0x147E6 				Option: 21h Clk, Value: 0x21 {09 07 21 01 00 00 21}
+0x147ED 				Option: 22h Clk, Value: 0x22 {09 07 24 01 00 00 22}
+0x147F4 				Option: 23h Clk, Value: 0x23 {09 07 25 01 00 00 23}
+0x147FB 				Option: 24h Clk, Value: 0x24 {09 07 26 01 00 00 24}
+0x14802 				Option: 25h Clk, Value: 0x25 {09 07 27 01 00 00 25}
+0x14809 				Option: 26h Clk, Value: 0x26 {09 07 28 01 00 00 26}
+0x14810 				Option: 27h Clk, Value: 0x27 {09 07 29 01 00 00 27}
+0x14817 				Option: 28h Clk, Value: 0x28 {09 07 2A 01 00 00 28}
+0x1481E 				Option: 29h Clk, Value: 0x29 {09 07 2B 01 00 00 29}
+0x14825 				Option: 2Ah Clk, Value: 0x2A {09 07 2C 01 00 00 2A}
+0x1482C 				Option: 2Bh Clk, Value: 0x2B {09 07 2D 01 00 00 2B}
+0x14833 				Option: 2Ch Clk, Value: 0x2C {09 07 2E 01 00 00 2C}
+0x1483A 				Option: 2Dh Clk, Value: 0x2D {09 07 2F 01 00 00 2D}
+0x14841 				Option: 2Eh Clk, Value: 0x2E {09 07 30 01 00 00 2E}
+0x14848 				Option: 2Fh Clk, Value: 0x2F {09 07 31 01 00 00 2F}
+0x1484F 				Option: 30h Clk, Value: 0x30 {09 07 32 01 00 00 30}
+0x14856 				Option: 31h Clk, Value: 0x31 {09 07 33 01 00 00 31}
+0x1485D 				Option: 32h Clk, Value: 0x32 {09 07 34 01 00 00 32}
+0x14864 				Option: 33h Clk, Value: 0x33 {09 07 35 01 00 00 33}
+0x1486B 				Option: 34h Clk, Value: 0x34 {09 07 36 01 00 00 34}
+0x14872 				Option: 35h Clk, Value: 0x35 {09 07 37 01 00 00 35}
+0x14879 				Option: 36h Clk, Value: 0x36 {09 07 38 01 00 00 36}
+0x14880 				Option: 37h Clk, Value: 0x37 {09 07 39 01 00 00 37}
+0x14887 				Option: 38h Clk, Value: 0x38 {09 07 3A 01 00 00 38}
+0x1488E 				Option: 39h Clk, Value: 0x39 {09 07 3B 01 00 00 39}
+0x14895 				Option: 3Ah Clk, Value: 0x3A {09 07 3C 01 00 00 3A}
+0x1489C 				Option: 3Bh Clk, Value: 0x3B {09 07 3D 01 00 00 3B}
+0x148A3 				Option: 3Ch Clk, Value: 0x3C {09 07 3E 01 00 00 3C}
+0x148AA 				Option: 3Dh Clk, Value: 0x3D {09 07 3F 01 00 00 3D}
+0x148B1 				Option: 3Eh Clk, Value: 0x3E {09 07 40 01 00 00 3E}
+0x148B8 				Option: 3Fh Clk, Value: 0x3F {09 07 41 01 00 00 3F}
+0x148BF 			End of Options {29 02}
+0x148C1 		End If {29 02}
+0x148C3 		Suppress If: {0A 82}
+0x148C5 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x148CB 				Not {17 02}
+0x148CD 			End {29 02}
+0x148CF 			Setting: Trcdwr, Variable: 0x4E {05 91 42 01 43 01 44 00 00 50 4E 00 10 10 08 FF 00}
+0x148E0 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x148E7 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x148EE 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x148F5 				Option: 0A Clk, Value: 0xA {09 07 44 01 00 00 0A}
+0x148FC 				Option: 0B Clk, Value: 0xB {09 07 45 01 00 00 0B}
+0x14903 				Option: 0C Clk, Value: 0xC {09 07 46 01 00 00 0C}
+0x1490A 				Option: 0D Clk, Value: 0xD {09 07 47 01 00 00 0D}
+0x14911 				Option: 0E Clk, Value: 0xE {09 07 48 01 00 00 0E}
+0x14918 				Option: 0F Clk, Value: 0xF {09 07 49 01 00 00 0F}
+0x1491F 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x14926 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x1492D 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x14934 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x1493B 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x14942 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x14949 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x14950 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x14957 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x1495E 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x14965 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x1496C 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x14973 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x1497A 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x14981 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x14988 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x1498F 				Option: 20h Clk, Value: 0x20 {09 07 20 01 00 00 20}
+0x14996 				Option: 21h Clk, Value: 0x21 {09 07 21 01 00 00 21}
+0x1499D 				Option: 22h Clk, Value: 0x22 {09 07 24 01 00 00 22}
+0x149A4 				Option: 23h Clk, Value: 0x23 {09 07 25 01 00 00 23}
+0x149AB 				Option: 24h Clk, Value: 0x24 {09 07 26 01 00 00 24}
+0x149B2 				Option: 25h Clk, Value: 0x25 {09 07 27 01 00 00 25}
+0x149B9 				Option: 26h Clk, Value: 0x26 {09 07 28 01 00 00 26}
+0x149C0 				Option: 27h Clk, Value: 0x27 {09 07 29 01 00 00 27}
+0x149C7 				Option: 28h Clk, Value: 0x28 {09 07 2A 01 00 00 28}
+0x149CE 				Option: 29h Clk, Value: 0x29 {09 07 2B 01 00 00 29}
+0x149D5 				Option: 2Ah Clk, Value: 0x2A {09 07 2C 01 00 00 2A}
+0x149DC 				Option: 2Bh Clk, Value: 0x2B {09 07 2D 01 00 00 2B}
+0x149E3 				Option: 2Ch Clk, Value: 0x2C {09 07 2E 01 00 00 2C}
+0x149EA 				Option: 2Dh Clk, Value: 0x2D {09 07 2F 01 00 00 2D}
+0x149F1 				Option: 2Eh Clk, Value: 0x2E {09 07 30 01 00 00 2E}
+0x149F8 				Option: 2Fh Clk, Value: 0x2F {09 07 31 01 00 00 2F}
+0x149FF 				Option: 30h Clk, Value: 0x30 {09 07 32 01 00 00 30}
+0x14A06 				Option: 31h Clk, Value: 0x31 {09 07 33 01 00 00 31}
+0x14A0D 				Option: 32h Clk, Value: 0x32 {09 07 34 01 00 00 32}
+0x14A14 				Option: 33h Clk, Value: 0x33 {09 07 35 01 00 00 33}
+0x14A1B 				Option: 34h Clk, Value: 0x34 {09 07 36 01 00 00 34}
+0x14A22 				Option: 35h Clk, Value: 0x35 {09 07 37 01 00 00 35}
+0x14A29 				Option: 36h Clk, Value: 0x36 {09 07 38 01 00 00 36}
+0x14A30 				Option: 37h Clk, Value: 0x37 {09 07 39 01 00 00 37}
+0x14A37 				Option: 38h Clk, Value: 0x38 {09 07 3A 01 00 00 38}
+0x14A3E 				Option: 39h Clk, Value: 0x39 {09 07 3B 01 00 00 39}
+0x14A45 				Option: 3Ah Clk, Value: 0x3A {09 07 3C 01 00 00 3A}
+0x14A4C 				Option: 3Bh Clk, Value: 0x3B {09 07 3D 01 00 00 3B}
+0x14A53 				Option: 3Ch Clk, Value: 0x3C {09 07 3E 01 00 00 3C}
+0x14A5A 				Option: 3Dh Clk, Value: 0x3D {09 07 3F 01 00 00 3D}
+0x14A61 				Option: 3Eh Clk, Value: 0x3E {09 07 40 01 00 00 3E}
+0x14A68 				Option: 3Fh Clk, Value: 0x3F {09 07 41 01 00 00 3F}
+0x14A6F 			End of Options {29 02}
+0x14A71 		End If {29 02}
+0x14A73 		Suppress If: {0A 82}
+0x14A75 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14A7B 				Not {17 02}
+0x14A7D 			End {29 02}
+0x14A7F 			Setting: Trp, Variable: 0x4F {05 91 4A 01 4B 01 45 00 00 50 4F 00 10 10 08 FF 00}
+0x14A90 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14A97 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14A9E 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14AA5 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x14AAC 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14AB3 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x14ABA 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x14AC1 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x14AC8 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x14ACF 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x14AD6 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x14ADD 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x14AE4 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x14AEB 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x14AF2 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x14AF9 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x14B00 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x14B07 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x14B0E 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x14B15 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x14B1C 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x14B23 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x14B2A 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x14B31 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x14B38 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x14B3F 				Option: 20h Clk, Value: 0x20 {09 07 20 01 00 00 20}
+0x14B46 				Option: 21h Clk, Value: 0x21 {09 07 21 01 00 00 21}
+0x14B4D 				Option: 22h Clk, Value: 0x22 {09 07 24 01 00 00 22}
+0x14B54 				Option: 23h Clk, Value: 0x23 {09 07 25 01 00 00 23}
+0x14B5B 				Option: 24h Clk, Value: 0x24 {09 07 26 01 00 00 24}
+0x14B62 				Option: 25h Clk, Value: 0x25 {09 07 27 01 00 00 25}
+0x14B69 				Option: 26h Clk, Value: 0x26 {09 07 28 01 00 00 26}
+0x14B70 				Option: 27h Clk, Value: 0x27 {09 07 29 01 00 00 27}
+0x14B77 				Option: 28h Clk, Value: 0x28 {09 07 2A 01 00 00 28}
+0x14B7E 				Option: 29h Clk, Value: 0x29 {09 07 2B 01 00 00 29}
+0x14B85 				Option: 2Ah Clk, Value: 0x2A {09 07 2C 01 00 00 2A}
+0x14B8C 				Option: 2Bh Clk, Value: 0x2B {09 07 2D 01 00 00 2B}
+0x14B93 				Option: 2Ch Clk, Value: 0x2C {09 07 2E 01 00 00 2C}
+0x14B9A 				Option: 2Dh Clk, Value: 0x2D {09 07 2F 01 00 00 2D}
+0x14BA1 				Option: 2Eh Clk, Value: 0x2E {09 07 30 01 00 00 2E}
+0x14BA8 				Option: 2Fh Clk, Value: 0x2F {09 07 31 01 00 00 2F}
+0x14BAF 				Option: 30h Clk, Value: 0x30 {09 07 32 01 00 00 30}
+0x14BB6 				Option: 31h Clk, Value: 0x31 {09 07 33 01 00 00 31}
+0x14BBD 				Option: 32h Clk, Value: 0x32 {09 07 34 01 00 00 32}
+0x14BC4 				Option: 33h Clk, Value: 0x33 {09 07 35 01 00 00 33}
+0x14BCB 				Option: 34h Clk, Value: 0x34 {09 07 36 01 00 00 34}
+0x14BD2 				Option: 35h Clk, Value: 0x35 {09 07 37 01 00 00 35}
+0x14BD9 				Option: 36h Clk, Value: 0x36 {09 07 38 01 00 00 36}
+0x14BE0 				Option: 37h Clk, Value: 0x37 {09 07 39 01 00 00 37}
+0x14BE7 				Option: 38h Clk, Value: 0x38 {09 07 3A 01 00 00 38}
+0x14BEE 				Option: 39h Clk, Value: 0x39 {09 07 3B 01 00 00 39}
+0x14BF5 				Option: 3Ah Clk, Value: 0x3A {09 07 3C 01 00 00 3A}
+0x14BFC 				Option: 3Bh Clk, Value: 0x3B {09 07 3D 01 00 00 3B}
+0x14C03 				Option: 3Ch Clk, Value: 0x3C {09 07 3E 01 00 00 3C}
+0x14C0A 				Option: 3Dh Clk, Value: 0x3D {09 07 3F 01 00 00 3D}
+0x14C11 				Option: 3Eh Clk, Value: 0x3E {09 07 40 01 00 00 3E}
+0x14C18 				Option: 3Fh Clk, Value: 0x3F {09 07 41 01 00 00 3F}
+0x14C1F 			End of Options {29 02}
+0x14C21 		End If {29 02}
+0x14C23 		Suppress If: {0A 82}
+0x14C25 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14C2B 				Not {17 02}
+0x14C2D 			End {29 02}
+0x14C2F 			Setting: Tras, Variable: 0x50 {05 91 4C 01 4D 01 46 00 00 50 50 00 10 10 15 FF 00}
+0x14C40 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14C47 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x14C4E 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x14C55 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x14C5C 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x14C63 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x14C6A 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x14C71 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x14C78 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x14C7F 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x14C86 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x14C8D 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x14C94 				Option: 20h Clk, Value: 0x20 {09 07 20 01 00 00 20}
+0x14C9B 				Option: 21h Clk, Value: 0x21 {09 07 21 01 00 00 21}
+0x14CA2 				Option: 22h Clk, Value: 0x22 {09 07 24 01 00 00 22}
+0x14CA9 				Option: 23h Clk, Value: 0x23 {09 07 25 01 00 00 23}
+0x14CB0 				Option: 24h Clk, Value: 0x24 {09 07 26 01 00 00 24}
+0x14CB7 				Option: 25h Clk, Value: 0x25 {09 07 27 01 00 00 25}
+0x14CBE 				Option: 26h Clk, Value: 0x26 {09 07 28 01 00 00 26}
+0x14CC5 				Option: 27h Clk, Value: 0x27 {09 07 29 01 00 00 27}
+0x14CCC 				Option: 28h Clk, Value: 0x28 {09 07 2A 01 00 00 28}
+0x14CD3 				Option: 29h Clk, Value: 0x29 {09 07 2B 01 00 00 29}
+0x14CDA 				Option: 2Ah Clk, Value: 0x2A {09 07 2C 01 00 00 2A}
+0x14CE1 				Option: 2Bh Clk, Value: 0x2B {09 07 2D 01 00 00 2B}
+0x14CE8 				Option: 2Ch Clk, Value: 0x2C {09 07 2E 01 00 00 2C}
+0x14CEF 				Option: 2Dh Clk, Value: 0x2D {09 07 2F 01 00 00 2D}
+0x14CF6 				Option: 2Eh Clk, Value: 0x2E {09 07 30 01 00 00 2E}
+0x14CFD 				Option: 2Fh Clk, Value: 0x2F {09 07 31 01 00 00 2F}
+0x14D04 				Option: 30h Clk, Value: 0x30 {09 07 32 01 00 00 30}
+0x14D0B 				Option: 31h Clk, Value: 0x31 {09 07 33 01 00 00 31}
+0x14D12 				Option: 32h Clk, Value: 0x32 {09 07 34 01 00 00 32}
+0x14D19 				Option: 33h Clk, Value: 0x33 {09 07 35 01 00 00 33}
+0x14D20 				Option: 34h Clk, Value: 0x34 {09 07 36 01 00 00 34}
+0x14D27 				Option: 35h Clk, Value: 0x35 {09 07 37 01 00 00 35}
+0x14D2E 				Option: 36h Clk, Value: 0x36 {09 07 38 01 00 00 36}
+0x14D35 				Option: 37h Clk, Value: 0x37 {09 07 39 01 00 00 37}
+0x14D3C 				Option: 38h Clk, Value: 0x38 {09 07 3A 01 00 00 38}
+0x14D43 				Option: 39h Clk, Value: 0x39 {09 07 3B 01 00 00 39}
+0x14D4A 				Option: 3Ah Clk, Value: 0x3A {09 07 3C 01 00 00 3A}
+0x14D51 			End of Options {29 02}
+0x14D53 		End If {29 02}
+0x14D55 		Suppress If: {0A 82}
+0x14D57 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14D5D 				Not {17 02}
+0x14D5F 			End {29 02}
+0x14D61 			Setting: Trc Ctrl, Variable: 0x51 {05 91 4E 01 4F 01 47 00 00 50 51 00 10 10 00 01 00}
+0x14D72 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x14D79 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x14D80 			End of Options {29 02}
+0x14D82 		End If {29 02}
+0x14D84 		Suppress If: {0A 82}
+0x14D86 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14D8C 				Not {17 02}
+0x14D8E 				Variable 0x47 equals 0x1 {12 06 47 00 01 00}
+0x14D94 				Not {17 02}
+0x14D96 				Or {16 02}
+0x14D98 			End {29 02}
+0x14D9A 			Numeric: Trc (281474080956272-281474080956272) , Variable: 0x52 {07 91 50 01 51 01 48 00 00 50 52 00 10 20 1D 87 00}
+0x14DAB 				Default: 8 Bit, Value: 0x39 {5B 06 00 00 00 39}
+0x14DB1 			End {29 02}
+0x14DB3 		End If {29 02}
+0x14DB5 		Suppress If: {0A 82}
+0x14DB7 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14DBD 				Not {17 02}
+0x14DBF 			End {29 02}
+0x14DC1 			Setting: TrrdS, Variable: 0x53 {05 91 52 01 53 01 49 00 00 50 53 00 10 10 04 FF 00}
+0x14DD2 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14DD9 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x14DE0 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x14DE7 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x14DEE 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x14DF5 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14DFC 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14E03 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x14E0A 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14E11 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x14E18 			End of Options {29 02}
+0x14E1A 		End If {29 02}
+0x14E1C 		Suppress If: {0A 82}
+0x14E1E 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14E24 				Not {17 02}
+0x14E26 			End {29 02}
+0x14E28 			Setting: TrrdL, Variable: 0x54 {05 91 58 01 59 01 4A 00 00 50 54 00 10 10 04 FF 00}
+0x14E39 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14E40 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x14E47 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x14E4E 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x14E55 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x14E5C 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14E63 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14E6A 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x14E71 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14E78 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x14E7F 			End of Options {29 02}
+0x14E81 		End If {29 02}
+0x14E83 		Suppress If: {0A 82}
+0x14E85 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14E8B 				Not {17 02}
+0x14E8D 			End {29 02}
+0x14E8F 			Setting: Tfaw Ctrl, Variable: 0x55 {05 91 5A 01 5B 01 4B 00 00 50 55 00 10 10 00 01 00}
+0x14EA0 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x14EA7 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x14EAE 			End of Options {29 02}
+0x14EB0 		End If {29 02}
+0x14EB2 		Suppress If: {0A 82}
+0x14EB4 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14EBA 				Not {17 02}
+0x14EBC 				Variable 0x4B equals 0x1 {12 06 4B 00 01 00}
+0x14EC2 				Not {17 02}
+0x14EC4 				Or {16 02}
+0x14EC6 			End {29 02}
+0x14EC8 			Numeric: Tfaw (281474080956272-281474080956272) , Variable: 0x56 {07 91 5C 01 5D 01 4C 00 00 50 56 00 10 20 06 36 00}
+0x14ED9 				Default: 8 Bit, Value: 0x1A {5B 06 00 00 00 1A}
+0x14EDF 			End {29 02}
+0x14EE1 		End If {29 02}
+0x14EE3 		Suppress If: {0A 82}
+0x14EE5 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14EEB 				Not {17 02}
+0x14EED 			End {29 02}
+0x14EEF 			Setting: TwtrS, Variable: 0x57 {05 91 5E 01 5F 01 4D 00 00 50 57 00 10 10 02 FF 00}
+0x14F00 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14F07 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x14F0E 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x14F15 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x14F1C 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x14F23 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x14F2A 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x14F31 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14F38 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14F3F 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x14F46 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14F4D 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x14F54 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x14F5B 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x14F62 			End of Options {29 02}
+0x14F64 		End If {29 02}
+0x14F66 		Suppress If: {0A 82}
+0x14F68 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14F6E 				Not {17 02}
+0x14F70 			End {29 02}
+0x14F72 			Setting: TwtrL, Variable: 0x58 {05 91 62 01 63 01 4E 00 00 50 58 00 10 10 02 FF 00}
+0x14F83 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x14F8A 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x14F91 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x14F98 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x14F9F 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x14FA6 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x14FAD 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x14FB4 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x14FBB 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x14FC2 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x14FC9 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x14FD0 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x14FD7 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x14FDE 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x14FE5 			End of Options {29 02}
+0x14FE7 		End If {29 02}
+0x14FE9 		Suppress If: {0A 82}
+0x14FEB 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x14FF1 				Not {17 02}
+0x14FF3 			End {29 02}
+0x14FF5 			Setting: Twr Ctrl, Variable: 0x59 {05 91 64 01 65 01 4F 00 00 50 59 00 10 10 00 01 00}
+0x15006 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x1500D 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15014 			End of Options {29 02}
+0x15016 		End If {29 02}
+0x15018 		Suppress If: {0A 82}
+0x1501A 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15020 				Not {17 02}
+0x15022 				Variable 0x4F equals 0x1 {12 06 4F 00 01 00}
+0x15028 				Not {17 02}
+0x1502A 				Or {16 02}
+0x1502C 			End {29 02}
+0x1502E 			Numeric: Twr (281474080956272-281474080956272) , Variable: 0x5A {07 91 66 01 67 01 50 00 00 50 5A 00 10 20 0A 51 00}
+0x1503F 				Default: 8 Bit, Value: 0x12 {5B 06 00 00 00 12}
+0x15045 			End {29 02}
+0x15047 		End If {29 02}
+0x15049 		Suppress If: {0A 82}
+0x1504B 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15051 				Not {17 02}
+0x15053 			End {29 02}
+0x15055 			Setting: Trcpage Ctrl, Variable: 0x5B {05 91 68 01 69 01 51 00 00 50 5B 00 10 10 00 01 00}
+0x15066 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x1506D 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15074 			End of Options {29 02}
+0x15076 		End If {29 02}
+0x15078 		Suppress If: {0A 82}
+0x1507A 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15080 				Not {17 02}
+0x15082 				Variable 0x51 equals 0x1 {12 06 51 00 01 00}
+0x15088 				Not {17 02}
+0x1508A 				Or {16 02}
+0x1508C 			End {29 02}
+0x1508E 			Numeric: Trcpage (281474080956272-281474080956272) , Variable: 0x5C {07 94 6A 01 6B 01 52 00 00 50 5C 00 10 21 00 00 FF 03 00 00}
+0x150A2 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x150A9 			End {29 02}
+0x150AB 		End If {29 02}
+0x150AD 		Suppress If: {0A 82}
+0x150AF 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x150B5 				Not {17 02}
+0x150B7 			End {29 02}
+0x150B9 			Setting: TrdrdScL Ctrl, Variable: 0x5E {05 91 6C 01 6D 01 53 00 00 50 5E 00 10 10 00 01 00}
+0x150CA 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x150D1 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x150D8 			End of Options {29 02}
+0x150DA 		End If {29 02}
+0x150DC 		Suppress If: {0A 82}
+0x150DE 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x150E4 				Not {17 02}
+0x150E6 				Variable 0x53 equals 0x1 {12 06 53 00 01 00}
+0x150EC 				Not {17 02}
+0x150EE 				Or {16 02}
+0x150F0 			End {29 02}
+0x150F2 			Numeric: TrdrdScL (281474080956272-281474080956272) , Variable: 0x5F {07 91 6E 01 6F 01 54 00 00 50 5F 00 10 20 01 0F 00}
+0x15103 				Default: 8 Bit, Value: 0x3 {5B 06 00 00 00 03}
+0x15109 			End {29 02}
+0x1510B 		End If {29 02}
+0x1510D 		Suppress If: {0A 82}
+0x1510F 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15115 				Not {17 02}
+0x15117 			End {29 02}
+0x15119 			Setting: TwrwrScL Ctrl, Variable: 0x60 {05 91 70 01 71 01 55 00 00 50 60 00 10 10 00 01 00}
+0x1512A 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x15131 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15138 			End of Options {29 02}
+0x1513A 		End If {29 02}
+0x1513C 		Suppress If: {0A 82}
+0x1513E 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15144 				Not {17 02}
+0x15146 				Variable 0x55 equals 0x1 {12 06 55 00 01 00}
+0x1514C 				Not {17 02}
+0x1514E 				Or {16 02}
+0x15150 			End {29 02}
+0x15152 			Numeric: TwrwrScL (281474080956272-281474080956272) , Variable: 0x61 {07 91 72 01 73 01 56 00 00 50 61 00 10 20 01 3F 00}
+0x15163 				Default: 8 Bit, Value: 0x3 {5B 06 00 00 00 03}
+0x15169 			End {29 02}
+0x1516B 		End If {29 02}
+0x1516D 		Suppress If: {0A 82}
+0x1516F 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15175 				Not {17 02}
+0x15177 			End {29 02}
+0x15179 			Setting: Trfc Ctrl, Variable: 0x62 {05 91 74 01 75 01 57 00 00 50 62 00 10 10 00 01 00}
+0x1518A 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x15191 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15198 			End of Options {29 02}
+0x1519A 		End If {29 02}
+0x1519C 		Suppress If: {0A 82}
+0x1519E 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x151A4 				Not {17 02}
+0x151A6 				Variable 0x57 equals 0x1 {12 06 57 00 01 00}
+0x151AC 				Not {17 02}
+0x151AE 				Or {16 02}
+0x151B0 			End {29 02}
+0x151B2 			Numeric: Trfc (281474080956272-281474080956272) , Variable: 0x63 {07 94 76 01 77 01 58 00 00 50 63 00 10 21 3C 00 DE 03 00 00}
+0x151C6 				Default: 16 Bit, Value: 0x138 {5B 07 00 00 01 38 01}
+0x151CD 			End {29 02}
+0x151CF 		End If {29 02}
+0x151D1 		Suppress If: {0A 82}
+0x151D3 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x151D9 				Not {17 02}
+0x151DB 			End {29 02}
+0x151DD 			Setting: Trfc2 Ctrl, Variable: 0x65 {05 91 78 01 79 01 59 00 00 50 65 00 10 10 00 01 00}
+0x151EE 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x151F5 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x151FC 			End of Options {29 02}
+0x151FE 		End If {29 02}
+0x15200 		Suppress If: {0A 82}
+0x15202 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15208 				Not {17 02}
+0x1520A 				Variable 0x59 equals 0x1 {12 06 59 00 01 00}
+0x15210 				Not {17 02}
+0x15212 				Or {16 02}
+0x15214 			End {29 02}
+0x15216 			Numeric: Trfc2 (281474080956272-281474080956272) , Variable: 0x66 {07 94 7A 01 7B 01 5A 00 00 50 66 00 10 21 3C 00 DE 03 00 00}
+0x1522A 				Default: 16 Bit, Value: 0xC0 {5B 07 00 00 01 C0 00}
+0x15231 			End {29 02}
+0x15233 		End If {29 02}
+0x15235 		Suppress If: {0A 82}
+0x15237 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1523D 				Not {17 02}
+0x1523F 			End {29 02}
+0x15241 			Setting: Trfc4 Ctrl, Variable: 0x68 {05 91 7C 01 7D 01 5B 00 00 50 68 00 10 10 00 01 00}
+0x15252 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x15259 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15260 			End of Options {29 02}
+0x15262 		End If {29 02}
+0x15264 		Suppress If: {0A 82}
+0x15266 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1526C 				Not {17 02}
+0x1526E 				Variable 0x5B equals 0x1 {12 06 5B 00 01 00}
+0x15274 				Not {17 02}
+0x15276 				Or {16 02}
+0x15278 			End {29 02}
+0x1527A 			Numeric: Trfc4 (281474080956272-281474080956272) , Variable: 0x69 {07 94 7E 01 7F 01 5C 00 00 50 69 00 10 21 3C 00 DE 03 00 00}
+0x1528E 				Default: 16 Bit, Value: 0x84 {5B 07 00 00 01 84 00}
+0x15295 			End {29 02}
+0x15297 		End If {29 02}
+0x15299 		Suppress If: {0A 82}
+0x1529B 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x152A1 				Not {17 02}
+0x152A3 			End {29 02}
+0x152A5 			Setting: Tcwl, Variable: 0x6B {05 91 80 01 81 01 5D 00 00 50 6B 00 10 10 09 FF 00}
+0x152B6 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x152BD 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x152C4 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x152CB 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x152D2 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x152D9 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x152E0 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x152E7 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x152EE 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x152F5 			End of Options {29 02}
+0x152F7 		End If {29 02}
+0x152F9 		Suppress If: {0A 82}
+0x152FB 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15301 				Not {17 02}
+0x15303 			End {29 02}
+0x15305 			Setting: Trtp, Variable: 0x6C {05 91 82 01 83 01 5E 00 00 50 6C 00 10 10 05 FF 00}
+0x15316 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1531D 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x15324 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x1532B 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x15332 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x15339 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x15340 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x15347 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x1534E 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15355 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x1535C 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x15363 			End of Options {29 02}
+0x15365 		End If {29 02}
+0x15367 		Suppress If: {0A 82}
+0x15369 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x1536F 				Not {17 02}
+0x15371 			End {29 02}
+0x15373 			Setting: Tcke, Variable: 0x6D {05 91 84 01 85 01 5F 00 00 50 6D 00 10 10 01 FF 00}
+0x15384 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1538B 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15392 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x15399 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x153A0 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x153A7 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x153AE 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x153B5 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x153BC 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x153C3 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x153CA 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x153D1 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x153D8 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x153DF 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x153E6 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x153ED 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x153F4 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x153FB 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x15402 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x15409 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x15410 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x15417 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x1541E 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x15425 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x1542C 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x15433 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x1543A 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x15441 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x15448 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x1544F 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x15456 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x1545D 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x15464 			End of Options {29 02}
+0x15466 		End If {29 02}
+0x15468 		Suppress If: {0A 82}
+0x1546A 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15470 				Not {17 02}
+0x15472 			End {29 02}
+0x15474 			Setting: Trdwr, Variable: 0x6E {05 91 87 01 88 01 60 00 00 50 6E 00 10 10 01 FF 00}
+0x15485 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1548C 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15493 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x1549A 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x154A1 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x154A8 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x154AF 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x154B6 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x154BD 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x154C4 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x154CB 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x154D2 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x154D9 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x154E0 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x154E7 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x154EE 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x154F5 				Option: 10h Clk, Value: 0x10 {09 07 10 01 00 00 10}
+0x154FC 				Option: 11h Clk, Value: 0x11 {09 07 11 01 00 00 11}
+0x15503 				Option: 12h Clk, Value: 0x12 {09 07 12 01 00 00 12}
+0x1550A 				Option: 13h Clk, Value: 0x13 {09 07 13 01 00 00 13}
+0x15511 				Option: 14h Clk, Value: 0x14 {09 07 14 01 00 00 14}
+0x15518 				Option: 15h Clk, Value: 0x15 {09 07 15 01 00 00 15}
+0x1551F 				Option: 16h Clk, Value: 0x16 {09 07 16 01 00 00 16}
+0x15526 				Option: 17h Clk, Value: 0x17 {09 07 17 01 00 00 17}
+0x1552D 				Option: 18h Clk, Value: 0x18 {09 07 18 01 00 00 18}
+0x15534 				Option: 19h Clk, Value: 0x19 {09 07 19 01 00 00 19}
+0x1553B 				Option: 1Ah Clk, Value: 0x1A {09 07 1A 01 00 00 1A}
+0x15542 				Option: 1Bh Clk, Value: 0x1B {09 07 1B 01 00 00 1B}
+0x15549 				Option: 1Ch Clk, Value: 0x1C {09 07 1C 01 00 00 1C}
+0x15550 				Option: 1Dh Clk, Value: 0x1D {09 07 1D 01 00 00 1D}
+0x15557 				Option: 1Eh Clk, Value: 0x1E {09 07 1E 01 00 00 1E}
+0x1555E 				Option: 1Fh Clk, Value: 0x1F {09 07 1F 01 00 00 1F}
+0x15565 			End of Options {29 02}
+0x15567 		End If {29 02}
+0x15569 		Suppress If: {0A 82}
+0x1556B 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15571 				Not {17 02}
+0x15573 			End {29 02}
+0x15575 			Setting: Twrrd, Variable: 0x6F {05 91 89 01 8A 01 61 00 00 50 6F 00 10 10 01 FF 00}
+0x15586 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1558D 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15594 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x1559B 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x155A2 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x155A9 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x155B0 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x155B7 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x155BE 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x155C5 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x155CC 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x155D3 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x155DA 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x155E1 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x155E8 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x155EF 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x155F6 			End of Options {29 02}
+0x155F8 		End If {29 02}
+0x155FA 		Suppress If: {0A 82}
+0x155FC 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15602 				Not {17 02}
+0x15604 			End {29 02}
+0x15606 			Setting: TwrwrSc, Variable: 0x70 {05 91 8B 01 8C 01 62 00 00 50 70 00 10 10 01 FF 00}
+0x15617 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1561E 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15625 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x1562C 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x15633 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x1563A 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x15641 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x15648 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x1564F 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x15656 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x1565D 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x15664 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x1566B 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15672 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x15679 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x15680 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x15687 			End of Options {29 02}
+0x15689 		End If {29 02}
+0x1568B 		Suppress If: {0A 82}
+0x1568D 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15693 				Not {17 02}
+0x15695 			End {29 02}
+0x15697 			Setting: TwrwrSd, Variable: 0x71 {05 91 8D 01 8E 01 63 00 00 50 71 00 10 10 01 FF 00}
+0x156A8 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x156AF 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x156B6 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x156BD 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x156C4 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x156CB 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x156D2 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x156D9 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x156E0 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x156E7 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x156EE 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x156F5 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x156FC 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15703 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x1570A 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x15711 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x15718 			End of Options {29 02}
+0x1571A 		End If {29 02}
+0x1571C 		Suppress If: {0A 82}
+0x1571E 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15724 				Not {17 02}
+0x15726 			End {29 02}
+0x15728 			Setting: TwrwrDd, Variable: 0x72 {05 91 8F 01 90 01 64 00 00 50 72 00 10 10 01 FF 00}
+0x15739 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15740 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15747 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x1574E 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x15755 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x1575C 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x15763 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x1576A 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x15771 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x15778 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x1577F 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x15786 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x1578D 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15794 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x1579B 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x157A2 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x157A9 			End of Options {29 02}
+0x157AB 		End If {29 02}
+0x157AD 		Suppress If: {0A 82}
+0x157AF 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x157B5 				Not {17 02}
+0x157B7 			End {29 02}
+0x157B9 			Setting: TrdrdSc, Variable: 0x73 {05 91 91 01 92 01 65 00 00 50 73 00 10 10 01 FF 00}
+0x157CA 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x157D1 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x157D8 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x157DF 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x157E6 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x157ED 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x157F4 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x157FB 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x15802 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x15809 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x15810 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x15817 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x1581E 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15825 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x1582C 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x15833 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x1583A 			End of Options {29 02}
+0x1583C 		End If {29 02}
+0x1583E 		Suppress If: {0A 82}
+0x15840 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15846 				Not {17 02}
+0x15848 			End {29 02}
+0x1584A 			Setting: TrdrdSd, Variable: 0x74 {05 91 93 01 94 01 66 00 00 50 74 00 10 10 01 FF 00}
+0x1585B 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15862 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x15869 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x15870 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x15877 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x1587E 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x15885 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x1588C 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x15893 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x1589A 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x158A1 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x158A8 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x158AF 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x158B6 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x158BD 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x158C4 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x158CB 			End of Options {29 02}
+0x158CD 		End If {29 02}
+0x158CF 		Suppress If: {0A 82}
+0x158D1 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x158D7 				Not {17 02}
+0x158D9 			End {29 02}
+0x158DB 			Setting: TrdrdDd, Variable: 0x75 {05 91 95 01 96 01 67 00 00 50 75 00 10 10 01 FF 00}
+0x158EC 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x158F3 				Option: 1 Clk, Value: 0x1 {09 07 86 01 00 00 01}
+0x158FA 				Option: 2 Clk, Value: 0x2 {09 07 60 01 00 00 02}
+0x15901 				Option: 3 Clk, Value: 0x3 {09 07 61 01 00 00 03}
+0x15908 				Option: 4 Clk, Value: 0x4 {09 07 54 01 00 00 04}
+0x1590F 				Option: 5 Clk, Value: 0x5 {09 07 55 01 00 00 05}
+0x15916 				Option: 6 Clk, Value: 0x6 {09 07 56 01 00 00 06}
+0x1591D 				Option: 7 Clk, Value: 0x7 {09 07 57 01 00 00 07}
+0x15924 				Option: 8 Clk, Value: 0x8 {09 07 08 01 00 00 08}
+0x1592B 				Option: 9 Clk, Value: 0x9 {09 07 09 01 00 00 09}
+0x15932 				Option: 0Ah Clk, Value: 0xA {09 07 0A 01 00 00 0A}
+0x15939 				Option: 0Bh Clk, Value: 0xB {09 07 0B 01 00 00 0B}
+0x15940 				Option: 0Ch Clk, Value: 0xC {09 07 0C 01 00 00 0C}
+0x15947 				Option: 0Dh Clk, Value: 0xD {09 07 0D 01 00 00 0D}
+0x1594E 				Option: 0Eh Clk, Value: 0xE {09 07 0E 01 00 00 0E}
+0x15955 				Option: 0Fh Clk, Value: 0xF {09 07 0F 01 00 00 0F}
+0x1595C 			End of Options {29 02}
+0x1595E 		End If {29 02}
+0x15960 		Suppress If: {0A 82}
+0x15962 			Variable 0x40 equals 0x1 {12 86 40 00 01 00}
+0x15968 				Not {17 02}
+0x1596A 			End {29 02}
+0x1596C 			Setting: ProcODT, Variable: 0x76 {05 91 97 01 98 01 68 00 00 50 76 00 10 10 00 FF 00}
+0x1597D 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15984 				Option: High Impedance, Value: 0x0 {09 07 99 01 00 00 00}
+0x1598B 				Option: 480 ohm, Value: 0x1 {09 07 9A 01 00 00 01}
+0x15992 				Option: 240 ohm, Value: 0x2 {09 07 9B 01 00 00 02}
+0x15999 				Option: 160 ohm, Value: 0x3 {09 07 9C 01 00 00 03}
+0x159A0 				Option: 120 ohm, Value: 0x8 {09 07 9D 01 00 00 08}
+0x159A7 				Option: 96 ohm, Value: 0x9 {09 07 9E 01 00 00 09}
+0x159AE 				Option: 80 ohm, Value: 0xA {09 07 9F 01 00 00 0A}
+0x159B5 				Option: 68.6 ohm, Value: 0xB {09 07 A0 01 00 00 0B}
+0x159BC 				Option: 60 ohm, Value: 0x18 {09 07 A1 01 00 00 18}
+0x159C3 				Option: 53.3 ohm, Value: 0x19 {09 07 A2 01 00 00 19}
+0x159CA 				Option: 48 ohm, Value: 0x1A {09 07 A3 01 00 00 1A}
+0x159D1 				Option: 43.6 ohm, Value: 0x1B {09 07 A4 01 00 00 1B}
+0x159D8 				Option: 40 ohm, Value: 0x38 {09 07 A5 01 00 00 38}
+0x159DF 				Option: 36.9 ohm, Value: 0x39 {09 07 A6 01 00 00 39}
+0x159E6 				Option: 34.3 ohm, Value: 0x3A {09 07 A7 01 00 00 3A}
+0x159ED 				Option: 32 ohm, Value: 0x3B {09 07 A8 01 00 00 3B}
+0x159F4 				Option: 30 ohm, Value: 0x3E {09 07 A9 01 00 00 3E}
+0x159FB 				Option: 28.2 ohm, Value: 0x3F {09 07 AA 01 00 00 3F}
+0x15A02 			End of Options {29 02}
+0x15A04 		End If {29 02}
+0x15A06 	End Form {29 02}
+0x15A08 	Form: DRAM Controller Configuration, Form ID: 0x701B {01 86 1B 70 B1 00}
+0x15A0E 		Subtitle: DRAM Controller Configuration {02 87 B1 00 00 00 00}
+0x15A15 		End {29 02}
+0x15A17 		Subtitle:  {02 87 02 00 00 00 00}
+0x15A1E 		End {29 02}
+0x15A20 		Ref: DRAM Power Options, Variable: 0xFFFF {0F 0F AB 01 AB 01 69 00 00 00 FF FF 00 22 70}
+0x15A2F 		Text:  {03 08 02 00 02 00 00 00}
+0x15A37 		Setting: Cmd2T, Variable: 0x77 {05 91 AC 01 AD 01 6A 00 00 50 77 00 10 10 00 FF 00}
+0x15A48 			Option: 1T, Value: 0x0 {09 07 AE 01 00 00 00}
+0x15A4F 			Option: 2T, Value: 0x1 {09 07 AF 01 00 00 01}
+0x15A56 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15A5D 		End of Options {29 02}
+0x15A5F 		Setting: Gear Down Mode, Variable: 0x78 {05 91 B0 01 B1 01 6B 00 00 50 78 00 10 10 00 FF 00}
+0x15A70 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x15A77 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15A7E 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15A85 		End of Options {29 02}
+0x15A87 		Setting: LPDDR4 Refresh Mode, Variable: 0x13F {05 91 B2 01 B3 01 6C 00 00 50 3F 01 10 10 00 02 00}
+0x15A98 			Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x15A9F 			Option: All Banks, Value: 0x1 {09 07 B4 01 00 00 01}
+0x15AA6 			Option: Per Bank, Value: 0x2 {09 07 B5 01 00 00 02}
+0x15AAD 		End of Options {29 02}
+0x15AAF 	End Form {29 02}
+0x15AB1 	Form: DRAM Power Options, Form ID: 0x7022 {01 86 22 70 AB 01}
+0x15AB7 		Subtitle: DRAM Power Options {02 87 AB 01 00 00 00}
+0x15ABE 		End {29 02}
+0x15AC0 		Subtitle:  {02 87 02 00 00 00 00}
+0x15AC7 		End {29 02}
+0x15AC9 		Setting: Power Down Enable, Variable: 0x79 {05 91 B6 01 B7 01 6D 00 00 50 79 00 10 10 00 FF 00}
+0x15ADA 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x15AE1 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15AE8 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x15AEF 		End of Options {29 02}
+0x15AF1 		Setting: Disable Burst/Postponed Refresh, Variable: 0x1C7 {05 91 B8 01 B9 01 6E 00 00 50 C7 01 10 10 01 FF 00}
+0x15B02 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15B09 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15B10 		End of Options {29 02}
+0x15B12 		Suppress If: {0A 82}
+0x15B14 			Variable 0x6E equals 0x1 {12 86 6E 00 01 00}
+0x15B1A 				Not {17 02}
+0x15B1C 			End {29 02}
+0x15B1E 			Numeric: SubUrgRefLowerBound (281474080956272-281474080956272) , Variable: 0x1C4 {07 91 BA 01 BB 01 6F 00 00 50 C4 01 10 20 01 06 00}
+0x15B2F 				Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0x15B35 			End {29 02}
+0x15B37 		End If {29 02}
+0x15B39 		Suppress If: {0A 82}
+0x15B3B 			Variable 0x6E equals 0x1 {12 86 6E 00 01 00}
+0x15B41 				Not {17 02}
+0x15B43 			End {29 02}
+0x15B45 			Numeric: UrgRefLimit (281474080956272-281474080956272) , Variable: 0x1C5 {07 91 BC 01 BD 01 70 00 00 50 C5 01 10 20 01 06 00}
+0x15B56 				Default: 8 Bit, Value: 0x1 {5B 06 00 00 00 01}
+0x15B5C 			End {29 02}
+0x15B5E 		End If {29 02}
+0x15B60 		Setting: DRAM Maximum Activate Count, Variable: 0x1C6 {05 91 BE 01 BF 01 71 00 00 50 C6 01 10 10 00 FF 00}
+0x15B71 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15B78 			Option: Untested MAC, Value: 0x0 {09 07 C0 01 00 00 00}
+0x15B7F 			Option: 700 K, Value: 0x1 {09 07 C1 01 00 00 01}
+0x15B86 			Option: 600 K, Value: 0x2 {09 07 C2 01 00 00 02}
+0x15B8D 			Option: 500 K, Value: 0x3 {09 07 C3 01 00 00 03}
+0x15B94 			Option: 400 K, Value: 0x4 {09 07 C4 01 00 00 04}
+0x15B9B 			Option: 300 K, Value: 0x5 {09 07 C5 01 00 00 05}
+0x15BA2 			Option: 200 K, Value: 0x6 {09 07 C6 01 00 00 06}
+0x15BA9 			Option: Unlimited MAC, Value: 0x8 {09 07 C7 01 00 00 08}
+0x15BB0 		End of Options {29 02}
+0x15BB2 	End Form {29 02}
+0x15BB4 	Form: CAD Bus Configuration, Form ID: 0x701C {01 86 1C 70 B2 00}
+0x15BBA 		Subtitle: CAD Bus Configuration {02 87 B2 00 00 00 00}
+0x15BC1 		End {29 02}
+0x15BC3 		Subtitle:  {02 87 02 00 00 00 00}
+0x15BCA 		End {29 02}
+0x15BCC 		Setting: CAD Bus Timing User Controls, Variable: 0x7A {05 91 C8 01 C9 01 72 00 00 50 7A 00 10 10 01 FF 00}
+0x15BDD 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15BE4 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15BEB 		End of Options {29 02}
+0x15BED 		Suppress If: {0A 82}
+0x15BEF 			Variable 0x72 equals 0x1 {12 86 72 00 01 00}
+0x15BF5 				Not {17 02}
+0x15BF7 			End {29 02}
+0x15BF9 			Numeric: AddrCmdSetup (281474080956272-281474080956272) , Variable: 0x7B {07 91 CA 01 CB 01 73 00 00 50 7B 00 10 20 00 3F 00}
+0x15C0A 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x15C10 			End {29 02}
+0x15C12 		End If {29 02}
+0x15C14 		Suppress If: {0A 82}
+0x15C16 			Variable 0x72 equals 0x1 {12 86 72 00 01 00}
+0x15C1C 				Not {17 02}
+0x15C1E 			End {29 02}
+0x15C20 			Numeric: CsOdtSetup (281474080956272-281474080956272) , Variable: 0x7C {07 91 CC 01 CD 01 74 00 00 50 7C 00 10 20 00 3F 00}
+0x15C31 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x15C37 			End {29 02}
+0x15C39 		End If {29 02}
+0x15C3B 		Suppress If: {0A 82}
+0x15C3D 			Variable 0x72 equals 0x1 {12 86 72 00 01 00}
+0x15C43 				Not {17 02}
+0x15C45 			End {29 02}
+0x15C47 			Numeric: CkeSetup (281474080956272-281474080956272) , Variable: 0x7D {07 91 CE 01 CF 01 75 00 00 50 7D 00 10 20 00 3F 00}
+0x15C58 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x15C5E 			End {29 02}
+0x15C60 		End If {29 02}
+0x15C62 		Setting: CAD Bus Drive Strength User Controls, Variable: 0x7E {05 91 D0 01 D1 01 76 00 00 50 7E 00 10 10 01 FF 00}
+0x15C73 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15C7A 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15C81 		End of Options {29 02}
+0x15C83 		Suppress If: {0A 82}
+0x15C85 			Variable 0x76 equals 0x1 {12 86 76 00 01 00}
+0x15C8B 				Not {17 02}
+0x15C8D 			End {29 02}
+0x15C8F 			Setting: ClkDrvStren, Variable: 0x7F {05 91 D2 01 D3 01 77 00 00 50 7F 00 10 10 00 FF 00}
+0x15CA0 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15CA7 				Option: 120.0 Ohm, Value: 0x0 {09 07 D4 01 00 00 00}
+0x15CAE 				Option: 60.0 Ohm, Value: 0x1 {09 07 D5 01 00 00 01}
+0x15CB5 				Option: 40.0 Ohm, Value: 0x3 {09 07 D6 01 00 00 03}
+0x15CBC 				Option: 30.0 Ohm, Value: 0x7 {09 07 D7 01 00 00 07}
+0x15CC3 				Option: 24.0 Ohm, Value: 0xF {09 07 D8 01 00 00 0F}
+0x15CCA 				Option: 20.0 Ohm, Value: 0x1F {09 07 D9 01 00 00 1F}
+0x15CD1 			End of Options {29 02}
+0x15CD3 		End If {29 02}
+0x15CD5 		Suppress If: {0A 82}
+0x15CD7 			Variable 0x76 equals 0x1 {12 86 76 00 01 00}
+0x15CDD 				Not {17 02}
+0x15CDF 			End {29 02}
+0x15CE1 			Setting: AddrCmdDrvStren, Variable: 0x80 {05 91 DA 01 DB 01 78 00 00 50 80 00 10 10 00 FF 00}
+0x15CF2 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15CF9 				Option: 120.0 Ohm, Value: 0x0 {09 07 D4 01 00 00 00}
+0x15D00 				Option: 60.0 Ohm, Value: 0x1 {09 07 D5 01 00 00 01}
+0x15D07 				Option: 40.0 Ohm, Value: 0x3 {09 07 D6 01 00 00 03}
+0x15D0E 				Option: 30.0 Ohm, Value: 0x7 {09 07 D7 01 00 00 07}
+0x15D15 				Option: 24.0 Ohm, Value: 0xF {09 07 D8 01 00 00 0F}
+0x15D1C 				Option: 20.0 Ohm, Value: 0x1F {09 07 D9 01 00 00 1F}
+0x15D23 			End of Options {29 02}
+0x15D25 		End If {29 02}
+0x15D27 		Suppress If: {0A 82}
+0x15D29 			Variable 0x76 equals 0x1 {12 86 76 00 01 00}
+0x15D2F 				Not {17 02}
+0x15D31 			End {29 02}
+0x15D33 			Setting: CsOdtDrvStren, Variable: 0x81 {05 91 DC 01 DD 01 79 00 00 50 81 00 10 10 00 FF 00}
+0x15D44 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15D4B 				Option: 120.0 Ohm, Value: 0x0 {09 07 D4 01 00 00 00}
+0x15D52 				Option: 60.0 Ohm, Value: 0x1 {09 07 D5 01 00 00 01}
+0x15D59 				Option: 40.0 Ohm, Value: 0x3 {09 07 D6 01 00 00 03}
+0x15D60 				Option: 30.0 Ohm, Value: 0x7 {09 07 D7 01 00 00 07}
+0x15D67 				Option: 24.0 Ohm, Value: 0xF {09 07 D8 01 00 00 0F}
+0x15D6E 				Option: 20.0 Ohm, Value: 0x1F {09 07 D9 01 00 00 1F}
+0x15D75 			End of Options {29 02}
+0x15D77 		End If {29 02}
+0x15D79 		Suppress If: {0A 82}
+0x15D7B 			Variable 0x76 equals 0x1 {12 86 76 00 01 00}
+0x15D81 				Not {17 02}
+0x15D83 			End {29 02}
+0x15D85 			Setting: CkeDrvStren, Variable: 0x82 {05 91 DE 01 DF 01 7A 00 00 50 82 00 10 10 00 FF 00}
+0x15D96 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15D9D 				Option: 120.0 Ohm, Value: 0x0 {09 07 D4 01 00 00 00}
+0x15DA4 				Option: 60.0 Ohm, Value: 0x1 {09 07 D5 01 00 00 01}
+0x15DAB 				Option: 40.0 Ohm, Value: 0x3 {09 07 D6 01 00 00 03}
+0x15DB2 				Option: 30.0 Ohm, Value: 0x7 {09 07 D7 01 00 00 07}
+0x15DB9 				Option: 24.0 Ohm, Value: 0xF {09 07 D8 01 00 00 0F}
+0x15DC0 				Option: 20.0 Ohm, Value: 0x1F {09 07 D9 01 00 00 1F}
+0x15DC7 			End of Options {29 02}
+0x15DC9 		End If {29 02}
+0x15DCB 	End Form {29 02}
+0x15DCD 	Form: Data Bus Configuration, Form ID: 0x701D {01 86 1D 70 B3 00}
+0x15DD3 		Subtitle: Data Bus Configuration {02 87 B3 00 00 00 00}
+0x15DDA 		End {29 02}
+0x15DDC 		Subtitle:  {02 87 02 00 00 00 00}
+0x15DE3 		End {29 02}
+0x15DE5 		Setting: Data Bus Configuration User Controls, Variable: 0x83 {05 91 E0 01 E1 01 7B 00 00 50 83 00 10 10 01 FF 00}
+0x15DF6 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15DFD 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x15E04 		End of Options {29 02}
+0x15E06 		Suppress If: {0A 82}
+0x15E08 			Variable 0x7B equals 0x1 {12 86 7B 00 01 00}
+0x15E0E 				Not {17 02}
+0x15E10 			End {29 02}
+0x15E12 			Setting: RttNom, Variable: 0x84 {05 91 E2 01 E3 01 7C 00 00 50 84 00 10 10 00 FF 00}
+0x15E23 				Option: Rtt_Nom Disable, Value: 0x0 {09 07 E4 01 00 00 00}
+0x15E2A 				Option: RZQ/4, Value: 0x1 {09 07 E5 01 00 00 01}
+0x15E31 				Option: RZQ/2, Value: 0x2 {09 07 E6 01 00 00 02}
+0x15E38 				Option: RZQ/6, Value: 0x3 {09 07 E7 01 00 00 03}
+0x15E3F 				Option: RZQ/1, Value: 0x4 {09 07 E8 01 00 00 04}
+0x15E46 				Option: RZQ/5, Value: 0x5 {09 07 E9 01 00 00 05}
+0x15E4D 				Option: RZQ/3, Value: 0x6 {09 07 EA 01 00 00 06}
+0x15E54 				Option: RZQ/7, Value: 0x7 {09 07 EB 01 00 00 07}
+0x15E5B 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15E62 			End of Options {29 02}
+0x15E64 		End If {29 02}
+0x15E66 		Suppress If: {0A 82}
+0x15E68 			Variable 0x7B equals 0x1 {12 86 7B 00 01 00}
+0x15E6E 				Not {17 02}
+0x15E70 			End {29 02}
+0x15E72 			Setting: RttWr, Variable: 0x85 {05 91 EC 01 ED 01 7D 00 00 50 85 00 10 10 00 FF 00}
+0x15E83 				Option: Dynamic ODT Off, Value: 0x0 {09 07 EE 01 00 00 00}
+0x15E8A 				Option: RZQ/2, Value: 0x1 {09 07 E6 01 00 00 01}
+0x15E91 				Option: RZQ/1, Value: 0x2 {09 07 E8 01 00 00 02}
+0x15E98 				Option: Hi-Z, Value: 0x3 {09 07 EF 01 00 00 03}
+0x15E9F 				Option: RZQ/3, Value: 0x4 {09 07 EA 01 00 00 04}
+0x15EA6 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15EAD 			End of Options {29 02}
+0x15EAF 		End If {29 02}
+0x15EB1 		Suppress If: {0A 82}
+0x15EB3 			Variable 0x7B equals 0x1 {12 86 7B 00 01 00}
+0x15EB9 				Not {17 02}
+0x15EBB 			End {29 02}
+0x15EBD 			Setting: RttPark, Variable: 0x86 {05 91 F0 01 F1 01 7E 00 00 50 86 00 10 10 00 FF 00}
+0x15ECE 				Option: Rtt_PARK Disable, Value: 0x0 {09 07 F2 01 00 00 00}
+0x15ED5 				Option: RZQ/4, Value: 0x1 {09 07 E5 01 00 00 01}
+0x15EDC 				Option: RZQ/2, Value: 0x2 {09 07 E6 01 00 00 02}
+0x15EE3 				Option: RZQ/6, Value: 0x3 {09 07 E7 01 00 00 03}
+0x15EEA 				Option: RZQ/1, Value: 0x4 {09 07 E8 01 00 00 04}
+0x15EF1 				Option: RZQ/5, Value: 0x5 {09 07 E9 01 00 00 05}
+0x15EF8 				Option: RZQ/3, Value: 0x6 {09 07 EA 01 00 00 06}
+0x15EFF 				Option: RZQ/7, Value: 0x7 {09 07 EB 01 00 00 07}
+0x15F06 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15F0D 			End of Options {29 02}
+0x15F0F 		End If {29 02}
+0x15F11 	End Form {29 02}
+0x15F13 	Form: Common RAS, Form ID: 0x701E {01 86 1E 70 B4 00}
+0x15F19 		Subtitle: Common RAS {02 87 B4 00 00 00 00}
+0x15F20 		End {29 02}
+0x15F22 		Subtitle:  {02 87 02 00 00 00 00}
+0x15F29 		End {29 02}
+0x15F2B 		Setting: Data Poisoning, Variable: 0x87 {05 91 F3 01 F4 01 7F 00 00 50 87 00 10 10 00 FF 00}
+0x15F3C 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x15F43 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15F4A 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x15F51 		End of Options {29 02}
+0x15F53 		Setting: DRAM Post Package Repair, Variable: 0x88 {05 91 F5 01 F6 01 80 00 00 50 88 00 10 10 00 01 00}
+0x15F64 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x15F6B 			Option: Disable, Value: 0x0 (default) {09 07 5B 00 10 00 00}
+0x15F72 		End of Options {29 02}
+0x15F74 		Setting: RCD Parity, Variable: 0x89 {05 91 F7 01 F8 01 81 00 00 50 89 00 10 10 00 FF 00}
+0x15F85 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x15F8C 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x15F93 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15F9A 		End of Options {29 02}
+0x15F9C 		Setting: DRAM Address Command Parity Retry, Variable: 0x8A {05 91 F9 01 FA 01 82 00 00 50 8A 00 10 10 00 FF 00}
+0x15FAD 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x15FB4 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x15FBB 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x15FC2 		End of Options {29 02}
+0x15FC4 		Grayout If: {19 82}
+0x15FC6 			Variable 0x82 equals 0x1 {12 86 82 00 01 00}
+0x15FCC 				Not {17 02}
+0x15FCE 			End {29 02}
+0x15FD0 			Numeric: Max Parity Error Replay (281474080956272-281474080956272) , Variable: 0x8B {07 91 FB 01 FC 01 83 00 00 50 8B 00 10 20 00 3F 00}
+0x15FE1 				Default: 8 Bit, Value: 0x8 {5B 06 00 00 00 08}
+0x15FE7 			End {29 02}
+0x15FE9 		End If {29 02}
+0x15FEB 		Setting: Write CRC Enable, Variable: 0x8C {05 91 FD 01 FE 01 84 00 00 50 8C 00 10 10 00 FF 00}
+0x15FFC 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x16003 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x1600A 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16011 		End of Options {29 02}
+0x16013 		Setting: DRAM Write CRC Enable and Retry Limit, Variable: 0x8D {05 91 FF 01 00 02 85 00 00 50 8D 00 10 10 00 FF 00}
+0x16024 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x1602B 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x16032 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16039 		End of Options {29 02}
+0x1603B 		Grayout If: {19 82}
+0x1603D 			Variable 0x85 equals 0x1 {12 86 85 00 01 00}
+0x16043 				Not {17 02}
+0x16045 			End {29 02}
+0x16047 			Numeric: Max Write CRC Error Replay (281474080956272-281474080956272) , Variable: 0x8E {07 91 01 02 02 02 86 00 00 50 8E 00 10 20 00 3F 00}
+0x16058 				Default: 8 Bit, Value: 0x8 {5B 06 00 00 00 08}
+0x1605E 			End {29 02}
+0x16060 		End If {29 02}
+0x16062 		Setting: Disable Memory Error Injection, Variable: 0x8F {05 91 03 02 04 02 87 00 00 50 8F 00 10 10 00 01 00}
+0x16073 			Option: False, Value: 0x0 {09 07 36 00 00 00 00}
+0x1607A 			Option: True, Value: 0x1 (default) {09 07 37 00 10 00 01}
+0x16081 		End of Options {29 02}
+0x16083 		Ref: ECC Configuration, Variable: 0xFFFF {0F 0F 05 02 05 02 88 00 00 00 FF FF 00 23 70}
+0x16092 	End Form {29 02}
+0x16094 	Form: ECC Configuration, Form ID: 0x7023 {01 86 23 70 05 02}
+0x1609A 		Subtitle: ECC Configuration {02 87 05 02 00 00 00}
+0x160A1 		End {29 02}
+0x160A3 		Subtitle:  {02 87 02 00 00 00 00}
+0x160AA 		End {29 02}
+0x160AC 		Setting: DRAM ECC Symbol Size, Variable: 0x90 {05 91 06 02 07 02 89 00 00 50 90 00 10 10 00 FF 00}
+0x160BD 			Option: x4, Value: 0x0 {09 07 08 02 00 00 00}
+0x160C4 			Option: x8, Value: 0x1 {09 07 09 02 00 00 01}
+0x160CB 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x160D2 		End of Options {29 02}
+0x160D4 		Setting: DRAM ECC Enable, Variable: 0x91 {05 91 0A 02 0B 02 8A 00 00 50 91 00 10 10 00 FF 00}
+0x160E5 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x160EC 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x160F3 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x160FA 		End of Options {29 02}
+0x160FC 		Setting: DRAM UECC Retry, Variable: 0x92 {05 91 0C 02 0D 02 8B 00 00 50 92 00 10 10 00 01 00}
+0x1610D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16114 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x1611B 		End of Options {29 02}
+0x1611D 	End Form {29 02}
+0x1611F 	Form: Security, Form ID: 0x701F {01 86 1F 70 B5 00}
+0x16125 		Subtitle: Security {02 87 B5 00 00 00 00}
+0x1612C 		End {29 02}
+0x1612E 		Subtitle:  {02 87 02 00 00 00 00}
+0x16135 		End {29 02}
+0x16137 		Setting: TSME, Variable: 0x93 {05 91 0E 02 0F 02 24 70 00 50 93 00 14 10 00 FF 00}
+0x16148 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x1614F 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16156 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x1615D 		End of Options {29 02}
+0x1615F 		Setting: Data Scramble, Variable: 0x94 {05 91 10 02 11 02 25 70 00 50 94 00 14 10 00 FF 00}
+0x16170 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16177 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1617E 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16185 		End of Options {29 02}
+0x16187 	End Form {29 02}
+0x16189 	Form: DRAM Memory Mapping, Form ID: 0x7016 {01 86 16 70 AC 00}
+0x1618F 		Subtitle: DRAM Memory Mapping {02 87 AC 00 00 00 00}
+0x16196 		End {29 02}
+0x16198 		Subtitle:  {02 87 02 00 00 00 00}
+0x1619F 		End {29 02}
+0x161A1 		Setting: Chipselect Interleaving, Variable: 0x95 {05 91 12 02 13 02 8C 00 00 50 95 00 10 10 00 FF 00}
+0x161B2 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x161B9 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x161C0 		End of Options {29 02}
+0x161C2 		Setting: BankGroupSwap, Variable: 0x96 {05 91 14 02 15 02 8D 00 00 50 96 00 10 10 00 FF 00}
+0x161D3 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x161DA 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x161E1 			Option: CPU Mode, Value: 0x1 {09 07 16 02 00 00 01}
+0x161E8 			Option: APU Mode, Value: 0x2 {09 07 17 02 00 00 02}
+0x161EF 			Option: ALT Mode, Value: 0x3 {09 07 18 02 00 00 03}
+0x161F6 		End of Options {29 02}
+0x161F8 		Setting: Address Hash Bank, Variable: 0x97 {05 91 19 02 1A 02 8E 00 00 50 97 00 10 10 00 FF 00}
+0x16209 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16210 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16217 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1621E 		End of Options {29 02}
+0x16220 		Setting: Address Hash CS, Variable: 0x98 {05 91 1B 02 1C 02 8F 00 00 50 98 00 10 10 00 FF 00}
+0x16231 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16238 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1623F 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16246 		End of Options {29 02}
+0x16248 		Setting: Address Hash Rm, Variable: 0x99 {05 91 1D 02 1E 02 90 00 00 50 99 00 10 10 00 FF 00}
+0x16259 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16260 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16267 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1626E 		End of Options {29 02}
+0x16270 		Setting: SPD Read Optimization, Variable: 0x9A {05 91 1F 02 20 02 91 00 00 50 9A 00 10 10 00 FF 00}
+0x16281 			Option: Auto, Value: 0xFF {09 07 12 00 00 00 FF}
+0x16288 			Option: Enabled, Value: 0x1 (default) {09 07 17 00 10 00 01}
+0x1628F 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16296 		End of Options {29 02}
+0x16298 	End Form {29 02}
+0x1629A 	Form: Phy Configuration, Form ID: 0x7017 {01 86 17 70 AD 00}
+0x162A0 		Subtitle: Phy Configuration {02 87 AD 00 00 00 00}
+0x162A7 		End {29 02}
+0x162A9 		Subtitle:  {02 87 02 00 00 00 00}
+0x162B0 		End {29 02}
+0x162B2 		Ref: PMU Training, Variable: 0xFFFF {0F 0F 21 02 21 02 92 00 00 00 FF FF 00 26 70}
+0x162C1 	End Form {29 02}
+0x162C3 	Form: PMU Training, Form ID: 0x7026 {01 86 26 70 21 02}
+0x162C9 		Subtitle: PMU Training {02 87 21 02 00 00 00}
+0x162D0 		End {29 02}
+0x162D2 		Subtitle:  {02 87 02 00 00 00 00}
+0x162D9 		End {29 02}
+0x162DB 		Setting: DFE Read Training, Variable: 0x137 {05 91 22 02 23 02 93 00 00 50 37 01 10 10 00 FF 00}
+0x162EC 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x162F3 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x162FA 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x16301 		End of Options {29 02}
+0x16303 		Setting: FFE Write Training, Variable: 0x138 {05 91 24 02 25 02 94 00 00 50 38 01 10 10 00 FF 00}
+0x16314 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x1631B 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x16322 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x16329 		End of Options {29 02}
+0x1632B 	End Form {29 02}
+0x1632D 	Form: NVDIMM, Form ID: 0x7018 {01 86 18 70 AE 00}
+0x16333 		Subtitle: NVDIMM {02 87 AE 00 00 00 00}
+0x1633A 		End {29 02}
+0x1633C 		Subtitle:  {02 87 02 00 00 00 00}
+0x16343 		End {29 02}
+0x16345 	End Form {29 02}
+0x16347 	Form: Memory MBIST, Form ID: 0x7019 {01 86 19 70 AF 00}
+0x1634D 		Subtitle: Memory MBIST {02 87 AF 00 00 00 00}
+0x16354 		End {29 02}
+0x16356 		Subtitle:  {02 87 02 00 00 00 00}
+0x1635D 		End {29 02}
+0x1635F 		Setting: MBIST Enable, Variable: 0x9B {05 91 26 02 27 02 95 00 00 50 9B 00 10 10 00 01 00}
+0x16370 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x16377 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1637E 		End of Options {29 02}
+0x16380 		Grayout If: {19 82}
+0x16382 			Variable 0x95 equals 0x1 {12 86 95 00 01 00}
+0x16388 				Not {17 02}
+0x1638A 			End {29 02}
+0x1638C 			Setting: MBIST Test Mode, Variable: 0x9C {05 91 28 02 29 02 96 00 00 50 9C 00 10 10 01 01 00}
+0x1639D 				Option: Data Eye Mode, Value: 0x1 (default) {09 07 2A 02 10 00 01}
+0x163A4 			End of Options {29 02}
+0x163A6 		End If {29 02}
+0x163A8 		Grayout If: {19 82}
+0x163AA 			Variable 0x95 equals 0x1 {12 86 95 00 01 00}
+0x163B0 				Not {17 02}
+0x163B2 			End {29 02}
+0x163B4 			Setting: MBIST Aggressors, Variable: 0x9D {05 91 2B 02 2C 02 97 00 00 50 9D 00 10 10 00 FF 00}
+0x163C5 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x163CC 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x163D3 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x163DA 			End of Options {29 02}
+0x163DC 		End If {29 02}
+0x163DE 		Grayout If: {19 82}
+0x163E0 			Variable 0x95 equals 0x1 {12 86 95 00 01 00}
+0x163E6 				Not {17 02}
+0x163E8 			End {29 02}
+0x163EA 			Setting: MBIST Per Bit Slave Die Reporting, Variable: 0x9E {05 91 2D 02 2E 02 98 00 00 50 9E 00 10 10 00 FF 00}
+0x163FB 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16402 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16409 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16410 			End of Options {29 02}
+0x16412 		End If {29 02}
+0x16414 		Ref: Data Eye, Variable: 0xFFFF {0F 0F 2F 02 2F 02 99 00 00 00 FF FF 00 27 70}
+0x16423 	End Form {29 02}
+0x16425 	Form: Data Eye, Form ID: 0x7027 {01 86 27 70 2F 02}
+0x1642B 		Subtitle: Data Eye {02 87 2F 02 00 00 00}
+0x16432 		End {29 02}
+0x16434 		Subtitle:  {02 87 02 00 00 00 00}
+0x1643B 		End {29 02}
+0x1643D 		Setting: Pattern Select, Variable: 0x9F {05 91 30 02 31 02 9A 00 00 50 9F 00 10 10 00 02 00}
+0x1644E 			Option: PRBS, Value: 0x0 (default) {09 07 32 02 10 00 00}
+0x16455 			Option: SSO, Value: 0x1 {09 07 33 02 00 00 01}
+0x1645C 			Option: Both, Value: 0x2 {09 07 34 02 00 00 02}
+0x16463 		End of Options {29 02}
+0x16465 		Numeric: Pattern Length (281474080956272-281474080956272) , Variable: 0xA0 {07 91 35 02 36 02 9B 00 00 50 A0 00 10 20 03 0C 00}
+0x16476 			Default: 8 Bit, Value: 0x6 {5B 06 00 00 00 06}
+0x1647C 		End {29 02}
+0x1647E 		Setting: Aggressor Channel, Variable: 0xA1 {05 91 37 02 38 02 9C 00 00 50 A1 00 10 10 00 07 00}
+0x1648F 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16496 			Option: 1 Aggressor Channel, Value: 0x1 (default) {09 07 39 02 10 00 01}
+0x1649D 			Option: 3 Aggressor Channels, Value: 0x3 {09 07 3A 02 00 00 03}
+0x164A4 			Option: 7 Aggressor Channels, Value: 0x7 {09 07 3B 02 00 00 07}
+0x164AB 		End of Options {29 02}
+0x164AD 		Setting: Aggressor Static Lane Control, Variable: 0xA2 {05 91 3C 02 3D 02 9D 00 00 50 A2 00 10 10 00 01 00}
+0x164BE 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x164C5 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x164CC 		End of Options {29 02}
+0x164CE 		Grayout If: {19 82}
+0x164D0 			Variable 0x9D equals 0x1 {12 86 9D 00 01 00}
+0x164D6 				Not {17 02}
+0x164D8 			End {29 02}
+0x164DA 			Numeric: Aggressor Static Lane Select Upper 32 bits (281474080956272-281474080956272) , Variable: 0xA3 {07 9A 3E 02 3F 02 9E 00 00 50 A3 00 10 22 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x164F4 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x164FD 			End {29 02}
+0x164FF 		End If {29 02}
+0x16501 		Grayout If: {19 82}
+0x16503 			Variable 0x9D equals 0x1 {12 86 9D 00 01 00}
+0x16509 				Not {17 02}
+0x1650B 			End {29 02}
+0x1650D 			Numeric: Aggressor Static Lane Select Lower 32 Bits (281474080956272-281474080956272) , Variable: 0xA7 {07 9A 40 02 41 02 9F 00 00 50 A7 00 10 22 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x16527 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x16530 			End {29 02}
+0x16532 		End If {29 02}
+0x16534 		Grayout If: {19 82}
+0x16536 			Variable 0x9D equals 0x1 {12 86 9D 00 01 00}
+0x1653C 				Not {17 02}
+0x1653E 			End {29 02}
+0x16540 			Numeric: Aggressor Static Lane Select ECC (281474080956272-281474080956272) , Variable: 0xAB {07 91 42 02 43 02 A0 00 00 50 AB 00 10 20 00 0A 00}
+0x16551 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x16557 			End {29 02}
+0x16559 		End If {29 02}
+0x1655B 		Grayout If: {19 82}
+0x1655D 			Variable 0x9D equals 0x1 {12 86 9D 00 01 00}
+0x16563 				Not {17 02}
+0x16565 			End {29 02}
+0x16567 			Numeric: Aggressor Static Lane Value (281474080956272-281474080956272) , Variable: 0xAC {07 91 44 02 45 02 A1 00 00 50 AC 00 10 20 00 0A 00}
+0x16578 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x1657E 			End {29 02}
+0x16580 		End If {29 02}
+0x16582 		Setting: Target Static Lane Control, Variable: 0xAD {05 91 46 02 47 02 A2 00 00 50 AD 00 10 10 00 01 00}
+0x16593 			Option: Disabled, Value: 0x0 (default) {09 07 18 00 10 00 00}
+0x1659A 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x165A1 		End of Options {29 02}
+0x165A3 		Grayout If: {19 82}
+0x165A5 			Variable 0xA2 equals 0x1 {12 86 A2 00 01 00}
+0x165AB 				Not {17 02}
+0x165AD 			End {29 02}
+0x165AF 			Numeric: Target Static Lane Select Upper 32 bit (281474080956272-281474080956272) , Variable: 0xAE {07 9A 48 02 49 02 A3 00 00 50 AE 00 10 22 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x165C9 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x165D2 			End {29 02}
+0x165D4 		End If {29 02}
+0x165D6 		Grayout If: {19 82}
+0x165D8 			Variable 0xA2 equals 0x1 {12 86 A2 00 01 00}
+0x165DE 				Not {17 02}
+0x165E0 			End {29 02}
+0x165E2 			Numeric: Target Static Lane Select Lower 32 Bits (281474080956272-281474080956272) , Variable: 0xB2 {07 9A 4A 02 4B 02 A4 00 00 50 B2 00 10 22 00 00 00 00 0A 00 00 00 00 00 00 00}
+0x165FC 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x16605 			End {29 02}
+0x16607 		End If {29 02}
+0x16609 		Grayout If: {19 82}
+0x1660B 			Variable 0xA2 equals 0x1 {12 86 A2 00 01 00}
+0x16611 				Not {17 02}
+0x16613 			End {29 02}
+0x16615 			Numeric: Target Static Lane Select ECC (281474080956272-281474080956272) , Variable: 0xB6 {07 91 4C 02 4D 02 A5 00 00 50 B6 00 10 20 00 0A 00}
+0x16626 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x1662C 			End {29 02}
+0x1662E 		End If {29 02}
+0x16630 		Grayout If: {19 82}
+0x16632 			Variable 0xA2 equals 0x1 {12 86 A2 00 01 00}
+0x16638 				Not {17 02}
+0x1663A 			End {29 02}
+0x1663C 			Numeric: Target Static Lane Value (281474080956272-281474080956272) , Variable: 0xB7 {07 91 4E 02 4F 02 A6 00 00 50 B7 00 10 20 00 0A 00}
+0x1664D 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x16653 			End {29 02}
+0x16655 		End If {29 02}
+0x16657 		Setting: Data Eye Type, Variable: 0xB8 {05 91 50 02 51 02 A7 00 00 50 B8 00 10 10 00 03 00}
+0x16668 			Option: 1D Voltage Sweep, Value: 0x0 {09 07 52 02 00 00 00}
+0x1666F 			Option: 1D Timing Sweep, Value: 0x1 {09 07 53 02 00 00 01}
+0x16676 			Option: 2D Full Data Eye, Value: 0x2 {09 07 54 02 00 00 02}
+0x1667D 			Option: Worst Case Margin Only, Value: 0x3 (default) {09 07 55 02 10 00 03}
+0x16684 		End of Options {29 02}
+0x16686 		Setting: Worst Case Margin Granularity, Variable: 0xB9 {05 91 56 02 57 02 A8 00 00 50 B9 00 10 10 00 01 00}
+0x16697 			Option: Per Chip Select, Value: 0x0 (default) {09 07 58 02 10 00 00}
+0x1669E 			Option: Per Nibble, Value: 0x1 {09 07 59 02 00 00 01}
+0x166A5 		End of Options {29 02}
+0x166A7 		Setting: Read Voltage Sweep Step Size, Variable: 0xBA {05 91 5A 02 5B 02 A9 00 00 50 BA 00 10 10 01 04 00}
+0x166B8 			Option: 1, Value: 0x1 {09 07 13 00 00 00 01}
+0x166BF 			Option: 2, Value: 0x2 {09 07 9D 00 00 00 02}
+0x166C6 			Option: 4, Value: 0x4 (default) {09 07 9E 00 10 00 04}
+0x166CD 		End of Options {29 02}
+0x166CF 		Setting: Read Timing Sweep Step Size, Variable: 0xBB {05 91 5C 02 5D 02 AA 00 00 50 BB 00 10 10 01 04 00}
+0x166E0 			Option: 1, Value: 0x1 (default) {09 07 13 00 10 00 01}
+0x166E7 			Option: 2, Value: 0x2 {09 07 9D 00 00 00 02}
+0x166EE 			Option: 4, Value: 0x4 {09 07 9E 00 00 00 04}
+0x166F5 		End of Options {29 02}
+0x166F7 		Setting: Write Voltage Sweep Step Size, Variable: 0xBC {05 91 5E 02 5F 02 AB 00 00 50 BC 00 10 10 01 04 00}
+0x16708 			Option: 1, Value: 0x1 {09 07 13 00 00 00 01}
+0x1670F 			Option: 2, Value: 0x2 (default) {09 07 9D 00 10 00 02}
+0x16716 			Option: 4, Value: 0x4 {09 07 9E 00 00 00 04}
+0x1671D 		End of Options {29 02}
+0x1671F 		Setting: Write Timing Sweep Step Size, Variable: 0xBD {05 91 60 02 61 02 AC 00 00 50 BD 00 10 10 01 04 00}
+0x16730 			Option: 1, Value: 0x1 (default) {09 07 13 00 10 00 01}
+0x16737 			Option: 2, Value: 0x2 {09 07 9D 00 00 00 02}
+0x1673E 			Option: 4, Value: 0x4 {09 07 9E 00 00 00 04}
+0x16745 		End of Options {29 02}
+0x16747 	End Form {29 02}
+0x16749 	Form: NBIO Common Options, Form ID: 0x7004 {01 86 04 70 08 00}
+0x1674F 		Subtitle: NBIO Common Options {02 87 08 00 00 00 00}
+0x16756 		End {29 02}
+0x16758 		Subtitle:  {02 87 02 00 00 00 00}
+0x1675F 		End {29 02}
+0x16761 		Setting: IOMMU, Variable: 0xC9 {05 91 62 02 63 02 AD 00 00 50 C9 00 10 10 00 0F 00}
+0x16772 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16779 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16780 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16787 		End of Options {29 02}
+0x16789 		Suppress If: {0A 82}
+0x1678B 			Variable 0xAD equals 0x1 {12 86 AD 00 01 00}
+0x16791 				Not {17 02}
+0x16793 			End {29 02}
+0x16795 			Setting: DMA Protection, Variable: 0x1CA {05 91 64 02 65 02 28 70 00 50 CA 01 14 10 00 0F 00}
+0x167A6 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x167AD 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x167B4 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x167BB 			End of Options {29 02}
+0x167BD 		End If {29 02}
+0x167BF 		Suppress If: {0A 82}
+0x167C1 			Variable 0xAD equals 0x1 {12 86 AD 00 01 00}
+0x167C7 				Not {17 02}
+0x167C9 			End {29 02}
+0x167CB 			Setting: DMAr Support, Variable: 0x14A {05 91 66 02 67 02 29 70 00 50 4A 01 14 10 00 0F 00}
+0x167DC 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x167E3 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x167EA 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x167F1 			End of Options {29 02}
+0x167F3 		End If {29 02}
+0x167F5 		Setting: PCIe ARI Support, Variable: 0x14D {05 91 68 02 69 02 AE 00 00 50 4D 01 10 10 00 0F 00}
+0x16806 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1680D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16814 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1681B 		End of Options {29 02}
+0x1681D 		Setting: PCIe ARI Enumeration, Variable: 0x1A7 {05 91 6A 02 6B 02 AF 00 00 50 A7 01 10 10 00 0F 00}
+0x1682E 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x16835 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x1683C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16843 		End of Options {29 02}
+0x16845 		Setting: PSPP Policy, Variable: 0xCA {05 91 6C 02 6D 02 B0 00 00 50 CA 00 10 10 00 0F 00}
+0x16856 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1685D 			Option: Balanced, Value: 0x2 {09 07 6E 02 00 00 02}
+0x16864 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1686B 		End of Options {29 02}
+0x1686D 		Ref: GFX Configuration, Variable: 0xFFFF {0F 0F 6F 02 6F 02 B1 00 00 00 FF FF 00 2A 70}
+0x1687C 		Suppress If: {0A 82}
+0x1687E 			Variable 0xB5 equals 0xF {12 86 B5 00 0F 00}
+0x16884 				Not {17 02}
+0x16886 				Variable 0xB5 equals 0x1 {12 06 B5 00 01 00}
+0x1688C 				Not {17 02}
+0x1688E 				And {15 02}
+0x16890 				Variable 0xB5 equals 0x2 {12 06 B5 00 02 00}
+0x16896 				Not {17 02}
+0x16898 				And {15 02}
+0x1689A 			End {29 02}
+0x1689C 			Ref: Audio Configuration, Variable: 0xFFFF {0F 0F 70 02 70 02 B2 00 00 00 FF FF 00 2B 70}
+0x168AB 		End If {29 02}
+0x168AD 		Suppress If: {0A 82}
+0x168AF 			Variable 0x7 equals 0x10 {12 86 07 00 10 00}
+0x168B5 				Not {17 02}
+0x168B7 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x168BD 				Not {17 02}
+0x168BF 				And {15 02}
+0x168C1 				Variable 0x7 equals 0x11 {12 06 07 00 11 00}
+0x168C7 				Not {17 02}
+0x168C9 				And {15 02}
+0x168CB 			End {29 02}
+0x168CD 			Ref: XFR Enhancement, Variable: 0xFFFF {0F 0F 71 02 71 02 B3 00 00 00 FF FF 00 2C 70}
+0x168DC 		End If {29 02}
+0x168DE 		Ref: SMU Common Options, Variable: 0xFFFF {0F 0F 72 02 72 02 B4 00 00 00 FF FF 00 2D 70}
+0x168ED 	End Form {29 02}
+0x168EF 	Form: GFX Configuration, Form ID: 0x702A {01 86 2A 70 6F 02}
+0x168F5 		Subtitle: GFX Configuration {02 87 6F 02 00 00 00}
+0x168FC 		End {29 02}
+0x168FE 		Subtitle:  {02 87 02 00 00 00 00}
+0x16905 		End {29 02}
+0x16907 		Setting: iGPU Configuration, Variable: 0xC1 {05 91 73 02 74 02 B5 00 00 50 C1 00 10 10 00 0F 00}
+0x16918 			Option: Auto, Value: 0xF {09 07 12 00 00 00 0F}
+0x1691F 			Option: iGPU Disabled, Value: 0x0 {09 07 75 02 00 00 00}
+0x16926 			Option: UMA_SPECIFIED, Value: 0x1 {09 07 76 02 00 00 01}
+0x1692D 			Option: UMA_AUTO, Value: 0x2 {09 07 77 02 00 00 02}
+0x16934 			Option: UMA_GAME_OPTIMIZED, Value: 0x3 (default) {09 07 78 02 10 00 03}
+0x1693B 		End of Options {29 02}
+0x1693D 		Suppress If: {0A 82}
+0x1693F 			Variable 0xB5 equals 0x1 {12 86 B5 00 01 00}
+0x16945 				Not {17 02}
+0x16947 			End {29 02}
+0x16949 			Setting: UMA Frame buffer Size, Variable: 0xC4 {05 9A 79 02 7A 02 B6 00 00 50 C4 00 10 12 40 00 00 00 FF FF FF FF 00 00 00 00}
+0x16963 				Option: Auto, Value: 0x0 {09 0A 12 00 12 02 FF FF FF FF}
+0x1696D 				Option: 64M, Value: 0x0 {09 0A 7B 02 02 02 40 00 00 00}
+0x16977 				Option: 128M, Value: 0x0 {09 0A 7C 02 02 02 80 00 00 00}
+0x16981 				Option: 256M, Value: 0x0 {09 0A 7D 02 02 02 00 01 00 00}
+0x1698B 				Option: 384M, Value: 0x0 {09 0A 7E 02 02 02 80 01 00 00}
+0x16995 				Option: 512M, Value: 0x0 {09 0A 7F 02 02 02 00 02 00 00}
+0x1699F 				Option: 80M, Value: 0x0 {09 0A 80 02 02 02 50 00 00 00}
+0x169A9 				Option: 96M, Value: 0x0 {09 0A 81 02 02 02 60 00 00 00}
+0x169B3 				Option: 768M, Value: 0x0 {09 0A 82 02 02 02 00 03 00 00}
+0x169BD 				Option: 1G, Value: 0x0 {09 0A 83 02 02 02 00 04 00 00}
+0x169C7 				Option: 2G, Value: 0x0 {09 0A 84 02 02 02 00 08 00 00}
+0x169D1 				Option: 3G, Value: 0x0 {09 0A 85 02 02 02 00 0C 00 00}
+0x169DB 				Option: 4G, Value: 0x0 {09 0A 86 02 02 02 00 10 00 00}
+0x169E5 				Option: 8G, Value: 0x0 {09 0A 87 02 02 02 00 20 00 00}
+0x169EF 				Option: 16G, Value: 0x0 {09 0A 88 02 02 02 00 40 00 00}
+0x169F9 			End of Options {29 02}
+0x169FB 		End If {29 02}
+0x169FD 		Setting: GPU Host Translation Cache, Variable: 0x13D {05 91 89 02 8A 02 B7 00 00 50 3D 01 10 10 00 0F 00}
+0x16A0E 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16A15 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16A1C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16A23 		End of Options {29 02}
+0x16A25 	End Form {29 02}
+0x16A27 	Form: Audio Configuration, Form ID: 0x702B {01 86 2B 70 70 02}
+0x16A2D 		Subtitle: Audio Configuration {02 87 70 02 00 00 00}
+0x16A34 		End {29 02}
+0x16A36 		Subtitle:  {02 87 02 00 00 00 00}
+0x16A3D 		End {29 02}
+0x16A3F 		Setting: NB Azalia, Variable: 0xC8 {05 91 8B 02 8C 02 B8 00 00 50 C8 00 10 10 00 0F 00}
+0x16A50 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16A57 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x16A5E 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16A65 		End of Options {29 02}
+0x16A67 		Setting: Audio IOs, Variable: 0xBF {05 91 8D 02 8E 02 B9 00 00 50 BF 00 10 10 00 0F 00}
+0x16A78 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16A7F 			Option: Azalia, Value: 0x0 {09 07 8F 02 00 00 00}
+0x16A86 			Option: SoundWire, Value: 0x3 {09 07 90 02 00 00 03}
+0x16A8D 			Option: Azalia and SoundWire, Value: 0x2 {09 07 91 02 00 00 02}
+0x16A94 			Option: I2STDM and I2SBT, Value: 0x4 {09 07 92 02 00 00 04}
+0x16A9B 			Option: Azalia and I2SBT, Value: 0x5 {09 07 93 02 00 00 05}
+0x16AA2 			Option: SoundWire and I2SBT, Value: 0x6 {09 07 94 02 00 00 06}
+0x16AA9 			Option: Azalia mHDA, Value: 0x1 {09 07 95 02 00 00 01}
+0x16AB0 		End of Options {29 02}
+0x16AB2 		Setting: PDM Mic Selection, Variable: 0x142 {05 91 96 02 97 02 BA 00 00 50 42 01 10 10 00 0F 00}
+0x16AC3 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16ACA 			Option: Use 4 Channel, Value: 0x0 {09 07 98 02 00 00 00}
+0x16AD1 			Option: Use 6 Channel, Value: 0x1 {09 07 99 02 00 00 01}
+0x16AD8 		End of Options {29 02}
+0x16ADA 	End Form {29 02}
+0x16ADC 	Form: XFR Enhancement, Form ID: 0x702C {01 86 2C 70 71 02}
+0x16AE2 		Subtitle: XFR Enhancement {02 87 71 02 00 00 00}
+0x16AE9 		End {29 02}
+0x16AEB 		Subtitle:  {02 87 02 00 00 00 00}
+0x16AF2 		End {29 02}
+0x16AF4 		Text: WARNING - DAMAGE CAUSED BY USE OF YOUR AMD PROCESSOR OUTSIDE OF SPECIFICATION OR IN EXCESS OF FACTORY SETTINGS ARE NOT COVERED UNDER YOUR AMD PRODUCT WARRANTY AND MAY NOT BE COVERED BY YOUR SYSTEM MANUFACTURER'S WARRANTY. {03 08 9A 02 9B 02 00 00}
+0x16AFC 		Text: Operating your AMD processor outside of specification or in excess of factory settings, including but not limited to overclocking, may damage or shorten the life of your processor or other system components, create system instabilities (e.g., data loss and corrupted images) and in extreme cases may result in total system failure. AMD does not provide support or service for issues or damages related to use of an AMD processor outside of processor specifications or in excess of factory settings. {03 08 9C 02 9D 02 00 00}
+0x16B04 		Ref: Declined, Variable: 0xFFFF {0F 0F 9E 02 9E 02 BB 00 00 00 FF FF 00 04 70}
+0x16B13 		Ref: Accepted, Variable: 0xFFFF {0F 0F 9F 02 9F 02 BC 00 00 00 FF FF 00 2F 70}
+0x16B22 		Setting: FCLK Frequency, Variable: 0x112 {05 91 A0 02 A1 02 BD 00 00 50 12 01 10 10 00 FF 00}
+0x16B33 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16B3A 			Option: 667MHz, Value: 0x0 {09 07 A2 02 00 00 00}
+0x16B41 			Option: 800MHz, Value: 0x1 {09 07 C0 00 00 00 01}
+0x16B48 			Option: 933MHz, Value: 0x2 {09 07 C1 00 00 00 02}
+0x16B4F 			Option: 1067MHz, Value: 0x3 {09 07 C2 00 00 00 03}
+0x16B56 			Option: 1200MHz, Value: 0x4 {09 07 C3 00 00 00 04}
+0x16B5D 			Option: 1333MHz, Value: 0x5 {09 07 C4 00 00 00 05}
+0x16B64 			Option: 1367MHz, Value: 0x6 {09 07 C5 00 00 00 06}
+0x16B6B 			Option: 1400MHz, Value: 0x7 {09 07 C6 00 00 00 07}
+0x16B72 			Option: 1433MHz, Value: 0x8 {09 07 C7 00 00 00 08}
+0x16B79 			Option: 1467MHz, Value: 0x9 {09 07 C8 00 00 00 09}
+0x16B80 			Option: 1500MHz, Value: 0xA {09 07 C9 00 00 00 0A}
+0x16B87 			Option: 1533MHz, Value: 0xB {09 07 CA 00 00 00 0B}
+0x16B8E 			Option: 1567MHz, Value: 0xC {09 07 CB 00 00 00 0C}
+0x16B95 			Option: 1600MHz, Value: 0xD {09 07 CC 00 00 00 0D}
+0x16B9C 			Option: 1633MHz, Value: 0xE {09 07 CD 00 00 00 0E}
+0x16BA3 			Option: 1667MHz, Value: 0xF {09 07 CE 00 00 00 0F}
+0x16BAA 			Option: 1700MHz, Value: 0x10 {09 07 CF 00 00 00 10}
+0x16BB1 			Option: 1733MHz, Value: 0x11 {09 07 D0 00 00 00 11}
+0x16BB8 			Option: 1767MHz, Value: 0x12 {09 07 D1 00 00 00 12}
+0x16BBF 			Option: 1800MHz, Value: 0x13 {09 07 D2 00 00 00 13}
+0x16BC6 			Option: 1833MHz, Value: 0x14 {09 07 D3 00 00 00 14}
+0x16BCD 			Option: 1867MHz, Value: 0x15 {09 07 D4 00 00 00 15}
+0x16BD4 			Option: 1900MHz, Value: 0x16 {09 07 D5 00 00 00 16}
+0x16BDB 			Option: 1933MHz, Value: 0x17 {09 07 D6 00 00 00 17}
+0x16BE2 			Option: 1967MHz, Value: 0x18 {09 07 D7 00 00 00 18}
+0x16BE9 			Option: 2000MHz, Value: 0x19 {09 07 D8 00 00 00 19}
+0x16BF0 			Option: 2033MHz, Value: 0x1A {09 07 D9 00 00 00 1A}
+0x16BF7 			Option: 2067MHz, Value: 0x1B {09 07 DA 00 00 00 1B}
+0x16BFE 			Option: 2100MHz, Value: 0x1C {09 07 DB 00 00 00 1C}
+0x16C05 			Option: 2133MHZ, Value: 0x1D {09 07 DC 00 00 00 1D}
+0x16C0C 			Option: 2167MHZ, Value: 0x1E {09 07 DD 00 00 00 1E}
+0x16C13 			Option: 2200MHZ, Value: 0x1F {09 07 DE 00 00 00 1F}
+0x16C1A 			Option: 2233MHZ, Value: 0x20 {09 07 DF 00 00 00 20}
+0x16C21 			Option: 2267MHZ, Value: 0x21 {09 07 E0 00 00 00 21}
+0x16C28 			Option: 2300MHZ, Value: 0x22 {09 07 E1 00 00 00 22}
+0x16C2F 			Option: 2333MHZ, Value: 0x23 {09 07 E2 00 00 00 23}
+0x16C36 			Option: 2367MHZ, Value: 0x24 {09 07 E3 00 00 00 24}
+0x16C3D 			Option: 2400MHZ, Value: 0x25 {09 07 E4 00 00 00 25}
+0x16C44 			Option: 2433MHZ, Value: 0x26 {09 07 E5 00 00 00 26}
+0x16C4B 			Option: 2467MHZ, Value: 0x27 {09 07 E6 00 00 00 27}
+0x16C52 			Option: 2500MHZ, Value: 0x28 {09 07 E7 00 00 00 28}
+0x16C59 			Option: 2550MHZ, Value: 0x29 {09 07 E8 00 00 00 29}
+0x16C60 			Option: 2600MHZ, Value: 0x2A {09 07 E9 00 00 00 2A}
+0x16C67 			Option: 2650MHZ, Value: 0x2B {09 07 EA 00 00 00 2B}
+0x16C6E 			Option: 2700MHZ, Value: 0x2C {09 07 EB 00 00 00 2C}
+0x16C75 			Option: 2750MHZ, Value: 0x2D {09 07 EC 00 00 00 2D}
+0x16C7C 			Option: 2800MHZ, Value: 0x2E {09 07 ED 00 00 00 2E}
+0x16C83 			Option: 2850MHZ, Value: 0x2F {09 07 EE 00 00 00 2F}
+0x16C8A 			Option: 2900MHZ, Value: 0x30 {09 07 EF 00 00 00 30}
+0x16C91 			Option: 2950MHZ, Value: 0x31 {09 07 F0 00 00 00 31}
+0x16C98 			Option: 3000MHZ, Value: 0x32 {09 07 F1 00 00 00 32}
+0x16C9F 			Option: 3050MHZ, Value: 0x33 {09 07 F2 00 00 00 33}
+0x16CA6 			Option: 3100MHZ, Value: 0x34 {09 07 F3 00 00 00 34}
+0x16CAD 			Option: 3150MHZ, Value: 0x35 {09 07 F4 00 00 00 35}
+0x16CB4 			Option: 3200MHZ, Value: 0x36 {09 07 F5 00 00 00 36}
+0x16CBB 			Option: 3250MHZ, Value: 0x37 {09 07 F6 00 00 00 37}
+0x16CC2 			Option: 3300MHZ, Value: 0x38 {09 07 F7 00 00 00 38}
+0x16CC9 			Option: 3350MHZ, Value: 0x39 {09 07 F8 00 00 00 39}
+0x16CD0 			Option: 3400MHZ, Value: 0x3A {09 07 F9 00 00 00 3A}
+0x16CD7 			Option: 3450MHZ, Value: 0x3B {09 07 FA 00 00 00 3B}
+0x16CDE 			Option: 3500MHZ, Value: 0x3C {09 07 FB 00 00 00 3C}
+0x16CE5 			Option: 3550MHZ, Value: 0x3D {09 07 FC 00 00 00 3D}
+0x16CEC 			Option: 3600MHZ, Value: 0x3E {09 07 FD 00 00 00 3E}
+0x16CF3 			Option: 3650MHZ, Value: 0x3F {09 07 FE 00 00 00 3F}
+0x16CFA 			Option: 3700MHZ, Value: 0x40 {09 07 FF 00 00 00 40}
+0x16D01 			Option: 3750MHZ, Value: 0x41 {09 07 00 01 00 00 41}
+0x16D08 			Option: 3800MHZ, Value: 0x42 {09 07 01 01 00 00 42}
+0x16D0F 			Option: 3850MHZ, Value: 0x43 {09 07 02 01 00 00 43}
+0x16D16 			Option: 3900MHZ, Value: 0x44 {09 07 03 01 00 00 44}
+0x16D1D 			Option: 3950MHZ, Value: 0x45 {09 07 04 01 00 00 45}
+0x16D24 			Option: 4000MHZ, Value: 0x46 {09 07 05 01 00 00 46}
+0x16D2B 		End of Options {29 02}
+0x16D2D 		Numeric: SOC OVERCLOCK VID (281474080956272-281474080956272) , Variable: 0x113 {07 91 A3 02 A4 02 BE 00 00 50 13 01 10 20 00 FF 00}
+0x16D3E 			Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x16D44 		End {29 02}
+0x16D46 		Setting: UCLK DIV1 MODE, Variable: 0x114 {05 91 A5 02 A6 02 BF 00 00 50 14 01 10 10 00 FF 00}
+0x16D57 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x16D5E 			Option: UCLK==MEMCLK, Value: 0x1 {09 07 A7 02 00 00 01}
+0x16D65 			Option: UCLK==MEMCLK/2, Value: 0x0 {09 07 A8 02 00 00 00}
+0x16D6C 		End of Options {29 02}
+0x16D6E 	End Form {29 02}
+0x16D70 	Form: Declined, Form ID: 0x702E {01 86 2E 70 9E 02}
+0x16D76 		Subtitle: Declined {02 87 9E 02 00 00 00}
+0x16D7D 		End {29 02}
+0x16D7F 		Subtitle:  {02 87 02 00 00 00 00}
+0x16D86 		End {29 02}
+0x16D88 	End Form {29 02}
+0x16D8A 	Form: Accepted, Form ID: 0x702F {01 86 2F 70 9F 02}
+0x16D90 		Subtitle: Accepted {02 87 9F 02 00 00 00}
+0x16D97 		End {29 02}
+0x16D99 		Subtitle:  {02 87 02 00 00 00 00}
+0x16DA0 		End {29 02}
+0x16DA2 		Setting: Precision Boost Overdrive, Variable: 0x100 {05 91 A9 02 AA 02 C0 00 00 50 00 01 10 10 00 0F 00}
+0x16DB3 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16DBA 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x16DC1 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x16DC8 			Option: Manual, Value: 0x2 {09 07 28 00 00 00 02}
+0x16DCF 		End of Options {29 02}
+0x16DD1 		Suppress If: {0A 82}
+0x16DD3 			Variable 0xC0 equals 0x2 {12 86 C0 00 02 00}
+0x16DD9 				Not {17 02}
+0x16DDB 			End {29 02}
+0x16DDD 			Numeric: PPT Limit (281474080956272-281474080956272) , Variable: 0x106 {07 9A AB 02 AC 02 C1 00 00 50 06 01 10 12 00 00 00 00 FF FF 00 00 00 00 00 00}
+0x16DF7 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x16E00 			End {29 02}
+0x16E02 		End If {29 02}
+0x16E04 		Suppress If: {0A 82}
+0x16E06 			Variable 0xC0 equals 0x2 {12 86 C0 00 02 00}
+0x16E0C 				Not {17 02}
+0x16E0E 			End {29 02}
+0x16E10 			Numeric: TDC Limit (281474080956272-281474080956272) , Variable: 0x10A {07 9A AD 02 AE 02 C2 00 00 50 0A 01 10 12 00 00 00 00 FF FF 00 00 00 00 00 00}
+0x16E2A 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x16E33 			End {29 02}
+0x16E35 		End If {29 02}
+0x16E37 		Suppress If: {0A 82}
+0x16E39 			Variable 0xC0 equals 0x2 {12 86 C0 00 02 00}
+0x16E3F 				Not {17 02}
+0x16E41 			End {29 02}
+0x16E43 			Numeric: EDC Limit (281474080956272-281474080956272) , Variable: 0x10E {07 9A AF 02 B0 02 C3 00 00 50 0E 01 10 12 00 00 00 00 FF FF 00 00 00 00 00 00}
+0x16E5D 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x16E66 			End {29 02}
+0x16E68 		End If {29 02}
+0x16E6A 		Setting: Precision Boost Overdrive Scalar, Variable: 0x101 {05 91 B1 02 B2 02 C4 00 00 50 01 01 10 10 00 0F 00}
+0x16E7B 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16E82 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x16E89 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x16E90 		End of Options {29 02}
+0x16E92 		Suppress If: {0A 82}
+0x16E94 			Variable 0xC4 equals 0x1 {12 86 C4 00 01 00}
+0x16E9A 				Not {17 02}
+0x16E9C 			End {29 02}
+0x16E9E 			Setting: customized Precision Boost Overdrive Scalar, Variable: 0x102 {05 9A B3 02 B4 02 C5 00 00 50 02 01 10 12 64 00 00 00 E8 03 00 00 00 00 00 00}
+0x16EB8 				Option: 1X, Value: 0x0 {09 0A B5 02 02 02 64 00 00 00}
+0x16EC2 				Option: 2X, Value: 0x0 {09 0A B6 02 12 02 C8 00 00 00}
+0x16ECC 				Option: 3X, Value: 0x0 {09 0A B7 02 02 02 2C 01 00 00}
+0x16ED6 				Option: 4X, Value: 0x0 {09 0A B8 02 02 02 90 01 00 00}
+0x16EE0 				Option: 5X, Value: 0x0 {09 0A B9 02 02 02 F4 01 00 00}
+0x16EEA 				Option: 6X, Value: 0x0 {09 0A BA 02 02 02 58 02 00 00}
+0x16EF4 				Option: 7X, Value: 0x0 {09 0A BB 02 02 02 BC 02 00 00}
+0x16EFE 				Option: 8X, Value: 0x0 {09 0A BC 02 02 02 20 03 00 00}
+0x16F08 				Option: 9X, Value: 0x0 {09 0A BD 02 02 02 84 03 00 00}
+0x16F12 				Option: 10X, Value: 0x0 {09 0A BE 02 02 02 E8 03 00 00}
+0x16F1C 			End of Options {29 02}
+0x16F1E 		End If {29 02}
+0x16F20 	End Form {29 02}
+0x16F22 	Form: SMU Common Options, Form ID: 0x702D {01 86 2D 70 72 02}
+0x16F28 		Subtitle: SMU Common Options {02 87 72 02 00 00 00}
+0x16F2F 		End {29 02}
+0x16F31 		Subtitle:  {02 87 02 00 00 00 00}
+0x16F38 		End {29 02}
+0x16F3A 		Ref: Fan Control, Variable: 0xFFFF {0F 0F BF 02 BF 02 C6 00 00 00 FF FF 00 30 70}
+0x16F49 		Ref: System Temperature Tracking, Variable: 0xFFFF {0F 0F C0 02 C0 02 C7 00 00 00 FF FF 00 31 70}
+0x16F58 		Ref: STAPM Control, Variable: 0xFFFF {0F 0F C1 02 C1 02 C8 00 00 00 FF FF 00 32 70}
+0x16F67 		Ref: SmartShift Control, Variable: 0xFFFF {0F 0F C2 02 C2 02 C9 00 00 00 FF FF 00 33 70}
+0x16F76 		Text:  {03 08 02 00 02 00 00 00}
+0x16F7E 		Suppress If: {0A 82}
+0x16F80 			Variable 0x7 equals 0xF {12 86 07 00 0F 00}
+0x16F86 				Not {17 02}
+0x16F88 				Variable 0x7 equals 0x11 {12 06 07 00 11 00}
+0x16F8E 				Not {17 02}
+0x16F90 				And {15 02}
+0x16F92 			End {29 02}
+0x16F94 			Setting: System Configuration, Variable: 0xBE {05 91 C3 02 C4 02 34 70 00 50 BE 00 14 10 01 0F 00}
+0x16FA5 				Option: 10W POR Configuration - 1 Commercial/Consumer, Value: 0x1 {09 07 C5 02 00 00 01}
+0x16FAC 				Option: 15W POR Configuration - 2 Commercial/Consumer, Value: 0x2 {09 07 C6 02 00 00 02}
+0x16FB3 				Option: 25W POR Configuration - 3 Commercial/Consumer, Value: 0x3 {09 07 C7 02 00 00 03}
+0x16FBA 				Option: 35W POR Configuration - 4 Consumer, Value: 0x4 {09 07 C8 02 00 00 04}
+0x16FC1 				Option: 45W POR Configuration - 5 Consumer, Value: 0x5 {09 07 C9 02 00 00 05}
+0x16FC8 				Option: 54W POR Configuration - 6 Consumer, Value: 0x6 {09 07 CA 02 00 00 06}
+0x16FCF 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x16FD6 			End of Options {29 02}
+0x16FD8 		End If {29 02}
+0x16FDA 		Suppress If: {0A 82}
+0x16FDC 			Variable 0x7 equals 0x10 {12 86 07 00 10 00}
+0x16FE2 				Not {17 02}
+0x16FE4 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x16FEA 				Not {17 02}
+0x16FEC 				And {15 02}
+0x16FEE 			End {29 02}
+0x16FF0 			Setting: System Configuration AM4, Variable: 0x1A6 {05 91 CB 02 CC 02 35 70 00 50 A6 01 14 10 01 0F 00}
+0x17001 				Option: 35W COMMERCIAL and CONSUMER - SYSTEM CONFIG 1, Value: 0x1 {09 07 CD 02 00 00 01}
+0x17008 				Option: 45W COMMERCIAL and CONSUMER - SYSTEM CONFIG 2, Value: 0x2 {09 07 CE 02 00 00 02}
+0x1700F 				Option: 65W COMMERCIAL - SYSTEM CONFIG 3, Value: 0x3 {09 07 CF 02 00 00 03}
+0x17016 				Option: 65W CONSUMER - SYSTEM CONFIG 6, Value: 0x6 {09 07 D0 02 00 00 06}
+0x1701D 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17024 			End of Options {29 02}
+0x17026 		End If {29 02}
+0x17028 		Ref: CPPC, Variable: 0xFFFF {0F 0F D1 02 D1 02 CA 00 00 00 FF FF 00 36 70}
+0x17037 	End Form {29 02}
+0x17039 	Form: Fan Control, Form ID: 0x7030 {01 86 30 70 BF 02}
+0x1703F 		Subtitle: Fan Control {02 87 BF 02 00 00 00}
+0x17046 		End {29 02}
+0x17048 		Subtitle:  {02 87 02 00 00 00 00}
+0x1704F 		End {29 02}
+0x17051 		Setting: Fan Control, Variable: 0xCB {05 91 D2 02 D3 02 CB 00 00 50 CB 00 10 10 00 01 00}
+0x17062 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x17069 			Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x17070 		End of Options {29 02}
+0x17072 		Suppress If: {0A 82}
+0x17074 			Variable 0xCB equals 0x1 {12 86 CB 00 01 00}
+0x1707A 				Not {17 02}
+0x1707C 			End {29 02}
+0x1707E 			Setting: Force PWM Control, Variable: 0xCC {05 91 D4 02 D5 02 CC 00 00 50 CC 00 10 10 00 01 00}
+0x1708F 				Option: Force, Value: 0x1 {09 07 D6 02 00 00 01}
+0x17096 				Option: Unforce, Value: 0x0 (default) {09 07 D7 02 10 00 00}
+0x1709D 			End of Options {29 02}
+0x1709F 		End If {29 02}
+0x170A1 		Suppress If: {0A 82}
+0x170A3 			Variable 0xCC equals 0x1 {12 86 CC 00 01 00}
+0x170A9 				Not {17 02}
+0x170AB 			End {29 02}
+0x170AD 			Numeric: Force PWM (281474080956272-281474080956272) , Variable: 0xCD {07 91 D8 02 D9 02 CD 00 00 50 CD 00 10 10 00 64 00}
+0x170BE 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x170C4 			End {29 02}
+0x170C6 		End If {29 02}
+0x170C8 		Suppress If: {0A 82}
+0x170CA 			Variable 0xCB equals 0x1 {12 86 CB 00 01 00}
+0x170D0 				Not {17 02}
+0x170D2 			End {29 02}
+0x170D4 			Setting: Fan Table Control, Variable: 0xCE {05 91 DA 02 DB 02 CE 00 00 50 CE 00 10 10 00 01 00}
+0x170E5 				Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x170EC 				Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x170F3 			End of Options {29 02}
+0x170F5 		End If {29 02}
+0x170F7 		Suppress If: {0A 82}
+0x170F9 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x170FF 				Not {17 02}
+0x17101 			End {29 02}
+0x17103 			Numeric: Low Temperature (281474080956272-281474080956272) , Variable: 0xCF {07 91 DC 02 DD 02 CF 00 00 50 CF 00 10 10 00 FF 00}
+0x17114 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x1711A 			End {29 02}
+0x1711C 		End If {29 02}
+0x1711E 		Suppress If: {0A 82}
+0x17120 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x17126 				Not {17 02}
+0x17128 			End {29 02}
+0x1712A 			Numeric: Medium Temperature (281474080956272-281474080956272) , Variable: 0xD0 {07 91 DE 02 DF 02 D0 00 00 50 D0 00 10 10 00 FF 00}
+0x1713B 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17141 			End {29 02}
+0x17143 		End If {29 02}
+0x17145 		Suppress If: {0A 82}
+0x17147 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x1714D 				Not {17 02}
+0x1714F 			End {29 02}
+0x17151 			Numeric: High Temperature (281474080956272-281474080956272) , Variable: 0xD1 {07 91 E0 02 E1 02 D1 00 00 50 D1 00 10 10 00 FF 00}
+0x17162 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17168 			End {29 02}
+0x1716A 		End If {29 02}
+0x1716C 		Suppress If: {0A 82}
+0x1716E 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x17174 				Not {17 02}
+0x17176 			End {29 02}
+0x17178 			Numeric: Critical Temperature (281474080956272-281474080956272) , Variable: 0xD2 {07 91 E2 02 E3 02 D2 00 00 50 D2 00 10 10 00 FF 00}
+0x17189 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x1718F 			End {29 02}
+0x17191 		End If {29 02}
+0x17193 		Suppress If: {0A 82}
+0x17195 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x1719B 				Not {17 02}
+0x1719D 			End {29 02}
+0x1719F 			Numeric: Low Pwm (281474080956272-281474080956272) , Variable: 0xD3 {07 91 E4 02 E5 02 D3 00 00 50 D3 00 10 10 00 64 00}
+0x171B0 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x171B6 			End {29 02}
+0x171B8 		End If {29 02}
+0x171BA 		Suppress If: {0A 82}
+0x171BC 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x171C2 				Not {17 02}
+0x171C4 			End {29 02}
+0x171C6 			Numeric: Medium Pwm (281474080956272-281474080956272) , Variable: 0xD4 {07 91 E6 02 E7 02 D4 00 00 50 D4 00 10 10 00 64 00}
+0x171D7 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x171DD 			End {29 02}
+0x171DF 		End If {29 02}
+0x171E1 		Suppress If: {0A 82}
+0x171E3 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x171E9 				Not {17 02}
+0x171EB 			End {29 02}
+0x171ED 			Numeric: High Pwm (281474080956272-281474080956272) , Variable: 0xD5 {07 91 E8 02 E9 02 D5 00 00 50 D5 00 10 10 00 64 00}
+0x171FE 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17204 			End {29 02}
+0x17206 		End If {29 02}
+0x17208 		Suppress If: {0A 82}
+0x1720A 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x17210 				Not {17 02}
+0x17212 			End {29 02}
+0x17214 			Numeric: Temperature Hysteresis (281474080956272-281474080956272) , Variable: 0xD6 {07 91 EA 02 EB 02 D6 00 00 50 D6 00 10 10 00 FF 00}
+0x17225 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x1722B 			End {29 02}
+0x1722D 		End If {29 02}
+0x1722F 		Suppress If: {0A 82}
+0x17231 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x17237 				Not {17 02}
+0x17239 			End {29 02}
+0x1723B 			Setting: Pwm Frequency, Variable: 0xD7 {05 91 EC 02 ED 02 D7 00 00 50 D7 00 10 10 00 01 00}
+0x1724C 				Option: 100Hz, Value: 0x1 {09 07 EE 02 00 00 01}
+0x17253 				Option: 25kHz, Value: 0x0 (default) {09 07 EF 02 10 00 00}
+0x1725A 			End of Options {29 02}
+0x1725C 		End If {29 02}
+0x1725E 		Suppress If: {0A 82}
+0x17260 			Variable 0xCE equals 0x1 {12 86 CE 00 01 00}
+0x17266 				Not {17 02}
+0x17268 			End {29 02}
+0x1726A 			Setting: Fan Polarity, Variable: 0xD8 {05 91 F0 02 F1 02 D8 00 00 50 D8 00 10 10 00 01 00}
+0x1727B 				Option: Negative, Value: 0x0 (default) {09 07 F2 02 10 00 00}
+0x17282 				Option: Positive, Value: 0x1 {09 07 F3 02 00 00 01}
+0x17289 			End of Options {29 02}
+0x1728B 		End If {29 02}
+0x1728D 	End Form {29 02}
+0x1728F 	Form: System Temperature Tracking, Form ID: 0x7031 {01 86 31 70 C0 02}
+0x17295 		Subtitle: System Temperature Tracking {02 87 C0 02 00 00 00}
+0x1729C 		End {29 02}
+0x1729E 		Subtitle:  {02 87 02 00 00 00 00}
+0x172A5 		End {29 02}
+0x172A7 		Setting: STT Control, Variable: 0x119 {05 91 F4 02 F5 02 D9 00 00 50 19 01 10 10 01 0F 00}
+0x172B8 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x172BF 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x172C6 		End of Options {29 02}
+0x172C8 		Suppress If: {0A 82}
+0x172CA 			Variable 0xD9 equals 0x1 {12 86 D9 00 01 00}
+0x172D0 				Not {17 02}
+0x172D2 			End {29 02}
+0x172D4 			Setting: System Temperature Tracking, Variable: 0xC0 {05 91 F6 02 F7 02 DA 00 00 50 C0 00 10 10 00 0F 00}
+0x172E5 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x172EC 				Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x172F3 				Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x172FA 			End of Options {29 02}
+0x172FC 		End If {29 02}
+0x172FE 		Suppress If: {0A 82}
+0x17300 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17306 				Not {17 02}
+0x17308 			End {29 02}
+0x1730A 			Numeric: STT_MinLimit (281474080956272-281474080956272) , Variable: 0x140 {07 94 F8 02 F9 02 DB 00 00 50 40 01 10 11 00 00 FF FF 00 00}
+0x1731E 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17325 			End {29 02}
+0x17327 		End If {29 02}
+0x17329 		Suppress If: {0A 82}
+0x1732B 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17331 				Not {17 02}
+0x17333 			End {29 02}
+0x17335 			Setting: STT_PCB_SENSOR_COUNT, Variable: 0x11A {05 91 FA 02 FB 02 37 70 00 50 1A 01 14 10 02 0F 00}
+0x17346 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1734D 				Option: APU Only, Value: 0x2 {09 07 FC 02 00 00 02}
+0x17354 				Option: APU+dGPU, Value: 0x3 {09 07 FD 02 00 00 03}
+0x1735B 			End of Options {29 02}
+0x1735D 		End If {29 02}
+0x1735F 		Suppress If: {0A 82}
+0x17361 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17367 				Not {17 02}
+0x17369 			End {29 02}
+0x1736B 			Numeric: STT_M1 (281474080956272-281474080956272) , Variable: 0x11B {07 94 FE 02 FF 02 DC 00 00 50 1B 01 10 21 00 00 FF FF 00 00}
+0x1737F 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17386 			End {29 02}
+0x17388 		End If {29 02}
+0x1738A 		Suppress If: {0A 82}
+0x1738C 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17392 				Not {17 02}
+0x17394 			End {29 02}
+0x17396 			Numeric: STT_M2 (281474080956272-281474080956272) , Variable: 0x11D {07 94 00 03 01 03 DD 00 00 50 1D 01 10 21 00 00 FF FF 00 00}
+0x173AA 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x173B1 			End {29 02}
+0x173B3 		End If {29 02}
+0x173B5 		Suppress If: {0A 82}
+0x173B7 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x173BD 				Not {17 02}
+0x173BF 			End {29 02}
+0x173C1 			Numeric: STT_M3 (281474080956272-281474080956272) , Variable: 0x11F {07 94 02 03 03 03 DE 00 00 50 1F 01 10 21 00 00 FF FF 00 00}
+0x173D5 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x173DC 			End {29 02}
+0x173DE 		End If {29 02}
+0x173E0 		Suppress If: {0A 82}
+0x173E2 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x173E8 				Not {17 02}
+0x173EA 			End {29 02}
+0x173EC 			Numeric: STT_M4 (281474080956272-281474080956272) , Variable: 0x121 {07 94 04 03 05 03 DF 00 00 50 21 01 10 21 00 00 FF FF 00 00}
+0x17400 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17407 			End {29 02}
+0x17409 		End If {29 02}
+0x1740B 		Suppress If: {0A 82}
+0x1740D 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17413 				Not {17 02}
+0x17415 			End {29 02}
+0x17417 			Numeric: STT_M5 (281474080956272-281474080956272) , Variable: 0x123 {07 94 06 03 07 03 E0 00 00 50 23 01 10 21 00 00 FF FF 00 00}
+0x1742B 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17432 			End {29 02}
+0x17434 		End If {29 02}
+0x17436 		Suppress If: {0A 82}
+0x17438 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x1743E 				Not {17 02}
+0x17440 			End {29 02}
+0x17442 			Numeric: STT_M6 (281474080956272-281474080956272) , Variable: 0x125 {07 94 08 03 09 03 E1 00 00 50 25 01 10 21 00 00 FF FF 00 00}
+0x17456 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x1745D 			End {29 02}
+0x1745F 		End If {29 02}
+0x17461 		Suppress If: {0A 82}
+0x17463 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17469 				Not {17 02}
+0x1746B 			End {29 02}
+0x1746D 			Numeric: STT_C_APU (281474080956272-281474080956272) , Variable: 0x127 {07 94 0A 03 0B 03 E2 00 00 50 27 01 10 21 00 00 FF FF 00 00}
+0x17481 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17488 			End {29 02}
+0x1748A 		End If {29 02}
+0x1748C 		Suppress If: {0A 82}
+0x1748E 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17494 				Not {17 02}
+0x17496 				Variable 0x7 equals 0xF {12 06 07 00 0F 00}
+0x1749C 				Not {17 02}
+0x1749E 				Variable 0x7 equals 0x10 {12 06 07 00 10 00}
+0x174A4 				Not {17 02}
+0x174A6 				And {15 02}
+0x174A8 				Or {16 02}
+0x174AA 			End {29 02}
+0x174AC 			Numeric: STT_C_GPU (281474080956272-281474080956272) , Variable: 0x129 {07 94 0C 03 0D 03 E3 00 00 50 29 01 10 21 00 00 FF FF 00 00}
+0x174C0 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x174C7 			End {29 02}
+0x174C9 		End If {29 02}
+0x174CB 		Suppress If: {0A 82}
+0x174CD 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x174D3 				Not {17 02}
+0x174D5 				Variable 0x7 equals 0x11 {12 06 07 00 11 00}
+0x174DB 				Not {17 02}
+0x174DD 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x174E3 				Not {17 02}
+0x174E5 				And {15 02}
+0x174E7 				Or {16 02}
+0x174E9 			End {29 02}
+0x174EB 			Numeric: STT_C_HS2 (281474080956272-281474080956272) , Variable: 0x1B0 {07 94 0E 03 0F 03 E4 00 00 50 B0 01 10 21 00 00 FF FF 00 00}
+0x174FF 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17506 			End {29 02}
+0x17508 		End If {29 02}
+0x1750A 		Suppress If: {0A 82}
+0x1750C 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17512 				Not {17 02}
+0x17514 			End {29 02}
+0x17516 			Numeric: STT_ALPHA_APU (281474080956272-281474080956272) , Variable: 0x12B {07 94 10 03 11 03 E5 00 00 50 2B 01 10 21 00 00 FF FF 00 00}
+0x1752A 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17531 			End {29 02}
+0x17533 		End If {29 02}
+0x17535 		Suppress If: {0A 82}
+0x17537 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x1753D 				Not {17 02}
+0x1753F 				Variable 0x7 equals 0xF {12 06 07 00 0F 00}
+0x17545 				Not {17 02}
+0x17547 				Variable 0x7 equals 0x10 {12 06 07 00 10 00}
+0x1754D 				Not {17 02}
+0x1754F 				And {15 02}
+0x17551 				Or {16 02}
+0x17553 			End {29 02}
+0x17555 			Numeric: STT_ALPHA_GPU (281474080956272-281474080956272) , Variable: 0x12D {07 94 12 03 13 03 E6 00 00 50 2D 01 10 21 00 00 FF FF 00 00}
+0x17569 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17570 			End {29 02}
+0x17572 		End If {29 02}
+0x17574 		Suppress If: {0A 82}
+0x17576 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x1757C 				Not {17 02}
+0x1757E 				Variable 0x7 equals 0x11 {12 06 07 00 11 00}
+0x17584 				Not {17 02}
+0x17586 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x1758C 				Not {17 02}
+0x1758E 				And {15 02}
+0x17590 				Or {16 02}
+0x17592 			End {29 02}
+0x17594 			Numeric: STT_ALPHA_HS2 (281474080956272-281474080956272) , Variable: 0x1B2 {07 94 14 03 15 03 E7 00 00 50 B2 01 10 21 00 00 FF FF 00 00}
+0x175A8 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x175AF 			End {29 02}
+0x175B1 		End If {29 02}
+0x175B3 		Suppress If: {0A 82}
+0x175B5 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x175BB 				Not {17 02}
+0x175BD 			End {29 02}
+0x175BF 			Numeric: STT_SKIN_TEMPERATURE_LIMIT_APU (281474080956272-281474080956272) , Variable: 0x12F {07 94 16 03 17 03 E8 00 00 50 2F 01 10 21 00 00 FF FF 00 00}
+0x175D3 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x175DA 			End {29 02}
+0x175DC 		End If {29 02}
+0x175DE 		Suppress If: {0A 82}
+0x175E0 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x175E6 				Not {17 02}
+0x175E8 				Variable 0x7 equals 0xF {12 06 07 00 0F 00}
+0x175EE 				Not {17 02}
+0x175F0 				Variable 0x7 equals 0x10 {12 06 07 00 10 00}
+0x175F6 				Not {17 02}
+0x175F8 				And {15 02}
+0x175FA 				Or {16 02}
+0x175FC 			End {29 02}
+0x175FE 			Numeric: STT_SKIN_TEMPERATURE_LIMIT_GPU (281474080956272-281474080956272) , Variable: 0x131 {07 94 18 03 19 03 E9 00 00 50 31 01 10 21 00 00 FF FF 00 00}
+0x17612 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17619 			End {29 02}
+0x1761B 		End If {29 02}
+0x1761D 		Suppress If: {0A 82}
+0x1761F 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17625 				Not {17 02}
+0x17627 				Variable 0x7 equals 0x11 {12 06 07 00 11 00}
+0x1762D 				Not {17 02}
+0x1762F 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x17635 				Not {17 02}
+0x17637 				And {15 02}
+0x17639 				Or {16 02}
+0x1763B 			End {29 02}
+0x1763D 			Numeric: STT_SKIN_TEMPERATURE_LIMIT_HS2 (281474080956272-281474080956272) , Variable: 0x1B4 {07 94 1A 03 1B 03 EA 00 00 50 B4 01 10 21 00 00 FF FF 00 00}
+0x17651 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17658 			End {29 02}
+0x1765A 		End If {29 02}
+0x1765C 		Suppress If: {0A 82}
+0x1765E 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x17664 				Not {17 02}
+0x17666 			End {29 02}
+0x17668 			Numeric: STT_ERROR_COEFF (281474080956272-281474080956272) , Variable: 0x133 {07 94 1C 03 1D 03 EB 00 00 50 33 01 10 21 00 00 FF FF 00 00}
+0x1767C 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x17683 			End {29 02}
+0x17685 		End If {29 02}
+0x17687 		Suppress If: {0A 82}
+0x17689 			Variable 0xDA equals 0x1 {12 86 DA 00 01 00}
+0x1768F 				Not {17 02}
+0x17691 			End {29 02}
+0x17693 			Numeric: STT_ERROR_RATE_COEFF_Copy (281474080956272-281474080956272) , Variable: 0x135 {07 94 1E 03 1F 03 EC 00 00 50 35 01 10 21 00 00 FF FF 00 00}
+0x176A7 				Default: 16 Bit, Value: 0x0 {5B 07 00 00 01 00 00}
+0x176AE 			End {29 02}
+0x176B0 		End If {29 02}
+0x176B2 	End Form {29 02}
+0x176B4 	Form: STAPM Control, Form ID: 0x7032 {01 86 32 70 C1 02}
+0x176BA 		Subtitle: STAPM Control {02 87 C1 02 00 00 00}
+0x176C1 		End {29 02}
+0x176C3 		Subtitle:  {02 87 02 00 00 00 00}
+0x176CA 		End {29 02}
+0x176CC 		Setting: STAPM Control, Variable: 0xF2 {05 91 20 03 21 03 ED 00 00 50 F2 00 10 10 00 01 00}
+0x176DD 			Option: Auto, Value: 0x0 (default) {09 07 12 00 10 00 00}
+0x176E4 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x176EB 		End of Options {29 02}
+0x176ED 		Suppress If: {0A 82}
+0x176EF 			Variable 0xED equals 0x1 {12 86 ED 00 01 00}
+0x176F5 				Not {17 02}
+0x176F7 			End {29 02}
+0x176F9 			Setting: STAPM Boost, Variable: 0xF3 {05 91 22 03 23 03 EE 00 00 50 F3 00 10 10 00 0F 00}
+0x1770A 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17711 				Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x17718 				Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x1771F 			End of Options {29 02}
+0x17721 		End If {29 02}
+0x17723 		Suppress If: {0A 82}
+0x17725 			Variable 0xED equals 0x1 {12 86 ED 00 01 00}
+0x1772B 				Not {17 02}
+0x1772D 				Variable 0xEE equals 0x1 {12 06 EE 00 01 00}
+0x17733 				Not {17 02}
+0x17735 				Or {16 02}
+0x17737 			End {29 02}
+0x17739 			Numeric: Tskin Time Constant (281474080956272-281474080956272) , Variable: 0xF4 {07 9A 24 03 25 03 EF 00 00 50 F4 00 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x17753 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x1775C 			End {29 02}
+0x1775E 		End If {29 02}
+0x17760 	End Form {29 02}
+0x17762 	Form: SmartShift Control, Form ID: 0x7033 {01 86 33 70 C2 02}
+0x17768 		Subtitle: SmartShift Control {02 87 C2 02 00 00 00}
+0x1776F 		End {29 02}
+0x17771 		Subtitle:  {02 87 02 00 00 00 00}
+0x17778 		End {29 02}
+0x1777A 		Setting: SmartShift Control, Variable: 0xF8 {05 91 26 03 27 03 F0 00 00 50 F8 00 10 10 01 0F 00}
+0x1778B 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17792 			Option: Manual, Value: 0x1 {09 07 28 00 00 00 01}
+0x17799 		End of Options {29 02}
+0x1779B 		Suppress If: {0A 82}
+0x1779D 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x177A3 				Not {17 02}
+0x177A5 			End {29 02}
+0x177A7 			Setting: SmartShift Enable, Variable: 0xF9 {05 91 28 03 29 03 F1 00 00 50 F9 00 10 10 00 0F 00}
+0x177B8 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x177BF 				Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x177C6 				Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x177CD 			End of Options {29 02}
+0x177CF 		End If {29 02}
+0x177D1 		Suppress If: {0A 82}
+0x177D3 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x177D9 				Not {17 02}
+0x177DB 			End {29 02}
+0x177DD 			Numeric: APU Only sPPT Limit (281474080956272-281474080956272) , Variable: 0x139 {07 9A 2A 03 2B 03 F2 00 00 50 39 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x177F7 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x17800 			End {29 02}
+0x17802 		End If {29 02}
+0x17804 		Suppress If: {0A 82}
+0x17806 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x1780C 				Not {17 02}
+0x1780E 			End {29 02}
+0x17810 			Numeric: Sustained PowerLimit (281474080956272-281474080956272) , Variable: 0x182 {07 9A 2C 03 2D 03 F3 00 00 50 82 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x1782A 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x17833 			End {29 02}
+0x17835 		End If {29 02}
+0x17837 		Suppress If: {0A 82}
+0x17839 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x1783F 				Not {17 02}
+0x17841 			End {29 02}
+0x17843 			Numeric: Fast PPT Limit (281474080956272-281474080956272) , Variable: 0x186 {07 9A 2E 03 2F 03 F4 00 00 50 86 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x1785D 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x17866 			End {29 02}
+0x17868 		End If {29 02}
+0x1786A 		Suppress If: {0A 82}
+0x1786C 			Variable 0xF0 equals 0x1 {12 86 F0 00 01 00}
+0x17872 				Not {17 02}
+0x17874 			End {29 02}
+0x17876 			Numeric: Slow PPT Limit (281474080956272-281474080956272) , Variable: 0x18A {07 9A 30 03 31 03 F5 00 00 50 8A 01 10 12 00 00 00 00 FF FF FF FF 00 00 00 00}
+0x17890 				Default: 32 Bit, Value: 0x0 {5B 09 00 00 02 00 00 00 00}
+0x17899 			End {29 02}
+0x1789B 		End If {29 02}
+0x1789D 	End Form {29 02}
+0x1789F 	Form: CPPC, Form ID: 0x7036 {01 86 36 70 D1 02}
+0x178A5 		Subtitle: CPPC {02 87 D1 02 00 00 00}
+0x178AC 		End {29 02}
+0x178AE 		Subtitle:  {02 87 02 00 00 00 00}
+0x178B5 		End {29 02}
+0x178B7 		Setting: CPPC CTRL, Variable: 0x145 {05 91 32 03 33 03 F6 00 00 50 45 01 10 10 00 0F 00}
+0x178C8 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x178CF 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x178D6 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x178DD 		End of Options {29 02}
+0x178DF 		Suppress If: {0A 82}
+0x178E1 			Variable 0xF6 equals 0x1 {12 86 F6 00 01 00}
+0x178E7 				Not {17 02}
+0x178E9 			End {29 02}
+0x178EB 			Numeric: Perf Limit Max Range (281474080956272-281474080956272) , Variable: 0x146 {07 91 34 03 35 03 F7 00 00 50 46 01 10 20 00 FF 00}
+0x178FC 				Default: 8 Bit, Value: 0xFF {5B 06 00 00 00 FF}
+0x17902 			End {29 02}
+0x17904 		End If {29 02}
+0x17906 		Suppress If: {0A 82}
+0x17908 			Variable 0xF6 equals 0x1 {12 86 F6 00 01 00}
+0x1790E 				Not {17 02}
+0x17910 			End {29 02}
+0x17912 			Numeric: Perf Limit Min Range (281474080956272-281474080956272) , Variable: 0x147 {07 91 36 03 37 03 F8 00 00 50 47 01 10 20 00 FF 00}
+0x17923 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17929 			End {29 02}
+0x1792B 		End If {29 02}
+0x1792D 		Suppress If: {0A 82}
+0x1792F 			Variable 0xF6 equals 0x1 {12 86 F6 00 01 00}
+0x17935 				Not {17 02}
+0x17937 			End {29 02}
+0x17939 			Numeric: EPP Max Range (281474080956272-281474080956272) , Variable: 0x148 {07 91 38 03 39 03 F9 00 00 50 48 01 10 20 00 FF 00}
+0x1794A 				Default: 8 Bit, Value: 0xFF {5B 06 00 00 00 FF}
+0x17950 			End {29 02}
+0x17952 		End If {29 02}
+0x17954 		Suppress If: {0A 82}
+0x17956 			Variable 0xF6 equals 0x1 {12 86 F6 00 01 00}
+0x1795C 				Not {17 02}
+0x1795E 			End {29 02}
+0x17960 			Numeric: EPP Min Range (281474080956272-281474080956272) , Variable: 0x149 {07 91 3A 03 3B 03 FA 00 00 50 49 01 10 20 00 FF 00}
+0x17971 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17977 			End {29 02}
+0x17979 		End If {29 02}
+0x1797B 		Suppress If: {0A 82}
+0x1797D 			Variable 0x7 equals 0x11 {12 86 07 00 11 00}
+0x17983 				Not {17 02}
+0x17985 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x1798B 				Not {17 02}
+0x1798D 				And {15 02}
+0x1798F 			End {29 02}
+0x17991 			Setting: CPPC Preferred Cores, Variable: 0x1AB {05 91 3C 03 3D 03 38 70 00 50 AB 01 14 10 00 0F 00}
+0x179A2 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x179A9 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x179B0 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x179B7 			End of Options {29 02}
+0x179B9 		End If {29 02}
+0x179BB 	End Form {29 02}
+0x179BD 	Form: FCH Common Options, Form ID: 0x7005 {01 86 05 70 09 00}
+0x179C3 		Subtitle: FCH Common Options {02 87 09 00 00 00 00}
+0x179CA 		End {29 02}
+0x179CC 		Subtitle:  {02 87 02 00 00 00 00}
+0x179D3 		End {29 02}
+0x179D5 		Ref: SATA Configuration Options, Variable: 0xFFFF {0F 0F 3E 03 3E 03 FB 00 00 00 FF FF 00 39 70}
+0x179E4 		Ref: USB Configuration Options, Variable: 0xFFFF {0F 0F 3F 03 3F 03 FC 00 00 00 FF FF 00 3A 70}
+0x179F3 		Ref: Ac Power Loss Options, Variable: 0xFFFF {0F 0F 40 03 40 03 FD 00 00 00 FF FF 00 3B 70}
+0x17A02 		Ref: I2C Configuration Options, Variable: 0xFFFF {0F 0F 41 03 41 03 FE 00 00 00 FF FF 00 3C 70}
+0x17A11 		Ref: Uart Configuration Options, Variable: 0xFFFF {0F 0F 42 03 42 03 FF 00 00 00 FF FF 00 3D 70}
+0x17A20 		Ref: ESPI Configuration Options, Variable: 0xFFFF {0F 0F 43 03 43 03 00 01 00 00 FF FF 00 3E 70}
+0x17A2F 		Ref: XGBE Configuration Options, Variable: 0xFFFF {0F 0F 44 03 44 03 01 01 00 00 FF FF 00 3F 70}
+0x17A3E 		Ref: LPC Options, Variable: 0xFFFF {0F 0F 45 03 45 03 02 01 00 00 FF FF 00 40 70}
+0x17A4D 		Ref: HFP Options, Variable: 0xFFFF {0F 0F 46 03 46 03 03 01 00 00 FF FF 00 41 70}
+0x17A5C 	End Form {29 02}
+0x17A5E 	Form: SATA Configuration Options, Form ID: 0x7039 {01 86 39 70 3E 03}
+0x17A64 		Subtitle: SATA Configuration Options {02 87 3E 03 00 00 00}
+0x17A6B 		End {29 02}
+0x17A6D 		Subtitle:  {02 87 02 00 00 00 00}
+0x17A74 		End {29 02}
+0x17A76 		Setting: SATA Controller, Variable: 0xD9 {05 91 47 03 48 03 42 70 00 50 D9 00 14 10 00 0F 00}
+0x17A87 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17A8E 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17A95 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17A9C 		End of Options {29 02}
+0x17A9E 		Setting: SATA Auto Shutdown, Variable: 0x144 {05 91 49 03 4A 03 43 70 00 50 44 01 14 10 00 0F 00}
+0x17AAF 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17AB6 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17ABD 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17AC4 		End of Options {29 02}
+0x17AC6 		Suppress If: {0A 82}
+0x17AC8 			Variable 0x7042 equals 0x1 {12 86 42 70 01 00}
+0x17ACE 				Not {17 02}
+0x17AD0 				Variable 0x7 equals 0x10 {12 06 07 00 10 00}
+0x17AD6 				Not {17 02}
+0x17AD8 				Variable 0x7 equals 0x12 {12 06 07 00 12 00}
+0x17ADE 				Not {17 02}
+0x17AE0 				And {15 02}
+0x17AE2 				Or {16 02}
+0x17AE4 			End {29 02}
+0x17AE6 			Setting: SATA Mode, Variable: 0xDA {05 91 4B 03 4C 03 44 70 00 50 DA 00 14 10 01 0F 00}
+0x17AF7 				Option: AHCI, Value: 0x2 {09 07 4D 03 00 00 02}
+0x17AFE 				Option: AHCI as ID 0x7904, Value: 0x5 {09 07 4E 03 00 00 05}
+0x17B05 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17B0C 				Option: RAID, Value: 0x1 {09 07 4F 03 00 00 01}
+0x17B13 			End of Options {29 02}
+0x17B15 		End If {29 02}
+0x17B17 		Setting: Sata RAS Support, Variable: 0xDB {05 91 50 03 51 03 04 01 00 50 DB 00 10 10 00 0F 00}
+0x17B28 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17B2F 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17B36 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17B3D 		End of Options {29 02}
+0x17B3F 		Setting: Sata Disabled AHCI Prefetch Function, Variable: 0xDC {05 91 52 03 53 03 05 01 00 50 DC 00 10 10 00 0F 00}
+0x17B50 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17B57 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17B5E 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17B65 		End of Options {29 02}
+0x17B67 		Setting: Aggresive SATA Device Sleep Port 0, Variable: 0xDD {05 91 54 03 55 03 06 01 00 50 DD 00 10 10 00 0F 00}
+0x17B78 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x17B7F 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x17B86 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17B8D 		End of Options {29 02}
+0x17B8F 		Suppress If: {0A 82}
+0x17B91 			Variable 0x106 equals 0x1 {12 86 06 01 01 00}
+0x17B97 				Not {17 02}
+0x17B99 			End {29 02}
+0x17B9B 			Numeric: DevSleep0 Port Number (281474080956272-281474080956272) , Variable: 0x180 {07 91 56 03 57 03 07 01 00 50 80 01 10 20 00 0F 00}
+0x17BAC 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17BB2 			End {29 02}
+0x17BB4 		End If {29 02}
+0x17BB6 		Setting: Aggresive SATA Device Sleep Port 1, Variable: 0xDE {05 91 58 03 59 03 08 01 00 50 DE 00 10 10 00 0F 00}
+0x17BC7 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x17BCE 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x17BD5 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17BDC 		End of Options {29 02}
+0x17BDE 		Suppress If: {0A 82}
+0x17BE0 			Variable 0x108 equals 0x1 {12 86 08 01 01 00}
+0x17BE6 				Not {17 02}
+0x17BE8 			End {29 02}
+0x17BEA 			Numeric: DevSleep1 Port Number (281474080956272-281474080956272) , Variable: 0x181 {07 91 5A 03 5B 03 09 01 00 50 81 01 10 20 00 0F 00}
+0x17BFB 				Default: 8 Bit, Value: 0x0 {5B 06 00 00 00 00}
+0x17C01 			End {29 02}
+0x17C03 		End If {29 02}
+0x17C05 		Ref: SATA0 port enable, Variable: 0xFFFF {0F 0F 5C 03 5C 03 0A 01 00 00 FF FF 00 45 70}
+0x17C14 		Ref: SATA1 port enable, Variable: 0xFFFF {0F 0F 5D 03 5D 03 0B 01 00 00 FF FF 00 46 70}
+0x17C23 	End Form {29 02}
+0x17C25 	Form: SATA0 port enable, Form ID: 0x7045 {01 86 45 70 5C 03}
+0x17C2B 		Subtitle: SATA0 port enable {02 87 5C 03 00 00 00}
+0x17C32 		End {29 02}
+0x17C34 		Subtitle:  {02 87 02 00 00 00 00}
+0x17C3B 		End {29 02}
+0x17C3D 		Setting: SATA0 port0, Variable: 0x1AC {05 91 5E 03 5F 03 0C 01 00 50 AC 01 10 10 00 0F 00}
+0x17C4E 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17C55 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17C5C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17C63 		End of Options {29 02}
+0x17C65 		Setting: SATA0 port1, Variable: 0x1AD {05 91 60 03 61 03 0D 01 00 50 AD 01 10 10 00 0F 00}
+0x17C76 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17C7D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17C84 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17C8B 		End of Options {29 02}
+0x17C8D 	End Form {29 02}
+0x17C8F 	Form: SATA1 port enable, Form ID: 0x7046 {01 86 46 70 5D 03}
+0x17C95 		Subtitle: SATA1 port enable {02 87 5D 03 00 00 00}
+0x17C9C 		End {29 02}
+0x17C9E 		Subtitle:  {02 87 02 00 00 00 00}
+0x17CA5 		End {29 02}
+0x17CA7 		Setting: SATA1 port0, Variable: 0x1AE {05 91 62 03 63 03 0E 01 00 50 AE 01 10 10 00 0F 00}
+0x17CB8 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17CBF 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17CC6 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17CCD 		End of Options {29 02}
+0x17CCF 		Setting: SATA1 port1, Variable: 0x1AF {05 91 64 03 65 03 0F 01 00 50 AF 01 10 10 00 0F 00}
+0x17CE0 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17CE7 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17CEE 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17CF5 		End of Options {29 02}
+0x17CF7 	End Form {29 02}
+0x17CF9 	Form: USB Configuration Options, Form ID: 0x703A {01 86 3A 70 3F 03}
+0x17CFF 		Subtitle: USB Configuration Options {02 87 3F 03 00 00 00}
+0x17D06 		End {29 02}
+0x17D08 		Subtitle:  {02 87 02 00 00 00 00}
+0x17D0F 		End {29 02}
+0x17D11 		Setting: XHCI0 controller enable, Variable: 0xDF {05 91 66 03 67 03 10 01 00 50 DF 00 10 10 00 0F 00}
+0x17D22 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17D29 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17D30 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17D37 		End of Options {29 02}
+0x17D39 		Setting: XHCI1 controller enable, Variable: 0xE0 {05 91 68 03 69 03 11 01 00 50 E0 00 10 10 00 0F 00}
+0x17D4A 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17D51 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17D58 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17D5F 		End of Options {29 02}
+0x17D61 		Setting: USB Port0 Disable, Variable: 0x1AA {05 91 6A 03 6B 03 12 01 00 50 AA 01 10 10 00 0F 00}
+0x17D72 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17D79 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17D80 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17D87 		End of Options {29 02}
+0x17D89 		Ref: XHCI0 2.0 port enable, Variable: 0xFFFF {0F 0F 6C 03 6C 03 13 01 00 00 FF FF 00 47 70}
+0x17D98 		Ref: XHCI1 2.0 port enable, Variable: 0xFFFF {0F 0F 6D 03 6D 03 14 01 00 00 FF FF 00 48 70}
+0x17DA7 		Ref: XHCI0 3.1 port enable, Variable: 0xFFFF {0F 0F 6E 03 6E 03 15 01 00 00 FF FF 00 49 70}
+0x17DB6 		Ref: XHCI1 3.1 port enable, Variable: 0xFFFF {0F 0F 6F 03 6F 03 16 01 00 00 FF FF 00 4A 70}
+0x17DC5 	End Form {29 02}
+0x17DC7 	Form: XHCI0 2.0 port enable, Form ID: 0x7047 {01 86 47 70 6C 03}
+0x17DCD 		Subtitle: XHCI0 2.0 port enable {02 87 6C 03 00 00 00}
+0x17DD4 		End {29 02}
+0x17DD6 		Subtitle:  {02 87 02 00 00 00 00}
+0x17DDD 		End {29 02}
+0x17DDF 		Suppress If: {0A 82}
+0x17DE1 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x17DE7 				Not {17 02}
+0x17DE9 			End {29 02}
+0x17DEB 			Setting: XHCI0 2.0 Port 0, Variable: 0x1B6 {05 91 70 03 71 03 17 01 00 50 B6 01 10 10 00 0F 00}
+0x17DFC 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17E03 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17E0A 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17E11 			End of Options {29 02}
+0x17E13 		End If {29 02}
+0x17E15 		Setting: XHCI0 2.0 Port 1, Variable: 0x1B7 {05 91 72 03 73 03 18 01 00 50 B7 01 10 10 00 0F 00}
+0x17E26 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17E2D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17E34 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17E3B 		End of Options {29 02}
+0x17E3D 		Setting: XHCI0 2.0 Port 2, Variable: 0x1B8 {05 91 74 03 75 03 19 01 00 50 B8 01 10 10 00 0F 00}
+0x17E4E 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17E55 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17E5C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17E63 		End of Options {29 02}
+0x17E65 		Setting: XHCI0 2.0 Port 3, Variable: 0x1B9 {05 91 76 03 77 03 1A 01 00 50 B9 01 10 10 00 0F 00}
+0x17E76 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17E7D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17E84 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17E8B 		End of Options {29 02}
+0x17E8D 	End Form {29 02}
+0x17E8F 	Form: XHCI1 2.0 port enable, Form ID: 0x7048 {01 86 48 70 6D 03}
+0x17E95 		Subtitle: XHCI1 2.0 port enable {02 87 6D 03 00 00 00}
+0x17E9C 		End {29 02}
+0x17E9E 		Subtitle:  {02 87 02 00 00 00 00}
+0x17EA5 		End {29 02}
+0x17EA7 		Suppress If: {0A 82}
+0x17EA9 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x17EAF 				Not {17 02}
+0x17EB1 			End {29 02}
+0x17EB3 			Setting: XHCI1 2.0 Port 0, Variable: 0x1BA {05 91 78 03 79 03 1B 01 00 50 BA 01 10 10 00 0F 00}
+0x17EC4 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17ECB 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17ED2 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17ED9 			End of Options {29 02}
+0x17EDB 		End If {29 02}
+0x17EDD 		Setting: XHCI1 2.0 Port 1, Variable: 0x1BB {05 91 7A 03 7B 03 1C 01 00 50 BB 01 10 10 00 0F 00}
+0x17EEE 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17EF5 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17EFC 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17F03 		End of Options {29 02}
+0x17F05 		Setting: XHCI1 2.0 Port 2, Variable: 0x1C0 {05 91 7C 03 7D 03 1D 01 00 50 C0 01 10 10 00 0F 00}
+0x17F16 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17F1D 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17F24 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17F2B 		End of Options {29 02}
+0x17F2D 		Setting: XHCI1 2.0 Port 3, Variable: 0x1C1 {05 91 7E 03 7F 03 1E 01 00 50 C1 01 10 10 00 0F 00}
+0x17F3E 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17F45 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17F4C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17F53 		End of Options {29 02}
+0x17F55 	End Form {29 02}
+0x17F57 	Form: XHCI0 3.1 port enable, Form ID: 0x7049 {01 86 49 70 6E 03}
+0x17F5D 		Subtitle: XHCI0 3.1 port enable {02 87 6E 03 00 00 00}
+0x17F64 		End {29 02}
+0x17F66 		Subtitle:  {02 87 02 00 00 00 00}
+0x17F6D 		End {29 02}
+0x17F6F 		Suppress If: {0A 82}
+0x17F71 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x17F77 				Not {17 02}
+0x17F79 			End {29 02}
+0x17F7B 			Setting: XHCI0 3.1 Port 0, Variable: 0x1BC {05 91 80 03 81 03 1F 01 00 50 BC 01 10 10 00 0F 00}
+0x17F8C 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17F93 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17F9A 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17FA1 			End of Options {29 02}
+0x17FA3 		End If {29 02}
+0x17FA5 		Setting: XHCI0 3.1 Port 1, Variable: 0x1BD {05 91 82 03 83 03 20 01 00 50 BD 01 10 10 00 0F 00}
+0x17FB6 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x17FBD 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x17FC4 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x17FCB 		End of Options {29 02}
+0x17FCD 	End Form {29 02}
+0x17FCF 	Form: XHCI1 3.1 port enable, Form ID: 0x704A {01 86 4A 70 6F 03}
+0x17FD5 		Subtitle: XHCI1 3.1 port enable {02 87 6F 03 00 00 00}
+0x17FDC 		End {29 02}
+0x17FDE 		Subtitle:  {02 87 02 00 00 00 00}
+0x17FE5 		End {29 02}
+0x17FE7 		Suppress If: {0A 82}
+0x17FE9 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x17FEF 				Not {17 02}
+0x17FF1 			End {29 02}
+0x17FF3 			Setting: XHCI1 3.1 Port 0, Variable: 0x1BE {05 91 84 03 85 03 21 01 00 50 BE 01 10 10 00 0F 00}
+0x18004 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1800B 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x18012 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18019 			End of Options {29 02}
+0x1801B 		End If {29 02}
+0x1801D 		Setting: XHCI1 3.1 Port 1, Variable: 0x1BF {05 91 86 03 87 03 22 01 00 50 BF 01 10 10 00 0F 00}
+0x1802E 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18035 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1803C 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18043 		End of Options {29 02}
+0x18045 	End Form {29 02}
+0x18047 	Form: Ac Power Loss Options, Form ID: 0x703B {01 86 3B 70 40 03}
+0x1804D 		Subtitle: Ac Power Loss Options {02 87 40 03 00 00 00}
+0x18054 		End {29 02}
+0x18056 		Subtitle:  {02 87 02 00 00 00 00}
+0x1805D 		End {29 02}
+0x1805F 		Setting: Ac Loss Control, Variable: 0xE1 {05 91 88 03 89 03 23 01 00 50 E1 00 10 10 00 0F 00}
+0x18070 			Option: Always Off, Value: 0x0 (default) {09 07 8A 03 10 00 00}
+0x18077 			Option: Always On, Value: 0x1 {09 07 8B 03 00 00 01}
+0x1807E 			Option: Reserved, Value: 0x2 {09 07 8C 03 00 00 02}
+0x18085 			Option: Previous, Value: 0x3 {09 07 8D 03 00 00 03}
+0x1808C 			Option: Auto, Value: 0xF {09 07 12 00 00 00 0F}
+0x18093 		End of Options {29 02}
+0x18095 	End Form {29 02}
+0x18097 	Form: I2C Configuration Options, Form ID: 0x703C {01 86 3C 70 41 03}
+0x1809D 		Subtitle: I2C Configuration Options {02 87 41 03 00 00 00}
+0x180A4 		End {29 02}
+0x180A6 		Subtitle:  {02 87 02 00 00 00 00}
+0x180AD 		End {29 02}
+0x180AF 		Setting: I2C 0 Enable, Variable: 0xE2 {05 91 8E 03 8F 03 24 01 00 50 E2 00 10 10 00 0F 00}
+0x180C0 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x180C7 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x180CE 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x180D5 		End of Options {29 02}
+0x180D7 		Setting: I2C 1 Enable, Variable: 0xE3 {05 91 90 03 91 03 25 01 00 50 E3 00 10 10 00 0F 00}
+0x180E8 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x180EF 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x180F6 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x180FD 		End of Options {29 02}
+0x180FF 		Setting: I2C 2 Enable, Variable: 0xE4 {05 91 92 03 93 03 26 01 00 50 E4 00 10 10 00 0F 00}
+0x18110 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18117 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1811E 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18125 		End of Options {29 02}
+0x18127 		Setting: I2C 3 Enable, Variable: 0xE5 {05 91 94 03 95 03 27 01 00 50 E5 00 10 10 00 0F 00}
+0x18138 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1813F 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x18146 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1814D 		End of Options {29 02}
+0x1814F 	End Form {29 02}
+0x18151 	Form: Uart Configuration Options, Form ID: 0x703D {01 86 3D 70 42 03}
+0x18157 		Subtitle: Uart Configuration Options {02 87 42 03 00 00 00}
+0x1815E 		End {29 02}
+0x18160 		Subtitle:  {02 87 02 00 00 00 00}
+0x18167 		End {29 02}
+0x18169 		Setting: Uart 0 Enable, Variable: 0xE6 {05 91 96 03 97 03 28 01 00 50 E6 00 10 10 00 0F 00}
+0x1817A 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18181 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x18188 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1818F 		End of Options {29 02}
+0x18191 		Suppress If: {0A 82}
+0x18193 			Variable 0x128 equals 0x1 {12 86 28 01 01 00}
+0x18199 				Not {17 02}
+0x1819B 			End {29 02}
+0x1819D 			Setting: Uart 0 Legacy Options, Variable: 0xE7 {05 91 98 03 99 03 29 01 00 50 E7 00 10 10 00 0F 00}
+0x181AE 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x181B5 				Option: 0x2E8, Value: 0x1 {09 07 9A 03 00 00 01}
+0x181BC 				Option: 0x2F8, Value: 0x2 {09 07 9B 03 00 00 02}
+0x181C3 				Option: 0x3E8, Value: 0x3 {09 07 9C 03 00 00 03}
+0x181CA 				Option: 0x3F8, Value: 0x4 {09 07 9D 03 00 00 04}
+0x181D1 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x181D8 			End of Options {29 02}
+0x181DA 		End If {29 02}
+0x181DC 		Setting: Uart 1 Enable, Variable: 0xE8 {05 91 9E 03 9F 03 2A 01 00 50 E8 00 10 10 00 0F 00}
+0x181ED 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x181F4 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x181FB 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18202 		End of Options {29 02}
+0x18204 		Suppress If: {0A 82}
+0x18206 			Variable 0x12A equals 0x1 {12 86 2A 01 01 00}
+0x1820C 				Not {17 02}
+0x1820E 			End {29 02}
+0x18210 			Setting: Uart 1 Legacy Options, Variable: 0xE9 {05 91 A0 03 A1 03 2B 01 00 50 E9 00 10 10 00 0F 00}
+0x18221 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18228 				Option: 0x2E8, Value: 0x1 {09 07 9A 03 00 00 01}
+0x1822F 				Option: 0x2F8, Value: 0x2 {09 07 9B 03 00 00 02}
+0x18236 				Option: 0x3E8, Value: 0x3 {09 07 9C 03 00 00 03}
+0x1823D 				Option: 0x3F8, Value: 0x4 {09 07 9D 03 00 00 04}
+0x18244 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1824B 			End of Options {29 02}
+0x1824D 		End If {29 02}
+0x1824F 		Suppress If: {0A 82}
+0x18251 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x18257 				Not {17 02}
+0x18259 			End {29 02}
+0x1825B 			Setting: Uart 2 Enable (no HW FC), Variable: 0xEA {05 91 A2 03 A3 03 2C 01 00 50 EA 00 10 10 00 0F 00}
+0x1826C 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18273 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1827A 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18281 			End of Options {29 02}
+0x18283 		End If {29 02}
+0x18285 		Suppress If: {0A 82}
+0x18287 			Variable 0x12C equals 0x1 {12 86 2C 01 01 00}
+0x1828D 				Not {17 02}
+0x1828F 			End {29 02}
+0x18291 			Setting: Uart 2 Legacy Options, Variable: 0xEB {05 91 A4 03 A5 03 2D 01 00 50 EB 00 10 10 00 0F 00}
+0x182A2 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x182A9 				Option: 0x2E8, Value: 0x1 {09 07 9A 03 00 00 01}
+0x182B0 				Option: 0x2F8, Value: 0x2 {09 07 9B 03 00 00 02}
+0x182B7 				Option: 0x3E8, Value: 0x3 {09 07 9C 03 00 00 03}
+0x182BE 				Option: 0x3F8, Value: 0x4 {09 07 9D 03 00 00 04}
+0x182C5 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x182CC 			End of Options {29 02}
+0x182CE 		End If {29 02}
+0x182D0 		Suppress If: {0A 82}
+0x182D2 			Variable 0x7 equals 0xFF {12 86 07 00 FF 00}
+0x182D8 				Not {17 02}
+0x182DA 			End {29 02}
+0x182DC 			Setting: Uart 3 Enable (no HW FC), Variable: 0xEC {05 91 A6 03 A7 03 2E 01 00 50 EC 00 10 10 00 0F 00}
+0x182ED 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x182F4 				Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x182FB 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18302 			End of Options {29 02}
+0x18304 		End If {29 02}
+0x18306 		Suppress If: {0A 82}
+0x18308 			Variable 0x12E equals 0x1 {12 86 2E 01 01 00}
+0x1830E 				Not {17 02}
+0x18310 			End {29 02}
+0x18312 			Setting: Uart 3 Legacy Options, Variable: 0xED {05 91 A8 03 A9 03 2F 01 00 50 ED 00 10 10 00 0F 00}
+0x18323 				Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1832A 				Option: 0x2E8, Value: 0x1 {09 07 9A 03 00 00 01}
+0x18331 				Option: 0x2F8, Value: 0x2 {09 07 9B 03 00 00 02}
+0x18338 				Option: 0x3E8, Value: 0x3 {09 07 9C 03 00 00 03}
+0x1833F 				Option: 0x3F8, Value: 0x4 {09 07 9D 03 00 00 04}
+0x18346 				Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1834D 			End of Options {29 02}
+0x1834F 		End If {29 02}
+0x18351 	End Form {29 02}
+0x18353 	Form: ESPI Configuration Options, Form ID: 0x703E {01 86 3E 70 43 03}
+0x18359 		Subtitle: ESPI Configuration Options {02 87 43 03 00 00 00}
+0x18360 		End {29 02}
+0x18362 		Subtitle:  {02 87 02 00 00 00 00}
+0x18369 		End {29 02}
+0x1836B 		Setting: ESPI Enable, Variable: 0xEE {05 91 AA 03 AB 03 30 01 00 50 EE 00 10 10 00 0F 00}
+0x1837C 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18383 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x1838A 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x18391 		End of Options {29 02}
+0x18393 	End Form {29 02}
+0x18395 	Form: XGBE Configuration Options, Form ID: 0x703F {01 86 3F 70 44 03}
+0x1839B 		Subtitle: XGBE Configuration Options {02 87 44 03 00 00 00}
+0x183A2 		End {29 02}
+0x183A4 		Subtitle:  {02 87 02 00 00 00 00}
+0x183AB 		End {29 02}
+0x183AD 		Setting: XGBE0 enable, Variable: 0xEF {05 91 AC 03 AD 03 31 01 00 50 EF 00 10 10 00 0F 00}
+0x183BE 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x183C5 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x183CC 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x183D3 		End of Options {29 02}
+0x183D5 		Setting: XGBE1 enable, Variable: 0xF0 {05 91 AE 03 AF 03 32 01 00 50 F0 00 10 10 00 0F 00}
+0x183E6 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x183ED 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x183F4 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x183FB 		End of Options {29 02}
+0x183FD 	End Form {29 02}
+0x183FF 	Form: LPC Options, Form ID: 0x7040 {01 86 40 70 45 03}
+0x18405 		Subtitle: LPC Options {02 87 45 03 00 00 00}
+0x1840C 		End {29 02}
+0x1840E 		Subtitle:  {02 87 02 00 00 00 00}
+0x18415 		End {29 02}
+0x18417 		Setting: LPC Clock Run control, Variable: 0xF1 {05 91 B0 03 B1 03 33 01 00 50 F1 00 10 10 00 0F 00}
+0x18428 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x1842F 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x18436 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1843D 		End of Options {29 02}
+0x1843F 	End Form {29 02}
+0x18441 	Form: HFP Options, Form ID: 0x7041 {01 86 41 70 46 03}
+0x18447 		Subtitle: HFP Options {02 87 46 03 00 00 00}
+0x1844E 		End {29 02}
+0x18450 		Subtitle:  {02 87 02 00 00 00 00}
+0x18457 		End {29 02}
+0x18459 		Setting: HFP Enable, Variable: 0x14B {05 91 B2 03 B3 03 34 01 00 50 4B 01 10 10 00 0F 00}
+0x1846A 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x18471 			Option: Eanble HFP on SPI_CS3_L, Value: 0x1 {09 07 B4 03 00 00 01}
+0x18478 			Option: Auto, Value: 0xF (default) {09 07 12 00 10 00 0F}
+0x1847F 		End of Options {29 02}
+0x18481 	End Form {29 02}
+0x18483 	Form: Soc Miscellaneous Control, Form ID: 0x7006 {01 86 06 70 0A 00}
+0x18489 		Subtitle: Soc Miscellaneous Control {02 87 0A 00 00 00 00}
+0x18490 		End {29 02}
+0x18492 		Subtitle:  {02 87 02 00 00 00 00}
+0x18499 		End {29 02}
+0x1849B 		Setting: PSP RPMC Switch, Variable: 0x1CB {05 91 B5 03 B6 03 35 01 00 50 CB 01 10 10 00 FF 00}
+0x184AC 			Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x184B3 			Option: Disabled, Value: 0x0 {09 07 18 00 00 00 00}
+0x184BA 			Option: Enabled, Value: 0x1 {09 07 17 00 00 00 01}
+0x184C1 		End of Options {29 02}
+0x184C3 		Setting: ABL Console Out Control, Variable: 0x143 {05 91 B7 03 B8 03 36 01 00 50 43 01 10 10 00 02 00}
+0x184D4 			Option: Auto, Value: 0x2 (default) {09 07 12 00 10 00 02}
+0x184DB 			Option: Enable, Value: 0x1 {09 07 5C 00 00 00 01}
+0x184E2 			Option: Disable, Value: 0x0 {09 07 5B 00 00 00 00}
+0x184E9 		End of Options {29 02}
+0x184EB 		Suppress If: {0A 82}
+0x184ED 			Variable 0x136 equals 0x1 {12 86 36 01 01 00}
+0x184F3 				Not {17 02}
+0x184F5 			End {29 02}
+0x184F7 			Setting: ABL Console Out Boot Mode Select, Variable: 0x14C {05 91 B9 03 BA 03 37 01 00 50 4C 01 10 10 01 FF 00}
+0x18508 				Option: ALL, Value: 0xFF (default) {09 07 BB 03 10 00 FF}
+0x1850F 				Option: S3/S0i3 only, Value: 0x2 {09 07 BC 03 00 00 02}
+0x18516 				Option: Normal boot only, Value: 0x1 {09 07 BD 03 00 00 01}
+0x1851D 			End of Options {29 02}
+0x1851F 		End If {29 02}
+0x18521 		Grayout If: {19 82}
+0x18523 			Variable 0x136 equals 0x1 {12 86 36 01 01 00}
+0x18529 				Not {17 02}
+0x1852B 			End {29 02}
+0x1852D 			Setting: ABL PMU message Control, Variable: 0x1A8 {05 91 BE 03 BF 03 38 01 00 50 A8 01 10 10 03 FF 00}
+0x1853E 				Option: Detailed debug message, Value: 0x3 {09 07 C0 03 00 00 03}
+0x18545 				Option: Coarse debug message, Value: 0xA {09 07 C1 03 00 00 0A}
+0x1854C 				Option: Stage completion, Value: 0xC8 {09 07 C2 03 00 00 C8}
+0x18553 				Option: Firmware completion message only, Value: 0xFE {09 07 C3 03 00 00 FE}
+0x1855A 				Option: Auto, Value: 0xFF (default) {09 07 12 00 10 00 FF}
+0x18561 			End of Options {29 02}
+0x18563 		End If {29 02}
+0x18565 	End Form {29 02}
+0x18567 End Form Set {29 02}
