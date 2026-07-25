@@ -81,6 +81,15 @@ Future analysis should compare:
   recommendations.
 - `bios-power-settings-p2.20b.md` -- active `P2.20B` power-management findings,
   ACS/ARI notes, and dry-run patching guidance.
+- `RESEARCH.md` -- community DeskMini/ASRock tuning references, Proxmox power
+  quirks, powertop notes, hypotheses, and "tuning applied vs effective" audit.
+- `NVRAM-ALTERING.md` -- online BIOS/NVRAM community tools, headless execution
+  policy, efivarfs backup/restore ladder.
+- `POWER-TUNING-RUNBOOK.md` -- measurement (HA/MQTT), safe staged test plan,
+  reboot settle detection, USB disk logging.
+- `FINAL-APPLIED-SETTINGS.md` -- **production profile** after July 2026 campaign
+  (NVRAM bytes + Ansible Linux/guest sizes; restore after BIOS flash).
+- `results/power-tuning.csv` -- plug measurement log.
 
 ## Usage
 
@@ -119,6 +128,13 @@ If continuing this work in a fresh chat, start here:
    dump-tree notes, and the read-only efivarfs workflow.
 7. Read `analysis/p2.20b/live-readback-2026-04-25.md` for the live host values,
    IOMMU groups, and ASPM snapshot.
-8. Do not use `apply-bios-settings.sh --apply` until the script is reworked for
+8. Read `analysis/p2.20b/live-audit-2026-07-22.md` for post-reboot power-state
+   audit (turbostat, DSDT `XS3`, balloon, guests).
+9. Read `FORUM-REPLY-NOTES.md` if considering an SFF.Network reply.
+10. Read `NVRAM-ALTERING.md` before any efivarfs write on the live host.
+11. Read `FINAL-APPLIED-SETTINGS.md` for the current production NVRAM + guest profile.
+12. Read `POWER-TUNING-RUNBOOK.md` and `RESEARCH.md` before changing BIOS or
+    kernel settings on the live host.
+13. Do not use `apply-bios-settings.sh --apply` until the script is reworked for
    the missing `Setup-*` efivar and the `Power Supply Idle Control` offset
-   mismatch.
+   mismatch; prefer `scripts/nvram-write-byte.sh` for one-byte restores.

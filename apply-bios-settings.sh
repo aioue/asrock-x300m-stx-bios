@@ -93,24 +93,25 @@ SETTINGS=(
     "${AMDSETUP_VAR}|0x0DE|Aggr SATA DevSleep Port 1 (CBS RN)|0x01|0x00 0x01 0x0F"
 
     # === AmdSetup variable (CBS RV offsets -- shared FCH, still functional on Cezanne) ===
-    # Power Supply Idle Control: 0=Typical, 1=Low Current Idle, 0xF=Auto(default)
-    "${AMDSETUP_VAR}|0x0FC|Power Supply Idle Control (CBS RV)|0x01|0x00 0x01 0x0F"
+    # Power Supply Idle Control: DO NOT auto-write — live reads 0xFF (INVALID).
+    # Deferred until physical recovery is available. See FINAL-APPLIED-SETTINGS.md.
+    # "${AMDSETUP_VAR}|0x0FC|Power Supply Idle Control (CBS RV)|0x01|0x00 0x01 0x0F"
 
     # HD Audio Enable: 0=Disabled, 1=Enabled, 0xF=Auto(default)
     "${AMDSETUP_VAR}|0x0F9|HD Audio Enable (CBS RV)|0x00|0x00 0x01 0x0F"
 
     # === AMD_PBS_SETUP variable (A339D746) ===
-    # S3/Modern Standby Support: 0=Disabled, 1=Modern Standby(default), 3=S3
-    "${PBS_VAR}|0x016|S3/Modern Standby Support|0x03|0x00 0x01 0x03"
+    # Always-on server: leave Modern Standby (do not force S3)
+    "${PBS_VAR}|0x016|S3/Modern Standby Support|0x01|0x00 0x01 0x03"
 
-    # PM L1 SS: 0=Disabled(default), 1=L1.1, 2=L1.2, 3=L1.1_L1.2
+    # PM L1 SS: applied July 2026; ~0 W until GPP bridges support ASPM
     "${PBS_VAR}|0x025|PM L1 SS|0x03|0x00 0x01 0x02 0x03"
 
-    # WLAN Enable: 0=Disabled, 1=Enabled(default)
+    # WLAN Enable: Disabled (Ethernet only)
     "${PBS_VAR}|0x014|WLAN Enable|0x00|0x00 0x01"
 
-    # Blue Tooth Enable: 0=Disabled, 1=Enabled(default)
-    "${PBS_VAR}|0x015|Blue Tooth Enable|0x00|0x00 0x01"
+    # Blue Tooth Enable: keep Enabled (used on this host)
+    "${PBS_VAR}|0x015|Blue Tooth Enable|0x01|0x00 0x01"
 )
 
 # --- Logging ---

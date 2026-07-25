@@ -1,0 +1,23 @@
+timestamp,label,plug_w_median,loadavg1,time_to_ssh_s,time_to_settled_s,guest_hash,cpuidle_max,mem_sleep,aspm_policy,bios,notes
+2026-07-22T21:44:39Z,order0-baseline,26.10,0.29,,,9963dc2249beb42c,C3,[s2idle],default,P2.20B,Order 0 pre-change baseline
+2026-07-22T21:01:23Z,order1-pcie-aspm-force,25.50,0.37,,,9963dc2249beb42c,C3,[s2idle],default performance powersave [powersupersave],P2.20B,pcie_aspm=force in cmdline post-reboot
+2026-07-22T21:03:52Z,order2-vm102-cores-4,30.70,0.52,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,VM102 cores 8 to 4
+2026-07-22T21:10:25Z,order5a-hd-audio-off,47.80,1.63,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,AmdSetup 0x0F9 Disabled
+2026-07-22T21:15:53Z,order5b-wlan-off,19.60,4.65,50,112,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,WLAN disabled BT unchanged
+2026-07-22T21:18:32Z,order5c-cppc-on,19.60,5.50,50,112,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,CPPC Enabled
+2026-07-22T21:21:17Z,order5d-df-cstates,19.60,6.27,0,119,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,DF Cstates Enabled
+2026-07-22T21:24:08Z,order5e-pm-l1ss,70.40,6.26,0,124,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,PM L1 SS L1.1_L1.2
+2026-07-22T21:25:36Z,order5e-pm-l1ss-recheck,53.00,2.82,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,recheck after settle no reboot
+2026-07-22T21:28:15Z,order5e-pm-l1ss-revert,60.80,5.43,0,110,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,revert PM L1 SS 0x03->0x00
+2026-07-22T21:30:22Z,order5-post-settle,52.60,2.10,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,post-revert no extra wait
+2026-07-22T21:52:27Z,order4-powertop-idle,23.25,0.30,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,load settled pre-powertop
+2026-07-22T21:53:00Z,order1-pcie-aspm-force,25.40,0.32,117,4038,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,Added pcie_aspm=force to GRUB
+2026-07-22T22:00:46Z,order5e-pm-l1ss-baseline,23.00,0.40,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,pre-retry baseline settled idle
+2026-07-22T22:10:34Z,order5e-pm-l1ss-retry,24.20,0.17,,,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,post-retry load settled
+2026-07-22T22:28:15Z,order5d-cumulative-v2,23.90,0.31,51,448,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,revert 5e; state=5a+5b+5c+5d
+2026-07-22T22:31:58Z,order5c-cumulative-v2,49.20,3.85,45,78,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,revert 5d; state=5a+5b+5c
+2026-07-22T22:42:17Z,order5b-cumulative-v2,25.80,0.37,0,94,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,5a+5b; load+ZFS gated remeasure
+2026-07-22T23:10:42Z,order5a-hd-audio-v2,29.50,0.22,47,1564,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,5a only; load+ZFS gated
+2026-07-22T23:23:48Z,order5b-wlan-off-v2,23.60,0.19,53,645,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,WLAN off
+2026-07-22T23:35:00Z,order5c-cppc-on-v2,25.85,0.41,41,531,eac0473d65de50c4,C3,[s2idle],default performance powersave [powersupersave],P2.20B,CPPC on
+2026-07-22T23:45:38Z,order5d-df-cstates-v2,25.65,0.30,42,497,0a5af8afb89cf609,C3,[s2idle],default performance powersave [powersupersave],P2.20B,DF Cstates on

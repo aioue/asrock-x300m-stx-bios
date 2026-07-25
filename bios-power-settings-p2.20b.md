@@ -1,14 +1,22 @@
 # ASRock X300M-STX BIOS Power Settings (P2.20B)
 
+> **Impact column clarification:** Values like "10–25W idle reduction" in the stock `bios-power-settings-p2.20.md` table are **incremental savings vs a misconfigured baseline** (e.g. C-states disabled), **not** absolute plug watts. For realistic targets with Proxmox + VMs, see [POWER-TUNING-RUNBOOK.md](POWER-TUNING-RUNBOOK.md). Community references and Proxmox quirks: [RESEARCH.md](RESEARCH.md).
+
 BIOS settings for low idle power on an always-on Proxmox VE host with ASRock X300M-STX and AMD Ryzen 5 PRO 5650G (Cezanne / Zen 3).
 
 Extracted from `bios-files/firmware/asrock-acs-ari-2.20b/X3MSTX_2.20B` using `./analyze-bios-rom.sh`.
 
 `P2.20B` is the active firmware baseline because ASRock enabled ACS / ARI behavior for better IOMMU group separation. Treat stock `2.20` offsets as historical context only, even though the important VarStores and offsets below match in this analysis.
 
+**Production profile (applied July 2026):** see [FINAL-APPLIED-SETTINGS.md](FINAL-APPLIED-SETTINGS.md) — HD Audio off, WLAN off, BT on, CPPC/DF Cstates Enabled, PM L1 SS L1.1_L1.2, PSI deferred. Settled plug ~23–26 W.
+
 ## Programmatic Application
 
-`./read-live-bios-settings.py` is the current preferred live validation path for `P2.20B`; it reads efivarfs and writes nothing.
+**Applied production bytes:** [FINAL-APPLIED-SETTINGS.md](FINAL-APPLIED-SETTINGS.md).
+
+`./read-live-bios-settings.py` is the preferred live validation path for `P2.20B`; it reads efivarfs and writes nothing.
+
+**Headless host:** BIOS changes use **efivarfs single-byte writes with full VarStore backup** — not BIOS Setup UI. Policy and community precedents: [NVRAM-ALTERING.md](NVRAM-ALTERING.md). Power Supply Idle (`0x0FC`) is **deferred** until physical recovery is available.
 
 `./apply-bios-settings.sh --apply` is disabled pending rework. Live read-back on 2026-04-25 found that the expected `Setup-*` efivar is not exposed, and `AmdSetup` offset `0x0FC` reads `0xFF`, outside the `CbsSetupDxeRV` IFR values for `Power Supply Idle Control`.
 

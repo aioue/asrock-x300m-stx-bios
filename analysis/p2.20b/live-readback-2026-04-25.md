@@ -108,3 +108,9 @@ This supports keeping `PM L1 SS` as a staged opt-in change. If enabled later, te
 2. Do not write `AmdSetup` offset `0x0FC` for `Power Supply Idle Control` unless the `0xFF` live value is explained.
 3. Prefer an explicit read-only report first after each BIOS UI change: `ssh -o ControlMaster=no root@192.168.1.10 'python3 -s' < read-live-bios-settings.py`.
 4. Keep ACS/ARI/IOMMU settings conservative; the live group split is already good without kernel ACS override.
+
+## Follow-up 2026-07-22
+
+- Shallow idle confirmed again: max cpuidle state **C3** (no CC6) on kernel `6.17.9-1-pve`.
+- Ansible OS tuning is largely applied (governor, EPP, tmpfiles, udev) but **`pcie_aspm=force` is missing** from kernel cmdline — downstream PCIe ASPM remains Disabled.
+- See `RESEARCH.md` and `POWER-TUNING-RUNBOOK.md` for community references, Proxmox quirks, and staged test plan.
